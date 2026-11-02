@@ -1,0 +1,37 @@
+✔ selected evidence is actually removed, report excludes its denominator, and held stars cannot retain it (18.486167ms)
+✔ same request retry precedes CAS; stale previews, conflicts, forged fields and other roles reject (4.557209ms)
+✔ own bound conversations, summaries, drafts, corrections and every answer copy are purged without deleting another persons private thread (11.426709ms)
+✔ paper returns lose only selected entries and online draft copies, while shared photo references prevent deletion (4.162416ms)
+✔ an unselected upload alias retains its file, selecting all aliases schedules durable idempotent cleanup (3.605333ms)
+✔ deleting all source evidence invalidates spaced-transfer qualification without cascading later work (3.516292ms)
+✔ projections give all learning readers the same missing slots and epoch without private file or request metadata (5.157041ms)
+✔ strict deletion validation rejects resurrected content, broken references and disguised payload fields (2.787209ms)
+✔ deleting a corrected knowledge chain redacts both grade histories, records its plan provenance, and retains strongest known help (3.702834ms)
+✔ pre-mastery legacy dossiers delete selected records without creating score snapshots that retain deleted IDs (1.375583ms)
+✔ exposure retention reconstructs only whitelisted facts and cannot retain a hidden deleted body (3.419167ms)
+✔ deleted review provenance remains exactly bound across multiple deletions and rejects later or earlier source revisions (5.711875ms)
+✔ recognition is local-only, owner/student-only, and never accepts a client role/channel override (16.007125ms)
+✔ raw lines preserve order and real/null confidence; malformed provenance, boxes and extra copies reject (8.686667ms)
+✔ all native line and text limits reject rather than silently truncate; empty OCR can retain a manual draft (6.926834ms)
+✔ candidate search is read-only safe metadata with strict version digest and no automatic answer/identity conclusion (16.676792ms)
+✔ first save and every body, line or candidate change resets all checks; incomplete rows never become wrong answers (10.286458ms)
+✔ entry CAS and request retry preserve a newer edit without overwriting it (3.8405ms)
+✔ candidate selected after bank change rejects old digest; an already frozen snapshot submits its actual older version (5.613583ms)
+✔ partial one-image submission creates original evidence only for chosen checked rows; retries do not duplicate reports (8.30625ms)
+✔ one report preserves selected entry order and rejects duplicate question slots (5.826625ms)
+✔ projection hides raw snapshots, other actors OCR and all teacher/parent/editor OCR text (6.191875ms)
+✔ history deletion clears every same-image raw run and draft but preserves other submitted manual answers and their photo reference (11.922291ms)
+✔ redacted capture rejects late callback, old request replay, new entry, submit and copied-image re-open (6.501ms)
+✔ open and run results cannot cross an unrelated committed history deletion (5.23125ms)
+✔ explicitly deleting an unassigned scanned photo clears raw text and discloses it even without a submitted OCR entry (2.788ms)
+✔ legacy homework and paper return cannot bind a photo already owned by recognition, including aliases (2.093834ms)
+✔ raw validation rejects forged grading pointers, private snapshot extras and resurrection requests (3.563208ms)
+✔ unknown-result retry receipts must resolve to the correct result type within the same capture (6.202708ms)
+ℹ tests 29
+ℹ suites 0
+ℹ pass 29
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 251.130458

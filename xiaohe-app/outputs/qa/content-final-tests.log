@@ -1,0 +1,725 @@
+TAP version 13
+# Subtest: owner action permissions match the explicit role matrix
+ok 1 - owner action permissions match the explicit role matrix
+  ---
+  duration_ms: 2.040375
+  type: 'test'
+  ...
+# Subtest: student action permissions match the explicit role matrix
+ok 2 - student action permissions match the explicit role matrix
+  ---
+  duration_ms: 0.624333
+  type: 'test'
+  ...
+# Subtest: parent action permissions match the explicit role matrix
+ok 3 - parent action permissions match the explicit role matrix
+  ---
+  duration_ms: 0.297292
+  type: 'test'
+  ...
+# Subtest: teacher action permissions match the explicit role matrix
+ok 4 - teacher action permissions match the explicit role matrix
+  ---
+  duration_ms: 0.316625
+  type: 'test'
+  ...
+# Subtest: editor action permissions match the explicit role matrix
+ok 5 - editor action permissions match the explicit role matrix
+  ---
+  duration_ms: 0.258666
+  type: 'test'
+  ...
+# Subtest: reviewer action permissions match the explicit role matrix
+ok 6 - reviewer action permissions match the explicit role matrix
+  ---
+  duration_ms: 0.291834
+  type: 'test'
+  ...
+# Subtest: unknown roles fail closed and unknown owner actions still fail at the domain dispatcher
+ok 7 - unknown roles fail closed and unknown owner actions still fail at the domain dispatcher
+  ---
+  duration_ms: 20.892417
+  type: 'test'
+  ...
+# Subtest: domain trusts only server context or the current actor role, never payload role claims
+ok 8 - domain trusts only server context or the current actor role, never payload role claims
+  ---
+  duration_ms: 10.923166
+  type: 'test'
+  ...
+# Subtest: owner receives a complete independent copy and every projection leaves source unchanged
+ok 9 - owner receives a complete independent copy and every projection leaves source unchanged
+  ---
+  duration_ms: 2.251042
+  type: 'test'
+  ...
+# Subtest: editor receives teaching content but no learner identity, evidence, private chat, or media
+ok 10 - editor receives teaching content but no learner identity, evidence, private chat, or media
+  ---
+  duration_ms: 0.680959
+  type: 'test'
+  ...
+# Subtest: reviewer receives teaching content but no learner identity, evidence, private chat, or media
+ok 11 - reviewer receives teaching content but no learner identity, evidence, private chat, or media
+  ---
+  duration_ms: 0.256167
+  type: 'test'
+  ...
+# Subtest: student bank includes only independently reviewed published content without hidden answers or review metadata
+ok 12 - student bank includes only independently reviewed published content without hidden answers or review metadata
+  ---
+  duration_ms: 0.792125
+  type: 'test'
+  ...
+# Subtest: explicit family hint exposure unlocks hints across versions but never answer, steps, or alternative
+ok 13 - explicit family hint exposure unlocks hints across versions but never answer, steps, or alternative
+  ---
+  duration_ms: 0.8595
+  type: 'test'
+  ...
+# Subtest: explanation exposure is monotonic within its family and leaves unrelated families hidden
+ok 14 - explanation exposure is monotonic within its family and leaves unrelated families hidden
+  ---
+  duration_ms: 0.381083
+  type: 'test'
+  ...
+# Subtest: unstructured, invalid-level and malformed exposure logs never unlock answers
+ok 15 - unstructured, invalid-level and malformed exposure logs never unlock answers
+  ---
+  duration_ms: 0.247625
+  type: 'test'
+  ...
+# Subtest: paper snapshots use per-question help and submissions without disclosing draft grading
+ok 16 - paper snapshots use per-question help and submissions without disclosing draft grading
+  ---
+  duration_ms: 0.277458
+  type: 'test'
+  ...
+# Subtest: parent receives submitted reports only, never drafts, bank, private chat or originals
+ok 17 - parent receives submitted reports only, never drafts, bank, private chat or originals
+  ---
+  duration_ms: 0.193375
+  type: 'test'
+  ...
+# Subtest: teacher receives submitted reports only, never drafts, bank, private chat or originals
+ok 18 - teacher receives submitted reports only, never drafts, bank, private chat or originals
+  ---
+  duration_ms: 0.349458
+  type: 'test'
+  ...
+# Subtest: draft, orphan and mismatched evidence cannot expose answer keys through report shortcuts
+ok 19 - draft, orphan and mismatched evidence cannot expose answer keys through report shortcuts
+  ---
+  duration_ms: 12.788208
+  type: 'test'
+  ...
+# Subtest: a real editor-to-reviewer handoff preserves independent authorship checks
+ok 20 - a real editor-to-reviewer handoff preserves independent authorship checks
+  ---
+  duration_ms: 29.064417
+  type: 'test'
+  ...
+# Subtest: teacher can receive and reply to the shared summary without gaining private chat access
+ok 21 - teacher can receive and reply to the shared summary without gaining private chat access
+  ---
+  duration_ms: 0.991208
+  type: 'test'
+  ...
+# Subtest: admin export validates all published candidates and excludes learner data without mutating state
+ok 22 - admin export validates all published candidates and excludes learner data without mutating state
+  ---
+  duration_ms: 36.150458
+  type: 'test'
+  ...
+# Subtest: one invalid published candidate blocks the entire admin export
+ok 23 - one invalid published candidate blocks the entire admin export
+  ---
+  duration_ms: 0.382917
+  type: 'test'
+  ...
+# Subtest: withdrawals are explicit and retain the selected disabled question identity
+ok 24 - withdrawals are explicit and retain the selected disabled question identity
+  ---
+  duration_ms: 29.174875
+  type: 'test'
+  ...
+# Subtest: learner and family roles cannot render or export teaching archives even when passed full state
+ok 25 - learner and family roles cannot render or export teaching archives even when passed full state
+  ---
+  duration_ms: 8.126958
+  type: 'test'
+  ...
+# Subtest: archive details render the saved snapshot read-only and escape user content
+ok 26 - archive details render the saved snapshot read-only and escape user content
+  ---
+  duration_ms: 4.72725
+  type: 'test'
+  ...
+# Subtest: batch history distinguishes original changes from current state and shows rollback reason
+ok 27 - batch history distinguishes original changes from current state and shows rollback reason
+  ---
+  duration_ms: 47.815666
+  type: 'test'
+  ...
+# Subtest: empty archive is reported honestly and package panel states unsigned download boundaries
+ok 28 - empty archive is reported honestly and package panel states unsigned download boundaries
+  ---
+  duration_ms: 3.8905
+  type: 'test'
+  ...
+# Subtest: portable SHA256 matches standard vectors, UTF8, surrogate replacement and long input
+ok 29 - portable SHA256 matches standard vectors, UTF8, surrogate replacement and long input
+  ---
+  duration_ms: 6.93725
+  type: 'test'
+  ...
+# Subtest: strict unsigned trial package rejects private fields, unknown schema, altered digest, incomplete annotation and oversized files
+ok 30 - strict unsigned trial package rejects private fields, unknown schema, altered digest, incomplete annotation and oversized files
+  ---
+  duration_ms: 8.8885
+  type: 'test'
+  ...
+# Subtest: export includes only requested published independently reviewed items and never learner data
+ok 31 - export includes only requested published independently reviewed items and never learner data
+  ---
+  duration_ms: 8.314375
+  type: 'test'
+  ...
+# Subtest: baseline archives conflicting frozen snapshots without changing or inventing history; conflicts cannot import
+ok 32 - baseline archives conflicting frozen snapshots without changing or inventing history; conflicts cannot import
+  ---
+  duration_ms: 30.136375
+  type: 'test'
+  ...
+# Subtest: a conflicting legacy paper snapshot does not prevent disabling the exact current bank version
+ok 33 - a conflicting legacy paper snapshot does not prevent disabling the exact current bank version
+  ---
+  duration_ms: 15.325291
+  type: 'test'
+  ...
+# Subtest: preview is read-only and never includes question text, answer, author or solution
+ok 34 - preview is read-only and never includes question text, answer, author or solution
+  ---
+  duration_ms: 4.817708
+  type: 'test'
+  ...
+# Subtest: qid and family remain bound and same version body conflict rejects the entire package
+ok 35 - qid and family remain bound and same version body conflict rejects the entire package
+  ---
+  duration_ms: 6.142125
+  type: 'test'
+  ...
+# Subtest: changed ID, answer, whitespace, full-width digits and number-only variants cannot manufacture new families
+ok 36 - changed ID, answer, whitespace, full-width digits and number-only variants cannot manufacture new families
+  ---
+  duration_ms: 13.144125
+  type: 'test'
+  ...
+# Subtest: apply is one revision; repeat and returned rolled-back packages are true no-ops
+ok 37 - apply is one revision; repeat and returned rolled-back packages are true no-ops
+  ---
+  duration_ms: 12.39125
+  type: 'test'
+  ...
+# Subtest: equal published body/version does not replace review metadata through an untracked update
+ok 38 - equal published body/version does not replace review metadata through an untracked update
+  ---
+  duration_ms: 6.607291
+  type: 'test'
+  ...
+# Subtest: upgrade, withdrawal and rollback preserve papers, drafts, evidence, mastery and all prior versions
+ok 39 - upgrade, withdrawal and rollback preserve papers, drafts, evidence, mastery and all prior versions
+  ---
+  duration_ms: 17.365875
+  type: 'test'
+  ...
+# Subtest: only latest effective batch rolls back; later editorial edits cannot be overwritten
+ok 40 - only latest effective batch rolls back; later editorial edits cannot be overwritten
+  ---
+  duration_ms: 13.354458
+  type: 'test'
+  ...
+# Subtest: editorial update archives old published version and independent publish preserves complete new history
+ok 41 - editorial update archives old published version and independent publish preserves complete new history
+  ---
+  duration_ms: 3.4105
+  type: 'test'
+  ...
+# Subtest: projection never leaks archives to learners and role actions do not grant student imports or export
+ok 42 - projection never leaks archives to learners and role actions do not grant student imports or export
+  ---
+  duration_ms: 7.394917
+  type: 'test'
+  ...
+# Subtest: raw validation catches changed archive bodies, orphan pointers, duplicate packages, fake catalog and broken current references
+ok 43 - raw validation catches changed archive bodies, orphan pointers, duplicate packages, fake catalog and broken current references
+  ---
+  duration_ms: 7.954708
+  type: 'test'
+  ...
+# Subtest: reactivating the same retained disabled version preserves approval metadata and remains reversible
+ok 44 - reactivating the same retained disabled version preserves approval metadata and remains reversible
+  ---
+  duration_ms: 10.912792
+  type: 'test'
+  ...
+# Subtest: preview rejects imported approval for an archived unreviewed disabled revision before any write
+ok 45 - preview rejects imported approval for an archived unreviewed disabled revision before any write
+  ---
+  duration_ms: 13.828791
+  type: 'test'
+  ...
+# Subtest: editing after a rollback allocates above the historical maximum version
+ok 46 - editing after a rollback allocates above the historical maximum version
+  ---
+  duration_ms: 8.401125
+  type: 'test'
+  ...
+# Subtest: an editorial disable between package upgrades remains a valid chain and rollback restores disabled status
+ok 47 - an editorial disable between package upgrades remains a valid chain and rollback restores disabled status
+  ---
+  duration_ms: 13.622
+  type: 'test'
+  ...
+# Subtest: revision chronology validates batch ordering, rollback stack, sources and current active pointers
+ok 48 - revision chronology validates batch ordering, rollback stack, sources and current active pointers
+  ---
+  duration_ms: 17.87425
+  type: 'test'
+  ...
+# Subtest: near-limit 200-question packs preview and apply without quadratic archive hashing
+ok 49 - near-limit 200-question packs preview and apply without quadratic archive hashing
+  ---
+  duration_ms: 382.699958
+  type: 'test'
+  ...
+# 200 items / 403132 bytes: preview 73.8 ms, apply 73.6 ms, validate 27.5 ms
+# Subtest: seed is original, reviewed, multi-knowledge, and demo history cannot inflate stars
+ok 50 - seed is original, reviewed, multi-knowledge, and demo history cannot inflate stars
+  ---
+  duration_ms: 3.739
+  type: 'test'
+  ...
+# Subtest: answer normalization accepts expected units and rejects mismatched units or garbage
+ok 51 - answer normalization accepts expected units and rejects mismatched units or garbage
+  ---
+  duration_ms: 1.427792
+  type: 'test'
+  ...
+# Subtest: help is server-monotonic and client cannot forge scores, help or actor roles
+ok 52 - help is server-monotonic and client cannot forge scores, help or actor roles
+  ---
+  duration_ms: 15.237208
+  type: 'test'
+  ...
+# Subtest: submission is immutable and repeat submissions cannot create duplicate evidence
+ok 53 - submission is immutable and repeat submissions cannot create duplicate evidence
+  ---
+  duration_ms: 8.379167
+  type: 'test'
+  ...
+# Subtest: question changes and replacements cannot overwrite existing paper snapshots
+ok 54 - question changes and replacements cannot overwrite existing paper snapshots
+  ---
+  duration_ms: 6.566958
+  type: 'test'
+  ...
+# Subtest: authors cannot self-review and publication requires independent approval
+ok 55 - authors cannot self-review and publication requires independent approval
+  ---
+  duration_ms: 7.771917
+  type: 'test'
+  ...
+# Subtest: correction changes neither original evidence nor stars
+ok 56 - correction changes neither original evidence nor stars
+  ---
+  duration_ms: 9.03175
+  type: 'test'
+  ...
+# Subtest: new paper excludes recent items, shortage is explicit, and future curricula cannot be selected
+ok 57 - new paper excludes recent items, shortage is explicit, and future curricula cannot be selected
+  ---
+  duration_ms: 7.574667
+  type: 'test'
+  ...
+# Subtest: review requires a real source plan followed by at least three days
+ok 58 - review requires a real source plan followed by at least three days
+  ---
+  duration_ms: 8.426
+  type: 'test'
+  ...
+# Subtest: photo homework keeps manual provenance and cannot gain independent stars
+ok 59 - photo homework keeps manual provenance and cannot gain independent stars
+  ---
+  duration_ms: 4.472417
+  type: 'test'
+  ...
+# Subtest: chat retrieval records help before an active exercise can be submitted
+ok 60 - chat retrieval records help before an active exercise can be submitted
+  ---
+  duration_ms: 7.383583
+  type: 'test'
+  ...
+# Subtest: invalid or foreign references fail without changing source state
+ok 61 - invalid or foreign references fail without changing source state
+  ---
+  duration_ms: 5.583666
+  type: 'test'
+  ...
+# Subtest: printing an answer key exposes all unsubmitted items but cannot rewrite submitted history
+ok 62 - printing an answer key exposes all unsubmitted items but cannot rewrite submitted history
+  ---
+  duration_ms: 5.415041
+  type: 'test'
+  ...
+# Subtest: single-question solutions exclude that family from future papers and replacements
+ok 63 - single-question solutions exclude that family from future papers and replacements
+  ---
+  duration_ms: 2.154833
+  type: 'test'
+  ...
+# Subtest: recent family variants with different IDs cannot sneak into new papers
+ok 64 - recent family variants with different IDs cannot sneak into new papers
+  ---
+  duration_ms: 2.900958
+  type: 'test'
+  ...
+# Subtest: printed solution families remain excluded after the recent-question window
+ok 65 - printed solution families remain excluded after the recent-question window
+  ---
+  duration_ms: 2.057292
+  type: 'test'
+  ...
+# Subtest: answer exposure propagates to every unfinished copy of the same family
+ok 66 - answer exposure propagates to every unfinished copy of the same family
+  ---
+  duration_ms: 2.242209
+  type: 'test'
+  ...
+# Subtest: independently authored seed review example can complete the real approval sequence
+ok 67 - independently authored seed review example can complete the real approval sequence
+  ---
+  duration_ms: 2.225041
+  type: 'test'
+  ...
+# Subtest: every arithmetic seed directly practices the stated operand range with a checked result
+ok 68 - every arithmetic seed directly practices the stated operand range with a checked result
+  ---
+  duration_ms: 0.376292
+  type: 'test'
+  ...
+# Subtest: geometry seed stays within rectangle/square perimeter and area with dimensionally correct units
+ok 69 - geometry seed stays within rectangle/square perimeter and area with dimensionally correct units
+  ---
+  duration_ms: 0.155708
+  type: 'test'
+  ...
+# Subtest: repeating the same family in new papers across many days cannot farm stars
+ok 70 - repeating the same family in new papers across many days cannot farm stars
+  ---
+  duration_ms: 11.204
+  type: 'test'
+  ...
+# Subtest: even strong independent evidence stays under the explicitly labelled pilot three-star cap
+ok 71 - even strong independent evidence stays under the explicitly labelled pilot three-star cap
+  ---
+  duration_ms: 0.272542
+  type: 'test'
+  ...
+# Subtest: legacy duplicate eligible records cannot inflate family coverage and unrelated knowledge remains unchanged
+ok 72 - legacy duplicate eligible records cannot inflate family coverage and unrelated knowledge remains unchanged
+  ---
+  duration_ms: 0.122375
+  type: 'test'
+  ...
+# Subtest: migration freezes old pilot scores without inventing missing metadata; explicit cross-rule reassessment explains the change
+ok 73 - migration freezes old pilot scores without inventing missing metadata; explicit cross-rule reassessment explains the change
+  ---
+  duration_ms: 24.3995
+  type: 'test'
+  ...
+# Subtest: unlearned and evidence-insufficient remain distinct from one star; an incorrect first answer awards no grade
+ok 74 - unlearned and evidence-insufficient remain distinct from one star; an incorrect first answer awards no grade
+  ---
+  duration_ms: 3.364084
+  type: 'test'
+  ...
+# Subtest: five distinct levels require actual aided success, basic independence, stable contexts and planned spaced transfer
+ok 75 - five distinct levels require actual aided success, basic independence, stable contexts and planned spaced transfer
+  ---
+  duration_ms: 6.805125
+  type: 'test'
+  ...
+# Subtest: application count alone cannot establish four stars without separately labelled contexts and separate attempts
+ok 76 - application count alone cannot establish four stars without separately labelled contexts and separate attempts
+  ---
+  duration_ms: 18.583833
+  type: 'test'
+  ...
+# Subtest: unplanned or forged transfer tags cannot grant five stars; evidence uses the immutable paper snapshot
+ok 77 - unplanned or forged transfer tags cannot grant five stars; evidence uses the immutable paper snapshot
+  ---
+  duration_ms: 12.247208
+  type: 'test'
+  ...
+# Subtest: bank edits cannot relabel a previously issued paper or its submission evidence
+ok 78 - bank edits cannot relabel a previously issued paper or its submission evidence
+  ---
+  duration_ms: 12.4945
+  type: 'test'
+  ...
+# Subtest: assisted learning and paper submissions schedule review without awarding verified independence
+ok 79 - assisted learning and paper submissions schedule review without awarding verified independence
+  ---
+  duration_ms: 6.855417
+  type: 'test'
+  ...
+# Subtest: review plans and submissions are idempotent; review paper replacement cannot detach the plan
+ok 80 - review plans and submissions are idempotent; review paper replacement cannot detach the plan
+  ---
+  duration_ms: 12.997458
+  type: 'test'
+  ...
+# Subtest: extending the active rule from three to six days blocks early review without consuming scarce transfer families
+ok 81 - extending the active rule from three to six days blocks early review without consuming scarce transfer families
+  ---
+  duration_ms: 13.370709
+  type: 'test'
+  ...
+# Subtest: shortening the active rule from six to three days cannot bring an existing six-day plan forward
+ok 82 - shortening the active rule from six to three days cannot bring an existing six-day plan forward
+  ---
+  duration_ms: 11.164125
+  type: 'test'
+  ...
+# Subtest: a started review remains idempotently accessible after a later interval increase
+ok 83 - a started review remains idempotently accessible after a later interval increase
+  ---
+  duration_ms: 6.403083
+  type: 'test'
+  ...
+# Subtest: review selection excludes every historical seen family even after fourteen days and reports true scarcity
+ok 84 - review selection excludes every historical seen family even after fourteen days and reports true scarcity
+  ---
+  duration_ms: 2.15675
+  type: 'test'
+  ...
+# Subtest: missing metadata is excluded without guessing; repeated families cannot improve a grade
+ok 85 - missing metadata is excluded without guessing; repeated families cannot improve a grade
+  ---
+  duration_ms: 6.415875
+  type: 'test'
+  ...
+# Subtest: single error keeps a grade; fresh consecutive failures downgrade once, with no re-evaluation farming
+ok 86 - single error keeps a grade; fresh consecutive failures downgrade once, with no re-evaluation farming
+  ---
+  duration_ms: 6.70375
+  type: 'test'
+  ...
+# Subtest: single-question exposure changes only that family and cannot rewrite old reports or grades
+ok 87 - single-question exposure changes only that family and cannot rewrite old reports or grades
+  ---
+  duration_ms: 1.963833
+  type: 'test'
+  ...
+# Subtest: rule drafts, validation and previews cannot change grades; unsafe parameters block submission
+ok 88 - rule drafts, validation and previews cannot change grades; unsafe parameters block submission
+  ---
+  duration_ms: 3.077042
+  type: 'test'
+  ...
+# Subtest: rule publication requires independent review and a fresh owner preview; drafts and published versions stay separate
+ok 89 - rule publication requires independent review and a fresh owner preview; drafts and published versions stay separate
+  ---
+  duration_ms: 5.327667
+  type: 'test'
+  ...
+# Subtest: switching rule versions previews actual changed thresholds and retains previous assessments and original answers
+ok 90 - switching rule versions previews actual changed thresholds and retains previous assessments and original answers
+  ---
+  duration_ms: 3.688084
+  type: 'test'
+  ...
+# Subtest: student cannot mutate rules; editorial previews and projections never reveal learner assessments or differences
+ok 91 - student cannot mutate rules; editorial previews and projections never reveal learner assessments or differences
+  ---
+  duration_ms: 4.200084
+  type: 'test'
+  ...
+# Subtest: rule validation requires exactly the full eleven finite numeric parameters
+ok 92 - rule validation requires exactly the full eleven finite numeric parameters
+  ---
+  duration_ms: 1.347875
+  type: 'test'
+  ...
+# Subtest: an old issued but unsubmitted paper cannot be reused as independent new-family evidence
+ok 93 - an old issued but unsubmitted paper cannot be reused as independent new-family evidence
+  ---
+  duration_ms: 1.928333
+  type: 'test'
+  ...
+# Subtest: legacy no-op actions remain genuinely unchanged; migration is an explicit persistable loader step
+ok 94 - legacy no-op actions remain genuinely unchanged; migration is an explicit persistable loader step
+  ---
+  duration_ms: 1.940625
+  type: 'test'
+  ...
+# Subtest: student mastery projection survives JSON persistence without adding undefined review fields
+ok 95 - student mastery projection survives JSON persistence without adding undefined review fields
+  ---
+  duration_ms: 3.804167
+  type: 'test'
+  ...
+# Subtest: teaching metadata must be a complete pair on creation and after merging updates
+ok 96 - teaching metadata must be a complete pair on creation and after merging updates
+  ---
+  duration_ms: 5.016167
+  type: 'test'
+  ...
+# Subtest: unauthorized target IDs reveal neither workspace data nor member metadata
+ok 97 - unauthorized target IDs reveal neither workspace data nor member metadata
+  ---
+  duration_ms: 11.887166
+  type: 'test'
+  ...
+# Subtest: invite stores only a hash, binds a normalized email, and returns token only upon creation
+ok 98 - invite stores only a hash, binds a normalized email, and returns token only upon creation
+  ---
+  duration_ms: 16.381875
+  type: 'test'
+  ...
+# Subtest: only owners create/revoke invitations and no self or owner-role grants are allowed
+ok 99 - only owners create/revoke invitations and no self or owner-role grants are allowed
+  ---
+  duration_ms: 8.796
+  type: 'test'
+  ...
+# Subtest: expiry and revoked invites cannot be accepted, including exact expiry boundary
+ok 100 - expiry and revoked invites cannot be accepted, including exact expiry boundary
+  ---
+  duration_ms: 3.963375
+  type: 'test'
+  ...
+# Subtest: simultaneous token acceptance creates exactly one active membership
+ok 101 - simultaneous token acceptance creates exactly one active membership
+  ---
+  duration_ms: 4.185667
+  type: 'test'
+  ...
+# Subtest: two different student invites racing acceptance cannot merge students into one learning profile
+ok 102 - two different student invites racing acceptance cannot merge students into one learning profile
+  ---
+  duration_ms: 3.862416
+  type: 'test'
+  ...
+# Subtest: accept/revoke race is atomic: a revoked invitation never creates a membership
+ok 103 - accept/revoke race is atomic: a revoked invitation never creates a membership
+  ---
+  duration_ms: 2.140792
+  type: 'test'
+  ...
+# Subtest: a failed second batch statement rolls back the claim and permits a safe retry
+ok 104 - a failed second batch statement rolls back the claim and permits a safe retry
+  ---
+  duration_ms: 3.130334
+  type: 'test'
+  ...
+# Subtest: revocation preserves profile data and reinvitation can change role without upgrading an active member
+ok 105 - revocation preserves profile data and reinvitation can change role without upgrading an active member
+  ---
+  duration_ms: 6.755792
+  type: 'test'
+  ...
+# Subtest: editors and reviewers cannot learn the student name from workspace lists
+ok 106 - editors and reviewers cannot learn the student name from workspace lists
+  ---
+  duration_ms: 2.717458
+  type: 'test'
+  ...
+# Subtest: database constraints independently forbid a second active student and owner memberships
+ok 107 - database constraints independently forbid a second active student and owner memberships
+  ---
+  duration_ms: 2.427334
+  type: 'test'
+  ...
+# Subtest: member revocation atomically invalidates every older pending invite for the bound email
+ok 108 - member revocation atomically invalidates every older pending invite for the bound email
+  ---
+  duration_ms: 8.470625
+  type: 'test'
+  ...
+# Subtest: revocation batch rollback cannot leave old invites usable alongside a supposedly revoked member
+ok 109 - revocation batch rollback cannot leave old invites usable alongside a supposedly revoked member
+  ---
+  duration_ms: 6.777208
+  type: 'test'
+  ...
+# Subtest: fresh invitation after revocation survives an idempotent revoke retry, even in the same millisecond
+ok 110 - fresh invitation after revocation survives an idempotent revoke retry, even in the same millisecond
+  ---
+  duration_ms: 5.735208
+  type: 'test'
+  ...
+# Subtest: an invite creation delayed across acceptance and revocation cannot restore the withdrawn grant
+ok 111 - an invite creation delayed across acceptance and revocation cannot restore the withdrawn grant
+  ---
+  duration_ms: 2.418625
+  type: 'test'
+  ...
+# Subtest: acceptance independently rejects legacy pending tokens issued at or before the last revocation
+ok 112 - acceptance independently rejects legacy pending tokens issued at or before the last revocation
+  ---
+  duration_ms: 5.528084
+  type: 'test'
+  ...
+# Subtest: six multi-step transfer samples have independently checked arithmetic, units and distinct task contexts
+ok 113 - six multi-step transfer samples have independently checked arithmetic, units and distinct task contexts
+  ---
+  duration_ms: 0.914625
+  type: 'test'
+  ...
+# Subtest: division answers follow independent place-value, remainder and inverse checks
+ok 114 - division answers follow independent place-value, remainder and inverse checks
+  ---
+  duration_ms: 1.075709
+  type: 'test'
+  ...
+# Subtest: geometry recognition has explicit numeric choices, and inverse side checks all four equal edges
+ok 115 - geometry recognition has explicit numeric choices, and inverse side checks all four equal edges
+  ---
+  duration_ms: 0.676125
+  type: 'test'
+  ...
+# Subtest: multiplication keys check place value, estimation alternatives and factor scaling independently
+ok 116 - multiplication keys check place value, estimation alternatives and factor scaling independently
+  ---
+  duration_ms: 0.719959
+  type: 'test'
+  ...
+# Subtest: structural checklist distinguishes eight new tasks and preserves one old-family subtask
+ok 117 - structural checklist distinguishes eight new tasks and preserves one old-family subtask
+  ---
+  duration_ms: 1.754458
+  type: 'test'
+  ...
+# Subtest: trial publication metadata cannot be mistaken for named human teaching review
+ok 118 - trial publication metadata cannot be mistaken for named human teaching review
+  ---
+  duration_ms: 0.924792
+  type: 'test'
+  ...
+# Subtest: opt-in trial package exports with warnings and never changes existing learner or seed records
+ok 119 - opt-in trial package exports with warnings and never changes existing learner or seed records
+  ---
+  duration_ms: 46.114666
+  type: 'test'
+  ...
+1..119
+# tests 119
+# suites 0
+# pass 119
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 962.974208

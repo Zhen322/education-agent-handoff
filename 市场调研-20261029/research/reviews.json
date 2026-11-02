@@ -1,0 +1,1315 @@
+{
+  "as_of": "2026-10-29",
+  "total_selected": 60,
+  "method": "各App从中国区Apple公开RSS获取mostRecent单页50条，按声明规则取20条，逐条转述，保留原始评论索引。1–2星为低分、3星为中评、4–5星为高分；文本倾向另编码，不能把星级等同满意度。",
+  "limitations": [
+    "仅单平台公开评论，缺少Android与未评论用户；不构成代表性抽样或满意度估计。",
+    "用户年龄、年级、设备、付费状态及真实性无法验证；不能当成小学四年级专属样本。",
+    "低信息量和星级与正文冲突评论保留，未按是否支持结论删除。",
+    "选入窗口长度不同，不能比较投诉率、好评率或产品优劣。",
+    "用户陈述用于生成实测问题，不认定为已复现缺陷。",
+    "RSS返回的是产品评论页链接，没有稳定单条链接；以source_url与review_id联合定位。"
+  ],
+  "products": [
+    {
+      "product_id": "zuoyebang",
+      "product_name": "作业帮",
+      "fetched_count": 50,
+      "selected_count": 20,
+      "method": "为覆盖三星评论，取最新19条，再取返回50条中最新一条三星评论；该条在RSS第28位。",
+      "date_range_china": [
+        "2026-10-26",
+        "2026-10-27"
+      ],
+      "star_counts": {
+        "1": 4,
+        "2": 1,
+        "5": 13,
+        "4": 1,
+        "3": 1
+      },
+      "text_sentiment_counts": {
+        "负面": 6,
+        "正面": 11,
+        "不明": 2,
+        "混合": 1
+      },
+      "reviews": [
+        {
+          "review_id": "14718060879",
+          "product_id": "zuoyebang",
+          "product_name": "作业帮",
+          "date_original": "2026-10-27T08:07:23-07:00",
+          "date_china": "2026-10-27 23:07",
+          "stars": 1,
+          "app_version": "14.55.0",
+          "summary": "解析在不同设备及重复搜索时表现不一致，并对查看解析收费不满。",
+          "sentiment_by_text": "负面",
+          "tags": [
+            "解析可用性",
+            "收费边界"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=803781859/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=803781859&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        },
+        {
+          "review_id": "14718032662",
+          "product_id": "zuoyebang",
+          "product_name": "作业帮",
+          "date_original": "2026-10-27T07:59:23-07:00",
+          "date_china": "2026-10-27 22:59",
+          "stars": 2,
+          "app_version": "14.54.0",
+          "summary": "认为 AI 功能需要付费。",
+          "sentiment_by_text": "负面",
+          "tags": [
+            "收费边界"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=803781859/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=803781859&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        },
+        {
+          "review_id": "14718030061",
+          "product_id": "zuoyebang",
+          "product_name": "作业帮",
+          "date_original": "2026-10-27T07:58:38-07:00",
+          "date_china": "2026-10-27 22:58",
+          "stars": 5,
+          "app_version": "14.52.0",
+          "summary": "肯定答案及解析对理解题目的帮助。",
+          "sentiment_by_text": "正面",
+          "tags": [
+            "解析清晰"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=803781859/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=803781859&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        },
+        {
+          "review_id": "14717785460",
+          "product_id": "zuoyebang",
+          "product_name": "作业帮",
+          "date_original": "2026-10-27T06:49:27-07:00",
+          "date_china": "2026-10-27 21:49",
+          "stars": 5,
+          "app_version": "14.55.0",
+          "summary": "给出简短好评，没有具体场景。",
+          "sentiment_by_text": "正面",
+          "tags": [
+            "低信息量"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=803781859/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=803781859&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        },
+        {
+          "review_id": "14717763515",
+          "product_id": "zuoyebang",
+          "product_name": "作业帮",
+          "date_original": "2026-10-27T06:43:18-07:00",
+          "date_china": "2026-10-27 21:43",
+          "stars": 5,
+          "app_version": "14.55.0",
+          "summary": "无明确使用评价。",
+          "sentiment_by_text": "不明",
+          "tags": [
+            "低信息量"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=803781859/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=803781859&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        },
+        {
+          "review_id": "14717748541",
+          "product_id": "zuoyebang",
+          "product_name": "作业帮",
+          "date_original": "2026-10-27T06:39:04-07:00",
+          "date_china": "2026-10-27 21:39",
+          "stars": 5,
+          "app_version": "14.54.0",
+          "summary": "仅表达肯定，没有具体场景。",
+          "sentiment_by_text": "正面",
+          "tags": [
+            "低信息量"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=803781859/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=803781859&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        },
+        {
+          "review_id": "14717577839",
+          "product_id": "zuoyebang",
+          "product_name": "作业帮",
+          "date_original": "2026-10-27T05:50:38-07:00",
+          "date_china": "2026-10-27 20:50",
+          "stars": 5,
+          "app_version": "14.55.0",
+          "summary": "认可解题思路、多种过程以及批改和错题复盘用途。",
+          "sentiment_by_text": "正面",
+          "tags": [
+            "解析清晰",
+            "批改错题"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=803781859/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=803781859&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        },
+        {
+          "review_id": "14717513541",
+          "product_id": "zuoyebang",
+          "product_name": "作业帮",
+          "date_original": "2026-10-27T05:31:52-07:00",
+          "date_china": "2026-10-27 20:31",
+          "stars": 1,
+          "app_version": "14.55.0",
+          "summary": "对功能收费表示不满，未说明具体权限。",
+          "sentiment_by_text": "负面",
+          "tags": [
+            "收费边界"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=803781859/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=803781859&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        },
+        {
+          "review_id": "14717335658",
+          "product_id": "zuoyebang",
+          "product_name": "作业帮",
+          "date_original": "2026-10-27T04:38:13-07:00",
+          "date_china": "2026-10-27 19:38",
+          "stars": 5,
+          "app_version": "14.55.0",
+          "summary": "认为产品好用，可辅助孩子学习。",
+          "sentiment_by_text": "正面",
+          "tags": [
+            "低信息量"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=803781859/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=803781859&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        },
+        {
+          "review_id": "14717249882",
+          "product_id": "zuoyebang",
+          "product_name": "作业帮",
+          "date_original": "2026-10-27T04:10:46-07:00",
+          "date_china": "2026-10-27 19:10",
+          "stars": 5,
+          "app_version": "14.55.0",
+          "summary": "正文表达不满，与五星评分不一致。",
+          "sentiment_by_text": "负面",
+          "tags": [
+            "星级正文冲突",
+            "低信息量"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=803781859/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=803781859&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        },
+        {
+          "review_id": "14717234701",
+          "product_id": "zuoyebang",
+          "product_name": "作业帮",
+          "date_original": "2026-10-27T04:05:48-07:00",
+          "date_china": "2026-10-27 19:05",
+          "stars": 5,
+          "app_version": "14.54.0",
+          "summary": "肯定解析细致。",
+          "sentiment_by_text": "正面",
+          "tags": [
+            "解析清晰"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=803781859/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=803781859&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        },
+        {
+          "review_id": "14717145280",
+          "product_id": "zuoyebang",
+          "product_name": "作业帮",
+          "date_original": "2026-10-27T03:35:05-07:00",
+          "date_china": "2026-10-27 18:35",
+          "stars": 5,
+          "app_version": "14.54.0",
+          "summary": "给出简短肯定，没有具体场景。",
+          "sentiment_by_text": "正面",
+          "tags": [
+            "低信息量"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=803781859/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=803781859&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        },
+        {
+          "review_id": "14716365907",
+          "product_id": "zuoyebang",
+          "product_name": "作业帮",
+          "date_original": "2026-10-26T21:51:10-07:00",
+          "date_china": "2026-10-27 12:51",
+          "stars": 4,
+          "app_version": "14.55.0",
+          "summary": "认为总体可用，没有细节。",
+          "sentiment_by_text": "正面",
+          "tags": [
+            "低信息量"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=803781859/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=803781859&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        },
+        {
+          "review_id": "14715988393",
+          "product_id": "zuoyebang",
+          "product_name": "作业帮",
+          "date_original": "2026-10-26T19:10:13-07:00",
+          "date_china": "2026-10-27 10:10",
+          "stars": 1,
+          "app_version": "14.54.0",
+          "summary": "投诉课程推销来电频繁，属用户陈述待核验。",
+          "sentiment_by_text": "负面",
+          "tags": [
+            "营销触达"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=803781859/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=803781859&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        },
+        {
+          "review_id": "14714224107",
+          "product_id": "zuoyebang",
+          "product_name": "作业帮",
+          "date_original": "2026-10-26T09:14:34-07:00",
+          "date_china": "2026-10-27 00:14",
+          "stars": 5,
+          "app_version": "14.54.0",
+          "summary": "对忘记关闭自动续费后获退款表示满意。",
+          "sentiment_by_text": "正面",
+          "tags": [
+            "售后个案"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=803781859/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=803781859&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        },
+        {
+          "review_id": "14714053096",
+          "product_id": "zuoyebang",
+          "product_name": "作业帮",
+          "date_original": "2026-10-26T08:24:16-07:00",
+          "date_china": "2026-10-26 23:24",
+          "stars": 5,
+          "app_version": "14.54.0",
+          "summary": "以可以直接抄答案作为好评理由。",
+          "sentiment_by_text": "混合",
+          "tags": [
+            "直接取答案"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=803781859/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=803781859&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        },
+        {
+          "review_id": "14713662770",
+          "product_id": "zuoyebang",
+          "product_name": "作业帮",
+          "date_original": "2026-10-26T06:32:33-07:00",
+          "date_china": "2026-10-26 21:32",
+          "stars": 5,
+          "app_version": "14.54.0",
+          "summary": "认可使用效率，缺少场景证据。",
+          "sentiment_by_text": "正面",
+          "tags": [
+            "低信息量"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=803781859/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=803781859&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        },
+        {
+          "review_id": "14713650625",
+          "product_id": "zuoyebang",
+          "product_name": "作业帮",
+          "date_original": "2026-10-26T06:29:04-07:00",
+          "date_china": "2026-10-26 21:29",
+          "stars": 5,
+          "app_version": "14.54.0",
+          "summary": "仅表达喜欢，没有具体场景。",
+          "sentiment_by_text": "正面",
+          "tags": [
+            "低信息量"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=803781859/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=803781859&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        },
+        {
+          "review_id": "14713618735",
+          "product_id": "zuoyebang",
+          "product_name": "作业帮",
+          "date_original": "2026-10-26T06:19:56-07:00",
+          "date_china": "2026-10-26 21:19",
+          "stars": 1,
+          "app_version": "14.54.0",
+          "summary": "抱怨拍题只显示答案，解析及AI解题需要会员。",
+          "sentiment_by_text": "负面",
+          "tags": [
+            "收费边界",
+            "答案与理解"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=803781859/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=803781859&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        },
+        {
+          "review_id": "14713084797",
+          "product_id": "zuoyebang",
+          "product_name": "作业帮",
+          "date_original": "2026-10-26T03:30:32-07:00",
+          "date_china": "2026-10-26 18:30",
+          "stars": 3,
+          "app_version": "14.54.0",
+          "summary": "三星评价正文仅表达肯定，信息不足。",
+          "sentiment_by_text": "不明",
+          "tags": [
+            "低信息量",
+            "星级正文冲突"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=803781859/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=803781859&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "product_id": "xiaoyuan",
+      "product_name": "小猿AI（原小猿口算）",
+      "fetched_count": 50,
+      "selected_count": 20,
+      "method": "按 mostRecent 返回顺序取最新20条。",
+      "date_range_china": [
+        "2026-10-26",
+        "2026-10-28"
+      ],
+      "star_counts": {
+        "1": 3,
+        "3": 1,
+        "5": 12,
+        "4": 3,
+        "2": 1
+      },
+      "text_sentiment_counts": {
+        "负面": 4,
+        "混合": 3,
+        "正面": 12,
+        "不明": 1
+      },
+      "reviews": [
+        {
+          "review_id": "14718358422",
+          "product_id": "xiaoyuan",
+          "product_name": "小猿AI（原小猿口算）",
+          "date_original": "2026-10-27T09:34:43-07:00",
+          "date_china": "2026-10-28 00:34",
+          "stars": 1,
+          "app_version": "3.145.0",
+          "summary": "简短负面评价，没有具体场景。",
+          "sentiment_by_text": "负面",
+          "tags": [
+            "低信息量"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=1325419855/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=1325419855&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        },
+        {
+          "review_id": "14717757312",
+          "product_id": "xiaoyuan",
+          "product_name": "小猿AI（原小猿口算）",
+          "date_original": "2026-10-27T06:41:32-07:00",
+          "date_china": "2026-10-27 21:41",
+          "stars": 3,
+          "app_version": "3.145.0",
+          "summary": "喜欢装扮与激励，但质疑PK对手答题速度及金币记录。",
+          "sentiment_by_text": "混合",
+          "tags": [
+            "PK公平",
+            "激励记录"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=1325419855/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=1325419855&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        },
+        {
+          "review_id": "14717737721",
+          "product_id": "xiaoyuan",
+          "product_name": "小猿AI（原小猿口算）",
+          "date_original": "2026-10-27T06:36:00-07:00",
+          "date_china": "2026-10-27 21:36",
+          "stars": 5,
+          "app_version": "3.145.0",
+          "summary": "简短称赞，没有具体场景。",
+          "sentiment_by_text": "正面",
+          "tags": [
+            "低信息量"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=1325419855/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=1325419855&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        },
+        {
+          "review_id": "14717730377",
+          "product_id": "xiaoyuan",
+          "product_name": "小猿AI（原小猿口算）",
+          "date_original": "2026-10-27T06:33:56-07:00",
+          "date_china": "2026-10-27 21:33",
+          "stars": 4,
+          "app_version": "3.145.0",
+          "summary": "认为PK匹配存在实力差距，希望改善竞技环境。",
+          "sentiment_by_text": "负面",
+          "tags": [
+            "PK公平"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=1325419855/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=1325419855&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        },
+        {
+          "review_id": "14717720398",
+          "product_id": "xiaoyuan",
+          "product_name": "小猿AI（原小猿口算）",
+          "date_original": "2026-10-27T06:31:08-07:00",
+          "date_china": "2026-10-27 21:31",
+          "stars": 2,
+          "app_version": "3.145.0",
+          "summary": "对同题出现多个答案有疑问，表述简略。",
+          "sentiment_by_text": "负面",
+          "tags": [
+            "答案一致性"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=1325419855/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=1325419855&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        },
+        {
+          "review_id": "14717694271",
+          "product_id": "xiaoyuan",
+          "product_name": "小猿AI（原小猿口算）",
+          "date_original": "2026-10-27T06:23:50-07:00",
+          "date_china": "2026-10-27 21:23",
+          "stars": 5,
+          "app_version": "3.145.0",
+          "summary": "简短肯定，没有具体场景。",
+          "sentiment_by_text": "正面",
+          "tags": [
+            "低信息量"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=1325419855/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=1325419855&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        },
+        {
+          "review_id": "14717555390",
+          "product_id": "xiaoyuan",
+          "product_name": "小猿AI（原小猿口算）",
+          "date_original": "2026-10-27T05:44:07-07:00",
+          "date_china": "2026-10-27 20:44",
+          "stars": 5,
+          "app_version": "3.145.0",
+          "summary": "以可以抄作业作为好评理由。",
+          "sentiment_by_text": "混合",
+          "tags": [
+            "直接取答案"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=1325419855/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=1325419855&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        },
+        {
+          "review_id": "14717530669",
+          "product_id": "xiaoyuan",
+          "product_name": "小猿AI（原小猿口算）",
+          "date_original": "2026-10-27T05:36:55-07:00",
+          "date_china": "2026-10-27 20:36",
+          "stars": 5,
+          "app_version": "3.144.2",
+          "summary": "喜欢可购买的物品和趣味玩法。",
+          "sentiment_by_text": "正面",
+          "tags": [
+            "游戏激励"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=1325419855/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=1325419855&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        },
+        {
+          "review_id": "14717501751",
+          "product_id": "xiaoyuan",
+          "product_name": "小猿AI（原小猿口算）",
+          "date_original": "2026-10-27T05:28:25-07:00",
+          "date_china": "2026-10-27 20:28",
+          "stars": 4,
+          "app_version": "3.145.0",
+          "summary": "主要喜欢角色装扮，对学习功能未评价。",
+          "sentiment_by_text": "混合",
+          "tags": [
+            "游戏激励"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=1325419855/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=1325419855&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        },
+        {
+          "review_id": "14717496135",
+          "product_id": "xiaoyuan",
+          "product_name": "小猿AI（原小猿口算）",
+          "date_original": "2026-10-27T05:26:48-07:00",
+          "date_china": "2026-10-27 20:26",
+          "stars": 5,
+          "app_version": "3.145.0",
+          "summary": "简短推荐，没有具体场景。",
+          "sentiment_by_text": "正面",
+          "tags": [
+            "低信息量"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=1325419855/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=1325419855&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        },
+        {
+          "review_id": "14717355203",
+          "product_id": "xiaoyuan",
+          "product_name": "小猿AI（原小猿口算）",
+          "date_original": "2026-10-27T04:44:22-07:00",
+          "date_china": "2026-10-27 19:44",
+          "stars": 4,
+          "app_version": "3.145.0",
+          "summary": "简短肯定，没有具体场景。",
+          "sentiment_by_text": "正面",
+          "tags": [
+            "低信息量"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=1325419855/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=1325419855&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        },
+        {
+          "review_id": "14717318232",
+          "product_id": "xiaoyuan",
+          "product_name": "小猿AI（原小猿口算）",
+          "date_original": "2026-10-27T04:32:45-07:00",
+          "date_china": "2026-10-27 19:32",
+          "stars": 5,
+          "app_version": "3.145.0",
+          "summary": "认为能准确给出答案。",
+          "sentiment_by_text": "正面",
+          "tags": [
+            "答案可用"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=1325419855/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=1325419855&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        },
+        {
+          "review_id": "14717262789",
+          "product_id": "xiaoyuan",
+          "product_name": "小猿AI（原小猿口算）",
+          "date_original": "2026-10-27T04:14:56-07:00",
+          "date_china": "2026-10-27 19:14",
+          "stars": 5,
+          "app_version": "3.145.0",
+          "summary": "简短表达认可，无具体场景。",
+          "sentiment_by_text": "正面",
+          "tags": [
+            "低信息量"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=1325419855/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=1325419855&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        },
+        {
+          "review_id": "14717244063",
+          "product_id": "xiaoyuan",
+          "product_name": "小猿AI（原小猿口算）",
+          "date_original": "2026-10-27T04:08:51-07:00",
+          "date_china": "2026-10-27 19:08",
+          "stars": 5,
+          "app_version": "3.145.0",
+          "summary": "认为总体好用，无具体场景。",
+          "sentiment_by_text": "正面",
+          "tags": [
+            "低信息量"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=1325419855/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=1325419855&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        },
+        {
+          "review_id": "14717202062",
+          "product_id": "xiaoyuan",
+          "product_name": "小猿AI（原小猿口算）",
+          "date_original": "2026-10-27T03:54:53-07:00",
+          "date_china": "2026-10-27 18:54",
+          "stars": 1,
+          "app_version": "3.144.2",
+          "summary": "投诉短信触达频繁，属用户陈述待核验。",
+          "sentiment_by_text": "负面",
+          "tags": [
+            "营销触达"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=1325419855/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=1325419855&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        },
+        {
+          "review_id": "14717186355",
+          "product_id": "xiaoyuan",
+          "product_name": "小猿AI（原小猿口算）",
+          "date_original": "2026-10-27T03:49:35-07:00",
+          "date_china": "2026-10-27 18:49",
+          "stars": 5,
+          "app_version": "3.145.0",
+          "summary": "简短称赞，没有具体场景。",
+          "sentiment_by_text": "正面",
+          "tags": [
+            "低信息量"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=1325419855/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=1325419855&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        },
+        {
+          "review_id": "14716890086",
+          "product_id": "xiaoyuan",
+          "product_name": "小猿AI（原小猿口算）",
+          "date_original": "2026-10-27T01:55:47-07:00",
+          "date_china": "2026-10-27 16:55",
+          "stars": 5,
+          "app_version": "3.144.2",
+          "summary": "认可拍题答疑与角色陪伴。",
+          "sentiment_by_text": "正面",
+          "tags": [
+            "拍题便利",
+            "角色陪伴"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=1325419855/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=1325419855&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        },
+        {
+          "review_id": "14716878391",
+          "product_id": "xiaoyuan",
+          "product_name": "小猿AI（原小猿口算）",
+          "date_original": "2026-10-27T01:50:50-07:00",
+          "date_china": "2026-10-27 16:50",
+          "stars": 5,
+          "app_version": "3.145.0",
+          "summary": "喜欢可聊天功能。",
+          "sentiment_by_text": "正面",
+          "tags": [
+            "角色陪伴"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=1325419855/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=1325419855&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        },
+        {
+          "review_id": "14716310641",
+          "product_id": "xiaoyuan",
+          "product_name": "小猿AI（原小猿口算）",
+          "date_original": "2026-10-26T21:25:07-07:00",
+          "date_china": "2026-10-27 12:25",
+          "stars": 5,
+          "app_version": "3.144.2",
+          "summary": "简短肯定，没有具体场景。",
+          "sentiment_by_text": "正面",
+          "tags": [
+            "低信息量"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=1325419855/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=1325419855&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        },
+        {
+          "review_id": "14713763035",
+          "product_id": "xiaoyuan",
+          "product_name": "小猿AI（原小猿口算）",
+          "date_original": "2026-10-26T07:01:12-07:00",
+          "date_china": "2026-10-26 22:01",
+          "stars": 1,
+          "app_version": "3.145.0",
+          "summary": "表述涉及理解不清，但具体对象和使用场景无法判断。",
+          "sentiment_by_text": "不明",
+          "tags": [
+            "低信息量"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=1325419855/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=1325419855&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        }
+      ]
+    },
+    {
+      "product_id": "yangcong",
+      "product_name": "洋葱学园",
+      "fetched_count": 50,
+      "selected_count": 20,
+      "method": "按 mostRecent 返回顺序取最新20条。",
+      "date_range_china": [
+        "2026-10-05",
+        "2026-10-27"
+      ],
+      "star_counts": {
+        "1": 7,
+        "2": 2,
+        "5": 7,
+        "4": 1,
+        "3": 3
+      },
+      "text_sentiment_counts": {
+        "负面": 12,
+        "混合": 6,
+        "正面": 2
+      },
+      "reviews": [
+        {
+          "review_id": "14717050125",
+          "product_id": "yangcong",
+          "product_name": "洋葱学园",
+          "date_original": "2026-10-27T03:00:10-07:00",
+          "date_china": "2026-10-27 18:00",
+          "stars": 1,
+          "app_version": "7.118.0",
+          "summary": "简短负面评价，无具体场景。",
+          "sentiment_by_text": "负面",
+          "tags": [
+            "低信息量"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=990959871/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=990959871&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        },
+        {
+          "review_id": "14713351452",
+          "product_id": "yangcong",
+          "product_name": "洋葱学园",
+          "date_original": "2026-10-26T05:00:16-07:00",
+          "date_china": "2026-10-26 20:00",
+          "stars": 2,
+          "app_version": "7.118.0",
+          "summary": "认为回答不准确，未提供题目。",
+          "sentiment_by_text": "负面",
+          "tags": [
+            "答案可靠性"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=990959871/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=990959871&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        },
+        {
+          "review_id": "14704906482",
+          "product_id": "yangcong",
+          "product_name": "洋葱学园",
+          "date_original": "2026-10-24T03:47:39-07:00",
+          "date_china": "2026-10-24 18:47",
+          "stars": 5,
+          "app_version": "7.117.0",
+          "summary": "喜欢趣味和学习帮助，同时不喜欢AI人物画风。",
+          "sentiment_by_text": "混合",
+          "tags": [
+            "学习趣味",
+            "视觉偏好"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=990959871/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=990959871&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        },
+        {
+          "review_id": "14695850667",
+          "product_id": "yangcong",
+          "product_name": "洋葱学园",
+          "date_original": "2026-10-21T21:29:38-07:00",
+          "date_china": "2026-10-22 12:29",
+          "stars": 1,
+          "app_version": "7.117.0",
+          "summary": "标题投诉持续来电，正文无细节。",
+          "sentiment_by_text": "负面",
+          "tags": [
+            "营销触达"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=990959871/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=990959871&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        },
+        {
+          "review_id": "14693741235",
+          "product_id": "yangcong",
+          "product_name": "洋葱学园",
+          "date_original": "2026-10-21T08:45:33-07:00",
+          "date_china": "2026-10-21 23:45",
+          "stars": 4,
+          "app_version": "7.117.0",
+          "summary": "认可总体产品，但更新后找不到原有功能入口。",
+          "sentiment_by_text": "混合",
+          "tags": [
+            "入口可发现性"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=990959871/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=990959871&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        },
+        {
+          "review_id": "14690021504",
+          "product_id": "yangcong",
+          "product_name": "洋葱学园",
+          "date_original": "2026-10-20T09:46:31-07:00",
+          "date_china": "2026-10-21 00:46",
+          "stars": 2,
+          "app_version": "7.117.0",
+          "summary": "认为iPad界面适配不足、页面表现不统一。",
+          "sentiment_by_text": "负面",
+          "tags": [
+            "平板适配"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=990959871/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=990959871&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        },
+        {
+          "review_id": "14683778356",
+          "product_id": "yangcong",
+          "product_name": "洋葱学园",
+          "date_original": "2026-10-18T18:41:30-07:00",
+          "date_china": "2026-10-19 09:41",
+          "stars": 1,
+          "app_version": "7.117.0",
+          "summary": "不满画风、收费、横竖屏切换和领奖外跳流程。",
+          "sentiment_by_text": "负面",
+          "tags": [
+            "平板适配",
+            "收费边界",
+            "外部跳转"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=990959871/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=990959871&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        },
+        {
+          "review_id": "14681537821",
+          "product_id": "yangcong",
+          "product_name": "洋葱学园",
+          "date_original": "2026-10-18T06:13:29-07:00",
+          "date_china": "2026-10-18 21:13",
+          "stars": 1,
+          "app_version": "7.117.0",
+          "summary": "投诉购买单科后仍收到全科课程推销。",
+          "sentiment_by_text": "负面",
+          "tags": [
+            "营销触达"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=990959871/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=990959871&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        },
+        {
+          "review_id": "14680501905",
+          "product_id": "yangcong",
+          "product_name": "洋葱学园",
+          "date_original": "2026-10-17T23:51:56-07:00",
+          "date_china": "2026-10-18 14:51",
+          "stars": 3,
+          "app_version": "7.117.0",
+          "summary": "举计算例质疑AI结果可靠性，尚未复现。",
+          "sentiment_by_text": "负面",
+          "tags": [
+            "答案可靠性"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=990959871/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=990959871&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        },
+        {
+          "review_id": "14677388550",
+          "product_id": "yangcong",
+          "product_name": "洋葱学园",
+          "date_original": "2026-10-17T05:57:04-07:00",
+          "date_china": "2026-10-17 20:57",
+          "stars": 3,
+          "app_version": "7.117.0",
+          "summary": "肯定课程详细，抱怨横竖屏切换与AI讲解符号不一致。",
+          "sentiment_by_text": "混合",
+          "tags": [
+            "解析清晰",
+            "平板适配",
+            "答案可靠性"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=990959871/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=990959871&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        },
+        {
+          "review_id": "14676520808",
+          "product_id": "yangcong",
+          "product_name": "洋葱学园",
+          "date_original": "2026-10-17T00:47:42-07:00",
+          "date_china": "2026-10-17 15:47",
+          "stars": 5,
+          "app_version": "7.117.0",
+          "summary": "肯定产品持续更新。",
+          "sentiment_by_text": "正面",
+          "tags": [
+            "低信息量"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=990959871/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=990959871&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        },
+        {
+          "review_id": "14669041071",
+          "product_id": "yangcong",
+          "product_name": "洋葱学园",
+          "date_original": "2026-10-15T03:58:32-07:00",
+          "date_china": "2026-10-15 18:58",
+          "stars": 1,
+          "app_version": "7.117.0",
+          "summary": "表示连续多日卡在加载界面。",
+          "sentiment_by_text": "负面",
+          "tags": [
+            "可用性"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=990959871/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=990959871&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        },
+        {
+          "review_id": "14661796960",
+          "product_id": "yangcong",
+          "product_name": "洋葱学园",
+          "date_original": "2026-10-13T06:54:11-07:00",
+          "date_china": "2026-10-13 21:54",
+          "stars": 1,
+          "app_version": "7.117.0",
+          "summary": "认为答题结论多次偏离标准答案，尚未复现。",
+          "sentiment_by_text": "负面",
+          "tags": [
+            "答案可靠性"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=990959871/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=990959871&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        },
+        {
+          "review_id": "14661178367",
+          "product_id": "yangcong",
+          "product_name": "洋葱学园",
+          "date_original": "2026-10-13T03:37:19-07:00",
+          "date_china": "2026-10-13 18:37",
+          "stars": 3,
+          "app_version": "7.117.0",
+          "summary": "投诉学习后接到连续课程推销电话。",
+          "sentiment_by_text": "负面",
+          "tags": [
+            "营销触达"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=990959871/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=990959871&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        },
+        {
+          "review_id": "14652151840",
+          "product_id": "yangcong",
+          "product_name": "洋葱学园",
+          "date_original": "2026-10-10T19:48:10-07:00",
+          "date_china": "2026-10-11 10:48",
+          "stars": 5,
+          "app_version": "7.117.0",
+          "summary": "总体满意，建议给拍照识别结果增加自检。",
+          "sentiment_by_text": "混合",
+          "tags": [
+            "识别核对"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=990959871/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=990959871&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        },
+        {
+          "review_id": "14637237351",
+          "product_id": "yangcong",
+          "product_name": "洋葱学园",
+          "date_original": "2026-10-07T00:26:35-07:00",
+          "date_china": "2026-10-07 15:26",
+          "stars": 5,
+          "app_version": "7.117.0",
+          "summary": "正文抱怨无法稳定启动，与五星评分相冲突。",
+          "sentiment_by_text": "负面",
+          "tags": [
+            "可用性",
+            "星级正文冲突"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=990959871/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=990959871&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        },
+        {
+          "review_id": "14636770574",
+          "product_id": "yangcong",
+          "product_name": "洋葱学园",
+          "date_original": "2026-10-06T20:52:03-07:00",
+          "date_china": "2026-10-07 11:52",
+          "stars": 5,
+          "app_version": "7.117.0",
+          "summary": "肯定功能齐全，但认为新界面不如旧版清楚。",
+          "sentiment_by_text": "混合",
+          "tags": [
+            "入口可发现性"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=990959871/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=990959871&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        },
+        {
+          "review_id": "14634889484",
+          "product_id": "yangcong",
+          "product_name": "洋葱学园",
+          "date_original": "2026-10-06T09:01:13-07:00",
+          "date_china": "2026-10-07 00:01",
+          "stars": 5,
+          "app_version": "7.117.0",
+          "summary": "认可搜题功能及免费使用。",
+          "sentiment_by_text": "正面",
+          "tags": [
+            "拍题便利",
+            "免费价值"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=990959871/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=990959871&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        },
+        {
+          "review_id": "14633371437",
+          "product_id": "yangcong",
+          "product_name": "洋葱学园",
+          "date_original": "2026-10-05T23:47:23-07:00",
+          "date_china": "2026-10-06 14:47",
+          "stars": 1,
+          "app_version": "7.117.0",
+          "summary": "投诉课后营销弹窗、外部跳转及来电打断学习。",
+          "sentiment_by_text": "负面",
+          "tags": [
+            "外部跳转",
+            "营销触达"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=990959871/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=990959871&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        },
+        {
+          "review_id": "14629412865",
+          "product_id": "yangcong",
+          "product_name": "洋葱学园",
+          "date_original": "2026-10-04T22:19:07-07:00",
+          "date_china": "2026-10-05 13:19",
+          "stars": 5,
+          "app_version": "7.117.0",
+          "summary": "对弹幕内容和发布故障提出意见。",
+          "sentiment_by_text": "混合",
+          "tags": [
+            "互动内容",
+            "可用性"
+          ],
+          "evidence_type": "用户反馈",
+          "platform": "Apple App Store 中国区公开 RSS",
+          "source_url": "https://itunes.apple.com/cn/rss/customerreviews/id=990959871/sortBy=mostRecent/json",
+          "original_review_url": "https://itunes.apple.com/cn/review?id=990959871&type=Purple%20Software",
+          "access_date": "2026-10-29",
+          "verified": false
+        }
+      ]
+    }
+  ],
+  "qa": {
+    "checked_date": "2026-10-29",
+    "method": "重新获取RSS，逐一核对60条评论ID、星级、版本和转述与标题正文的一致性；由AI核对。",
+    "checked_count": 60,
+    "result": "60条均能定位；对2条转述收紧表述，去除研究者推断或不确定归因。",
+    "important_note": "核对来源一致性不等于验证用户陈述真实或复现缺陷。"
+  }
+}

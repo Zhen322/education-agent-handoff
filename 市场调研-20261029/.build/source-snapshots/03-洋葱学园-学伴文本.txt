@@ -1,0 +1,227 @@
+- banner
+- banner:
+  - list:
+    - link "首页":
+      - /url: /
+    - link "数字资源":
+      - /url: /digital-resource
+    - link "智能学伴":
+      - /url: /study-platform
+    - link "洋葱智课":
+      - /url: /digital-basic-education
+      - button "洋葱智课":
+        - text: 洋葱智课
+    - link "智能硬件":
+      - /url: /intelligent-hardware
+    - link "公益":
+      - /url: /public-welfare
+    - link "招聘":
+      - /url: /talent-recruitment
+    - link "下载":
+      - /url: /applications
+  - link "注册":
+    - /url: https://school.yangcongxueyuan.com/teacherIndex.html#/login?type=signup
+  - link "登录":
+    - /url: https://school.yangcongxueyuan.com/teacherIndex.html
+- main:
+  - heading "洋葱学园APP 学生的AI智能学伴" [level=1]:
+    - text: 洋葱学园APP
+    - text: 学生的AI智能学伴
+  - generic: 为了帮助学生自发主动爱上学习，我们研发了面向学生的AI智能学伴产品——洋葱学园APP。我们从学生的兴趣和认知规律出发进行设计，运用人工智能、大数据、人机交互等技术，并融合游戏化教学设计元素，满足学生的个性化、多层次、全流程的学习需求。“洋葱学园APP”在学生群体中拥有很高的知名度，学生不仅自发主动使用、来辅助自己的学习发展，并且积极推荐给身边的同学。
+  - img "洋葱学园智能学伴形象"
+  - generic: 洋葱学园AI智能学伴系统
+  - generic: 多智能体协同，让学生在低压力下开启自主学习的正循环
+  - text: 自主学习
+  - text: 培育场景
+  - generic: 作业、预习、复习
+  - generic: 答疑解惑
+  - generic: 思考探究
+  - generic: 阶段学习计划
+  - generic: 每日学习任务
+  - generic: 情感陪伴
+  - text: AI
+  - text: 应用层
+  - generic: AI自学大师
+  - generic: 按需推送自学内容
+  - generic: 极速预习复习
+  - generic: 拍题精学
+  - generic: AI私人助教
+  - generic: 全天候答疑解惑
+  - generic: AI私教
+  - generic: 只讲干货
+  - generic: AI思维教练
+  - generic: 思考训练与核验
+  - generic: 苏格拉底提问法
+  - generic: 布鲁姆提问法
+  - generic: AI规划导师
+  - generic: 个性化排课
+  - generic: AI定制班
+  - generic: 制订学习目标计划
+  - generic: AI自律伙伴
+  - generic: 每日学习激励
+  - generic: 当日学习任务拆解
+  - generic: 日常小练习
+  - generic: AI情感树洞
+  - generic: 倾听烦恼心事
+  - generic: AI心里疏导
+  - generic: 暖暖(洋葱树洞)
+  - generic: 底层能力
+  - generic: AI大模型
+  - generic: 专家教研团队
+  - generic: 训练AI学习内容与流程
+  - generic: 动画课程库
+  - generic: 12年教研沉淀
+  - generic: 1万+课程
+  - generic: 思维链与知识图谱
+  - generic: 六维标签体系
+  - generic: 思维链知识图谱
+  - generic: 学习互动数据库
+  - generic: 5000亿+
+  - generic: AI实时采集分析
+  - generic: 双向数据循环装置
+  - generic: 400万+学校教师
+  - generic: 常态化教学
+  - generic: AI自学大师，轻松开启自学
+  - generic: 一键拍照，AI 即刻为你提供思路点拨与详细解析，拒绝直接给答案
+  - generic: 极速预习
+  - generic: 极速复习
+  - generic: AI拍题精学
+  - generic: 拍教材
+  - generic: 拍作业
+  - generic: 拍笔记
+  - generic: 拍教辅
+  - generic: AI私人助教，1对1指导自学
+  - generic: 量身打造“一对一”AI私教，24小时答疑解惑，精准定位知识薄弱点
+  - generic: AI私教
+  - generic: 只讲干货
+  - generic: AI私教
+  - generic: 02:29
+  - generic: 09:55
+  - generic: 只讲干货
+  - generic: 选片段
+  - generic: 看笔记
+  - generic: 去做题
+  - text: 私教答疑
+  - generic: 这个 “神秘定直线” 就是咱们刚学的准线呀！圆锥曲线的统一定义说的是：圆锥曲线上任意一点到焦点F的距离，与它到这条准线l的距离之比，始终等于这条曲线的离心率e。这个统一的规律把椭圆、双曲线和抛物线都串在了一起，不再是三条孤立的曲线。
+  - generic: 我懂了
+  - generic: 讲的不好
+  - generic: 我还是不太懂
+  - generic: 输入我的问题...
+  - generic: 发送
+  - generic: AI思维教练，引导提问、思考与表达
+  - generic: 通过启发式提问，还原思考过程，帮你从“解一题”到“通一类”
+  - generic: 提出好问题
+  - generic: 检查学习成果
+  - generic: 苏格拉底提问法
+  - generic: 层层追问、启发诱导，不直接给出答案，引导人自主思考、探寻本质、发现错误、理清逻辑，培养独立思考与逻辑推理能力。
+  - generic: 布鲁姆提问法框架
+  - generic: "\"你可不可以用自己的话来解释.....?\""
+  - generic: "\"你可不可以举个没举过的例子.....?\""
+  - generic: "\"你可不可以说出XX和XX的异同点?\""
+  - generic: "\"你可不可以总结成几个要点.....?\""
+  - generic: AI规划导师，轻松完成自学目标
+  - generic: 动态组建一个与你水平相匹配的“虚拟班级”，安排个性化的学习节奏与内容
+  - button "学情诊断"
+  - button "定制课表"
+  - button "开始学习"
+  - button "动态反馈"
+  - button "播放第 1 个视频" [pressed]
+  - button "播放第 2 个视频"
+  - button "播放第 3 个视频"
+  - button "播放第 4 个视频"
+  - generic: AI自律伙伴，培养科学的自主学习习惯
+  - generic: 将学习任务化为趣味挑战，在正向反馈中自然建立自主学习的节奏
+  - generic: 任务激励
+  - generic: 趣味练习
+  - generic: 任务挑战
+  - generic: 4月
+  - generic: 剩余：12天
+  - generic: 四月挑战：寻踪踏青
+  - generic: 完成30个日常任务，获得该挑战成就
+  - generic: 勇气试炼
+  - generic: 获得一次答题PK
+  - generic: 领 取
+  - generic: 速战速决
+  - generic: 作业题型速攻中学习1道题
+  - generic: 前 往
+  - generic: 学者精神
+  - generic: 考前突击里完成1次复习
+  - generic: 前 往
+  - generic: 学霸之路
+  - generic: 完成1次教材同步课
+  - generic: 前 往
+  - generic: 试炼场
+  - generic: 数学试炼场
+  - generic: 学校排行
+  - generic: "11"
+  - generic: 赛季战绩
+  - generic: 7胜 2负
+  - generic: 铂金IV
+  - generic: 答题PK赛
+  - generic: 习题大乱斗
+  - generic: 超级挑战赛
+  - generic: 开始PK
+  - generic: AI情感树洞：成长的心事被理解与尊重
+  - generic: 有温度、能共情的AI伙伴，与你平等对话，缓解情绪问题
+  - generic: 洋葱树洞
+  - generic: 我不想给同学抄作业，他就不理我了~
+  - generic: 发送
+  - generic: 我的留言
+  - generic: 2026-04-08 14:50:08
+  - generic: 我和同学吵架了，怎么办！？
+  - img "AI头像"
+  - generic: 2026-04-08 15:50:12
+  - generic: 先别着急呀，吵架肯定不是你一个人的问题，先深呼吸冷静一下～ 可以先想想刚才吵架的原因是什么，是误会了对方，还是一时语气太冲了？如果是小矛盾，不妨先退一步，等情绪平复后，主动跟同学好好说清楚，把误会解开。同学之间没有解不开的疙瘩，好好沟通比争执更有用哦。要是实在不知道怎么开口，也可以来找我聊聊，我帮你一起想办法。
+  - generic: 2026-04-06 20:32:12
+  - generic: 同学和班主任老师好像不喜欢我，很影响我的学习心情，我该怎么办呢？
+  - img "AI头像"
+  - generic: 2026-04-06 21:32:18
+  - generic: 别难过呀，老师特别能理解你现在委屈又不安的心情，被人误解或者感觉不被喜欢，你不用急着否定自己，更不用因为别人的态度影响学习，你本身认真又努力，这就足够珍贵啦。
+- contentinfo:
+  - img "logo"
+  - paragraph: 洋葱学园 APP
+  - paragraph: 洋葱学园教师版
+  - paragraph: 洋葱星球
+  - paragraph: 洋葱学园科学教育
+  - paragraph: 洋葱智课
+  - paragraph: 洋葱助教行动
+  - button "中文简 /"
+  - button "English"
+  - paragraph: 产品下载
+  - paragraph: 洋葱学园APP
+  - paragraph: 洋葱学园教师版APP
+  - paragraph: 洋葱学园PC端客户端
+  - paragraph: 官方微信公众号
+  - img "洋葱学园数字化教育"
+  - paragraph: 洋葱学园
+  - img "洋葱学园家长中心"
+  - paragraph: 洋葱学园家长中心
+  - img "洋葱智课"
+  - paragraph: 洋葱智课
+  - list:
+    - link "联系我们":
+      - /url: /join-us
+    - link "用户服务协议":
+      - /url: /user-agreement/?agreement=user
+    - link "用户隐私政策":
+      - /url: /user-agreement/?agreement=userPrivacy
+    - link "儿童隐私政策":
+      - /url: /user-agreement/?agreement=child
+    - link "资质证照公示":
+      - /url: https://fp.yangcong345.com/middle/1.0.0/QualificationCertificatePublicity-6a8908e4e2ce13515b62c961a604f6b1-66d42ce15db224fdc16db08cdc6d6f19.pdf
+  - list:
+    - link "京ICP备14014122号":
+      - /url: https://beian.miit.gov.cn/
+    - link "京ICP证160719号":
+      - /url: https://beian.miit.gov.cn/
+    - link "粤ICP备2022041298号":
+      - /url: https://beian.miit.gov.cn/
+    - link "京公网安备 11010502038183号":
+      - /url: http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502038183
+    - link "教APP备4401661号":
+      - /url: javascript:void(0)
+    - link "教APP备4401663号":
+      - /url: javascript:void(0)
+    - link "教APP备4401665号":
+      - /url: javascript:void(0)
+  - paragraph: 光合新知（北京）科技有限公司 版权所有

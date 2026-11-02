@@ -1,0 +1,25 @@
+{
+  "id": "appgdep_6adf08b223e8819195a4449117b3b81c",
+  "project_id": "appgprj_6adeff66164c81919eadeadfb5306d8d",
+  "title": "小禾学伴",
+  "version_id": "appgprj_6adeff66164c81919eadeadfb5306d8d~appgver_4ffa115cd7a08191ac9cc8bd84fbf388",
+  "type": "publish",
+  "status": "succeeded",
+  "url": "https://xiaohe-study-companion-zhenshuai.roundgull6.chatgpt.site",
+  "has_mcp": false,
+  "screenshot_asset_pointer": null,
+  "provider_deployment_id": "site---6adeff66164c81919eadeadfb5306d8d",
+  "failure_message": null,
+  "env_set_revision": 0,
+  "updated_at": "2026-10-26T08:01:08.482131+00:00",
+  "commit_sha": "ba10d23b6f745dd252ca8e560cb0265da729b15b",
+  "verification": {
+    "domainTests": 23,
+    "apiGroups": 11,
+    "localBrowserExercise": "6/6 correct;4 independent;1 hint;1 explanation",
+    "persistenceRestart": true,
+    "mobileWidth": 390,
+    "productionGate": "Login gate visible; authenticated production workflow requires user's ChatGPT sign-in"
+  },
+  "goalComplete": false
+}

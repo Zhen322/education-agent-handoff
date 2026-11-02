@@ -1,0 +1,108 @@
+diff --git a/modules/xiaohe-ocr/src/XiaoheOcr.types.ts b/modules/xiaohe-ocr/src/XiaoheOcr.types.ts
+index 9a6734e..61077c4 100644
+--- a/modules/xiaohe-ocr/src/XiaoheOcr.types.ts
++++ b/modules/xiaohe-ocr/src/XiaoheOcr.types.ts
+@@ -1,5 +1,19 @@
+ export type OcrEngine = 'mlkit-chinese' | 'apple-vision';
+ 
++/** EXIF upright → clockwise rotation → crop in the rotated image's top-left coordinates. */
++export type PhotoView = {
++  version: 1;
++  rotation: 0 | 90 | 180 | 270;
++  crop: { x: number; y: number; width: number; height: number };
++};
++
++export type PhotoInspection = {
++  imageDigest: string;
++  /** Full-resolution EXIF-upright dimensions, before the user's rotation/crop. */
++  width: number;
++  height: number;
++};
++
+ /** Coordinates refer to the oriented, downsampled recognition image, origin top-left. */
+ export type NativeOcrLine = {
+   id: string;
+@@ -13,6 +27,9 @@ export type NativeOcrResult = {
+   engineVersion: string;
+   /** SHA256 of the original private file bytes, not the downsampled pixels. */
+   imageDigest: string;
++  sourceWidth: number;
++  sourceHeight: number;
++  view: PhotoView;
+   width: number;
+   height: number;
+   lines: NativeOcrLine[];
+diff --git a/modules/xiaohe-ocr/src/XiaoheOcrModule.ts b/modules/xiaohe-ocr/src/XiaoheOcrModule.ts
+index 3f172af..01645b5 100644
+--- a/modules/xiaohe-ocr/src/XiaoheOcrModule.ts
++++ b/modules/xiaohe-ocr/src/XiaoheOcrModule.ts
+@@ -1,8 +1,9 @@
+ import { requireOptionalNativeModule } from 'expo';
+-import type { NativeOcrResult, OcrAvailability } from './XiaoheOcr.types';
++import type { NativeOcrResult, OcrAvailability, PhotoInspection, PhotoView } from './XiaoheOcr.types';
+ 
+ interface XiaoheOcrModule {
+-  recognize(uri: string): Promise<NativeOcrResult>;
++  recognize(uri: string, view: PhotoView): Promise<NativeOcrResult>;
++  inspect(uri: string): Promise<PhotoInspection>;
+   getAvailability(): Promise<OcrAvailability>;
+ }
+ 
+diff --git a/src/features/native-ocr.ts b/src/features/native-ocr.ts
+index 50677da..b4d1a07 100644
+--- a/src/features/native-ocr.ts
++++ b/src/features/native-ocr.ts
+@@ -1,17 +1,48 @@
+ import XiaoheOcr from '../../modules/xiaohe-ocr/src/XiaoheOcrModule';
+-import type { NativeOcrResult, OcrAvailability } from '../../modules/xiaohe-ocr/src/XiaoheOcr.types';
++import type { NativeOcrResult, OcrAvailability, PhotoInspection, PhotoView } from '../../modules/xiaohe-ocr/src/XiaoheOcr.types';
+ 
+-export type { NativeOcrResult, NativeOcrLine, OcrAvailability } from '../../modules/xiaohe-ocr/src/XiaoheOcr.types';
++export type { NativeOcrResult, NativeOcrLine, OcrAvailability, PhotoInspection, PhotoView } from '../../modules/xiaohe-ocr/src/XiaoheOcr.types';
+ 
+ const unavailable = '当前安装包没有本机文字识别模块，可以继续手工核对图片。';
++const outdated = '当前安装包尚不支持图片整理，请更新本机安装包后再识别；已保存原图和记录仍保留。';
++
++/** Copy before crossing the async bridge; a late UI edit must not alter this request. */
++function photoView(value?: PhotoView): PhotoView {
++  if (value === undefined) return { version: 1, rotation: 0, crop: { x: 0, y: 0, width: 1, height: 1 } };
++  const crop = value?.crop;
++  if (!value || Object.keys(value).sort().join() !== 'crop,rotation,version' || value.version !== 1 || ![0, 90, 180, 270].includes(value.rotation) || !crop || Object.keys(crop).sort().join() !== 'height,width,x,y'
++    || ![crop.x, crop.y, crop.width, crop.height].every(item => typeof item === 'number' && Number.isFinite(item))
++    || crop.x < 0 || crop.y < 0 || crop.width <= 0 || crop.height <= 0 || crop.x + crop.width > 1 || crop.y + crop.height > 1) throw new Error('图片裁框或方向无效，请重新调整。');
++  return { version: 1, rotation: value.rotation, crop: { x: crop.x, y: crop.y, width: crop.width, height: crop.height } };
++}
++
++function updatedModule() {
++  if (!XiaoheOcr) throw new Error(unavailable);
++  if (typeof XiaoheOcr.inspect !== 'function') throw new Error(outdated);
++  return XiaoheOcr;
++}
++
++function validSize(width: number, height: number) {
++  return Number.isInteger(width) && Number.isInteger(height) && width > 0 && height > 0 && width <= 16000 && height <= 16000 && width * height <= 48_000_000;
++}
+ 
+ export async function getOcrAvailability(): Promise<OcrAvailability> {
+   if (!XiaoheOcr) return { available: false, engine: null, engineVersion: null, reason: unavailable };
++  if (typeof XiaoheOcr.inspect !== 'function') return { available: false, engine: null, engineVersion: null, reason: outdated };
+   return XiaoheOcr.getAvailability();
+ }
+ 
+ /** Only the local engine passes a registered, currently owned photo URI here. */
+-export async function recognizePhoto(uri: string): Promise<NativeOcrResult> {
+-  if (!XiaoheOcr) throw new Error(unavailable);
+-  return XiaoheOcr.recognize(uri);
++export async function recognizePhoto(uri: string, view?: PhotoView): Promise<NativeOcrResult> {
++  const requested = photoView(view);
++  const result = await updatedModule().recognize(uri, requested);
++  // An older binary must never silently recognize the whole page instead of the crop.
++  if (!result || !validSize(result.sourceWidth, result.sourceHeight) || JSON.stringify(photoView(result.view)) !== JSON.stringify(requested) || !result.view || !/^[a-f0-9]{64}$/.test(result.imageDigest)) throw new Error('识别模块返回的图片范围不完整，请更新安装包或重试。');
++  return result;
++}
++
++export async function inspectPhoto(uri: string): Promise<PhotoInspection> {
++  const result = await updatedModule().inspect(uri);
++  if (!result || !validSize(result.width, result.height) || !/^[a-f0-9]{64}$/.test(result.imageDigest)) throw new Error('未取得可靠的原图尺寸，请重新选择图片。');
++  return result;
+ }

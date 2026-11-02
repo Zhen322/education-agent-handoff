@@ -1,0 +1,224 @@
+[
+  {
+    "project": "education-agent-handoff",
+    "path": "市场调研-20261029/小禾学伴竞品功能调研资料包-20261029.zip",
+    "action": "sanitized_archive",
+    "reason": "清理凭据及本机环境，压缩包内含清理清单"
+  },
+  {
+    "project": "education-agent-handoff",
+    "path": "市场调研-20261029/小禾学伴调研资料包-20261029.zip",
+    "action": "sanitized_archive",
+    "reason": "清理凭据及本机环境，压缩包内含清理清单"
+  },
+  {
+    "project": "education-agent-handoff",
+    "path": "市场调研-20261029/.build/node_modules",
+    "action": "excluded_directory",
+    "reason": "可重建依赖、运行环境、缓存或本机工具配置"
+  },
+  {
+    "project": "education-agent-handoff",
+    "path": "市场调研-20261029/交付/.~小学教育App与伴学设备功能调研.pptx",
+    "action": "excluded_file",
+    "reason": "缓存或临时文件"
+  },
+  {
+    "project": "education-agent-handoff",
+    "path": "市场调研-20261029/交付/.~小学智能学习产品调研与小禾学伴定位建议.pptx",
+    "action": "excluded_file",
+    "reason": "缓存或临时文件"
+  },
+  {
+    "project": "education-agent-handoff",
+    "path": "xiaohe-mobile/.expo",
+    "action": "excluded_directory",
+    "reason": "可重建依赖、运行环境、缓存或本机工具配置"
+  },
+  {
+    "project": "education-agent-handoff",
+    "path": "xiaohe-mobile/dist",
+    "action": "excluded_directory",
+    "reason": "可从源码重建的生成工程或编译结果"
+  },
+  {
+    "project": "education-agent-handoff",
+    "path": "xiaohe-mobile/.claude",
+    "action": "excluded_directory",
+    "reason": "可重建依赖、运行环境、缓存或本机工具配置"
+  },
+  {
+    "project": "education-agent-handoff",
+    "path": "xiaohe-mobile/android",
+    "action": "excluded_directory",
+    "reason": "可从源码重建的生成工程或编译结果"
+  },
+  {
+    "project": "education-agent-handoff",
+    "path": "xiaohe-mobile/.git",
+    "action": "excluded_directory",
+    "reason": "可重建依赖、运行环境、缓存或本机工具配置"
+  },
+  {
+    "project": "education-agent-handoff",
+    "path": "xiaohe-mobile/modules/xiaohe-ocr/android/build",
+    "action": "excluded_directory",
+    "reason": "可从源码重建的生成工程或编译结果"
+  },
+  {
+    "project": "education-agent-handoff",
+    "path": "xiaohe-app/.sites-runtime",
+    "action": "excluded_directory",
+    "reason": "可重建依赖、运行环境、缓存或本机工具配置"
+  },
+  {
+    "project": "education-agent-handoff",
+    "path": "xiaohe-app/dist",
+    "action": "excluded_directory",
+    "reason": "可从源码重建的生成工程或编译结果"
+  },
+  {
+    "project": "education-agent-handoff",
+    "path": "xiaohe-app/node_modules",
+    "action": "excluded_directory",
+    "reason": "可重建依赖、运行环境、缓存或本机工具配置"
+  },
+  {
+    "project": "education-agent-handoff",
+    "path": "xiaohe-app/.next",
+    "action": "excluded_directory",
+    "reason": "可重建依赖、运行环境、缓存或本机工具配置"
+  },
+  {
+    "project": "education-agent-handoff",
+    "path": "xiaohe-app/.git",
+    "action": "excluded_directory",
+    "reason": "可重建依赖、运行环境、缓存或本机工具配置"
+  },
+  {
+    "project": "education-agent-handoff",
+    "path": "xiaohe-app/.wrangler",
+    "action": "excluded_directory",
+    "reason": "可重建依赖、运行环境、缓存或本机工具配置"
+  },
+  {
+    "project": "education-agent-handoff",
+    "path": "xiaohe-app/tsconfig.tsbuildinfo",
+    "action": "excluded_file",
+    "reason": "缓存或临时文件"
+  },
+  {
+    "project": "education-agent-handoff",
+    "path": "xiaohe-app/next-env.d.ts",
+    "action": "restored_for_handoff",
+    "reason": "复核为有效历史验收资料，已补回交接副本"
+  },
+  {
+    "project": "education-agent-handoff",
+    "path": "xiaohe-app/outputs/qa/recognition-build.log",
+    "action": "restored_for_handoff",
+    "reason": "复核为有效历史验收资料，已补回交接副本"
+  },
+  {
+    "project": "education-agent-handoff",
+    "path": "xiaohe-app/outputs/qa/history-web-tests.log",
+    "action": "restored_for_handoff",
+    "reason": "复核为有效历史验收资料，已补回交接副本"
+  },
+  {
+    "project": "education-agent-handoff",
+    "path": "xiaohe-app/outputs/qa/companion-web-build.log",
+    "action": "restored_for_handoff",
+    "reason": "复核为有效历史验收资料，已补回交接副本"
+  },
+  {
+    "project": "education-agent-handoff",
+    "path": "xiaohe-app/outputs/qa/content-final-tests.log",
+    "action": "restored_for_handoff",
+    "reason": "复核为有效历史验收资料，已补回交接副本"
+  },
+  {
+    "project": "education-agent-handoff",
+    "path": "xiaohe-app/outputs/qa/companion-web-lint.log",
+    "action": "restored_for_handoff",
+    "reason": "复核为有效历史验收资料，已补回交接副本"
+  },
+  {
+    "project": "education-agent-handoff",
+    "path": "xiaohe-app/outputs/qa/recognition-lint.log",
+    "action": "restored_for_handoff",
+    "reason": "复核为有效历史验收资料，已补回交接副本"
+  },
+  {
+    "project": "education-agent-handoff",
+    "path": "xiaohe-app/outputs/qa/history-web-build.log",
+    "action": "restored_for_handoff",
+    "reason": "复核为有效历史验收资料，已补回交接副本"
+  },
+  {
+    "project": "education-agent-handoff",
+    "path": "xiaohe-app/outputs/qa/recognition-targeted-tests.log",
+    "action": "restored_for_handoff",
+    "reason": "复核为有效历史验收资料，已补回交接副本"
+  },
+  {
+    "project": "education-agent-handoff",
+    "path": "xiaohe-app/outputs/qa/companion-web-tests.log",
+    "action": "restored_for_handoff",
+    "reason": "复核为有效历史验收资料，已补回交接副本"
+  },
+  {
+    "project": "education-agent-handoff",
+    "path": "xiaohe-app/outputs/qa/recognition-canonical-tests.log",
+    "action": "restored_for_handoff",
+    "reason": "复核为有效历史验收资料，已补回交接副本"
+  },
+  {
+    "project": "education-agent-handoff",
+    "path": "xiaohe-app/outputs/qa/recognition-history-copy-tests.log",
+    "action": "restored_for_handoff",
+    "reason": "复核为有效历史验收资料，已补回交接副本"
+  },
+  {
+    "project": "education-agent-handoff",
+    "path": "xiaohe-app/outputs/qa/evidence-lint.log",
+    "action": "restored_for_handoff",
+    "reason": "复核为有效历史验收资料，已补回交接副本"
+  },
+  {
+    "project": "education-agent-handoff",
+    "path": "xiaohe-app/outputs/qa/evidence-tests.log",
+    "action": "restored_for_handoff",
+    "reason": "复核为有效历史验收资料，已补回交接副本"
+  },
+  {
+    "project": "education-agent-handoff",
+    "path": "xiaohe-app/outputs/qa/evidence-typecheck.log",
+    "action": "restored_for_handoff",
+    "reason": "复核为有效历史验收资料，已补回交接副本"
+  },
+  {
+    "project": "education-agent-handoff",
+    "path": "xiaohe-app/outputs/qa/history-web-lint.log",
+    "action": "restored_for_handoff",
+    "reason": "复核为有效历史验收资料，已补回交接副本"
+  },
+  {
+    "project": "education-agent-handoff",
+    "path": "xiaohe-app/outputs/qa/evidence-build.log",
+    "action": "restored_for_handoff",
+    "reason": "复核为有效历史验收资料，已补回交接副本"
+  },
+  {
+    "project": "education-agent-handoff",
+    "path": "xiaohe-app/outputs/qa/recognition-typecheck.log",
+    "action": "restored_for_handoff",
+    "reason": "复核为有效历史验收资料，已补回交接副本"
+  },
+  {
+    "project": "education-agent-handoff",
+    "path": "xiaohe-app/outputs/qa/history-web-typecheck.log",
+    "action": "restored_for_handoff",
+    "reason": "复核为有效历史验收资料，已补回交接副本"
+  }
+]

@@ -1,0 +1,67 @@
+{
+  "snapshotDate": "2026-11-02",
+  "source": "local development data only, not production",
+  "d1File": "d1-sanitized.sqlite",
+  "d1RuntimeName": "faaf2b0445ab934c3aac48ddf0cdfade8f9bac050be98993748742cdd2cb05fb.sqlite",
+  "r2File": "r2-metadata.sqlite",
+  "r2RuntimeName": "49e6826fd41b4990fd0dd7b3ba19a3021a358ffb618ea1ab8f4454a592996ae7.sqlite",
+  "counts": {
+    "workspaces": 13,
+    "uploaded_files": 4,
+    "workspace_memberships": 12,
+    "workspace_invites": 6
+  },
+  "redactions": [
+    "All six accepted/revoked invitation token_hash values replaced by non-hash invalid markers",
+    "D1 internal _cf_METADATA table omitted; runtime can recreate",
+    "All actor.name and membership.name display values replaced by synthetic handoff labels for public sharing; IDs and relationships retained"
+  ],
+  "schemaUpgrade": "Added uploaded_files.history_epoch DEFAULT 0 using migration 0002; original source database unchanged",
+  "objects": [
+    {
+      "objectKey": "private/local_seedy/63205d25-04d4-4edd-994d-c26c5d634cb6",
+      "blobId": "185f0429404e1de3a1fabbea6f05f70fe638c1cc001ef321df6f7c0a78335378000001a1772d2a67",
+      "bytes": 68,
+      "type": "image/png",
+      "dimensions": [
+        1,
+        1
+      ],
+      "sha256": "d811b823034cd379c8da2986a94b6a6e340249789965b3a87d5aeae2cdbacb86"
+    },
+    {
+      "objectKey": "private/access-api-9d15f008-b263-49b0-86e4-3ce920ea1850-learner/224dfdf3-f3a4-4e8b-a055-66f7b55bc1b3",
+      "blobId": "5244c45d92601f606262b99cd0eed660f4eda70b8c22d50f441ed716a3008c1d000001a1774db38e",
+      "bytes": 68,
+      "type": "image/png",
+      "dimensions": [
+        1,
+        1
+      ],
+      "sha256": "d811b823034cd379c8da2986a94b6a6e340249789965b3a87d5aeae2cdbacb86"
+    },
+    {
+      "objectKey": "private/access-api-aebfff56-34e8-4f64-a671-8a9447516fa2-learner/7a91816d-93af-477d-9b41-7d8d3f853c1a",
+      "blobId": "0abdd9f51dcb1e2ece4413ce5735f76debf673e0548871afbfe04276ab75cff5000001a17752d42f",
+      "bytes": 68,
+      "type": "image/png",
+      "dimensions": [
+        1,
+        1
+      ],
+      "sha256": "d811b823034cd379c8da2986a94b6a6e340249789965b3a87d5aeae2cdbacb86"
+    },
+    {
+      "objectKey": "private/access-api-354823f3-da54-4bce-8343-e02dd7f0acf5-learner/8924b76f-2775-4c04-8d56-ce37081b5eb0",
+      "blobId": "e7af987ad4a4eb03f7f88d44f46a28c4501408b636b3b1142d073f99c034c3b4000001a177539231",
+      "bytes": 68,
+      "type": "image/png",
+      "dimensions": [
+        1,
+        1
+      ],
+      "sha256": "d811b823034cd379c8da2986a94b6a6e340249789965b3a87d5aeae2cdbacb86"
+    }
+  ],
+  "containsAuthCookiesOrSessions": false
+}

@@ -1,0 +1,2810 @@
+{
+  "handoff_date": "2026-11-02",
+  "repository": "Zhen322/education-agent-handoff",
+  "visibility": "public",
+  "scope": "全部交付文件，不含本清单自身；原件敏感配置、可重建环境按处理清单排除",
+  "file_count": 560,
+  "total_bytes": 106005608,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 211,
+      "sha256": "25c4f39d8c6989e0fee0dd125bcf7e9880f75b4626eadb5c15e1105ebbe8e56a"
+    },
+    {
+      "path": "APP-实施计划.md",
+      "bytes": 15544,
+      "sha256": "a86b132660c3c6e16f533ba888b85e095df625f949ef3db23316ac8db349a1bd"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4506,
+      "sha256": "29a4b742682dea1d0d190689252335898654bba536d9854747feed92732ffbd4"
+    },
+    {
+      "path": "handoff-data/README.md",
+      "bytes": 2711,
+      "sha256": "64cee0afa113390a897fdb84d8f401fc3bfc2efad49123e737cff8574943edb3"
+    },
+    {
+      "path": "handoff-data/d1-sanitized.sql",
+      "bytes": 829372,
+      "sha256": "fcb2151f57b0f1dce24d8f8027355976f74b912c190f90134e532fb7ff4743a6"
+    },
+    {
+      "path": "handoff-data/d1-sanitized.sqlite",
+      "bytes": 905216,
+      "sha256": "0d4c2b5b2be5b6ae7766babc2e22fe8b12cec18bac8b84c46d76cce3f83cc6c4"
+    },
+    {
+      "path": "handoff-data/d1-sanitized.sqlite-shm",
+      "bytes": 32768,
+      "sha256": "fd4c9fda9cd3f9ae7c962b0ddf37232294d55580e1aa165aa06129b8549389eb"
+    },
+    {
+      "path": "handoff-data/d1-sanitized.sqlite-wal",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "handoff-data/manifest.json",
+      "bytes": 2619,
+      "sha256": "38edd464c5ae68120ff858221f15191299d40345961076682b5b07ed043c39c8"
+    },
+    {
+      "path": "handoff-data/r2-blobs/0abdd9f51dcb1e2ece4413ce5735f76debf673e0548871afbfe04276ab75cff5000001a17752d42f",
+      "bytes": 68,
+      "sha256": "d811b823034cd379c8da2986a94b6a6e340249789965b3a87d5aeae2cdbacb86"
+    },
+    {
+      "path": "handoff-data/r2-blobs/185f0429404e1de3a1fabbea6f05f70fe638c1cc001ef321df6f7c0a78335378000001a1772d2a67",
+      "bytes": 68,
+      "sha256": "d811b823034cd379c8da2986a94b6a6e340249789965b3a87d5aeae2cdbacb86"
+    },
+    {
+      "path": "handoff-data/r2-blobs/5244c45d92601f606262b99cd0eed660f4eda70b8c22d50f441ed716a3008c1d000001a1774db38e",
+      "bytes": 68,
+      "sha256": "d811b823034cd379c8da2986a94b6a6e340249789965b3a87d5aeae2cdbacb86"
+    },
+    {
+      "path": "handoff-data/r2-blobs/e7af987ad4a4eb03f7f88d44f46a28c4501408b636b3b1142d073f99c034c3b4000001a177539231",
+      "bytes": 68,
+      "sha256": "d811b823034cd379c8da2986a94b6a6e340249789965b3a87d5aeae2cdbacb86"
+    },
+    {
+      "path": "handoff-data/r2-metadata.sqlite",
+      "bytes": 28672,
+      "sha256": "505138cf4f89b63afa603dd8fae9c356eaba99ebc6f0c872a0fcb2b31e144473"
+    },
+    {
+      "path": "handoff-data/restore-local.py",
+      "bytes": 2612,
+      "sha256": "cebcdeddfc1beee6e12287d8b53d95dc3b4c85670d1aab6a0cd7573dab079da0"
+    },
+    {
+      "path": "history/README.md",
+      "bytes": 775,
+      "sha256": "9a96537a116529521fce90db8374b7947ec1fc6749a637ad2dfb3c8388449f51"
+    },
+    {
+      "path": "history/xiaohe-app.bundle",
+      "bytes": 2483509,
+      "sha256": "10d6a4f220893cf7ea0fc589c6414af5a2b35c4c5f525590527195d76c3db87b"
+    },
+    {
+      "path": "history/xiaohe-mobile.bundle",
+      "bytes": 3078608,
+      "sha256": "d712597bb3a27eaac47f4e87720786388d87b479216ee956c803e61486cf0c7b"
+    },
+    {
+      "path": "xiaohe-app/.gitignore",
+      "bytes": 1008,
+      "sha256": "da8856f069bc5ae76b36936c32c354fe561932fe2e5aa2f53ae3cce9d150ad31"
+    },
+    {
+      "path": "xiaohe-app/.npmrc",
+      "bytes": 45,
+      "sha256": "a3909ac0447c469fda12c57374993be70f47ce73e49fd3124678c7c047f2214d"
+    },
+    {
+      "path": "xiaohe-app/.openai/hosting.json",
+      "bytes": 95,
+      "sha256": "9473a663b82ea38e8b7b960db767404effd7a1f915cc56a383007dff94a313f5"
+    },
+    {
+      "path": "xiaohe-app/README.md",
+      "bytes": 8469,
+      "sha256": "822c87407686cdb6f9d04605b84b89c6f64b0b46aa268e4920d3c22d0ad9a222"
+    },
+    {
+      "path": "xiaohe-app/app/api/access/route.ts",
+      "bytes": 1308,
+      "sha256": "d2657fbef039b7dbfa6f2fb8cc25ec23a66f397be70546551fce3a334bdb498b"
+    },
+    {
+      "path": "xiaohe-app/app/api/evidence/[proposalId]/images/[uploadId]/route.ts",
+      "bytes": 2708,
+      "sha256": "13fec3f93d2ddae806bf2982d575df929014489c3b5239a6a4234e1acd10485b"
+    },
+    {
+      "path": "xiaohe-app/app/api/files/[id]/route.ts",
+      "bytes": 2237,
+      "sha256": "ef65726d254b429e19140d2785fc27f444feba536f8fdf3138a62adb9988f043"
+    },
+    {
+      "path": "xiaohe-app/app/api/upload/route.ts",
+      "bytes": 5536,
+      "sha256": "9cf090177c0afb1bc4411370adc069ee03f36bfdd844507b2698cde26dd201e4"
+    },
+    {
+      "path": "xiaohe-app/app/api/workspace/route.ts",
+      "bytes": 3148,
+      "sha256": "7dcde809c1161853777f5f1217f16aec1d38a5f9f1f2931f6da8575bf6cb1372"
+    },
+    {
+      "path": "xiaohe-app/app/chatgpt-auth.ts",
+      "bytes": 2550,
+      "sha256": "4265a2e7c2dcb3a6f4b7026f762bf5b6e4caec76cc13c0a45987ee9a9f2e42cc"
+    },
+    {
+      "path": "xiaohe-app/app/globals.css",
+      "bytes": 17227,
+      "sha256": "13230754fb414af280a2eedb16924062dafba6223e06159b498520bdf37eaace"
+    },
+    {
+      "path": "xiaohe-app/app/layout.tsx",
+      "bytes": 558,
+      "sha256": "8fdf53b9da49f21a4a7f533d01ce9a6007373ea83919f77ac596cd2406ca1414"
+    },
+    {
+      "path": "xiaohe-app/app/page.tsx",
+      "bytes": 22538,
+      "sha256": "9bcb8063a6ee1811cbaf1cb654e94cca68567b12eb262a6b1de0521192569897"
+    },
+    {
+      "path": "xiaohe-app/app/print/[paperId]/page.tsx",
+      "bytes": 214,
+      "sha256": "9a2275ca2eff185191794891758b046e26093dc056537ee19dd6afacdc1a3975"
+    },
+    {
+      "path": "xiaohe-app/cloudflare-env.d.ts",
+      "bytes": 99,
+      "sha256": "8b0eca84aa3364cc7ccc43cc3af6beb88dd34ebd410de08690bf094ce39fbcb0"
+    },
+    {
+      "path": "xiaohe-app/components.json",
+      "bytes": 420,
+      "sha256": "31f4ca67a4a62572571003d3d5aac85ee6fbfca67a192924bac6b168d95e98fd"
+    },
+    {
+      "path": "xiaohe-app/components/access-workspace.css",
+      "bytes": 6036,
+      "sha256": "4dbba1a5073bb1be8c65c8a56582933bdc1b4662f2ae7889e67d005bd406f8cc"
+    },
+    {
+      "path": "xiaohe-app/components/access-workspace.tsx",
+      "bytes": 14316,
+      "sha256": "8f376e57cc5284e3e7fdafbf6ad1ee4f04daaafa9d2a7b2bbbf106e094024c76"
+    },
+    {
+      "path": "xiaohe-app/components/admin-mastery-workspace.css",
+      "bytes": 11742,
+      "sha256": "87724dc9cb670af58ebf06eac34b1ff735ca105f77324e77595260d85a987e53"
+    },
+    {
+      "path": "xiaohe-app/components/admin-mastery-workspace.tsx",
+      "bytes": 35958,
+      "sha256": "cc5e94920f7f216842d8d29c1f0c76bf3dd521f69f2e8f16f5d67ecdd71fe686"
+    },
+    {
+      "path": "xiaohe-app/components/admin-workspace.css",
+      "bytes": 38313,
+      "sha256": "4ef5cf3614b71fb47b981c786a5009e2957645c54798658f522a65fc10334902"
+    },
+    {
+      "path": "xiaohe-app/components/admin-workspace.tsx",
+      "bytes": 69072,
+      "sha256": "86e6eec33d1da6316d5bcefe0ae3d37c2c1add474f687cfb4d01f9cb9f6b28a7"
+    },
+    {
+      "path": "xiaohe-app/components/camera-workspace.tsx",
+      "bytes": 8130,
+      "sha256": "3b238b340e71c87ebe1bdf186362dd0af8c69fed8202ee42c5437d365a026faf"
+    },
+    {
+      "path": "xiaohe-app/components/companion-chat.tsx",
+      "bytes": 32790,
+      "sha256": "9c510c2123ed1723ddf1858492bd1d4c06ac55c6238050a68b9b797fd4281f85"
+    },
+    {
+      "path": "xiaohe-app/components/companion-tools.css",
+      "bytes": 10252,
+      "sha256": "124b06eacc185096491c6fe6fed235a3993ab8f93267fa830551d7792d2097cf"
+    },
+    {
+      "path": "xiaohe-app/components/connector-error.tsx",
+      "bytes": 1082,
+      "sha256": "2d0d04559952ce9c9a327cca499f4b99f35d885cccfce375230e116695d3f155"
+    },
+    {
+      "path": "xiaohe-app/components/evidence-review-workspace.css",
+      "bytes": 3994,
+      "sha256": "eba843a473aeba5faef1f167a37b393c918768db5ddfd3c7025cb2939f8e40fb"
+    },
+    {
+      "path": "xiaohe-app/components/evidence-review-workspace.tsx",
+      "bytes": 27804,
+      "sha256": "0a3dce4e98e23fc6a41182df8d6e5a76ea23cabe39cdea97523dbdc417249b19"
+    },
+    {
+      "path": "xiaohe-app/components/history-deletion-workspace.css",
+      "bytes": 2502,
+      "sha256": "043705df3d45107789f7bf3fa00f7f7c09634e15d79b90fa261bbe8e388f0f62"
+    },
+    {
+      "path": "xiaohe-app/components/history-deletion-workspace.tsx",
+      "bytes": 15393,
+      "sha256": "b7bda57381625cf0b94b0995b4f2942a0ecd8d183fed4ff0843c81ad02cec0fb"
+    },
+    {
+      "path": "xiaohe-app/components/print-paper.css",
+      "bytes": 2010,
+      "sha256": "f396a958789a647889d305dfe35cb426cc682226083f0638cb8715b7c9f2e91e"
+    },
+    {
+      "path": "xiaohe-app/components/print-paper.tsx",
+      "bytes": 2788,
+      "sha256": "bc1b4c99a7f93026fabbc543781498d9984facbc2dde6d9a9030e65be7963cf6"
+    },
+    {
+      "path": "xiaohe-app/components/shared-learning.css",
+      "bytes": 4866,
+      "sha256": "e36c4193b2b40625d05ad745d4b8c8f698846eaf7f65ad766710b266f2d50629"
+    },
+    {
+      "path": "xiaohe-app/components/shared-learning.tsx",
+      "bytes": 12912,
+      "sha256": "7b0752f07a24b6869cfd38fdaa91b24baffadf649efc3836c7f2eb6d2989b23e"
+    },
+    {
+      "path": "xiaohe-app/components/student-learning.css",
+      "bytes": 34161,
+      "sha256": "f7a488fd37b658810dd0e6ccdac744e7262522801dbc992a5450858d4b6c3bc2"
+    },
+    {
+      "path": "xiaohe-app/components/student-learning.tsx",
+      "bytes": 63220,
+      "sha256": "11968d5d66e6b7eb1bee2aa5acc4d060d0462fc556fb31e5970cf2ce99d5e377"
+    },
+    {
+      "path": "xiaohe-app/components/ui/accordion.tsx",
+      "bytes": 2048,
+      "sha256": "a4f153089ba886dfcf73fac26b5c01ca933fa12fbe88df6fb723912bfffdfbb0"
+    },
+    {
+      "path": "xiaohe-app/components/ui/alert-dialog.tsx",
+      "bytes": 5439,
+      "sha256": "9a8d950f2b9b4352d5ebb762fb44d5c28c2d353aa29712071973656a8736e311"
+    },
+    {
+      "path": "xiaohe-app/components/ui/alert.tsx",
+      "bytes": 1614,
+      "sha256": "2cc59b5f7bda91c1670884b1bf46bfc8a2a6f226cef184f5762acc037188885b"
+    },
+    {
+      "path": "xiaohe-app/components/ui/aspect-ratio.tsx",
+      "bytes": 274,
+      "sha256": "b1c157886236782cb92d8fbcd4749532aaf6d8aabefd6e157ca40358f902f407"
+    },
+    {
+      "path": "xiaohe-app/components/ui/attachment.tsx",
+      "bytes": 6002,
+      "sha256": "ae8a25dd1a896d3964e3ef54d97e51221b418cde287dfd794428b89951c5c790"
+    },
+    {
+      "path": "xiaohe-app/components/ui/avatar.tsx",
+      "bytes": 2916,
+      "sha256": "58a846bf1617b94b9681921db9b8461d0145f311424663d11678a06b6153cb34"
+    },
+    {
+      "path": "xiaohe-app/components/ui/badge.tsx",
+      "bytes": 1776,
+      "sha256": "46a0de5224f6a5d5d63d45246534288518dce888f031064bff925bbc7fe6ad97"
+    },
+    {
+      "path": "xiaohe-app/components/ui/breadcrumb.tsx",
+      "bytes": 2350,
+      "sha256": "d4c0831bba2212e778248f54a6ace6ef378df8bba4616d1abf27787a31eabae5"
+    },
+    {
+      "path": "xiaohe-app/components/ui/bubble.tsx",
+      "bytes": 4699,
+      "sha256": "870cc0c5cfc8a515053f7e41e706a6bd017a909b45f1305fd3b164a52cc4483b"
+    },
+    {
+      "path": "xiaohe-app/components/ui/button-group.tsx",
+      "bytes": 2202,
+      "sha256": "784c89d8ee683e1bc972ae69e6ea8225a7f63abe22aa1b5fc3423ae8a2a399c0"
+    },
+    {
+      "path": "xiaohe-app/components/ui/button.tsx",
+      "bytes": 2392,
+      "sha256": "cc36af0f8b5019c33cc039fbf03bb952a513072b15b55b53c592b78af3e5f4c4"
+    },
+    {
+      "path": "xiaohe-app/components/ui/calendar.tsx",
+      "bytes": 7832,
+      "sha256": "3855fbe0d3f8ad3a4b93071f98b76a9f6782d46ec8b05f5d2ddbee1e4e39bc84"
+    },
+    {
+      "path": "xiaohe-app/components/ui/card.tsx",
+      "bytes": 1987,
+      "sha256": "c48dd3b96be90a7066f1aebf294f0af9d00ebcdc367d5d4aca55429ade570c1c"
+    },
+    {
+      "path": "xiaohe-app/components/ui/carousel.tsx",
+      "bytes": 5556,
+      "sha256": "b7ea0dda3903d972c186f739e23da61f547bc83b5a0bf13b16856577846d5fc3"
+    },
+    {
+      "path": "xiaohe-app/components/ui/chart.tsx",
+      "bytes": 10614,
+      "sha256": "45aa5ea4a386f4fb5b8869ff4bab3a08cf89255190ee322043baf84c3e950b6a"
+    },
+    {
+      "path": "xiaohe-app/components/ui/checkbox.tsx",
+      "bytes": 1214,
+      "sha256": "b23ab9d4deeedf2ac8f512c368361ede681aa383437ef48563a6f9b7dbe95f27"
+    },
+    {
+      "path": "xiaohe-app/components/ui/collapsible.tsx",
+      "bytes": 795,
+      "sha256": "c6598e5584f4258b5d9fefadbc5ad6a66888ad58729f4b634a0bb2d9c513188b"
+    },
+    {
+      "path": "xiaohe-app/components/ui/combobox.tsx",
+      "bytes": 9158,
+      "sha256": "2d68e78b2dc7e38a085f222dede60a80b4f8229a6e91732c484605e204d46735"
+    },
+    {
+      "path": "xiaohe-app/components/ui/command.tsx",
+      "bytes": 4818,
+      "sha256": "361193df1e3d64a9e9b5048f045264782fcb387aab3f00f2b805fdcbf538b16a"
+    },
+    {
+      "path": "xiaohe-app/components/ui/context-menu.tsx",
+      "bytes": 8268,
+      "sha256": "2cf1fcf59df0649a3e2a126d1df2f639145f6b6bf5689ee54af1f40ab1245017"
+    },
+    {
+      "path": "xiaohe-app/components/ui/dialog.tsx",
+      "bytes": 4303,
+      "sha256": "dce39c6adc47d997bd2567f8b7a72f466b0134715105cd42f9194007b8ecdb14"
+    },
+    {
+      "path": "xiaohe-app/components/ui/direction.tsx",
+      "bytes": 506,
+      "sha256": "84ae2ad658207f0e0f367978e5508cd8027cd00c29c41d3d13db21a708c3d1e6"
+    },
+    {
+      "path": "xiaohe-app/components/ui/drawer.tsx",
+      "bytes": 4255,
+      "sha256": "cb6eaf58eb0757ca91af284e5d925b89a42ad7eb19cb3f44c575a3487aa9350f"
+    },
+    {
+      "path": "xiaohe-app/components/ui/dropdown-menu.tsx",
+      "bytes": 8418,
+      "sha256": "98f0dcdae38225b73734aceeb9213dd751fea2c72ea520df31003cd133deac8a"
+    },
+    {
+      "path": "xiaohe-app/components/ui/empty.tsx",
+      "bytes": 2396,
+      "sha256": "ae95bdcf367a076ae02e7925f14522a148798f72d9651749c6d55497dba584c0"
+    },
+    {
+      "path": "xiaohe-app/components/ui/field.tsx",
+      "bytes": 6159,
+      "sha256": "ba67d76f017ac059fc86cf8c344e0b2991c4322d3619e125498c19b87f6eefbd"
+    },
+    {
+      "path": "xiaohe-app/components/ui/form.tsx",
+      "bytes": 3757,
+      "sha256": "315b46bb75ab7d1c6061b5d750aa4bedf6e7a455e15e2d7f9182f053d5972b1e"
+    },
+    {
+      "path": "xiaohe-app/components/ui/hover-card.tsx",
+      "bytes": 1526,
+      "sha256": "f5d8df42c59370ec14d61bcc54f7d68e9bb7dfa0d6a872b2f7cffc2aafbf23b8"
+    },
+    {
+      "path": "xiaohe-app/components/ui/input-group.tsx",
+      "bytes": 5065,
+      "sha256": "6afbd58fea4c438e6252dc4568bddc122e84ababead4ad5cee50ace01100c9a0"
+    },
+    {
+      "path": "xiaohe-app/components/ui/input-otp.tsx",
+      "bytes": 2254,
+      "sha256": "161946daa89f0eda2575b9271c0494e35807c4ffb55598a49f67160c17fec299"
+    },
+    {
+      "path": "xiaohe-app/components/ui/input.tsx",
+      "bytes": 962,
+      "sha256": "8c4612a7c41319ac5049daa3b34b080f9784b6245c17780eb87c127e58e473db"
+    },
+    {
+      "path": "xiaohe-app/components/ui/item.tsx",
+      "bytes": 4486,
+      "sha256": "6e2144d6d87142dbbe56d568810bf546318c8aa661447ebb0d76ebbf382cb45f"
+    },
+    {
+      "path": "xiaohe-app/components/ui/kbd.tsx",
+      "bytes": 862,
+      "sha256": "6088c3a5432338b1719c17e9b5d0e1fa74fd1f66060f248fc88909d33a82cd13"
+    },
+    {
+      "path": "xiaohe-app/components/ui/label.tsx",
+      "bytes": 606,
+      "sha256": "a476e41f08b9de5bd447de66a33d8bc2ad18f2fa6b96c064778bab4b6f439f4c"
+    },
+    {
+      "path": "xiaohe-app/components/ui/marker.tsx",
+      "bytes": 1864,
+      "sha256": "3d798763f094b2bb5e7ade2d5cd1b9bab498bc8ca7fd4cfaf4e5835bdedc34a0"
+    },
+    {
+      "path": "xiaohe-app/components/ui/menubar.tsx",
+      "bytes": 8389,
+      "sha256": "9243af8afcea03703398ccd1c2a8c0a87ad6cbaf2bd272fb609f5b79fe46aebb"
+    },
+    {
+      "path": "xiaohe-app/components/ui/message-scroller.tsx",
+      "bytes": 3992,
+      "sha256": "bb7660a248e4e9589c3816c7c1c199ea1381a70d2c8476ae895b567a7a4d86cf"
+    },
+    {
+      "path": "xiaohe-app/components/ui/message.tsx",
+      "bytes": 2232,
+      "sha256": "9d2952bf3b641081f09aa2739535e6bbd1be0a4946789752a2c20d8aaef43185"
+    },
+    {
+      "path": "xiaohe-app/components/ui/native-select.tsx",
+      "bytes": 1995,
+      "sha256": "007516b111fca8c98a6c40c94ab91bb68cc5b52afce1ed1f5e510c3d86e7347c"
+    },
+    {
+      "path": "xiaohe-app/components/ui/navigation-menu.tsx",
+      "bytes": 6658,
+      "sha256": "889d358a77de88e9cb6f39ea4895ea4c76eaf01d731b74e44f1c41e97a78a044"
+    },
+    {
+      "path": "xiaohe-app/components/ui/pagination.tsx",
+      "bytes": 2717,
+      "sha256": "374ad135c3d4ff3ec080a0009cd9745cdd0e12faa89d2b0e86074f11e5127fd1"
+    },
+    {
+      "path": "xiaohe-app/components/ui/popover.tsx",
+      "bytes": 2357,
+      "sha256": "31c350309ff5d3034e6ecf1b0eda75ba8855bdbf987fc7ad6d71f0ef07c5a447"
+    },
+    {
+      "path": "xiaohe-app/components/ui/progress.tsx",
+      "bytes": 755,
+      "sha256": "c8c26e8f5f041c3cdf4915347dc1d9c022f9448f149990fadcaf303e952fa57d"
+    },
+    {
+      "path": "xiaohe-app/components/ui/radio-group.tsx",
+      "bytes": 1460,
+      "sha256": "fe5ce39636d0818c2bf9c4eebddff893d1225fa2c81b5fa4bb8cbb39a8c913ce"
+    },
+    {
+      "path": "xiaohe-app/components/ui/resizable.tsx",
+      "bytes": 1815,
+      "sha256": "bc63958467aa00557c551bb0d96a5ae4c965c1e1ba2380e595949d933b132f7c"
+    },
+    {
+      "path": "xiaohe-app/components/ui/scroll-area.tsx",
+      "bytes": 1639,
+      "sha256": "8bd9d986b2844c9a87de825c6de4787b6739b36c3dc9a05ccf3eb107160e4043"
+    },
+    {
+      "path": "xiaohe-app/components/ui/select.tsx",
+      "bytes": 6353,
+      "sha256": "0b796a108a4eb5ba52d9ad938b7aea36dc56ae66c703a6d0a23dbc24f96daff3"
+    },
+    {
+      "path": "xiaohe-app/components/ui/separator.tsx",
+      "bytes": 694,
+      "sha256": "6da346505c8629a4668420d2a5ca48891383bbe0b0ceb14163537c671879427e"
+    },
+    {
+      "path": "xiaohe-app/components/ui/sheet.tsx",
+      "bytes": 4188,
+      "sha256": "63863cf2df8f8973e52b3459ac9bdbf81be1262dbc70eb53d5271ffb03488e16"
+    },
+    {
+      "path": "xiaohe-app/components/ui/sidebar.tsx",
+      "bytes": 21526,
+      "sha256": "4a8d73e7730a2b1fcecfca31299ed26db65c2307b84197a59c6ec7c01c7ad28e"
+    },
+    {
+      "path": "xiaohe-app/components/ui/skeleton.tsx",
+      "bytes": 276,
+      "sha256": "ba48dd5be5a6a1378bd4e011028654b5bf419f1e7d20ee4b9f8330c1264e7239"
+    },
+    {
+      "path": "xiaohe-app/components/ui/slider.tsx",
+      "bytes": 1991,
+      "sha256": "0e37484f4b416e79ac18c655cac961aefacf6e67085cfc2b320ea8af545635a3"
+    },
+    {
+      "path": "xiaohe-app/components/ui/sonner.tsx",
+      "bytes": 1034,
+      "sha256": "13ccc9b0fe4248e622f83a1d3b2f0566b72b5e04162d7d0c8db8945ecc71b55f"
+    },
+    {
+      "path": "xiaohe-app/components/ui/spinner.tsx",
+      "bytes": 331,
+      "sha256": "3e6e6e8d37fb4069f8e43e55318f8db06fbc36e6c8be0096da3c9337c1c798b9"
+    },
+    {
+      "path": "xiaohe-app/components/ui/switch.tsx",
+      "bytes": 1408,
+      "sha256": "386d4d4deb39f34126f9700fe9bf5393d238485dd94018bba9d154dda84c62ae"
+    },
+    {
+      "path": "xiaohe-app/components/ui/table.tsx",
+      "bytes": 2478,
+      "sha256": "20e5a7f224959c6b75802995706a97e9da171f693d4b6b1b436388fcd9df96f3"
+    },
+    {
+      "path": "xiaohe-app/components/ui/tabs.tsx",
+      "bytes": 3782,
+      "sha256": "865d0194331b9b2be36723fa79d3575dc83078b4cb941cafee87cb72fc2cff46"
+    },
+    {
+      "path": "xiaohe-app/components/ui/textarea.tsx",
+      "bytes": 759,
+      "sha256": "253cdeb487c73beaaccdf47fc163e36e7d5b7ae6ddf09a4f64998a109a112979"
+    },
+    {
+      "path": "xiaohe-app/components/ui/toggle-group.tsx",
+      "bytes": 2308,
+      "sha256": "69f643e889e933f05c1439084480d8646f66a161c7d1cf0730ee926382ade35e"
+    },
+    {
+      "path": "xiaohe-app/components/ui/toggle.tsx",
+      "bytes": 1565,
+      "sha256": "ba4d0b0a2b2fee75dc36dfc19e32082e721024b919050c97fd5dc70faa924e16"
+    },
+    {
+      "path": "xiaohe-app/components/ui/tooltip.tsx",
+      "bytes": 1830,
+      "sha256": "a0784eb77831a799fad7991df4f1b666f876201565a80175e1aa68733574a2e4"
+    },
+    {
+      "path": "xiaohe-app/content-trial-notes.md",
+      "bytes": 4089,
+      "sha256": "0cfdb7ff4efc8ef5308ffc357aa4b826bf5b4588f1ae3ca7f49c15e883170233"
+    },
+    {
+      "path": "xiaohe-app/db/index.ts",
+      "bytes": 423,
+      "sha256": "dc7610b00b918e0ffff1360a63626f16655ced3064b2eaf96095a4101fb14bcd"
+    },
+    {
+      "path": "xiaohe-app/db/schema.ts",
+      "bytes": 3194,
+      "sha256": "61fbc794269e7e3b0a1a2704fb66c5595ba593b7b46331fa857bf97403afaa9a"
+    },
+    {
+      "path": "xiaohe-app/docs/companion-web-validation.md",
+      "bytes": 5841,
+      "sha256": "65404ce5ca455af394603a1a027803a7761810dc803bf9bcb3d88f69e5e4ee5f"
+    },
+    {
+      "path": "xiaohe-app/docs/content-web-validation.md",
+      "bytes": 5560,
+      "sha256": "696df118d66efbf5bddb9d5ac958302125e821f8f238400508eeae5b31b2e8b9"
+    },
+    {
+      "path": "xiaohe-app/docs/evidence-web-validation.md",
+      "bytes": 4519,
+      "sha256": "578530e10aae1c7726dc2507947d0055ddb529e5a1ce9aa56de61d22aa6683e4"
+    },
+    {
+      "path": "xiaohe-app/docs/history-web-validation.md",
+      "bytes": 6742,
+      "sha256": "e36dabc53eb717098e0b23c616b47c4edc5dba09c6c1eca293d7db43fd3c50a1"
+    },
+    {
+      "path": "xiaohe-app/docs/implementation-plan.md",
+      "bytes": 14666,
+      "sha256": "77ff254f066acfbb508a4747a4f90872348ea435a8f3b77df9c2156575210953"
+    },
+    {
+      "path": "xiaohe-app/docs/mastery-web-validation.md",
+      "bytes": 6414,
+      "sha256": "7d39439f56179d068d2f0840e17bb86dbf314ff67b4ea27a80c97d7207520caf"
+    },
+    {
+      "path": "xiaohe-app/docs/recognition-validation.md",
+      "bytes": 7614,
+      "sha256": "ab100cbc24c0ef83360ad62409a6ee464c4f542774a8abacdb7da56f7ce2b203"
+    },
+    {
+      "path": "xiaohe-app/docs/verification.md",
+      "bytes": 3213,
+      "sha256": "d99c666546887fd81a58b6e8de913dab6c5bc67cb4cc73b83333321af20c4827"
+    },
+    {
+      "path": "xiaohe-app/drizzle.config.ts",
+      "bytes": 148,
+      "sha256": "af081f7384aaeb0082cf422e29f139d137ca2f6a57c69b2c37b9fb1f8479867b"
+    },
+    {
+      "path": "xiaohe-app/drizzle/0000_great_wallop.sql",
+      "bytes": 682,
+      "sha256": "312624a9962696e8e452af0624217902c3aa87e413116291465e496d913b0fdd"
+    },
+    {
+      "path": "xiaohe-app/drizzle/0001_melodic_alex_power.sql",
+      "bytes": 2374,
+      "sha256": "d8bbfda5bea76be94cef7a61293e1a04ba26b2c0fc5d91a7a0dbdb40806b57ab"
+    },
+    {
+      "path": "xiaohe-app/drizzle/0002_history_upload_fence.sql",
+      "bytes": 76,
+      "sha256": "92ac702c09fa93f872f20e7245650c004dbf79364425d9a9c7b0202613d223a1"
+    },
+    {
+      "path": "xiaohe-app/drizzle/meta/0000_snapshot.json",
+      "bytes": 3489,
+      "sha256": "ac35f5c16e651e4a915a77450d862df76095974dd12015fa9ff83140794f41b4"
+    },
+    {
+      "path": "xiaohe-app/drizzle/meta/0001_snapshot.json",
+      "bytes": 11249,
+      "sha256": "c4a95dc4165ebb8ef9755717cfef131645765cbfff381eb23ae6dd9fd9596695"
+    },
+    {
+      "path": "xiaohe-app/drizzle/meta/0002_snapshot.json",
+      "bytes": 11466,
+      "sha256": "ef38f8158b5b8bf11f6d043454945f679129178598dc447afec61401916a146e"
+    },
+    {
+      "path": "xiaohe-app/drizzle/meta/_journal.json",
+      "bytes": 496,
+      "sha256": "e65b7b51920a422f354a37e76385a09f39fcf9e135ab6328d133c9fae7feed65"
+    },
+    {
+      "path": "xiaohe-app/eslint.config.mjs",
+      "bytes": 791,
+      "sha256": "eeda7faabe9560fa9fdb26675b0011fa78461ca7061989732f5da9245b87e315"
+    },
+    {
+      "path": "xiaohe-app/examples/d1/app/api/notes/route.ts",
+      "bytes": 1700,
+      "sha256": "a3d4a74fd53b7bf53e2df41f169d9d9d44a8b22aeb6d92f4e754956079af8909"
+    },
+    {
+      "path": "xiaohe-app/examples/d1/db/schema.ts",
+      "bytes": 370,
+      "sha256": "d89eabd95716ce404f5f7ca2a254220435be8ddce7c899d7ef461ff22ec80454"
+    },
+    {
+      "path": "xiaohe-app/hooks/use-mobile.ts",
+      "bytes": 565,
+      "sha256": "ad0936f84f1df79d3697bfbff9c18f8ad58431c1cbaf2359c6a853b0fcc9f28b"
+    },
+    {
+      "path": "xiaohe-app/lib/access-types.ts",
+      "bytes": 905,
+      "sha256": "37f7e5b4fb9b449f4a25bae6ec61ae224fed98883c992f1707d6793297b9b0d2"
+    },
+    {
+      "path": "xiaohe-app/lib/chat-draft-cache.ts",
+      "bytes": 2804,
+      "sha256": "e405f0c0ca6188774b1be2889190e742902a325cc70fe794d25b25007b81916a"
+    },
+    {
+      "path": "xiaohe-app/lib/chat-navigation.ts",
+      "bytes": 1471,
+      "sha256": "f2dee9a1bab027cc8d82aaa1712c7be420a94d692765957e23fcf087a90bcb5b"
+    },
+    {
+      "path": "xiaohe-app/lib/client.ts",
+      "bytes": 2686,
+      "sha256": "13caf4dba0dda724e037c3b64c9a005961e2dcb92ee4ecdd70661737c451b88c"
+    },
+    {
+      "path": "xiaohe-app/lib/connector-context.ts",
+      "bytes": 612,
+      "sha256": "bbddff68689cb0f6926fecd4b8b96f12f2054277c296e97b0df07d4ad5ece24e"
+    },
+    {
+      "path": "xiaohe-app/lib/connector-contract.mts",
+      "bytes": 5362,
+      "sha256": "e1a7b24a8793af34b595690d9b1300c897c7321c14f215cedf58ad95799d7c3e"
+    },
+    {
+      "path": "xiaohe-app/lib/connector-errors.mts",
+      "bytes": 2717,
+      "sha256": "a22edf13d6873ae832c4a2a0d579fc666c73ec996ef0722d39172649d38f0871"
+    },
+    {
+      "path": "xiaohe-app/lib/connector-preview.d.ts",
+      "bytes": 433,
+      "sha256": "abd69a94f7f61f1359063bb557574faae35e8ff5a028cc4c04b9ee248ef52642"
+    },
+    {
+      "path": "xiaohe-app/lib/connectors.ts",
+      "bytes": 416,
+      "sha256": "1c93d747e384c8e17e3e3dd5361b24412babf5eba2a11d2ae7a75f4e0924112c"
+    },
+    {
+      "path": "xiaohe-app/lib/effective-evidence.ts",
+      "bytes": 9303,
+      "sha256": "5f8d813c4905cd7c79cd5605c286dd055f25a95e1b00d72f69ec5970306ce93a"
+    },
+    {
+      "path": "xiaohe-app/lib/grading.ts",
+      "bytes": 1538,
+      "sha256": "8122a1c1f7a376f617c190e8fd3771bf134a067fee58a79425e1641314065379"
+    },
+    {
+      "path": "xiaohe-app/lib/history-deletion.ts",
+      "bytes": 1432,
+      "sha256": "6c4b350b122dc8918ba342e01c37ea77be88282834d9dd4d01b69923d68a7796"
+    },
+    {
+      "path": "xiaohe-app/lib/learning-cache-cleanup.ts",
+      "bytes": 2592,
+      "sha256": "13e918da3afed2a4795449c66474318cd04048e3f53a827077833aff8483890e"
+    },
+    {
+      "path": "xiaohe-app/lib/seed.ts",
+      "bytes": 16979,
+      "sha256": "8b81a4327f360ab87494c55cdab09e82cb4868a1e8dcb856bfe431a5e2d89d49"
+    },
+    {
+      "path": "xiaohe-app/lib/server/access-policy.ts",
+      "bytes": 10389,
+      "sha256": "e0a83cf7afa2027d7f91cfad347045ea18e486662d86b6b360c8d7f0ababffbd"
+    },
+    {
+      "path": "xiaohe-app/lib/server/companion.ts",
+      "bytes": 31833,
+      "sha256": "dbd32ab818d444cc47b90d7c6a7e569b3da4ebd9ed93afda736dd360c4ea81ac"
+    },
+    {
+      "path": "xiaohe-app/lib/server/content.ts",
+      "bytes": 33867,
+      "sha256": "3e46b645cade7eeed849382aa5cf3459fa7761ece11a3ae55e45350e838bda0b"
+    },
+    {
+      "path": "xiaohe-app/lib/server/domain-error.ts",
+      "bytes": 259,
+      "sha256": "92fedbc35d7ca5b8c81cb5bbb385975cdde933e75771b8c74837fae135484c66"
+    },
+    {
+      "path": "xiaohe-app/lib/server/domain.ts",
+      "bytes": 44713,
+      "sha256": "f61b43159eaca60dfc479cd9a7f976ee6975a4886fcee047536c0b03612350f3"
+    },
+    {
+      "path": "xiaohe-app/lib/server/evidence.ts",
+      "bytes": 24409,
+      "sha256": "0fa6628464a431a60d0164210459c1bb7f52c59a79a75c846d52cafd1934bd18"
+    },
+    {
+      "path": "xiaohe-app/lib/server/file-access.ts",
+      "bytes": 889,
+      "sha256": "da4f87e62005fc89112371ff8693797bf8ac9a136d3f5bc8350ab786d8d084a3"
+    },
+    {
+      "path": "xiaohe-app/lib/server/history-file-gc.ts",
+      "bytes": 8895,
+      "sha256": "9ea13321e27cd3a8ec02ec03b2af45d9639d50377a5eaa5d0ec3d86c111bbd33"
+    },
+    {
+      "path": "xiaohe-app/lib/server/history.ts",
+      "bytes": 31074,
+      "sha256": "2f26b210b395419f6850069a39e5f38a475c37863d446cc9ea9e5c1401bdbe46"
+    },
+    {
+      "path": "xiaohe-app/lib/server/http.ts",
+      "bytes": 2765,
+      "sha256": "919f4487edbd2b0673824bd99b2ecacf987b8028978e83e02a967f8a5bc4930e"
+    },
+    {
+      "path": "xiaohe-app/lib/server/mastery.ts",
+      "bytes": 29455,
+      "sha256": "f76a4ff182a3fdfea9100ee2c068188bb072c52f82c5cd6433ef485fb6e2e4f5"
+    },
+    {
+      "path": "xiaohe-app/lib/server/memberships.ts",
+      "bytes": 14034,
+      "sha256": "9c08c451426ebd93c5e75d3b6f05a8a63b346887e6d5272b94b4638dda5cbc87"
+    },
+    {
+      "path": "xiaohe-app/lib/server/recognition.ts",
+      "bytes": 29341,
+      "sha256": "f0487657d301ebddf608121d247159bf27dca3260ccb058ee8f656f83c5aae0d"
+    },
+    {
+      "path": "xiaohe-app/lib/server/store.ts",
+      "bytes": 4476,
+      "sha256": "6b8302af7e51ed8a8848f7ab0532797af16db8ba01759332800d36b0bbd7d4b4"
+    },
+    {
+      "path": "xiaohe-app/lib/trial-content.ts",
+      "bytes": 10259,
+      "sha256": "5f33bea3adea2e1ab13b076a4dbbf175699b2dd0f4c5cf28bfbe07cbc2e0396f"
+    },
+    {
+      "path": "xiaohe-app/lib/types.ts",
+      "bytes": 19064,
+      "sha256": "8901785936f54a7c575c963212e3d32b30f673c7f5e97c051fa60b1fafbf64f6"
+    },
+    {
+      "path": "xiaohe-app/lib/ui-types.ts",
+      "bytes": 726,
+      "sha256": "4d210ee2c3bbb1be099f746404387b9d7da6be5d24c26ae25a8142b748af4052"
+    },
+    {
+      "path": "xiaohe-app/lib/utils.ts",
+      "bytes": 177,
+      "sha256": "53f3d3d070f0a9082934da25b875f9499855c2b0693868dd28be8c23d8730f68"
+    },
+    {
+      "path": "xiaohe-app/next.config.ts",
+      "bytes": 133,
+      "sha256": "614bce25b089c3f19b1e17a6346c74b858034040154c6621e7d35303004767cc"
+    },
+    {
+      "path": "xiaohe-app/outputs/access-deployment.json",
+      "bytes": 776,
+      "sha256": "07ec19047d6777c25cac86824dc425f99e2ab9c5fed65b05a630a07a18cd47d0"
+    },
+    {
+      "path": "xiaohe-app/outputs/deployment.json",
+      "bytes": 995,
+      "sha256": "a19962f454066bb25ed656b332ae214273de9ca0720196bba7a1c2374f8a40ea"
+    },
+    {
+      "path": "xiaohe-app/outputs/qa/access-api-result.json",
+      "bytes": 716,
+      "sha256": "2ca50b172222f786822bcda4b4c797f7acbbd451e36201ed707b1c2b3883ecd8"
+    },
+    {
+      "path": "xiaohe-app/outputs/qa/companion-web-api-initial.json",
+      "bytes": 39,
+      "sha256": "7f5b90893e9dea0cac6cbaa1752b465a924295610d6261435fb171f362af0d5d"
+    },
+    {
+      "path": "xiaohe-app/outputs/qa/companion-web-build.log",
+      "bytes": 1294,
+      "sha256": "777a7bb6f5423c22076b020616af1020bc4f97ae758170ae93db5d890326d540"
+    },
+    {
+      "path": "xiaohe-app/outputs/qa/companion-web-final-fixture-summary.json",
+      "bytes": 2090,
+      "sha256": "4161c71493477cab251215657e73dc5f0fc891ea6fc2df528e1f0ef492d95dfd"
+    },
+    {
+      "path": "xiaohe-app/outputs/qa/companion-web-fixture.json",
+      "bytes": 29559,
+      "sha256": "392d3482b01b6f63eca1b2ea978513beaed5df438f7b83357b689b27d7f1d22f"
+    },
+    {
+      "path": "xiaohe-app/outputs/qa/companion-web-lint.log",
+      "bytes": 1265,
+      "sha256": "f11e02ec7900c4681641f3da142c62caa6651bfd871a18223dbc68dc5b4634e2"
+    },
+    {
+      "path": "xiaohe-app/outputs/qa/companion-web-tests.log",
+      "bytes": 15624,
+      "sha256": "e8c100e8dd2a79a31fb5c8ad695127eee5fe9fac032b2aab196cda32f951d937"
+    },
+    {
+      "path": "xiaohe-app/outputs/qa/content-final-tests.log",
+      "bytes": 29542,
+      "sha256": "1d41a1edea81df2ffdf3c62aa6f9bd24efc81367cdd0cc942b237a52c88134f0"
+    },
+    {
+      "path": "xiaohe-app/outputs/qa/content-web/browser-export.json",
+      "bytes": 32455,
+      "sha256": "4cab3ff8685b1ae5e7b07f5922329dd33bd14ba4c145c185bf933f6baceb9535"
+    },
+    {
+      "path": "xiaohe-app/outputs/qa/evidence-build.log",
+      "bytes": 1508,
+      "sha256": "5fc7693a9e0e6629e3972ea57ba67e32e0230b14da36d5472248fe3d82c10bc6"
+    },
+    {
+      "path": "xiaohe-app/outputs/qa/evidence-lint.log",
+      "bytes": 1265,
+      "sha256": "0b382f3d4dfc52603f4b8b84fa48659a3f61c5506c16e0c189cf1bea3c762379"
+    },
+    {
+      "path": "xiaohe-app/outputs/qa/evidence-tests.log",
+      "bytes": 19476,
+      "sha256": "66aea008e0fa130936a395c12ef03a50910d414fc1de1e4457e913b2cc3ac171"
+    },
+    {
+      "path": "xiaohe-app/outputs/qa/evidence-typecheck.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "xiaohe-app/outputs/qa/history-web-build.log",
+      "bytes": 1508,
+      "sha256": "f4790c92bd15856838ff47e5c4c68dda4c4f7a00b45e7bade6759a4208e6cf2f"
+    },
+    {
+      "path": "xiaohe-app/outputs/qa/history-web-lint.log",
+      "bytes": 1265,
+      "sha256": "7a55b849dee48b46d688f5a08d16b8e730b4579e28c386157dee5382e37f8756"
+    },
+    {
+      "path": "xiaohe-app/outputs/qa/history-web-tests.log",
+      "bytes": 24129,
+      "sha256": "d32bf67a5d17777368bd25b2557feeaf0580a9a6d48bbc7f797ceba7981524bb"
+    },
+    {
+      "path": "xiaohe-app/outputs/qa/history-web-typecheck.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "xiaohe-app/outputs/qa/mobile.png",
+      "bytes": 37213,
+      "sha256": "b859a977c3918e6a2c12d192b3c256310f1ccadafc227aa9afe960472070ac7b"
+    },
+    {
+      "path": "xiaohe-app/outputs/qa/recognition-build.log",
+      "bytes": 1508,
+      "sha256": "887c4b61a83ee523bc9003bea0dd1cdcceadc80428696cb42057d4f55c88f2c6"
+    },
+    {
+      "path": "xiaohe-app/outputs/qa/recognition-canonical-tests.log",
+      "bytes": 26146,
+      "sha256": "479d6a30128c27a246842eb5f24e80ab8aa7f2f8e53b5ef383e6962f53b2f8fc"
+    },
+    {
+      "path": "xiaohe-app/outputs/qa/recognition-history-copy-tests.log",
+      "bytes": 3654,
+      "sha256": "6504161d5f3057299a417ebfa5e82b0d31d0822d0206bfe1b4a8e4d7d4a419be"
+    },
+    {
+      "path": "xiaohe-app/outputs/qa/recognition-lint.log",
+      "bytes": 1265,
+      "sha256": "7a55b849dee48b46d688f5a08d16b8e730b4579e28c386157dee5382e37f8756"
+    },
+    {
+      "path": "xiaohe-app/outputs/qa/recognition-targeted-tests.log",
+      "bytes": 2118,
+      "sha256": "fbc2c5af43b6846da235cb4cb43daa757766ab0700a168993ba2550b262968a0"
+    },
+    {
+      "path": "xiaohe-app/outputs/qa/recognition-typecheck.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "xiaohe-app/outputs/xiaohe-access-release.tar.gz",
+      "bytes": 1903445,
+      "sha256": "f7e77febfadb198856020ec6062244343c93daaad0d834006ffd6ef2e68e777a"
+    },
+    {
+      "path": "xiaohe-app/outputs/xiaohe-release.tar.gz",
+      "bytes": 1877911,
+      "sha256": "074dfa597d48ec3807dbf672c06ba1361512e51c539bf6626367d205bc49ce69"
+    },
+    {
+      "path": "xiaohe-app/package-lock.json",
+      "bytes": 504152,
+      "sha256": "eedaeab6870c0f70f9db869fcaa24abae9b0f945cbc9acb8a43b6e7ed6bcbfca"
+    },
+    {
+      "path": "xiaohe-app/package.json",
+      "bytes": 2102,
+      "sha256": "eb7b53ec5bdce1db5a8576b2ffc3b63ddd8c5fdee0f97dcb341674abbf69843a"
+    },
+    {
+      "path": "xiaohe-app/postcss.config.mjs",
+      "bytes": 94,
+      "sha256": "dfac7ac2d86d326a0e5adb024e7943c181393ed17a5fcb8f0315b24c7da6ddde"
+    },
+    {
+      "path": "xiaohe-app/public/favicon.svg",
+      "bytes": 318,
+      "sha256": "9cf60306846d6fb4bf73e574f5483f8e04b8e912871b2adbdc0a4b76a0f41ef6"
+    },
+    {
+      "path": "xiaohe-app/public/illustrations/xiaohe-companion.png",
+      "bytes": 1351488,
+      "sha256": "43c1ab5b89a554d13c1bb8366de9df016defeb411b2e482b3805682b365180dc"
+    },
+    {
+      "path": "xiaohe-app/scripts/build-verified.sh",
+      "bytes": 661,
+      "sha256": "2ae5329ac860076070c9217a43106a15cb5ecf907a0f7baeb9ef903f76b53c68"
+    },
+    {
+      "path": "xiaohe-app/scripts/connector-preview/connector-preview-session.mjs",
+      "bytes": 6855,
+      "sha256": "57224ad185a25115a14fccc68d3217e55b199260c3dd98a2c807beffec1a0a9b"
+    },
+    {
+      "path": "xiaohe-app/scripts/connector-preview/host-binding.mjs",
+      "bytes": 7793,
+      "sha256": "9e44ab6864133a5c82f834a5904ebb7d6104cb783c24efba3c0fe1a161182cea"
+    },
+    {
+      "path": "xiaohe-app/scripts/connector-preview/protocol.mjs",
+      "bytes": 1781,
+      "sha256": "111e062ebf08d3f180130f5bc3dcb3c1414c1d7be3c032c9d675a61c0c7513a8"
+    },
+    {
+      "path": "xiaohe-app/scripts/connector-preview/worker.mjs",
+      "bytes": 618,
+      "sha256": "bd9c98fc68f29d975fe10508dfc9029bb681dc5789a62861d5c938bdea2064bb"
+    },
+    {
+      "path": "xiaohe-app/scripts/execution-profile.mjs",
+      "bytes": 624,
+      "sha256": "2e71116f4d2b70cff8bb70436f8dd5c709ec7ff62893424530f404e0193d3630"
+    },
+    {
+      "path": "xiaohe-app/scripts/export-trial-content.mjs",
+      "bytes": 1133,
+      "sha256": "c689295aa8bafd83c9f18401c706772a46889d9c147dd4f84bf8ae24dfdd9c55"
+    },
+    {
+      "path": "xiaohe-app/scripts/install-ci.mjs",
+      "bytes": 1685,
+      "sha256": "4a5a92d60a08d0ba54effd8373da2da06284312c55b767287c68a0bec7200da7"
+    },
+    {
+      "path": "xiaohe-app/scripts/install-ci.sh",
+      "bytes": 6783,
+      "sha256": "10d8764a61be50351dc3496e13588270de7956f0aa5f1189c49cabb2d89fe5c0"
+    },
+    {
+      "path": "xiaohe-app/scripts/install-pnpm.sh",
+      "bytes": 9015,
+      "sha256": "a684c02c2b493dfbf262a66252a5cd36f81ca995a4024761728662ae63aa40c0"
+    },
+    {
+      "path": "xiaohe-app/scripts/npm-install.mjs",
+      "bytes": 7025,
+      "sha256": "9715c6a32d1d4a0289ef6376a0e819c3b6a6416b8a9877733d9fb4339ce626b6"
+    },
+    {
+      "path": "xiaohe-app/scripts/pnpm-install.mjs",
+      "bytes": 10633,
+      "sha256": "a83164e344c1947053def83b546be8115deaa827314bbaead7afe6b6451c5cdf"
+    },
+    {
+      "path": "xiaohe-app/scripts/run-framework.mjs",
+      "bytes": 993,
+      "sha256": "9bf9f41a29314cabe0238b8e9c540ec3f7b5a6adafc7c8fb6c3940722d061dca"
+    },
+    {
+      "path": "xiaohe-app/scripts/sites-env.mjs",
+      "bytes": 522,
+      "sha256": "21d7bde6acb9f716287e652c1b0e43ae4803d79be367ca2192fcba14740b5338"
+    },
+    {
+      "path": "xiaohe-app/scripts/sites-env.sh",
+      "bytes": 1600,
+      "sha256": "d18af7b222db748c9de257d5955b9d7f77ec350dab6321f114f0bc44c20388ac"
+    },
+    {
+      "path": "xiaohe-app/scripts/tool-environment.mjs",
+      "bytes": 791,
+      "sha256": "6da99286e0eb7905595ca851e68983bedf94a0f93814819d61f2b1f3a0342ba2"
+    },
+    {
+      "path": "xiaohe-app/scripts/verify-access-api.mjs",
+      "bytes": 15859,
+      "sha256": "6d97858fc2f05de128bca0aeb686c6650d389cfadc6785abc3df8b1f4c3c01ca"
+    },
+    {
+      "path": "xiaohe-app/scripts/verify-api.mjs",
+      "bytes": 12457,
+      "sha256": "0efa5af4bf291524f9797c16ccac59a682a2ab62ea9578d28e7030a33b8150f8"
+    },
+    {
+      "path": "xiaohe-app/scripts/vite/connector-preview-plugin.mjs",
+      "bytes": 7211,
+      "sha256": "a6a9fe2086e302f94a3f91e3c1a68a45bb3aa07d4a79faf01b14732191eb4e80"
+    },
+    {
+      "path": "xiaohe-app/scripts/vite/sites-vite-plugin.LICENSE",
+      "bytes": 1063,
+      "sha256": "7de1e115d165f176e68f962acdb809b5ab8d8ae78d3981e0701392b2ac50c713"
+    },
+    {
+      "path": "xiaohe-app/scripts/vite/sites-vite-plugin.ts",
+      "bytes": 7185,
+      "sha256": "07af20e7097d9ed1d76f7c446d02997550b8fc5ca89668b249e25eabd62c6834"
+    },
+    {
+      "path": "xiaohe-app/tests/access-policy.test.ts",
+      "bytes": 17987,
+      "sha256": "536d59f7f1de0566a1e997b869dd821551caf1a9524b349ebe7c467b182ac083"
+    },
+    {
+      "path": "xiaohe-app/tests/admin-content-workspace.test.mjs",
+      "bytes": 7725,
+      "sha256": "cf1216bdcae96b0e0e9ed3b0c61ef26620a67473be1413d2ec58b8cf89e354c3"
+    },
+    {
+      "path": "xiaohe-app/tests/companion-chat.test.mjs",
+      "bytes": 12882,
+      "sha256": "e17204a30afbd90e1f8514af88ef58dd1d5e1d859d871c81e6896c5101b33e51"
+    },
+    {
+      "path": "xiaohe-app/tests/companion.test.ts",
+      "bytes": 19541,
+      "sha256": "d5760ee9c0d13a37e6d92217b5273d43c39e0486d0d20383ceb6747d804ea813"
+    },
+    {
+      "path": "xiaohe-app/tests/content.test.ts",
+      "bytes": 18425,
+      "sha256": "dd8a0b4b0b5e291a98d0baf24d80738292df4645765a2017ed203fa6c2445ff9"
+    },
+    {
+      "path": "xiaohe-app/tests/domain.test.ts",
+      "bytes": 18540,
+      "sha256": "6b9bce3f69861984fe4552ce9d0f6923bd50c326660b89ff92cd579b1c91425b"
+    },
+    {
+      "path": "xiaohe-app/tests/evidence-image-route.test.ts",
+      "bytes": 9875,
+      "sha256": "05d87724786f905031978361ff1961da635f26fe5262e348c7220c686586b5ee"
+    },
+    {
+      "path": "xiaohe-app/tests/evidence-review-web.test.mjs",
+      "bytes": 19679,
+      "sha256": "22f26682b3abd9e28f0071e4e54cd577c4775e0fe786cadeb437ebbeadaaa1b2"
+    },
+    {
+      "path": "xiaohe-app/tests/evidence.test.ts",
+      "bytes": 21789,
+      "sha256": "88789291d0a004ef5cb0faf48eeb495ad9682b30d52fdc80cef9921554da63d0"
+    },
+    {
+      "path": "xiaohe-app/tests/history-deletion-web.test.mjs",
+      "bytes": 13500,
+      "sha256": "732a66ca2be365c558305a58c13a2ff34836be47509148338f8cf3a02fcc5ce7"
+    },
+    {
+      "path": "xiaohe-app/tests/history-deletion.test.ts",
+      "bytes": 20227,
+      "sha256": "cf1fc056f9e05f419dcfef2aca6fd34494c662b1cdd35c4e9f2ca92729245a0b"
+    },
+    {
+      "path": "xiaohe-app/tests/history-server.test.ts",
+      "bytes": 19986,
+      "sha256": "abec638aeee51e46897f84cd13091d5fc80e048f33665fdb75176745b337c5df"
+    },
+    {
+      "path": "xiaohe-app/tests/mastery.test.ts",
+      "bytes": 26341,
+      "sha256": "15f957efcaf5e498648a89f208df24d438e89231da9b65c1c607425aa9da4206"
+    },
+    {
+      "path": "xiaohe-app/tests/memberships.test.ts",
+      "bytes": 18945,
+      "sha256": "683f02d4badc12273aadbae4280e7594af5fa44465cd12d255a353dc747b7476"
+    },
+    {
+      "path": "xiaohe-app/tests/recognition.test.ts",
+      "bytes": 21783,
+      "sha256": "18f49fae62d954af0a8b9a8019419ec197a449c67363c151c0418082d7563f8d"
+    },
+    {
+      "path": "xiaohe-app/tests/seed-mastery.test.ts",
+      "bytes": 1597,
+      "sha256": "d4b79b4373554d512c16fec87e798821dee8e8aa4de95759087f7d5054b71ccd"
+    },
+    {
+      "path": "xiaohe-app/tests/trial-content.test.ts",
+      "bytes": 8359,
+      "sha256": "0fb9cdff05a2c7a4979ba7f238a572305a28aff759ef06133a283651391169be"
+    },
+    {
+      "path": "xiaohe-app/tests/workspace-route.test.ts",
+      "bytes": 15426,
+      "sha256": "b2c1a66efd33f52e24214db3cec9a5655fa3c333ff6c0253c19a8d9cd3341e7a"
+    },
+    {
+      "path": "xiaohe-app/tsconfig.json",
+      "bytes": 933,
+      "sha256": "f9418bf9a00763ba53f1683ab7a8ae9c9a9ffc8626f01abcd2ed089f871b7cf7"
+    },
+    {
+      "path": "xiaohe-app/vendor/shadcn-tailwind-4.13.0.LICENSE.md",
+      "bytes": 1063,
+      "sha256": "1564074e13439397221ffd522e2e504d56561994a23d371aa5e3ad43e4f5423f"
+    },
+    {
+      "path": "xiaohe-app/vendor/shadcn-tailwind-4.13.0.css",
+      "bytes": 16041,
+      "sha256": "bc7d83425702955b4cb67cb14ede9d603f9d912376d57a2d81d661094d2a782a"
+    },
+    {
+      "path": "xiaohe-app/vite.config.ts",
+      "bytes": 2673,
+      "sha256": "22ff558b1636d251e076f74c1697c7166079861667af10922d6bc505cb8f8290"
+    },
+    {
+      "path": "xiaohe-app/worker/index.ts",
+      "bytes": 1303,
+      "sha256": "a0a10229cdda6f5fdb32234e3539007412233bb4938a671866c9295a44a3bdb6"
+    },
+    {
+      "path": "xiaohe-mobile/.gitignore",
+      "bytes": 568,
+      "sha256": "76ed472649fc8d9d2db3d839969a1f9e46d1f2b3bf53d4be29b6f1ae1957f583"
+    },
+    {
+      "path": "xiaohe-mobile/AGENTS.md",
+      "bytes": 2598,
+      "sha256": "b7d381dd55800d242252e8bf89a40b026586d254e34908210931bc35582396a3"
+    },
+    {
+      "path": "xiaohe-mobile/LICENSE",
+      "bytes": 1106,
+      "sha256": "fb3ca4a837f5779e83cef89b78253a8949cfb9429c340309f62d0465ec6610b4"
+    },
+    {
+      "path": "xiaohe-mobile/README.md",
+      "bytes": 19177,
+      "sha256": "c1944a8240a643692758c65f52d8db0beded8c64406bfb2b1b5fcb1bb33ebd66"
+    },
+    {
+      "path": "xiaohe-mobile/app.json",
+      "bytes": 1221,
+      "sha256": "4d48df8400898c88b4c824bf5dd5f9414529d68419dba13416989f6ad5e961fc"
+    },
+    {
+      "path": "xiaohe-mobile/assets/android-icon-background.png",
+      "bytes": 17549,
+      "sha256": "fb139c2dee362ebf2070e23b96da6fc0d43f8492de38b8af1fd7223e19b5861d"
+    },
+    {
+      "path": "xiaohe-mobile/assets/android-icon-foreground.png",
+      "bytes": 78796,
+      "sha256": "9e3d0315a33c6799de601dd34cd8bf8cc3a8d16f3bf75592baec2ceb7240b391"
+    },
+    {
+      "path": "xiaohe-mobile/assets/android-icon-monochrome.png",
+      "bytes": 4140,
+      "sha256": "6371fc2c12e33ad2215a86c281db3d682a81bebe7c957a842c13b8bf00cceb83"
+    },
+    {
+      "path": "xiaohe-mobile/assets/favicon.png",
+      "bytes": 1129,
+      "sha256": "a4e030697a7571b3e95d31860e4da55d2f98e5e861e2b55e414f45a8556828ba"
+    },
+    {
+      "path": "xiaohe-mobile/assets/icon.png",
+      "bytes": 393493,
+      "sha256": "119462bb78eb240a65c869fc067ee599639b3cb5a41953f25c07b17d2a8c7e0f"
+    },
+    {
+      "path": "xiaohe-mobile/assets/splash-icon.png",
+      "bytes": 17547,
+      "sha256": "5f4c0a732b6325bf4071d9124d2ae67e037cb24fcc9c482ef82bea742109a3b8"
+    },
+    {
+      "path": "xiaohe-mobile/assets/xiaohe-companion.png",
+      "bytes": 1351488,
+      "sha256": "43c1ab5b89a554d13c1bb8366de9df016defeb411b2e482b3805682b365180dc"
+    },
+    {
+      "path": "xiaohe-mobile/content-packs/README.md",
+      "bytes": 1579,
+      "sha256": "ec84a69d047cdf8d4a28c413a7794caf93639d2f115bcb7d05f95fa0d8b81143"
+    },
+    {
+      "path": "xiaohe-mobile/content-packs/xiaohe-basic-trial-v1.json",
+      "bytes": 15919,
+      "sha256": "d5102e21df5adc75436e148faa5f385395e506ce562f371aa44ecddd72b92404"
+    },
+    {
+      "path": "xiaohe-mobile/docs/companion-trial-validation.md",
+      "bytes": 8493,
+      "sha256": "aacbbe39fc013060d642953c9ae63374e38aba5a88145a60bb20d9122dacf9f2"
+    },
+    {
+      "path": "xiaohe-mobile/docs/content-trial-validation.md",
+      "bytes": 7954,
+      "sha256": "b02b92e5335915e665918b0ecbc193649fb4db59ad30860a3bce1ba9935069b7"
+    },
+    {
+      "path": "xiaohe-mobile/docs/evidence-trial-validation.md",
+      "bytes": 7487,
+      "sha256": "a2e4ae32413ef9abfd9108768c19c5d3154262f70cd19e63820ee0d0e44fdeea"
+    },
+    {
+      "path": "xiaohe-mobile/docs/history-trial-validation.md",
+      "bytes": 7666,
+      "sha256": "f1fe63c9174a4da2a352934af197117e5753dd2498c8e51899b02a5039620cf7"
+    },
+    {
+      "path": "xiaohe-mobile/docs/local-trial-validation.md",
+      "bytes": 3554,
+      "sha256": "9e16d16d64dda16e8bf7b04245bdb80d7702cb941451c8576b41e538ba29b256"
+    },
+    {
+      "path": "xiaohe-mobile/docs/mastery-trial-validation.md",
+      "bytes": 6373,
+      "sha256": "5ec7260baa501d4f1cab841e3d11906093f5e96db7716563186974079cad14e8"
+    },
+    {
+      "path": "xiaohe-mobile/docs/ocr-trial-validation.md",
+      "bytes": 9225,
+      "sha256": "75150f4748b8d412295d5134a1f156b467a53a2872ab6601e94b7aec900a2a91"
+    },
+    {
+      "path": "xiaohe-mobile/docs/paper-trial-validation.md",
+      "bytes": 6802,
+      "sha256": "885704efb86a2b3bd553da08d505d1e7e779a9def3a36d28cec8cfe1902dfa7c"
+    },
+    {
+      "path": "xiaohe-mobile/eas.json",
+      "bytes": 409,
+      "sha256": "d3b8aa60125ed42da18c6d6b0d42d1e37ce691d18706727012087fdaf630acd2"
+    },
+    {
+      "path": "xiaohe-mobile/eslint.config.js",
+      "bytes": 276,
+      "sha256": "dc87a72b59ec26e92861ba7a79f65de0c31aa596fcc611d2abfb23aed1033088"
+    },
+    {
+      "path": "xiaohe-mobile/modules/xiaohe-ocr/.gitignore",
+      "bytes": 54,
+      "sha256": "20a44d4118409dd10a85c0042a31173db65d401d23ee038fe880acf85c732617"
+    },
+    {
+      "path": "xiaohe-mobile/modules/xiaohe-ocr/CHANGELOG.md",
+      "bytes": 659,
+      "sha256": "45ebb71d00ad8c502e13007fd6b9557fca451ec459c781b068db69899ad13eaa"
+    },
+    {
+      "path": "xiaohe-mobile/modules/xiaohe-ocr/LICENSE",
+      "bytes": 1106,
+      "sha256": "fb3ca4a837f5779e83cef89b78253a8949cfb9429c340309f62d0465ec6610b4"
+    },
+    {
+      "path": "xiaohe-mobile/modules/xiaohe-ocr/README.md",
+      "bytes": 6723,
+      "sha256": "922178c219c12f68614799bca8c9cc5d4feb666474bcf041b08f2ab3e0f2d45b"
+    },
+    {
+      "path": "xiaohe-mobile/modules/xiaohe-ocr/android/build.gradle",
+      "bytes": 558,
+      "sha256": "752f2f7f96df8767760fc51359390aaf2ba2de9d45d998747b9a145c38e6fe44"
+    },
+    {
+      "path": "xiaohe-mobile/modules/xiaohe-ocr/android/consumer-rules.pro",
+      "bytes": 865,
+      "sha256": "70455e2141e471be2b53b63e02ac5b79e7a3ccb4f356e334f49d5f83429116d8"
+    },
+    {
+      "path": "xiaohe-mobile/modules/xiaohe-ocr/android/src/main/AndroidManifest.xml",
+      "bytes": 23,
+      "sha256": "21058c692532098e42afc39cf09de946c38229ec414bb7ac32f4fc90ba9a5f45"
+    },
+    {
+      "path": "xiaohe-mobile/modules/xiaohe-ocr/android/src/main/java/expo/modules/xiaoheocr/XiaoheOcrModule.kt",
+      "bytes": 11811,
+      "sha256": "e1775c1380c87c50fff19dae65368f848236da8c51d0f4108980e3b8ab4436fd"
+    },
+    {
+      "path": "xiaohe-mobile/modules/xiaohe-ocr/expo-module.config.json",
+      "bytes": 171,
+      "sha256": "52a3dcd3efaef3c1a98bd994e7cce24e3a98f05d58854ac924ccc3e7eab7bfef"
+    },
+    {
+      "path": "xiaohe-mobile/modules/xiaohe-ocr/ios/XiaoheOcr.podspec",
+      "bytes": 725,
+      "sha256": "1b49c478c8df9d4b2dc443fac6b66766a7762d9d7d029a73996437a0f76ac4a4"
+    },
+    {
+      "path": "xiaohe-mobile/modules/xiaohe-ocr/ios/XiaoheOcrModule.swift",
+      "bytes": 10930,
+      "sha256": "6be98654a0cbe7779c97d4d3f85f5ef377016acae1adae6d4ce097cf63d64f51"
+    },
+    {
+      "path": "xiaohe-mobile/modules/xiaohe-ocr/src/XiaoheOcr.types.ts",
+      "bytes": 688,
+      "sha256": "e4444be92713144e568a583c22610d9b1afa63e01a78fb8ee28daa582025e0db"
+    },
+    {
+      "path": "xiaohe-mobile/modules/xiaohe-ocr/src/XiaoheOcrModule.ts",
+      "bytes": 410,
+      "sha256": "ea03f79ff1de7fc29c320ec5eddb9eb476a237850e2df630c73bfde86f2d85f4"
+    },
+    {
+      "path": "xiaohe-mobile/modules/xiaohe-ocr/tests/bridge.test.mjs",
+      "bytes": 2801,
+      "sha256": "b892b046dda9a56698a43399ef4fde43397893ea40ba9030e2e9995fb141e18a"
+    },
+    {
+      "path": "xiaohe-mobile/package-lock.json",
+      "bytes": 414287,
+      "sha256": "52b989cd68e4468bfc98fff6303b5780c91f29fd907fdcf0034b9bb247aabae2"
+    },
+    {
+      "path": "xiaohe-mobile/package.json",
+      "bytes": 1482,
+      "sha256": "e6663282d914fb1773dbecdf5fdc46d77ff6367d267d79d97a5c9ce2d102b2ac"
+    },
+    {
+      "path": "xiaohe-mobile/patches/expo-print/LICENSE",
+      "bytes": 1106,
+      "sha256": "fb3ca4a837f5779e83cef89b78253a8949cfb9429c340309f62d0465ec6610b4"
+    },
+    {
+      "path": "xiaohe-mobile/patches/expo-print/PrintModule.kt",
+      "bytes": 7795,
+      "sha256": "34e7024b9d64265b108adc4d799e6b31f15679b4c2a536f6b677c54dd3d04ef2"
+    },
+    {
+      "path": "xiaohe-mobile/patches/expo-print/PrintPDFRenderTask.kt",
+      "bytes": 9064,
+      "sha256": "5b50f5696bc2a11b0868020535c5a17f5dfa254ec792f409b23b2854a6f7fd96"
+    },
+    {
+      "path": "xiaohe-mobile/patches/expo-print/README.md",
+      "bytes": 3870,
+      "sha256": "05c00556de425d7e31941d420987accee404e75accbbfa3cb63e3ab5a1c8b6a4"
+    },
+    {
+      "path": "xiaohe-mobile/patches/expo-print/manifest.json",
+      "bytes": 971,
+      "sha256": "01f828b7465f107b396a6a5d5ac27ba303592c99910a04645c833ae37b6f3bfb"
+    },
+    {
+      "path": "xiaohe-mobile/scripts/assert-expo-print-source.gradle",
+      "bytes": 1410,
+      "sha256": "db9b9c1b1f4dd234fb2ae51371f39a2dfa7012a4b067f3c22cb5267ab7517a43"
+    },
+    {
+      "path": "xiaohe-mobile/scripts/assert-ocr-release.mjs",
+      "bytes": 4804,
+      "sha256": "c8745625c9a71d4cceadcc625ca24fd240908fa6e489419f6cfab41a085bff10"
+    },
+    {
+      "path": "xiaohe-mobile/scripts/install-trial-apk.mjs",
+      "bytes": 2601,
+      "sha256": "44ba2ee6a24d73cd172f3f0bb1ebbb97104b45c79d7842d0212a5f162ce8c04d"
+    },
+    {
+      "path": "xiaohe-mobile/scripts/launch-android-trial.mjs",
+      "bytes": 3999,
+      "sha256": "736558e0e0e3c0e03cbbb3b415dcada51f040a541b1d5daca21012689361a39f"
+    },
+    {
+      "path": "xiaohe-mobile/scripts/local-android.mjs",
+      "bytes": 3411,
+      "sha256": "7a2d7e98d3a9f07752bad58979bd67fb45795e0568681f1eafb8d466cfd39ec4"
+    },
+    {
+      "path": "xiaohe-mobile/scripts/patch-expo-print.mjs",
+      "bytes": 3977,
+      "sha256": "c163683473eeed4c484b464b705b4c46bff6e087518582ea477e7fc4f7ddaa7a"
+    },
+    {
+      "path": "xiaohe-mobile/scripts/sync-local-domain.mjs",
+      "bytes": 2435,
+      "sha256": "48dc81312e94d6c7427f4f20f1f17158dd467c8cc208eda877559370e08438aa"
+    },
+    {
+      "path": "xiaohe-mobile/src/app/(tabs)/_layout.tsx",
+      "bytes": 1336,
+      "sha256": "c96260054253cef0bf0ebb0d1c8d7f9597c73ec643a2912fe02629de134689d9"
+    },
+    {
+      "path": "xiaohe-mobile/src/app/(tabs)/camera.tsx",
+      "bytes": 54,
+      "sha256": "5d76edab3a4ad4099ade3e037e97cc639b6b281fb6bd016c85979c0fd317d820"
+    },
+    {
+      "path": "xiaohe-mobile/src/app/(tabs)/index.tsx",
+      "bytes": 52,
+      "sha256": "9060dbfe0baf204c8ca57724d956ef9179d15a9bd21f6b9462c45d8a9b8e3306"
+    },
+    {
+      "path": "xiaohe-mobile/src/app/(tabs)/knowledge.tsx",
+      "bytes": 57,
+      "sha256": "4af031e136b6cbaec8ffacc9cf38ff52cc8b03d49a6ddfc717e9e7727081d8fb"
+    },
+    {
+      "path": "xiaohe-mobile/src/app/(tabs)/practice.tsx",
+      "bytes": 56,
+      "sha256": "00cb9b3566e646331501812d0e4270f82127bd4f2220dc34bad457eebfc94325"
+    },
+    {
+      "path": "xiaohe-mobile/src/app/(tabs)/profile.tsx",
+      "bytes": 55,
+      "sha256": "32b729b9839cfcbc8fa6ae7d91621036ba04e69801814d1192b34591aaac3295"
+    },
+    {
+      "path": "xiaohe-mobile/src/app/_layout.tsx",
+      "bytes": 563,
+      "sha256": "41a006e86e2b28c1374f8bd11b02adb75133365b3afa2fad1260f82794d957ec"
+    },
+    {
+      "path": "xiaohe-mobile/src/app/chat.tsx",
+      "bytes": 49,
+      "sha256": "afbc1d97f887cbf3a1b005475df5dfbf1cb48822154fb09fb8aa7f66b0590a95"
+    },
+    {
+      "path": "xiaohe-mobile/src/app/content-packs.tsx",
+      "bytes": 57,
+      "sha256": "92b2772f1e6900d58f988ae1e275725f7592bbbb64c2f51dee356e29f4038ec0"
+    },
+    {
+      "path": "xiaohe-mobile/src/app/evidence/[id].tsx",
+      "bytes": 62,
+      "sha256": "b3624e6766a781472d210b4aea291748bb37148bdd79261c1750794ffd54910a"
+    },
+    {
+      "path": "xiaohe-mobile/src/app/history-delete.tsx",
+      "bytes": 60,
+      "sha256": "ea00f74c85c339e402f720fc566279b2c78398440039d3bcdb27d3447431ae9a"
+    },
+    {
+      "path": "xiaohe-mobile/src/app/memory.tsx",
+      "bytes": 51,
+      "sha256": "42e6af50fbfacf4aa91eca439de254acab00ad7832266b94c32d34d79f2f7a13"
+    },
+    {
+      "path": "xiaohe-mobile/src/app/mistakes.tsx",
+      "bytes": 53,
+      "sha256": "4a79109b5b8e22b493089b58af775a230925d69bc5014039854848e784e86423"
+    },
+    {
+      "path": "xiaohe-mobile/src/app/paper-export/[paperId].tsx",
+      "bytes": 59,
+      "sha256": "6a7dc45575c2ff76126f3476647e4e30f881bd683ed2aca15063f2e459972546"
+    },
+    {
+      "path": "xiaohe-mobile/src/app/paper-return/[paperId].tsx",
+      "bytes": 59,
+      "sha256": "4dfb526322a108e6ab8d0300168cbdc2d9aaac39d8f3c7ff3067b986fa231556"
+    },
+    {
+      "path": "xiaohe-mobile/src/app/paper/[paperId].tsx",
+      "bytes": 160,
+      "sha256": "f1e79d8e874856270dbeab065472b0576b1a3d5757e01ef873258a9809d77e5c"
+    },
+    {
+      "path": "xiaohe-mobile/src/app/photo-review.tsx",
+      "bytes": 61,
+      "sha256": "aba592ca06f68f3bcca814b2a56d189877d5e220af8eaf1342be2e35110295a6"
+    },
+    {
+      "path": "xiaohe-mobile/src/app/practice/[paperId].tsx",
+      "bytes": 160,
+      "sha256": "d49e582cc4d6898058e7ebc29792a3742ca8782a95587533797ef98dc527c7e1"
+    },
+    {
+      "path": "xiaohe-mobile/src/app/report/[id].tsx",
+      "bytes": 54,
+      "sha256": "2dbe335aa2deffed36c2dd2b325a1f6e82b6005501523156a87b39e014569377"
+    },
+    {
+      "path": "xiaohe-mobile/src/app/review-plans.tsx",
+      "bytes": 56,
+      "sha256": "dfbab1cd46b8129818030e43ee4b2b5459f39c0a3d116ba63efc2ef5f467bf57"
+    },
+    {
+      "path": "xiaohe-mobile/src/components/Icon.tsx",
+      "bytes": 4523,
+      "sha256": "4cee909e1c19d719446ab76f93777d544816fda143a4cbcd893db345b7397af8"
+    },
+    {
+      "path": "xiaohe-mobile/src/components/Screen.tsx",
+      "bytes": 2979,
+      "sha256": "f96ccbca7e6ffc4149acbea18dd57146d28567e5a3afb982ca30dee907864ac0"
+    },
+    {
+      "path": "xiaohe-mobile/src/components/learning/EvidenceImpact.tsx",
+      "bytes": 2735,
+      "sha256": "9abb9df603d7b9742694c8876a20ea517e85d8da666a005a9a76241a6da6b246"
+    },
+    {
+      "path": "xiaohe-mobile/src/components/learning/EvidenceReviewForm.tsx",
+      "bytes": 3698,
+      "sha256": "c052de3aed5b9b47d73419e2156defabf17b9017c3dca6b670ef9f0635369426"
+    },
+    {
+      "path": "xiaohe-mobile/src/components/learning/EvidenceSource.tsx",
+      "bytes": 3739,
+      "sha256": "fdc576f02dfebfa6a541f48629ee1e83c110db9cac415e70764b9cdc39b7adcd"
+    },
+    {
+      "path": "xiaohe-mobile/src/components/learning/LearnUI.tsx",
+      "bytes": 3718,
+      "sha256": "79fb6982342b64d84fea339133e2791e7c067f8bff571858a0c178413bf155a7"
+    },
+    {
+      "path": "xiaohe-mobile/src/components/learning/MasteryHistory.tsx",
+      "bytes": 8196,
+      "sha256": "88863bd85ccd46f964a5ce2dc6013eca913e6f561665ab531600b88dc3ab458f"
+    },
+    {
+      "path": "xiaohe-mobile/src/components/learning/MasteryLegend.tsx",
+      "bytes": 1096,
+      "sha256": "bb3e557e48faa0ecd925c572d422e5a8304253c7b29f2735998336c9bb82a498"
+    },
+    {
+      "path": "xiaohe-mobile/src/components/learning/PaperReturnPhotos.tsx",
+      "bytes": 10862,
+      "sha256": "33eebf9a1a618af1fe9d9fd0e96ca61365a709b017087f3e01b2b1fd667d28bb"
+    },
+    {
+      "path": "xiaohe-mobile/src/components/learning/chatDraft.ts",
+      "bytes": 3029,
+      "sha256": "5857516b576f8ec1fa753635e595fe540d2a4343b92b88b55af5352e038c2691"
+    },
+    {
+      "path": "xiaohe-mobile/src/components/learning/companionLink.ts",
+      "bytes": 346,
+      "sha256": "6353bc3b4c9b70167e15f5cafb469d8d16d21179a43a8e52b4c5c1c8a2f9b4f3"
+    },
+    {
+      "path": "xiaohe-mobile/src/components/learning/draftMerge.ts",
+      "bytes": 4337,
+      "sha256": "110ac27cc0d446f051aac6d693ec6cb4bfbbc46b9605b1541c12fbd5cfcbbb67"
+    },
+    {
+      "path": "xiaohe-mobile/src/components/learning/evidenceReviewInput.ts",
+      "bytes": 3022,
+      "sha256": "7b6dda875d66df063e14a407c201d5511a0ef8229eae997d2a59bbd58c049ba8"
+    },
+    {
+      "path": "xiaohe-mobile/src/components/learning/evidenceView.ts",
+      "bytes": 2210,
+      "sha256": "f49f46d14028806746397b8f65e407222654e139dad5f9768c9404bbc9c50fd0"
+    },
+    {
+      "path": "xiaohe-mobile/src/components/learning/paperReturnDraft.ts",
+      "bytes": 4123,
+      "sha256": "12bb204fe062e8846db301e4e7413971a5ef9498469288ee131f0fad51be5132"
+    },
+    {
+      "path": "xiaohe-mobile/src/components/learning/reviewTime.ts",
+      "bytes": 1487,
+      "sha256": "e1d3f32601d52d1d59f8267a2974c4c1bf8ee64227efc0e1418dd47928c57e43"
+    },
+    {
+      "path": "xiaohe-mobile/src/components/learning/useChatDraft.ts",
+      "bytes": 6000,
+      "sha256": "0094240ba9b09c1c11cd7ee70f5510c058043462466202805fd8cc048f4a1cf5"
+    },
+    {
+      "path": "xiaohe-mobile/src/components/learning/useDeviceNow.ts",
+      "bytes": 705,
+      "sha256": "e36cdd2532b04db2f718584dc0c63d362ba7e03cf97ea0da133eb821879e5ef8"
+    },
+    {
+      "path": "xiaohe-mobile/src/components/learning/usePaperReturnDraft.ts",
+      "bytes": 8617,
+      "sha256": "524c620239c7164bb2fa304c9360e56f9c254360b7c7c08834aaf21966eb0f99"
+    },
+    {
+      "path": "xiaohe-mobile/src/components/learning/usePracticeDraft.ts",
+      "bytes": 8653,
+      "sha256": "473b8f40a8168596cbb921904d223bff694867af5cb260a8f666c766076424f0"
+    },
+    {
+      "path": "xiaohe-mobile/src/components/ui.tsx",
+      "bytes": 3252,
+      "sha256": "ab9621046fe6fcc4a2fc7eacb43b1ebd389f2641c14ddacd136da755542895ab"
+    },
+    {
+      "path": "xiaohe-mobile/src/context/LearningContext.tsx",
+      "bytes": 2769,
+      "sha256": "063b390c743595954e9d9f6b9dde92b7a64e9610e9701cc4192eba6fceff4888"
+    },
+    {
+      "path": "xiaohe-mobile/src/features/history-deletion-draft.ts",
+      "bytes": 1880,
+      "sha256": "19c43425167a8d07ef29652f90b692dd5f4cea05070158652780875887d53715"
+    },
+    {
+      "path": "xiaohe-mobile/src/features/history-deletion-ui.ts",
+      "bytes": 3623,
+      "sha256": "08ab313798d008f30c97e2fb86e36625214b2f5189515c8a5da3cc7b43493b7f"
+    },
+    {
+      "path": "xiaohe-mobile/src/features/local-paper-export.ts",
+      "bytes": 7640,
+      "sha256": "b22b2fd58394a9e04d30b9270117100ae5b52b53cfa63c6ed153c673b59e2582"
+    },
+    {
+      "path": "xiaohe-mobile/src/features/local-photo.ts",
+      "bytes": 4060,
+      "sha256": "d62d3e48ae14592fe0c5a8be4a3fcb9d5ba53df042051387b7b89e07c2f59dc9"
+    },
+    {
+      "path": "xiaohe-mobile/src/features/native-ocr.ts",
+      "bytes": 857,
+      "sha256": "06e0a1e15b6e21158893824a972c4a49ecd4c94fa5abcef5bb466aed18b4b115"
+    },
+    {
+      "path": "xiaohe-mobile/src/features/paper-export-flow.ts",
+      "bytes": 1799,
+      "sha256": "08e1ffbf25406a60e2f04737bab1bf4155d64347324b21737a481ef95dc3413c"
+    },
+    {
+      "path": "xiaohe-mobile/src/features/paper-export-lifecycle.ts",
+      "bytes": 2601,
+      "sha256": "faffcb5ac473d6355b487a5f8f9830efe51ffd5df88164690636dbf4edea5778"
+    },
+    {
+      "path": "xiaohe-mobile/src/features/paper-photo-pending.ts",
+      "bytes": 676,
+      "sha256": "f27732e7834f351ad039809d274c87d7a1e0d45509136373b916105c66648329"
+    },
+    {
+      "path": "xiaohe-mobile/src/features/paper-print-template.ts",
+      "bytes": 12595,
+      "sha256": "bfb9344a40ea357b972108fc84a39b8480b914fbabbcbfdd58b54ee9067980ee"
+    },
+    {
+      "path": "xiaohe-mobile/src/features/photo-cleanup.ts",
+      "bytes": 952,
+      "sha256": "01817e9edd73fd3d1ecbc798122f8754bad8ec03b2c7f75e4668ded5d41d2a7d"
+    },
+    {
+      "path": "xiaohe-mobile/src/features/photo-recovery.ts",
+      "bytes": 2295,
+      "sha256": "d6d41567c505e28fe7a5553f26905dfd14ad5eeae415008f98c891295204cd8b"
+    },
+    {
+      "path": "xiaohe-mobile/src/features/recognition-review.ts",
+      "bytes": 2008,
+      "sha256": "e218d08ea50c79787e6ae3b776c34bdd63c03c3f80ce40f093cc7fac406c69e1"
+    },
+    {
+      "path": "xiaohe-mobile/src/local/README.md",
+      "bytes": 4745,
+      "sha256": "ee803c7e440f6f7159708760b0bcd965400bd513b7325552f17bf2931836b85e"
+    },
+    {
+      "path": "xiaohe-mobile/src/local/clone.ts",
+      "bytes": 236,
+      "sha256": "a9321b6ee19827b50f84d1e0aef35a4c9b77d612168d89beae0a42529dd8b107"
+    },
+    {
+      "path": "xiaohe-mobile/src/local/content-file-reader.ts",
+      "bytes": 1160,
+      "sha256": "dc563a2e114a552eeabe9c95654bf9fb23d64142891827b07cded288f856fd04"
+    },
+    {
+      "path": "xiaohe-mobile/src/local/content-file.ts",
+      "bytes": 1131,
+      "sha256": "86d59281c3ebc76076833c028838281d6743947890fe6f02997d3d7031fdebec"
+    },
+    {
+      "path": "xiaohe-mobile/src/local/engine.ts",
+      "bytes": 17834,
+      "sha256": "d9dfd6d9251b5c271e952d74aca7e42aa22353848351f73be76fc5c06ec1f9c2"
+    },
+    {
+      "path": "xiaohe-mobile/src/local/runtime.ts",
+      "bytes": 834,
+      "sha256": "2ee5887565ce568da3174160716a28ced2fb74649dda73a0fe2335803a517b2b"
+    },
+    {
+      "path": "xiaohe-mobile/src/local/sample-upgrade.ts",
+      "bytes": 1825,
+      "sha256": "09f14f8bf1f59ecabec697c8bfded531c673cacb2e7e38d83dc4c7902594a26e"
+    },
+    {
+      "path": "xiaohe-mobile/src/local/shared/access-types.ts",
+      "bytes": 1104,
+      "sha256": "77e787c57d80a27737ab5b7c26b346908ddbf00723b346af4aebfcd24982c4b1"
+    },
+    {
+      "path": "xiaohe-mobile/src/local/shared/effective-evidence.ts",
+      "bytes": 9508,
+      "sha256": "c09fabbb3866b8843a2df3f13ecf3e585b414aac6a806f33d01db5f64edeb042"
+    },
+    {
+      "path": "xiaohe-mobile/src/local/shared/grading.ts",
+      "bytes": 1732,
+      "sha256": "7d3f1c16a2444ddfc4e4b9ed5161ce15dd595d7f975bca94c0eaf3c2ab408c95"
+    },
+    {
+      "path": "xiaohe-mobile/src/local/shared/history-deletion.ts",
+      "bytes": 1635,
+      "sha256": "dd87bc6599ee74015c441e6f344cf0b414b8af01dc0444581cfca24b8a1bef7c"
+    },
+    {
+      "path": "xiaohe-mobile/src/local/shared/seed.ts",
+      "bytes": 17170,
+      "sha256": "f709a3c8800776a40459c125a4b6e5015fe23a2dc1d2b41fb529441811c21af0"
+    },
+    {
+      "path": "xiaohe-mobile/src/local/shared/server/access-policy.ts",
+      "bytes": 10659,
+      "sha256": "c2661807d26999fdccc9998ef84e51aa4cad810257470b201b47427f54aad2b3"
+    },
+    {
+      "path": "xiaohe-mobile/src/local/shared/server/companion.ts",
+      "bytes": 32099,
+      "sha256": "fb40f28c6402b648cba377c556b557227d14bef1527b8f4977aaf04deaf8c8f3"
+    },
+    {
+      "path": "xiaohe-mobile/src/local/shared/server/content.ts",
+      "bytes": 34131,
+      "sha256": "d770305aaa492d3335dbc70eaf11040f1589f75d4e426d7b8ef4b07e759d0a21"
+    },
+    {
+      "path": "xiaohe-mobile/src/local/shared/server/domain-error.ts",
+      "bytes": 465,
+      "sha256": "185e164b0a5f58556784472aaed72bae56c4d94d4c2326bd7ff266f78f166fc4"
+    },
+    {
+      "path": "xiaohe-mobile/src/local/shared/server/domain.ts",
+      "bytes": 44976,
+      "sha256": "dca27269073e97df65f1a09f9f12cd23d07070ea285d78641d0194ffe525341a"
+    },
+    {
+      "path": "xiaohe-mobile/src/local/shared/server/evidence.ts",
+      "bytes": 24674,
+      "sha256": "bbce90b72e1e3740a06de8c10a3bf845ef34ba0aab967e5bf8feb8eb31857024"
+    },
+    {
+      "path": "xiaohe-mobile/src/local/shared/server/history.ts",
+      "bytes": 31338,
+      "sha256": "1d7a01c8f78ae88f4190888080f1021a7d07617f78770a06823aa4ae6e0d6991"
+    },
+    {
+      "path": "xiaohe-mobile/src/local/shared/server/mastery.ts",
+      "bytes": 29719,
+      "sha256": "10e68fc592819198a3c6cbe3749b80e3802fa863c020ef4082367d66083b018b"
+    },
+    {
+      "path": "xiaohe-mobile/src/local/shared/server/recognition.ts",
+      "bytes": 29609,
+      "sha256": "18dfac8c16e9cca5eca89bcb897c74d000ac76d72d04f7b56d018bcb457a94a4"
+    },
+    {
+      "path": "xiaohe-mobile/src/local/shared/source-manifest.json",
+      "bytes": 1574,
+      "sha256": "d4e3c774b02ffd56ae1e7535228ed0cc98a4a4e1e1beac5bef367ab2d51906bd"
+    },
+    {
+      "path": "xiaohe-mobile/src/local/shared/types.ts",
+      "bytes": 19256,
+      "sha256": "4164cfa00596c5b02ba81d3edac75041135820346834c83bab5b9c2d5f899100"
+    },
+    {
+      "path": "xiaohe-mobile/src/local/sqlite-store.ts",
+      "bytes": 1429,
+      "sha256": "10a210cdf751be1ed69f30ac280396c175e03922bec2399f7c20226ca4772de6"
+    },
+    {
+      "path": "xiaohe-mobile/src/local/sqlite.ts",
+      "bytes": 343,
+      "sha256": "23c602687fdb635f655b2de64fb0f584cdcaeafe66634ff66cace3437033c541"
+    },
+    {
+      "path": "xiaohe-mobile/src/local/types.ts",
+      "bytes": 658,
+      "sha256": "4dedb83d5c00beb9602b778156249fc49db20f66d6b7ff5d4434f8c34515b332"
+    },
+    {
+      "path": "xiaohe-mobile/src/local/validation.ts",
+      "bytes": 22295,
+      "sha256": "b90111f7c15587c5859b1a23554d1d81d94047bd27bc8ce47c395b2f17473ea1"
+    },
+    {
+      "path": "xiaohe-mobile/src/screens/CameraScreen.tsx",
+      "bytes": 28285,
+      "sha256": "153d6df1c3abec56a6240dde639fb8c32d9b496456b360ba3cffc793ea9f055d"
+    },
+    {
+      "path": "xiaohe-mobile/src/screens/ChatScreen.tsx",
+      "bytes": 24487,
+      "sha256": "9b076ab324f858c71bfba472eee653158f9147bfd449a237cf97afb30d518021"
+    },
+    {
+      "path": "xiaohe-mobile/src/screens/ContentPacksScreen.tsx",
+      "bytes": 14763,
+      "sha256": "7858b41f2a6ca682a4e39bacccd3b2eeddb52bcfea5c93c7f0bb499c2a1d45cb"
+    },
+    {
+      "path": "xiaohe-mobile/src/screens/EvidenceReviewScreen.tsx",
+      "bytes": 19282,
+      "sha256": "576c7655e21aa6d61271fac030b7a4200a97808f2a8cd62d13471904368914eb"
+    },
+    {
+      "path": "xiaohe-mobile/src/screens/HistoryDeletionScreen.tsx",
+      "bytes": 18377,
+      "sha256": "ef0706b0ad2db7e090dfc72b7cd5efd9e28aa8c05329651c7f7c77980eb9772a"
+    },
+    {
+      "path": "xiaohe-mobile/src/screens/HomeScreen.tsx",
+      "bytes": 5592,
+      "sha256": "761cd07d07afb3b0a1df07e1715d420d9d272f9845909409d3cfbca7ba76e0ec"
+    },
+    {
+      "path": "xiaohe-mobile/src/screens/KnowledgeScreen.tsx",
+      "bytes": 6290,
+      "sha256": "94f00d704708a33b6ae31391e111733f62a4ea75a0d6f154dcaede43747ce9a7"
+    },
+    {
+      "path": "xiaohe-mobile/src/screens/MemoryScreen.tsx",
+      "bytes": 12825,
+      "sha256": "542d9aa3acb2deb0b53f2e9a0cade259dea3d7274080a13e88400d4d7691143d"
+    },
+    {
+      "path": "xiaohe-mobile/src/screens/MistakesScreen.tsx",
+      "bytes": 9674,
+      "sha256": "e87dc65f58e2601279134f8bee392845707e52c7c483dbbddef2b17a4052e59d"
+    },
+    {
+      "path": "xiaohe-mobile/src/screens/PaperExportScreen.tsx",
+      "bytes": 8619,
+      "sha256": "99bcfd02894f806cf31da2bdf7a0abf8034532d8e5667e1e83e4dcd616346ed0"
+    },
+    {
+      "path": "xiaohe-mobile/src/screens/PaperReturnScreen.tsx",
+      "bytes": 17533,
+      "sha256": "87c39ef9ee2369eae639ad22bb122e0a0a6146b154db2d911dc6ccf38fa3f27f"
+    },
+    {
+      "path": "xiaohe-mobile/src/screens/PhotoRecognitionScreen.tsx",
+      "bytes": 24625,
+      "sha256": "352fd24591267b75dcf7b3a38d4b4e0e664a7ffd91175f8b6dc051c4df1722d9"
+    },
+    {
+      "path": "xiaohe-mobile/src/screens/PracticeDetailScreen.tsx",
+      "bytes": 18655,
+      "sha256": "524e5003c30db2897ce5f76d2a56edeed7d5f08341e67ae9e347e0948ff52f33"
+    },
+    {
+      "path": "xiaohe-mobile/src/screens/PracticeScreen.tsx",
+      "bytes": 5525,
+      "sha256": "118a9e840b17642c474feb4a467ef6b1950028e6dc5057be486da99a022aafc0"
+    },
+    {
+      "path": "xiaohe-mobile/src/screens/ProfileScreen.tsx",
+      "bytes": 11159,
+      "sha256": "2ecbf3d54fe94b0fcea20a432b2ae43fac5c5d928a73ab1968fb1d64d6173c24"
+    },
+    {
+      "path": "xiaohe-mobile/src/screens/ReportScreen.tsx",
+      "bytes": 12996,
+      "sha256": "d874c9c6434da80a04d2f633493f0494b43510dede2e73c77d82be4a09ba9a0e"
+    },
+    {
+      "path": "xiaohe-mobile/src/screens/ReviewPlansScreen.tsx",
+      "bytes": 11577,
+      "sha256": "29620a8521024c21d97a691076a1ef997f5b9c2e75d76e3bb9cd8d310ee74795"
+    },
+    {
+      "path": "xiaohe-mobile/src/theme.ts",
+      "bytes": 1246,
+      "sha256": "e4b339fa324d6ebbe1e1bdaff6e86c51e9fd52ead671778752399aa1e56e28b9"
+    },
+    {
+      "path": "xiaohe-mobile/tests/chat-ui-draft.test.mjs",
+      "bytes": 11973,
+      "sha256": "bc30dda1c3958645a3195f60bd8c278e9a297d32823ae27303a8959165e4401a"
+    },
+    {
+      "path": "xiaohe-mobile/tests/companion-local.test.mjs",
+      "bytes": 15128,
+      "sha256": "bf964c566f72fcc26ce07651b5d187236d5d7878b5f666f93382dc89b5027b46"
+    },
+    {
+      "path": "xiaohe-mobile/tests/content-file-reader.test.mjs",
+      "bytes": 1563,
+      "sha256": "a65e7d2ef20982765a428815952a335cb95bb5d72fd2385534be74f6f5bdd24d"
+    },
+    {
+      "path": "xiaohe-mobile/tests/content-local.test.mjs",
+      "bytes": 7566,
+      "sha256": "40d1bfc2b281fe6540fe3dbd8b9bae12c9d116bd921d86f71c93016d19bf532e"
+    },
+    {
+      "path": "xiaohe-mobile/tests/draft-recovery.test.mjs",
+      "bytes": 13252,
+      "sha256": "62f43b8ba3aaa29db34798c6b16dd5d679a353392a4456c62815c8094a0824d9"
+    },
+    {
+      "path": "xiaohe-mobile/tests/evidence-local.test.mjs",
+      "bytes": 16082,
+      "sha256": "32373d6b797be6a54efd2d506ec89ad3ee5a8c8467e467b78df857e468b26250"
+    },
+    {
+      "path": "xiaohe-mobile/tests/evidence-screen-recovery.test.mjs",
+      "bytes": 9992,
+      "sha256": "3f04f33378f71f264ae0d3124d77deb4f28ffdfa703ab12a7c13c9ab74962231"
+    },
+    {
+      "path": "xiaohe-mobile/tests/evidence-ui.test.mjs",
+      "bytes": 3765,
+      "sha256": "d69f3382edcd39765b9f71f4c5855213b4fbf12d5e328e6b52ac41279147bd6d"
+    },
+    {
+      "path": "xiaohe-mobile/tests/expo-print-patch.test.mjs",
+      "bytes": 5637,
+      "sha256": "2be5ed390e28d5a6f7223802702efd1bbad58cfdbe38428e6b386378ec434705"
+    },
+    {
+      "path": "xiaohe-mobile/tests/history-deletion-ui.test.mjs",
+      "bytes": 14817,
+      "sha256": "616370fad550458cc48016628f8333b431f9ae77903241e7fec4b2121dbfed62"
+    },
+    {
+      "path": "xiaohe-mobile/tests/history-local.test.mjs",
+      "bytes": 13962,
+      "sha256": "b8840ce8c97456489630afa7e8d2eec3c7fb8754458388f169cee30bc1547c62"
+    },
+    {
+      "path": "xiaohe-mobile/tests/local-engine.test.mjs",
+      "bytes": 14455,
+      "sha256": "e15774e9508051e57b5571b76750048bdac09a54333455d0f571b48c12432e38"
+    },
+    {
+      "path": "xiaohe-mobile/tests/mastery-local.test.mjs",
+      "bytes": 11396,
+      "sha256": "38c76753a7ab8447aed5a4db6a7fcc621de3125dd930d5d58ffcdfcefdc09118"
+    },
+    {
+      "path": "xiaohe-mobile/tests/ocr-build-guard.test.mjs",
+      "bytes": 3577,
+      "sha256": "5742aac93f0e7144f6b2ab1c00e417e5d2d310db3ac570971885e9a20d122b04"
+    },
+    {
+      "path": "xiaohe-mobile/tests/paper-export-flow.test.mjs",
+      "bytes": 7111,
+      "sha256": "2c304360531ef8b77934b8c8c3edb680091ff6f5601d886800a7a30c4733a3e8"
+    },
+    {
+      "path": "xiaohe-mobile/tests/paper-export-lifecycle.test.mjs",
+      "bytes": 9218,
+      "sha256": "1b60d5c0e8e4dd07e0098e7b448ef100d0a7b27e643bba51939f4209149faf00"
+    },
+    {
+      "path": "xiaohe-mobile/tests/paper-print-template.test.mjs",
+      "bytes": 10804,
+      "sha256": "e00105cf1c94a5341eb1212c502368a8bc95ef848f9b1dc21c0ddc33725a934e"
+    },
+    {
+      "path": "xiaohe-mobile/tests/paper-return-draft.test.mjs",
+      "bytes": 8047,
+      "sha256": "12455073468a95b4e7bcef56927eeb29f51a526dcc632f4609d7e8bcdecabb20"
+    },
+    {
+      "path": "xiaohe-mobile/tests/paper-return-recovery.test.mjs",
+      "bytes": 13168,
+      "sha256": "7ee825067a1a15e62de81f79c570156e395ac4001de54f92273266a3480c66bc"
+    },
+    {
+      "path": "xiaohe-mobile/tests/paper-return.test.mjs",
+      "bytes": 17216,
+      "sha256": "593318d43c93d7c4f82a7ca1183b060cee3cae4ca487e8235b0a022aa881bcc1"
+    },
+    {
+      "path": "xiaohe-mobile/tests/photo-cleanup.test.mjs",
+      "bytes": 1447,
+      "sha256": "9e27e10518dc8f6fc649c44b2a9cb02b589ee1019016f8e584bb51227e51773e"
+    },
+    {
+      "path": "xiaohe-mobile/tests/photo-recovery.test.mjs",
+      "bytes": 3169,
+      "sha256": "1bd6ff0c8d0dfed3856e340c389fb3c462e4223f296fe31ecb2f66cf2150b9b6"
+    },
+    {
+      "path": "xiaohe-mobile/tests/recognition-local.test.mjs",
+      "bytes": 10619,
+      "sha256": "579bd615b3643e47d7d7fd54aacc5ded051d8cc5c9cbd63dca3007cd1e636c86"
+    },
+    {
+      "path": "xiaohe-mobile/tests/recognition-screen.test.mjs",
+      "bytes": 22460,
+      "sha256": "8ca3b11692fdc27f81f388ed654827eb15417c42c95944256046c41c3f4e45ca"
+    },
+    {
+      "path": "xiaohe-mobile/tests/report-empty-results.test.mjs",
+      "bytes": 6921,
+      "sha256": "da804546c109b942a6730fbef9530bea0090037de4afd1235d05fd4bedf72ffe"
+    },
+    {
+      "path": "xiaohe-mobile/tests/report-exposure.test.mjs",
+      "bytes": 3727,
+      "sha256": "1dd54c51726f3586f1cc0fa424101550c2b1468a45bd1af73ced863de48ba816"
+    },
+    {
+      "path": "xiaohe-mobile/tsconfig.json",
+      "bytes": 193,
+      "sha256": "6db2b57a953b67517073847775e06086e0b0b823afa61dc1872c4a1f2a684b61"
+    },
+    {
+      "path": "xiaohe-mobile/启动安卓试用.command",
+      "bytes": 61,
+      "sha256": "4ffe42d56718922ac99b24ae3140b64d854eaec1a9bf506882ed4b06ac199a1e"
+    },
+    {
+      "path": "xiaohe-mobile/启动手机调试.command",
+      "bytes": 62,
+      "sha256": "687c20f49131722cf758ac832b3cf778722d29df51ed5b6d488a59a22c48b980"
+    },
+    {
+      "path": "交接文档/同事接手指南.md",
+      "bytes": 7987,
+      "sha256": "bb8e9abaf79666239a188d4369ed7848b50711dbaecb55bb9242265829578f46"
+    },
+    {
+      "path": "交接文档/完整性校验.py",
+      "bytes": 1036,
+      "sha256": "9317cd6f3ae854abc30488fad37bce38f19abcc321bd92e409436157e8cef4bb"
+    },
+    {
+      "path": "交接文档/排除与处理清单.json",
+      "bytes": 7926,
+      "sha256": "2f2274d6523fa55412550ed17f418abad0f5772df1dab6681a53941b83b2d7a6"
+    },
+    {
+      "path": "交接文档/教育项目审计.md",
+      "bytes": 16415,
+      "sha256": "2baf4e5fd3e8e54f29508545b5c3d5dff98e15578e876bb9ce3601c21e75e9b0"
+    },
+    {
+      "path": "交接文档/文件检查说明.md",
+      "bytes": 3371,
+      "sha256": "64e7d168d5d1c206401a4a48a1ff6425eec98406f17dd8f02e55d1f4d07d05eb"
+    },
+    {
+      "path": "交接文档/本次检查结果.md",
+      "bytes": 4243,
+      "sha256": "6b6b3b8dc22a59b99e82f63afc5ef8e55259d903ce485d9313e038ec10c681d9"
+    },
+    {
+      "path": "交接文档/验收日志/.gitignore",
+      "bytes": 7,
+      "sha256": "e027cf8ebf80d6dcdacced8a4dbd1c440e2436fb1868ec851db4061cb67bb787"
+    },
+    {
+      "path": "交接文档/验收日志/data-restore.log",
+      "bytes": 326,
+      "sha256": "dd01fb920b8537311328da97077206313995eab23165aaecf80476742e53a19f"
+    },
+    {
+      "path": "交接文档/验收日志/mobile-expo-doctor.log",
+      "bytes": 1852,
+      "sha256": "5dfdd3a3c06fc83f9fc9e4f89c6d3e8f8b73e649b624da12634fec97b7d4ada1"
+    },
+    {
+      "path": "交接文档/验收日志/mobile-export.log",
+      "bytes": 2642,
+      "sha256": "043703c9a48498b02043a07ed816eb036a8c86dafff164fca577e38c7703114a"
+    },
+    {
+      "path": "交接文档/验收日志/mobile-install.log",
+      "bytes": 345,
+      "sha256": "f85125a22fca187f8d54367e110a2c15c84c9c53871f1e760945a368405118df"
+    },
+    {
+      "path": "交接文档/验收日志/mobile-lint.log",
+      "bytes": 52,
+      "sha256": "ae4ab8006bf71c5c5aff16781ba8e7f26d17d4f03fe9c940e477e64321fc6275"
+    },
+    {
+      "path": "交接文档/验收日志/mobile-shared-check.log",
+      "bytes": 51,
+      "sha256": "3eb7819fe6e6c0b3c3c799b95cd552d6285501a0f9977ee3d88d6d5009ccdd02"
+    },
+    {
+      "path": "交接文档/验收日志/mobile-tests.log",
+      "bytes": 39471,
+      "sha256": "c08be17c27873aa1eb6c6c849546db0ca46e74cd483bf503a8b06eb7128141b8"
+    },
+    {
+      "path": "交接文档/验收日志/mobile-typecheck.log",
+      "bytes": 49,
+      "sha256": "7c4f2bc49ef1b198c54253a4486454e5f0c80939659080ab3fb84f765506b9fc"
+    },
+    {
+      "path": "交接文档/验收日志/web-access-api-smoke.log",
+      "bytes": 1714,
+      "sha256": "65b82572a4f375f984e0fbed6811a70397b95d4643fe8c43f43a8aa78df9efe8"
+    },
+    {
+      "path": "交接文档/验收日志/web-api-smoke.log",
+      "bytes": 1489,
+      "sha256": "8a56c2f9fe97c6cf97829df5267d32272e00f8675fec321c252eb78129586b7f"
+    },
+    {
+      "path": "交接文档/验收日志/web-build.log",
+      "bytes": 1508,
+      "sha256": "6f690e9f3d302796c4dfc8ce43cb990ebed0b3d3f3f2a3476145e055bb32d912"
+    },
+    {
+      "path": "交接文档/验收日志/web-dev-smoke.log",
+      "bytes": 4100,
+      "sha256": "566e95ef896ddaf66a54a1bdc0424d7933a25fcd9806131a5b281fb5729f4513"
+    },
+    {
+      "path": "交接文档/验收日志/web-install.log",
+      "bytes": 272,
+      "sha256": "3aa063915e5b22f01791606dc83abfe9ee1c13587bf67b136524a3c1cba83590"
+    },
+    {
+      "path": "交接文档/验收日志/web-lint.log",
+      "bytes": 1345,
+      "sha256": "a4d255ac6557d191fe8b6af6b9ad29dfcf9149b1c3be9fa8b3a2ac830e24247c"
+    },
+    {
+      "path": "交接文档/验收日志/web-tests.log",
+      "bytes": 26175,
+      "sha256": "b907b9caee69fca138841af7e52c9dbcccddc4f4d5d94ad07b4aa71eaedc404f"
+    },
+    {
+      "path": "交接文档/验收日志/web-typecheck.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "交接资料/多页照片-未完成接口草稿.patch",
+      "bytes": 5795,
+      "sha256": "2bac0b713cd14faa610629add685ad8c6cd7c3940eb3507b50f6efa475078445"
+    },
+    {
+      "path": "小禾学伴-手机端.pdf",
+      "bytes": 745782,
+      "sha256": "6fd3d50595804fe3eeffd1acf8870d1cd2963a086076672f0bcf43fe9e6b3e02"
+    },
+    {
+      "path": "小禾学伴-管理端介绍.pptx",
+      "bytes": 4298242,
+      "sha256": "e636c3b262662286788d5d44afb9c284128af878fc0da6c61ab4a100322dddea"
+    },
+    {
+      "path": "小禾学伴V2.pdf",
+      "bytes": 3168568,
+      "sha256": "0eb480e7db3fd8aaa2a7c60ca36a50734b5d2ba4d6fc0a0fcdc0acde0ea1b88c"
+    },
+    {
+      "path": "市场调研-20261029/.build/build_deliverables.mjs",
+      "bytes": 28129,
+      "sha256": "f910a70dad850e406ab5127a7e28b0f38f5056eaf95086088d1b8c1cf3329ef5"
+    },
+    {
+      "path": "市场调研-20261029/.build/candidate-v2.pptx",
+      "bytes": 512904,
+      "sha256": "7cfd3c26f964ff9ae659e01dfbf3037215956cfa4a1b448f45ed043fdd5e28a7"
+    },
+    {
+      "path": "市场调研-20261029/.build/candidate-v2.pptx.inspect.ndjson",
+      "bytes": 42756,
+      "sha256": "b580ecabb5745b8bd30064d1a7856e7c24442bd3cd679957f9837b9c8782e429"
+    },
+    {
+      "path": "市场调研-20261029/.build/candidate.pptx",
+      "bytes": 581903,
+      "sha256": "5523fab7d3270b89836f69b0c9c2956d489bb1f4ec537dd9a4cee723dd09ab8a"
+    },
+    {
+      "path": "市场调研-20261029/.build/candidate.pptx.inspect.ndjson",
+      "bytes": 43427,
+      "sha256": "6107610d625a3576555fac93d45c9b954bcb03622716569f9c5296f934ffe763"
+    },
+    {
+      "path": "市场调研-20261029/.build/check_workbook.mjs",
+      "bytes": 834,
+      "sha256": "71ef03dc292e362a58e714c2f1f8cec56d62e252af8154100874746707264e2e"
+    },
+    {
+      "path": "市场调研-20261029/.build/deck-inspect.txt",
+      "bytes": 24097,
+      "sha256": "44d516f23df74ec8e2d26bb0d95e43ff83582c600df4ab257b9fb4a4f12544c0"
+    },
+    {
+      "path": "市场调研-20261029/.build/deck-v2-inspect.txt",
+      "bytes": 23510,
+      "sha256": "a2c027d3f724c84c98ad78212b27a7ed1aec44e061cbad3ff84a42efd0bbe4cd"
+    },
+    {
+      "path": "市场调研-20261029/.build/deck-v2.json",
+      "bytes": 5881331,
+      "sha256": "3f42463e7adecba7821f3e1e76325c262fc33a6ca6476bfb2f2b6bd2dd3f4691"
+    },
+    {
+      "path": "市场调研-20261029/.build/deck.json",
+      "bytes": 6646031,
+      "sha256": "1867409db2cf6f699d6eae7030425072752f291387491ecf1eefd65ff8ceceda"
+    },
+    {
+      "path": "市场调研-20261029/.build/delivery-manifest.json",
+      "bytes": 5559,
+      "sha256": "2873df1232a74e67e062285b872ed3588d126543046c16a9ee1386c77723b55e"
+    },
+    {
+      "path": "市场调研-20261029/.build/final-workbook-import.txt",
+      "bytes": 14150,
+      "sha256": "1fee4e2a9a9353694ae708e71428be9eb45a19d1c2ba361eac2fa2b09e1e4099"
+    },
+    {
+      "path": "市场调研-20261029/.build/package_deliverables.py",
+      "bytes": 4522,
+      "sha256": "686e8b24fe5c5e55106d27afe87689de93e261dcb866535bec175294daaed14d"
+    },
+    {
+      "path": "市场调研-20261029/.build/previews-v2/check-changes.png",
+      "bytes": 93104,
+      "sha256": "a018e4ae4ac4af2459ca65498996c03d7541cd17bbd2e93c51d47d7529031cb3"
+    },
+    {
+      "path": "市场调研-20261029/.build/previews-v2/check-matrix-right.png",
+      "bytes": 129591,
+      "sha256": "a6a25f90f38d73e7b74c5f67674b259a40a30d4ca5703431df7565a3fbc4e874"
+    },
+    {
+      "path": "市场调研-20261029/.build/previews-v2/sheet-产品概况.png",
+      "bytes": 285730,
+      "sha256": "2e9a1d635989cacde242e0f6a727642f5592f23ce2ccbd91d867dc8c6fa2a4dd"
+    },
+    {
+      "path": "市场调研-20261029/.build/previews-v2/sheet-体验证据.png",
+      "bytes": 166437,
+      "sha256": "9f1fbe86327de59f5eef0df08ba85b7c1f9d11d895b27c8c21af9086d870e7a4"
+    },
+    {
+      "path": "市场调研-20261029/.build/previews-v2/sheet-功能对比.png",
+      "bytes": 209188,
+      "sha256": "c3ba8311bb9cf7dd83c872853cc5adad4d3a3686a3ed081c39f2b15c86a9868f"
+    },
+    {
+      "path": "市场调研-20261029/.build/previews-v2/sheet-改进机会.png",
+      "bytes": 319725,
+      "sha256": "61612307354df4062d3e81713c54e43fb3f4c5a27b1861d6741036d34a6e736c"
+    },
+    {
+      "path": "市场调研-20261029/.build/previews-v2/slide-01.png",
+      "bytes": 94208,
+      "sha256": "2075fa1136ecfb9922e613e0fc8a33d504d7b8b8eb2122aa87dad256cedfcb01"
+    },
+    {
+      "path": "市场调研-20261029/.build/previews-v2/slide-02.png",
+      "bytes": 186984,
+      "sha256": "bfcb972c60d798e5bc37a7a46fffae2d278ad6bbfb3ee78f6997ee56bd8b0980"
+    },
+    {
+      "path": "市场调研-20261029/.build/previews-v2/slide-03.png",
+      "bytes": 209215,
+      "sha256": "2a3e99cdbca53aae4b0025463586e278435dd507dd5dc91905fbc2938b2e9707"
+    },
+    {
+      "path": "市场调研-20261029/.build/previews-v2/slide-04.png",
+      "bytes": 186050,
+      "sha256": "e32408b5ae087845ddaad2594bb9df87cf9aed76555e2093622f655fb7efc9fb"
+    },
+    {
+      "path": "市场调研-20261029/.build/previews-v2/slide-05.png",
+      "bytes": 287877,
+      "sha256": "32950cb77b4e6d5ffde202fb86174d8c1cfc0ad58b0cc1551f0c9fc267d137bf"
+    },
+    {
+      "path": "市场调研-20261029/.build/previews-v2/slide-06.png",
+      "bytes": 209073,
+      "sha256": "fe793a6ca1ea67ec47dadcf37c0ca6b0bda6bbdfc5a70c1295ba4812a1fbda56"
+    },
+    {
+      "path": "市场调研-20261029/.build/previews-v2/slide-07.png",
+      "bytes": 200659,
+      "sha256": "acb8c081ebea248fd3d6c7a39b14402329f401eb02c240491bf4c51804183b55"
+    },
+    {
+      "path": "市场调研-20261029/.build/previews-v2/slide-08.png",
+      "bytes": 214857,
+      "sha256": "5be7dfdf1c7cebc3943bcf0e3f56723aae239db443d9ca17149c5054db1cfcb8"
+    },
+    {
+      "path": "市场调研-20261029/.build/previews-v2/slide-09.png",
+      "bytes": 198113,
+      "sha256": "3b2076acd77d44a00a18c8bba1f4b92d956585e09822287f5032772feb263704"
+    },
+    {
+      "path": "市场调研-20261029/.build/previews-v2/slide-10.png",
+      "bytes": 202708,
+      "sha256": "3720c2a04aa9588e4e427e31c7bf6e4b69b745a1aa2b38961471c9a8d6a60d9e"
+    },
+    {
+      "path": "市场调研-20261029/.build/previews-v2/slide-11.png",
+      "bytes": 192012,
+      "sha256": "69e29f5780fffd4c6e0b5544bb21a07fd2dc55f9d34dd9eb4e4457806f5eaa57"
+    },
+    {
+      "path": "市场调研-20261029/.build/previews-v2/slide-12.png",
+      "bytes": 191574,
+      "sha256": "9288410a21278cd28cb550d4bcc23cbbbd40dba0651094284e7dac2aeffe9371"
+    },
+    {
+      "path": "市场调研-20261029/.build/previews/check-dates.png",
+      "bytes": 40204,
+      "sha256": "3afa748e346256074d0d0032229a6985efad59130ad4d5bbbb819c8d62f32128"
+    },
+    {
+      "path": "市场调研-20261029/.build/previews/check-pending.png",
+      "bytes": 76379,
+      "sha256": "ca50fb865351dff965d5f2d4dfe1b289fa7ccbcc0ceb4381c524478515a81bc1"
+    },
+    {
+      "path": "市场调研-20261029/.build/previews/check-prices.png",
+      "bytes": 262550,
+      "sha256": "382b1c54b269ab1e20d581fca7df15d03e9e42bf8864d5de236adedf9db1719e"
+    },
+    {
+      "path": "市场调研-20261029/.build/previews/sheet-产品概况.png",
+      "bytes": 248624,
+      "sha256": "bcf82e75d311f5d1200c5522d0f8855221cfc3ea6eff844a33409897ec0cdf38"
+    },
+    {
+      "path": "市场调研-20261029/.build/previews/sheet-体验证据.png",
+      "bytes": 166437,
+      "sha256": "9f1fbe86327de59f5eef0df08ba85b7c1f9d11d895b27c8c21af9086d870e7a4"
+    },
+    {
+      "path": "市场调研-20261029/.build/previews/sheet-功能对比.png",
+      "bytes": 133768,
+      "sha256": "212673a92ffcca1a2845c9300055f236f8b0d49fc752113f0af0a4d34a9235c0"
+    },
+    {
+      "path": "市场调研-20261029/.build/previews/sheet-改进机会.png",
+      "bytes": 299079,
+      "sha256": "a8cb8eaadec61a434805d5022854da70086663635bdffb119938f1ae9aafd557"
+    },
+    {
+      "path": "市场调研-20261029/.build/previews/slide-01.png",
+      "bytes": 61960,
+      "sha256": "18ed2f6736e21b48c5de7d6bd4b3eae2faa0f729fe567d567fd405c30e431241"
+    },
+    {
+      "path": "市场调研-20261029/.build/previews/slide-02.png",
+      "bytes": 150170,
+      "sha256": "4f0b75eb650a3e7b1f7fa02daa5ce2544131b25cf33ea0bd382a8b5ca4958c0c"
+    },
+    {
+      "path": "市场调研-20261029/.build/previews/slide-03.png",
+      "bytes": 146990,
+      "sha256": "d689d090db66bd43dc43913b94d0e92ccfe14611eae9f81ef20da8403c462230"
+    },
+    {
+      "path": "市场调研-20261029/.build/previews/slide-04.png",
+      "bytes": 170121,
+      "sha256": "4524c80cb1937fbb3ee23ef91d88411055a6425d8e77be7e4d05162de07843ea"
+    },
+    {
+      "path": "市场调研-20261029/.build/previews/slide-05.png",
+      "bytes": 133702,
+      "sha256": "d2534e2718cfb43e4959fe87a19177376e8b0748c05c06fe939e3ca91f72bcc6"
+    },
+    {
+      "path": "市场调研-20261029/.build/previews/slide-06.png",
+      "bytes": 194479,
+      "sha256": "ec5f12f2ac683399f5f3a48de582efd390555db7315c77e34dcf3eff87e9792f"
+    },
+    {
+      "path": "市场调研-20261029/.build/previews/slide-07.png",
+      "bytes": 284557,
+      "sha256": "30d3b18f4e22bad501b7e1df932fbbe1b7a7824610d206a6c7b7ea26ee2430c7"
+    },
+    {
+      "path": "市场调研-20261029/.build/previews/slide-08.png",
+      "bytes": 313478,
+      "sha256": "4739968c25a100d1e78898d340b5ac27451afaab0fedbf8485618b7581c8fe63"
+    },
+    {
+      "path": "市场调研-20261029/.build/previews/slide-09.png",
+      "bytes": 192501,
+      "sha256": "12b5da6f414d2bf0b9fa29a80a4ee005e02b0244b2f852bd2e0582d49eea47d4"
+    },
+    {
+      "path": "市场调研-20261029/.build/previews/slide-10.png",
+      "bytes": 177704,
+      "sha256": "ab41f57f8e591d6d074d5ec7c24ebcd320f0d3d26f08399b1b6465c433427d88"
+    },
+    {
+      "path": "市场调研-20261029/.build/previews/slide-11.png",
+      "bytes": 170203,
+      "sha256": "edc5e07d0daf6d5170fd30c27525e877216d3d5ab7dfe1d3811fec0115127681"
+    },
+    {
+      "path": "市场调研-20261029/.build/previews/slide-12.png",
+      "bytes": 151111,
+      "sha256": "b94f681330c1923419d50c1bb2b3f73167e9aca59d6965ee72efa0f289cfbd62"
+    },
+    {
+      "path": "市场调研-20261029/.build/previous-version/v2-first.pptx",
+      "bytes": 512934,
+      "sha256": "7c6b8ba8659d05e379d60a7c3bd52d1eb3bd6a5d8a2c20f35c12175315234d61"
+    },
+    {
+      "path": "市场调研-20261029/.build/previous-version/validation-v2-first.json",
+      "bytes": 5268,
+      "sha256": "f30725b89981940646b3fdeb20ad058dc1f4385155a74904f6e0f90ab19d9cf2"
+    },
+    {
+      "path": "市场调研-20261029/.build/previous-version/汇报阅读说明.txt",
+      "bytes": 4106,
+      "sha256": "96d2cae0691ca9366f8d5afd46f79e4c395a7ec7d7c5e126b7b36b7c7896123a"
+    },
+    {
+      "path": "市场调研-20261029/.build/previous-version/竞品对比表.xlsx",
+      "bytes": 32608,
+      "sha256": "0567b0b96ddf7b2d7b30b0a37f79fb53b5ae43fc929725de885688ff39c6e479"
+    },
+    {
+      "path": "市场调研-20261029/.build/rebalance_deliverables.mjs",
+      "bytes": 33652,
+      "sha256": "98f350b75db66c92a4597b8f729630106a8c2324d94651ebd49efcdbb1ad958b"
+    },
+    {
+      "path": "市场调研-20261029/.build/source-snapshots/01-作业帮-页面文本.txt",
+      "bytes": 6044,
+      "sha256": "95195704276099e50f1304b9a4d8942d636d39ef479494daaa85ef10a54a82ea"
+    },
+    {
+      "path": "市场调研-20261029/.build/source-snapshots/02-小猿AI-页面文本.txt",
+      "bytes": 8509,
+      "sha256": "fe209c0b2121273bab571b598f3993796bc159a458c67451a85d2f62d29788fe"
+    },
+    {
+      "path": "市场调研-20261029/.build/source-snapshots/03-洋葱学园-介绍文本.txt",
+      "bytes": 18704,
+      "sha256": "147cb0336bb2e26203ff5b0f2ac11938bb45724b4f0127ee1dc32b6d0ad75c8a"
+    },
+    {
+      "path": "市场调研-20261029/.build/source-snapshots/03-洋葱学园-学伴文本.txt",
+      "bytes": 9547,
+      "sha256": "5fe915ca27bb342967e46eedd0716258349ebaebe6772f24e7cc253c5158ad97"
+    },
+    {
+      "path": "市场调研-20261029/.build/source-snapshots/05-学而思T6Max-页面文本.txt",
+      "bytes": 343,
+      "sha256": "bc56c4e5387d879033efd8d39854b6c94642d0747b67fcab33ca6db6fb5f4c17"
+    },
+    {
+      "path": "市场调研-20261029/.build/source-snapshots/08-作业帮AI学习桌-页面文本.txt",
+      "bytes": 2360,
+      "sha256": "903e96710232b777eb52e67f0ccdcddffe6a194928d6a75e12666b72c894cc3a"
+    },
+    {
+      "path": "市场调研-20261029/.build/speaker-notes-v2.txt",
+      "bytes": 19609,
+      "sha256": "1c59dd81a987d85b64b115fa5efde3ad8c0ff799a82a5a1bacb6a6c5b9ec4b1a"
+    },
+    {
+      "path": "市场调研-20261029/.build/speaker-notes.txt",
+      "bytes": 19584,
+      "sha256": "23119aae571a7e046a26ce540d3465f9de52516d6381e405ef8f53683f3951da"
+    },
+    {
+      "path": "市场调研-20261029/.build/validation-v2.json",
+      "bytes": 5268,
+      "sha256": "ac0c68aec448467518371cda302e7759e6105776289b6ee148fbc4995aa6baa3"
+    },
+    {
+      "path": "市场调研-20261029/.build/validation.json",
+      "bytes": 4985,
+      "sha256": "37ca32f43b2a6b66708aefbc0dae06dea2741a2ea6ab9c124de86a6ffbd98176"
+    },
+    {
+      "path": "市场调研-20261029/.build/workbook-errors.txt",
+      "bytes": 60,
+      "sha256": "acc0111e19cf44d2753fc9ecd164bf1b27fbd65597463a25cf48bd1c65e90146"
+    },
+    {
+      "path": "市场调研-20261029/.build/workbook-inspect.txt",
+      "bytes": 4733,
+      "sha256": "3a394fc60bed3e0aea1e0ccd47132cb9b2a54789aa5c594b192a04a80398650f"
+    },
+    {
+      "path": "市场调研-20261029/.build/竞品对比表.xlsx.inspect.ndjson",
+      "bytes": 517298,
+      "sha256": "6339dfab2a4d76a5b36dfde8711de1cd13aa040e03556356cda8d636a2d43c91"
+    },
+    {
+      "path": "市场调研-20261029/research/apps.json",
+      "bytes": 18899,
+      "sha256": "087e1ebcf47ad7e5ecf4e5ce6d013e9af7a9671c4e836f8b77f125dca30545d2"
+    },
+    {
+      "path": "市场调研-20261029/research/hardware-source-images/作业帮学习桌-官方功能03.png",
+      "bytes": 1096319,
+      "sha256": "4cc21ed49bd700b296c96be8d0c6332a63a43ac05f708bea5b0c2bf0142df436"
+    },
+    {
+      "path": "市场调研-20261029/research/hardware-source-images/作业帮学习桌-官方功能04.png",
+      "bytes": 45836,
+      "sha256": "ffabd6928e871e2f018fda1764058be32ec4c2c0f8eb33e2f7f05f52424f260f"
+    },
+    {
+      "path": "市场调研-20261029/research/hardware-source-images/作业帮学习桌-官方功能05.png",
+      "bytes": 73271,
+      "sha256": "e2173f28a39ed32354450adc1a8caf1a5acfe8895374403ead127785def346dd"
+    },
+    {
+      "path": "市场调研-20261029/research/hardware-source-images/作业帮学习桌-官方功能06.png",
+      "bytes": 68526,
+      "sha256": "ab97d68ce65523c00acda1949233c6cb100579ac7428311c41ac04f1fea9bc48"
+    },
+    {
+      "path": "市场调研-20261029/research/hardware-source-images/作业帮学习桌-官方参数12.png",
+      "bytes": 78002,
+      "sha256": "af7395abf1b16dcfa8711ad197276a30e0ece971971c8fb9d5a5a36d53098b74"
+    },
+    {
+      "path": "市场调研-20261029/research/hardware.json",
+      "bytes": 24359,
+      "sha256": "45d318a9fca86bb6cc107465d331b3adeb44e9c38071b49979e3cdd3a2c3d510"
+    },
+    {
+      "path": "市场调研-20261029/research/local_and_protocol.json",
+      "bytes": 45445,
+      "sha256": "08844cf2d518e7cf91a7f2f9d437b5110c69022e180afbd89f0a10dc244609aa"
+    },
+    {
+      "path": "市场调研-20261029/research/reviews.json",
+      "bytes": 55350,
+      "sha256": "8bfb615348fd71cbaa92b01d89c3ad32f838ed033062ccf0890e686b19321136"
+    },
+    {
+      "path": "市场调研-20261029/research/source_assets.json",
+      "bytes": 5353,
+      "sha256": "306bf6cb4f4c8313aedbb11919496f9803fb854857736c3c9d84083d3fb469b8"
+    },
+    {
+      "path": "市场调研-20261029/research/xiaoyuan-metadata.json",
+      "bytes": 9204,
+      "sha256": "544f02e1d0603e3d4971159c75df96ed202ef2ae9b81b03dfbf10a98cb3cea00"
+    },
+    {
+      "path": "市场调研-20261029/research/yangcong-metadata.json",
+      "bytes": 5868,
+      "sha256": "ff1223fcbde7c37cb9663209c9507f8ffc490e6a1919eef8c848948dcec2459f"
+    },
+    {
+      "path": "市场调研-20261029/research/zuoyebang-metadata.json",
+      "bytes": 6979,
+      "sha256": "88af4ad6e371b5f97ce0b205b2b451edb14597adaebf7fd27c1caec85c6010d5"
+    },
+    {
+      "path": "市场调研-20261029/交付/小学教育App与伴学设备功能调研.pptx",
+      "bytes": 512904,
+      "sha256": "7cfd3c26f964ff9ae659e01dfbf3037215956cfa4a1b448f45ed043fdd5e28a7"
+    },
+    {
+      "path": "市场调研-20261029/交付/小学智能学习产品调研与小禾学伴定位建议.pptx",
+      "bytes": 581903,
+      "sha256": "5523fab7d3270b89836f69b0c9c2956d489bb1f4ec537dd9a4cee723dd09ab8a"
+    },
+    {
+      "path": "市场调研-20261029/交付/汇报阅读说明.txt",
+      "bytes": 4767,
+      "sha256": "ff17b9c98329591433606087f180258b8eae3f70e1ec82d6f2dee588fcff8866"
+    },
+    {
+      "path": "市场调研-20261029/交付/竞品对比表.xlsx",
+      "bytes": 34558,
+      "sha256": "f08c2f4a27c91aad82bbc46fc998f310cad88e21d7cf698ef62e89efe9becc11"
+    },
+    {
+      "path": "市场调研-20261029/实测与访谈手册.html",
+      "bytes": 38742,
+      "sha256": "8f90ae8be88599ef926ea3db27dfce943c6e9b0d79447ad02227ddf29476d790"
+    },
+    {
+      "path": "市场调研-20261029/小禾学伴竞品功能调研资料包-20261029.zip",
+      "bytes": 2862434,
+      "sha256": "903354a5a6d04e1a816a311be9fe6a234920857f715ad857d99a58ce6d005499"
+    },
+    {
+      "path": "市场调研-20261029/小禾学伴调研资料包-20261029.zip",
+      "bytes": 2928863,
+      "sha256": "07fb1817533c9bda3bebec12db13f66b68de0902dc416c9262275a3efa9361c7"
+    },
+    {
+      "path": "市场调研-20261029/来源与截图/01-作业帮-官网.jpg",
+      "bytes": 83389,
+      "sha256": "0962edb0371e445de4494d3c09d9fa23c3bc5efcffb3e97c762fc680637244da"
+    },
+    {
+      "path": "市场调研-20261029/来源与截图/02-小猿AI-官网.jpg",
+      "bytes": 79472,
+      "sha256": "3090bd04ef8ea6b543cb5c6356ddb659c2701f0ee1634e3511db5d5f528be897"
+    },
+    {
+      "path": "市场调研-20261029/来源与截图/03-洋葱学园-官网.jpg",
+      "bytes": 97096,
+      "sha256": "1429b16e0c0e30e97c7f4765d7fe7104cc1b30a57048fb5ffd98b0d3ca2403f4"
+    },
+    {
+      "path": "市场调研-20261029/来源与截图/05-学而思T6Max-官网.jpg",
+      "bytes": 77489,
+      "sha256": "f8ec97d1174f880f1f85af573b1bc7e253c25e3aff11f0496d2834c1a39c2300"
+    },
+    {
+      "path": "市场调研-20261029/来源与截图/08-作业帮AI学习桌-官网.jpg",
+      "bytes": 71209,
+      "sha256": "f9354ab609852c1c8615f34b4034836210116eec541abc789e3bd8987b581c77"
+    },
+    {
+      "path": "市场调研-20261029/来源与截图/source_assets.json",
+      "bytes": 5353,
+      "sha256": "306bf6cb4f4c8313aedbb11919496f9803fb854857736c3c9d84083d3fb469b8"
+    },
+    {
+      "path": "市场调研-20261029/来源与截图/官方展示-xiaoyuan-1.png",
+      "bytes": 111082,
+      "sha256": "a9144ab64f809eef4e9f29f1695c0e9ede40dae292ba604b9906fbb07725e64e"
+    },
+    {
+      "path": "市场调研-20261029/来源与截图/官方展示-xiaoyuan-2.jpg",
+      "bytes": 47476,
+      "sha256": "875982eb07e1210f3d6cdc83b60bb90fc50fdc01528b1789128ef76a0eb6400b"
+    },
+    {
+      "path": "市场调研-20261029/来源与截图/官方展示-yangcong-1.jpg",
+      "bytes": 48849,
+      "sha256": "ae27d5350d3c8a8b73eafb30665f7f1651825711e2cf82e40e1e60f007742dc7"
+    },
+    {
+      "path": "市场调研-20261029/来源与截图/官方展示-yangcong-2.jpg",
+      "bytes": 37254,
+      "sha256": "7871a9e3134871115e796161b2a08d3d77e22c7f8e85d50621f6e0942d5539f8"
+    },
+    {
+      "path": "市场调研-20261029/来源与截图/官方展示-zuoyebang-1.png",
+      "bytes": 214804,
+      "sha256": "0e32cbc9ccc2e901030e9580951a72f002d2eb836e10dd5ff0dc3bf412e58a55"
+    },
+    {
+      "path": "市场调研-20261029/来源与截图/官方展示-zuoyebang-2.jpg",
+      "bytes": 58990,
+      "sha256": "477a9f14b2e1d9cb2d3687f91ac9daa0624914173d7c28692752356823b7d1ad"
+    },
+    {
+      "path": "市场调研-20261029/来源与截图/来源索引.html",
+      "bytes": 59262,
+      "sha256": "cdf8c63a62511146f222e86144370034c98c439709db764961520ff8670390e8"
+    },
+    {
+      "path": "构建备份-20261028/android-build.json",
+      "bytes": 883,
+      "sha256": "6790db136259f6999ce21c285bedc00c3dbdcf28fec346200923c57c3b8abe48"
+    },
+    {
+      "path": "构建备份-20261028/xiaohe-local-trial-arm64.apk",
+      "bytes": 47415049,
+      "sha256": "a4e2c2258c820c4683d8472163239ceab41b62ba407fc2fd0a07cd35512d9805"
+    },
+    {
+      "path": "构建备份-20261028/新包冷启动.png",
+      "bytes": 526399,
+      "sha256": "38319d6fac7ff3ef7ac8874a1af1d26c2ce59dc33d69637390acf1f86d3f3430"
+    },
+    {
+      "path": "给下一位AI的接手提示词.md",
+      "bytes": 18485,
+      "sha256": "a4336288b8a54cb9559cd392d29c8e0a712de0d896d9988333454e4cf130ec59"
+    }
+  ]
+}

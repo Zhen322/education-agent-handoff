@@ -1,0 +1,337 @@
+
+> xiaohe-mobile@0.1.0 test
+> node --experimental-strip-types --test tests/*.test.mjs modules/xiaohe-ocr/tests/*.test.mjs
+
+✔ old native build remains usable without pretending that OCR is available (96.084166ms)
+✔ availability waits for the real device language check (7.986833ms)
+✔ native photo identity, empty result and raw digest are preserved without invented text (4.751584ms)
+✔ native timeout is propagated rather than converted to a success or seeded candidate (2.353416ms)
+(node:63949) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/zhenshuai/Desktop/%E8%BD%A6%E7%81%AF/github%E4%BA%A4%E6%8E%A5-20261102/education-agent-handoff/xiaohe-mobile/src/components/learning/chatDraft.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/zhenshuai/Desktop/车灯/github交接-20261102/education-agent-handoff/xiaohe-mobile/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ chat recovery merges independent text/intent edits and retains unresolved conflicts across repeated reloads (1.8815ms)
+✔ old save completion cannot replace newer text or explicit help choice (0.188792ms)
+✔ observed deletion removes saved text and selection, keeping only genuinely unsaved fields (0.1945ms)
+✔ typing during an in-flight write drains latest text and choice; restart reads final draft (91.385791ms)
+✔ CAS failure recovery preserves local text and incorporates remote help option (60.460417ms)
+✔ same-field conflict blocks writes until explicit choice; repeated read retains the conflict (49.706209ms)
+✔ failed persistence/read keeps text and restores writing only after successful reload (31.517584ms)
+✔ lost send response is reconciled by stable request id without resurrecting sent draft (46.950666ms)
+✔ deleted remote thread preserves unsaved input and blocks recreating it through draft save (81.014834ms)
+✔ returning to an older mounted page after another page deletes its thread immediately hides saved draft (27.141792ms)
+✔ a late old save or send completion cannot restore draft body after a newer deletion (74.221375ms)
+(node:63950) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/zhenshuai/Desktop/%E8%BD%A6%E7%81%AF/github%E4%BA%A4%E6%8E%A5-20261102/education-agent-handoff/xiaohe-mobile/src/local/engine.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/zhenshuai/Desktop/车灯/github交接-20261102/education-agent-handoff/xiaohe-mobile/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ first launch has no invented conversations or preferences; old messages migrate once without guessing a question version (117.973208ms)
+✔ ordinary negative text never opens an answer; explicit help is visible only after a successful save (52.722167ms)
+✔ an old paper conversation keeps its exact version after a newer content package is applied (103.346459ms)
+✔ conversation drafts survive restart, preserve previous bytes on failure, and reject stale edits (77.708166ms)
+✔ deleting a conversation removes private text and drafts but retains help facts and original submitted records (83.786959ms)
+✔ stale deletion preview and another engine write cannot discard newer user work; lost replies recover exactly once (70.391542ms)
+✔ explicit presentation preferences persist and can be removed without changing replies or learning history (55.991166ms)
+✔ confirmed summaries stay local, copy only the selected context, and remain separate when a conversation is deleted (77.5545ms)
+✔ a damaged conversation snapshot is preserved and blocks writes instead of silently resetting records (18.519417ms)
+(node:63951) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/zhenshuai/Desktop/%E8%BD%A6%E7%81%AF/github%E4%BA%A4%E6%8E%A5-20261102/education-agent-handoff/xiaohe-mobile/src/local/content-file-reader.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/zhenshuai/Desktop/车灯/github交接-20261102/education-agent-handoff/xiaohe-mobile/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ reads Chinese UTF-8 across short reads and strips only the optional BOM (2.310291ms)
+✔ rejects oversized input at bounded read, closes handle without reading entire file (0.583042ms)
+✔ rejects malformed UTF-8 and empty files, and closes on provider failure (0.3485ms)
+(node:63952) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/zhenshuai/Desktop/%E8%BD%A6%E7%81%AF/github%E4%BA%A4%E6%8E%A5-20261102/education-agent-handoff/xiaohe-mobile/src/local/engine.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/zhenshuai/Desktop/车灯/github交接-20261102/education-agent-handoff/xiaohe-mobile/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ content preview is read-only and does not expose teaching answers; import and rollback preserve learner records (59.083167ms)
+✔ repeat application is a no-op even after rollback; package ID conflicts never write (122.912917ms)
+✔ changed preview baseline and CAS conflicts cannot overwrite current learning work (46.398ms)
+✔ failed content write keeps exact old bytes; committed lost reply is recovered once (44.2ms)
+✔ unknown/private fields and edited checksums are rejected before writes (48.517291ms)
+✔ migration archives an existing dossier once and damaged archive is never silently reset (20.286292ms)
+(node:63953) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/zhenshuai/Desktop/%E8%BD%A6%E7%81%AF/github%E4%BA%A4%E6%8E%A5-20261102/education-agent-handoff/xiaohe-mobile/src/features/history-deletion-draft.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/zhenshuai/Desktop/车灯/github交接-20261102/education-agent-handoff/xiaohe-mobile/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ three-way recovery preserves local changed fields and incorporates untouched remote fields (0.821417ms)
+✔ divergent same-field edits require an explicit choice; repeated reload does not erase conflict (0.134792ms)
+✔ same resulting edits converge and changing a conflicted field to remote clears that conflict (0.0745ms)
+✔ old save echo normalizes only the sent snapshot and never overwrites later typing (0.073291ms)
+✔ mismatched reload never replaces the existing draft (0.169292ms)
+✔ regression: CAS failure + reload + retry preserves another session’s saved second answer (108.939084ms)
+✔ hook blocks unresolved conflicts, preserves choices across repeated reload, and saves only after choice (50.548583ms)
+✔ hook recovers unknown storage outcome without clearing unsaved input (27.59125ms)
+✔ in-flight save followed by more typing drains latest input and stale props cannot roll it back (42.302834ms)
+✔ remote submitted attempt keeps local unsaved text visible and refuses overwrite (30.916666ms)
+✔ recovery waits for an existing commit and does not start an additional write during reload (65.690958ms)
+✔ a mounted practice draft clears deleted saved fields immediately, retains only unsaved text and cannot write them back (93.0625ms)
+(node:63954) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/zhenshuai/Desktop/%E8%BD%A6%E7%81%AF/github%E4%BA%A4%E6%8E%A5-20261102/education-agent-handoff/xiaohe-mobile/src/local/engine.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/zhenshuai/Desktop/车灯/github交接-20261102/education-agent-handoff/xiaohe-mobile/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ evidence migration adds only an empty container and one migration event; failed upgrade preserves original bytes (175.055958ms)
+✔ proposals do not apply themselves; accepted local transcription correction unifies report and mistakes without rewriting original records (111.502458ms)
+✔ proposal and confirmation failures retain bytes and visible state; lost native replies and repeated request keys commit once (116.688458ms)
+✔ stale impact previews and a concurrent writer never overwrite newer records (75.881459ms)
+✔ an unknown native commit result blocks writes until reload and then claims the saved decision exactly once (86.806542ms)
+✔ invalidation removes an earned level immediately and does not let later reevaluation hold a withdrawn star (77.621583ms)
+✔ knowledge correction keeps old assessment mapping and plan while creating a current source plan from original submission time (60.260916ms)
+✔ a newly wrong effective answer creates a stable mistake; later learning correction remains separate from recorded answer (48.703625ms)
+✔ rejection leaves learning results unchanged and local clients cannot forge trusted teacher decisions or erase recorded help (66.842042ms)
+✔ selected local originals are explicit and private; tampered chains or teacher identities block reload without resetting bytes (121.589542ms)
+(node:63955) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/zhenshuai/Desktop/%E8%BD%A6%E7%81%AF/github%E4%BA%A4%E6%8E%A5-20261102/education-agent-handoff/xiaohe-mobile/src/features/history-deletion-ui.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/zhenshuai/Desktop/车灯/github交接-20261102/education-agent-handoff/xiaohe-mobile/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ lost proposal reply is claimed on authoritative reload, without creating a second proposal or losing its exact fields (9.508375ms)
+✔ CAS failure reload retains text and selection, and a fresh save uses the reloaded revision (1.886083ms)
+✔ late native input events cannot alter the request once saving starts; exact retry reuses its request id (4.051875ms)
+✔ outdated preview cannot confirm and re-preview preserves the explicitly edited decision reason (3.763458ms)
+✔ lost confirmation reply is recovered by the decision request id and never repeats the decision (6.474375ms)
+(node:63956) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/zhenshuai/Desktop/%E8%BD%A6%E7%81%AF/github%E4%BA%A4%E6%8E%A5-20261102/education-agent-handoff/xiaohe-mobile/src/components/learning/evidenceReviewInput.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/zhenshuai/Desktop/车灯/github交接-20261102/education-agent-handoff/xiaohe-mobile/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ unselected fields are omitted, including an untouched help label; explicit blank answers and false validity patches survive (0.896584ms)
+✔ saving requires an explicit field and a nonblank reason; optional attachments are bounded (0.156542ms)
+✔ a selected answer of 301 characters is blocked before persistence, while the exact 300-character limit is allowed (0.075375ms)
+✔ persisted proposal resumes exactly the selected patch, and modifying resumed input never rewrites that proposal (0.125916ms)
+✔ unknown proposal/decision results can only be claimed by the same evidence, actor and stable request id (0.085292ms)
+✔ print patch applies exact upstream inputs and is idempotent (37.09825ms)
+✔ print patch refuses a different installed version without modifying files (10.34325ms)
+✔ print patch preflights every upstream hash before writing any file (10.6135ms)
+✔ print patch refuses an altered checked-in payload (20.106542ms)
+✔ print patch can recover from a previously interrupted application (16.078208ms)
+✔ print patch check mode never changes unapplied sources (13.268959ms)
+✔ print patch rejects manifest paths outside the dependency directory (7.469833ms)
+✔ print patch refuses missing source-build config before modifying native files (7.326625ms)
+✔ print source-build guard requires the Android entry and rejects wrong or implicit settings (0.745667ms)
+(node:63959) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/zhenshuai/Desktop/%E8%BD%A6%E7%81%AF/github%E4%BA%A4%E6%8E%A5-20261102/education-agent-handoff/xiaohe-mobile/src/features/history-deletion-ui.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/zhenshuai/Desktop/车灯/github交接-20261102/education-agent-handoff/xiaohe-mobile/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ deletion selection excludes draft/demo records and deep links never expand to another paper (0.727ms)
+✔ confirmation binds exact selection, photos, revision, digest and explicit acknowledgement (0.257625ms)
+✔ only the same actor and request can recover a deletion; an unrelated receipt cannot unlock the current pending request (0.07675ms)
+✔ deleted draft fields clear saved text and conflicts but retain only changed local text without touching another question (0.125791ms)
+✔ paper-return deletion clears saved claims and confirmation flags, keeps only unsaved text and excludes only removed photos (0.09575ms)
+✔ native selection change or newer global revision invalidates confirmation and preserves the chosen photos for a fresh preview (28.981542ms)
+✔ changing photo selection hides stale retention counts and reasons until a matching preview confirms deletion (6.296209ms)
+✔ lost deletion reply is claimed by reload; selected private body disappears and no second confirmation is sent (6.941209ms)
+✔ one-frame double presses cannot create two requests; retry keeps the exact frozen payload and requestId (3.308583ms)
+✔ failed CAS keeps the chosen records, requires re-preview after reload and uses the latest revision (4.351042ms)
+(node:63963) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/zhenshuai/Desktop/%E8%BD%A6%E7%81%AF/github%E4%BA%A4%E6%8E%A5-20261102/education-agent-handoff/xiaohe-mobile/src/local/engine.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/zhenshuai/Desktop/车灯/github交接-20261102/education-agent-handoff/xiaohe-mobile/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ history migration preserves every prior record and fails without resetting storage (113.560958ms)
+✔ one selected answer and its copies disappear durably while other answers and the teaching paper remain (110.235459ms)
+✔ failed state commit never removes files; successful commit cleans files once and retains a replay tombstone (77.561708ms)
+✔ file failure remains pending across restart and retry; it never restores deleted learning records (71.260958ms)
+✔ unknown deletion commit performs no physical cleanup until exact persisted state is reread (55.349333ms)
+✔ a lost cleanup acknowledgment safely repeats only file deletion and cannot recreate removed answers (98.325083ms)
+✔ stale preview and external CAS writers cannot silently broaden deletion or touch photos (115.067542ms)
+✔ missing or forged deletion descriptors never turn corruption into an accepted partial attempt (50.799209ms)
+✔ partial paper deletion redacts both paper entries and archived online answers, retains a shared page, then cleans it after the last answer is selected (102.067584ms)
+(node:63964) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/zhenshuai/Desktop/%E8%BD%A6%E7%81%AF/github%E4%BA%A4%E6%8E%A5-20261102/education-agent-handoff/xiaohe-mobile/src/local/engine.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/zhenshuai/Desktop/车灯/github交接-20261102/education-agent-handoff/xiaohe-mobile/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ first launch has 30 published trial questions, no invented history and no exposed answers (18.0955ms)
+✔ restart restores a saved draft without exposing solutions (56.390042ms)
+✔ failed commit preserves old disk and published state, then queue accepts retry (52.917667ms)
+✔ fast edits are queued, payloads captured immediately, reload waits for all writes (77.1655ms)
+✔ help is published only after commit, persisted, and stale save cannot downgrade it (51.330542ms)
+✔ submission is immutable and idempotent, with independent and helped answers separated (35.815083ms)
+✔ single explanation and paper exposure exclude the entire family from future papers (37.100416ms)
+✔ corrupt JSON is preserved and blocks new writes until a successful reload (16.617ms)
+✔ valid JSON with invalid schema or dangling history is also preserved (37.996666ms)
+✔ an existing record disappearing during this session is not silently replaced by a seed (3.234542ms)
+✔ stale engine cannot overwrite another writer and can explicitly reload (42.893375ms)
+✔ commit succeeded but native response failed is resolved by exact readback (16.879708ms)
+✔ unknown write outcome blocks later writes until reload (44.449167ms)
+✔ local photo registration is idempotent, local only, and survives restart (14.721916ms)
+✔ local student cannot elevate via payload or modify content, help stays local (24.312166ms)
+✔ UI mutation and broken subscribers cannot mutate raw data or fail committed actions (13.298958ms)
+✔ real SQLite adapter persists restart, CAS conflicts and malformed data without replacement (84.527792ms)
+(node:63965) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/zhenshuai/Desktop/%E8%BD%A6%E7%81%AF/github%E4%BA%A4%E6%8E%A5-20261102/education-agent-handoff/xiaohe-mobile/src/local/engine.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/zhenshuai/Desktop/车灯/github交接-20261102/education-agent-handoff/xiaohe-mobile/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ legacy upgrade commits once, preserves frozen records and old score, and updates only exact original samples (79.410625ms)
+✔ failed migration leaves old bytes intact and no partially upgraded UI; explicit reload retries atomically (25.989209ms)
+✔ migration resolves a lost native success reply using exact readback (18.835042ms)
+✔ migration CAS conflict never overwrites a concurrent updated legacy record (22.20075ms)
+✔ the actual 30-question bank supports basic → stable application → D4 fresh transfer, surviving restart (68.320833ms)
+✔ helped success can schedule review and grant the aided level, without granting independence (116.381208ms)
+✔ invalid mastery references/parameters/current result are preserved and rejected before further writes (18.953042ms)
+✔ single report exposure persists only one family and cannot alter original grades or assessment history (77.7245ms)
+✔ release guard derives registrar names from merged metadata and accepts actual R8 constructor forms (1.644875ms)
+✔ release guard rejects the observed class-only keep failure for each registrar (0.119458ms)
+✔ other classes, nonzero arguments, inlined frames and static initializers cannot impersonate the constructor (0.150625ms)
+✔ missing or renamed reflective classes, metadata and native module fail closed (0.155583ms)
+(node:63967) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/zhenshuai/Desktop/%E8%BD%A6%E7%81%AF/github%E4%BA%A4%E6%8E%A5-20261102/education-agent-handoff/xiaohe-mobile/src/features/paper-export-flow.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/zhenshuai/Desktop/车灯/github交接-20261102/education-agent-handoff/xiaohe-mobile/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ student export never records answer exposure and returns only the renderer result (2.042542ms)
+✔ failed exposure persistence prevents all rendering for solutions and both (0.276292ms)
+✔ render waits for exposure to resolve and reads only its fresh authorized projection (0.343167ms)
+✔ mutating the caller paper while exposure is pending cannot switch the frozen request (0.159709ms)
+✔ missing paper, changed paper version and changed question sequence reject before render (0.253709ms)
+✔ question snapshot version or content drift cannot hide behind unchanged paper version and IDs (0.225833ms)
+✔ an exposure response that still lacks solutions never reaches PDF rendering (0.103541ms)
+✔ render failure is propagated and an explicit retry records exposure again before rendering (0.279541ms)
+✔ invalid mode rejects without calling exposure or renderer (0.120292ms)
+(node:63968) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/zhenshuai/Desktop/%E8%BD%A6%E7%81%AF/github%E4%BA%A4%E6%8E%A5-20261102/education-agent-handoff/xiaohe-mobile/src/features/paper-export-lifecycle.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/zhenshuai/Desktop/车灯/github交接-20261102/education-agent-handoff/xiaohe-mobile/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ successful generation publishes only after prepare and preserves the ready directory (0.739375ms)
+✔ first PDF failure removes only the newly allocated unpublished directory (0.223792ms)
+✔ second PDF failure removes the already copied first PDF and repeated retries do not accumulate batches (0.158833ms)
+✔ a creation collision never deletes an existing batch (0.079917ms)
+✔ cleanup failure cannot replace the original export error (0.313208ms)
+✔ asynchronous cleanup failure is also best effort (0.209375ms)
+✔ manifest write rejection before a known result preserves all files for reread recovery (0.219167ms)
+✔ a lost native reply after writing the manifest never deletes a published batch (0.337625ms)
+✔ a synchronous exception at the publication boundary is conservatively treated as unknown (0.231042ms)
+✔ failure to delete a verified temporary cache file does not stop publication (0.260041ms)
+✔ timely native rendering returns its result without running late cleanup (0.271709ms)
+✔ a timely native rejection retains its original error (0.173833ms)
+✔ a hanging renderer times out and rolls back the unpublished batch (5.439ms)
+✔ late native success after timeout cleans only that cache result and cannot publish over a retry (7.143666ms)
+✔ native rejection after timeout is consumed without changing the timeout outcome (6.388292ms)
+✔ late cache cleanup rejection is best effort and cannot create an unhandled rejection (7.952625ms)
+(node:63969) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/zhenshuai/Desktop/%E8%BD%A6%E7%81%AF/github%E4%BA%A4%E6%8E%A5-20261102/education-agent-handoff/xiaohe-mobile/src/features/paper-print-template.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/zhenshuai/Desktop/车灯/github交接-20261102/education-agent-handoff/xiaohe-mobile/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ both returns two complete independent HTML files with distinct safe filenames (4.126292ms)
+✔ student HTML has no answer, hints, hidden solutions or completed learner data (0.555667ms)
+✔ student path never reads solution fields, even if accessing one would throw (0.455042ms)
+✔ frozen questionIds controls both orders while exact source and versions are preserved (0.493958ms)
+✔ solutions include only snapshot answers, units, methods and explicitly generic checking advice (0.272458ms)
+✔ every user string is escaped and cannot introduce executable HTML, CSS or external resources (0.233375ms)
+✔ missing or incomplete solution snapshots fail before producing either combined-mode document (0.428125ms)
+✔ zero and unitless answers are valid and optional alternative text can be blank (0.086708ms)
+✔ invalid, missing, duplicate or extra frozen questions never silently print a partial paper (0.178917ms)
+✔ optional identity lines are genuinely blank or absent, never populated from learner state (0.150375ms)
+✔ long multilingual text is kept intact and can fragment without clipping or fixed question heights (0.326167ms)
+✔ missing source is explicitly labelled and unusual object-key IDs remain valid (0.058791ms)
+(node:63970) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/zhenshuai/Desktop/%E8%BD%A6%E7%81%AF/github%E4%BA%A4%E6%8E%A5-20261102/education-agent-handoff/xiaohe-mobile/src/features/history-deletion-draft.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/zhenshuai/Desktop/车灯/github交接-20261102/education-agent-handoff/xiaohe-mobile/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ paper-return UI drains later typing, preserves other fields and restores its saved draft (100.582958ms)
+✔ paper-return CAS recovery incorporates untouched remote answers without overwriting local text (32.016458ms)
+✔ paper-return same-field and photo conflicts survive repeated reload until explicit choice (0.154625ms)
+✔ paper-return conflict blocks save; explicit choice keeps local answer and requires fresh confirmation (55.083625ms)
+✔ editing paper answer resets both confirmations, while a failed commit retains entered text (24.2755ms)
+✔ remote submitted online attempt blocks paper overwrite and leaves local original answer visible (34.715291ms)
+(node:63971) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/zhenshuai/Desktop/%E8%BD%A6%E7%81%AF/github%E4%BA%A4%E6%8E%A5-20261102/education-agent-handoff/xiaohe-mobile/src/features/history-deletion-draft.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/zhenshuai/Desktop/车灯/github交接-20261102/education-agent-handoff/xiaohe-mobile/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ unknown final commit recovers the original submitted report and cannot be reopened by stale draft props (114.496833ms)
+✔ a mounted paper-return screen clears deleted answer, process and claims while preserving another question and blocking autosave (33.814708ms)
+✔ unknown uncommitted submit recovers the saved draft and a same-key retry produces exactly one report (36.268417ms)
+✔ unknown save plus later typing keeps the latest field through explicit conflict recovery (18.663208ms)
+✔ unknown photo registration (before-commit) retries the same prepared file without duplication (27.170375ms)
+✔ unknown photo registration (after-commit) retries the same prepared file without duplication (19.2435ms)
+✔ unknown photo association can be reread and retried without a second binding or new revision (19.823541ms)
+✔ one-shot picker result survives its first consumer leaving before native recovery resolves (1.860708ms)
+✔ pending picker reads share one request; late null or failure cannot clear retained remaining photos (0.884625ms)
+✔ empty or failed picker recovery is retryable and does not hide a later native result (0.358333ms)
+(node:63972) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/zhenshuai/Desktop/%E8%BD%A6%E7%81%AF/github%E4%BA%A4%E6%8E%A5-20261102/education-agent-handoff/xiaohe-mobile/src/local/engine.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/zhenshuai/Desktop/车灯/github交接-20261102/education-agent-handoff/xiaohe-mobile/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ return draft binds original version/order and multiple local photos, restores without an attempt or report (82.83675ms)
+✔ fixed version, fixed question order, missing/duplicate question and invalid claim fail without a write (74.056625ms)
+✔ cross-paper version binding cannot attach the previous version’s question sequence (73.941833ms)
+✔ unknown/duplicate/nonlocal photos rejected; draft-bound photos cannot be claimed by another return or old homework action (82.503709ms)
+✔ previously confirmed photo cannot be rebound to paper return (44.408458ms)
+✔ different upload IDs pointing at the same file cannot duplicate or bypass a photo binding (56.940333ms)
+✔ final confirmation rechecks photo existence and ownership even when the draft was valid earlier (49.196416ms)
+✔ save uses independent optimistic revision and preserves newer paper return from another screen (23.669ms)
+✔ only final confirmation submits the original paper, claims stay separate and never award independent stars (35.423459ms)
+✔ each original answer and unit requires explicit confirmation, blank original is allowed and graded wrong (48.524291ms)
+✔ online draft is unchanged by save and requires explicit submission confirmation before immutable archival (25.274125ms)
+✔ help-only online draft needs no replacement consent but its help and snapshot are preserved (22.698625ms)
+✔ paper.expose after return draft raises final help floor; claimed hint/explanation cannot reduce observed help (31.265458ms)
+✔ claimed assistance is conservative and applies to overlapping active paper families (32.984834ms)
+✔ same-key repeat is idempotent after other changes; different key and all later editing cannot replace original report (22.938208ms)
+✔ submission key already used by another paper cannot link two returns to one report (22.447ms)
+✔ an online submission made after return draft cannot be overwritten by paper confirmation (19.714208ms)
+✔ save and final persistence failure keep prior draft and do not produce partial report or confirmed uploads (23.597416ms)
+✔ old dossiers without optional returns still decode; malformed return relation is rejected without altering stored input (20.60675ms)
+✔ new paper-return material is student/owner only and does not leak through other role projections (20.184041ms)
+(node:63973) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/zhenshuai/Desktop/%E8%BD%A6%E7%81%AF/github%E4%BA%A4%E6%8E%A5-20261102/education-agent-handoff/xiaohe-mobile/src/features/photo-cleanup.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/zhenshuai/Desktop/车灯/github交接-20261102/education-agent-handoff/xiaohe-mobile/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ cleanup uses only an owned basename and rejects external, nested, traversal and malformed paths (1.124125ms)
+✔ deleted aliases and restored iOS containers cannot return through photo recovery, including pending cleanup (0.813375ms)
+(node:63974) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/zhenshuai/Desktop/%E8%BD%A6%E7%81%AF/github%E4%BA%A4%E6%8E%A5-20261102/education-agent-handoff/xiaohe-mobile/src/features/photo-recovery.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/zhenshuai/Desktop/车灯/github交接-20261102/education-agent-handoff/xiaohe-mobile/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ restart finds the same unregistered photo ID without changing inputs (2.348375ms)
+✔ recovery excludes registered IDs and URIs, including a moved iOS container (0.30475ms)
+✔ scan accepts only bounded UUID image files directly in the owned directory (0.13325ms)
+✔ after uncertain save and reread, retry uses committed metadata for idempotency (0.134375ms)
+✔ an ID collision never switches the image to an unrelated saved file (0.199834ms)
+(node:63975) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/zhenshuai/Desktop/%E8%BD%A6%E7%81%AF/github%E4%BA%A4%E6%8E%A5-20261102/education-agent-handoff/xiaohe-mobile/src/local/engine.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/zhenshuai/Desktop/车灯/github交接-20261102/education-agent-handoff/xiaohe-mobile/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ device OCR resolves the registered URI and commits capture and raw run atomically; retries do not call OCR twice (62.1635ms)
+✔ native failure or failed CAS does not create partial recognition records or change original images (30.7205ms)
+✔ unknown scan commit is recovered without creating another run or re-running native OCR (37.881959ms)
+✔ external disk changes while native OCR runs cannot be overwritten by the late result (23.9535ms)
+✔ review edits preserve raw OCR, require separate checks, and submit only selected confirmed answers (77.144709ms)
+✔ history deletion clears raw OCR and affected drafts, prevents re-scan, and preserves teaching questions (65.579375ms)
+✔ migration creates only an empty recognition container and preserves old learning records (25.043459ms)
+✔ line selection keeps reading order, does not silently truncate, and separates body edits from check flags (0.595208ms)
+(node:63976) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/zhenshuai/Desktop/%E8%BD%A6%E7%81%AF/github%E4%BA%A4%E6%8E%A5-20261102/education-agent-handoff/xiaohe-mobile/src/local/engine.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/zhenshuai/Desktop/车灯/github交接-20261102/education-agent-handoff/xiaohe-mobile/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ a lost entry-save reply is claimed by request id without another write or lost input (83.627042ms)
+✔ late IME change after save starts cannot be overwritten by the save receipt (29.333875ms)
+✔ scanning again with a clean open editor rebases its unchanged saved body before the next edit (29.596667ms)
+✔ trusted deletion of the photo releases a pending-operation leave guard and never restores the old editor (30.316458ms)
+✔ editing original answers clears checks and a separate confirmed save is required before submission (25.945833ms)
+✔ CAS recovery preserves local input and rebases only when the stored editor baseline is unchanged (26.6845ms)
+✔ CAS recovery does not overwrite a remotely changed answer or discard the current unsaved answer (26.925ms)
+✔ an exact retry uses the original request id and cannot create a second saved entry (36.592291ms)
+✔ an externally submitted entry cannot trap unsaved local input behind a hidden editor (19.394375ms)
+✔ focused Android cold-link root catches unsaved hardware Back, then releases it after a successful save (23.311584ms)
+✔ hardware Back only dismisses a visible keyboard before asking about unsaved work (20.18925ms)
+✔ hardware Back covers the synchronous operation lock and the later uncertain-save state (18.077334ms)
+✔ hardware Back subscriptions leave with focus, do not leak on rerender, and are removed on unmount (14.818375ms)
+✔ redacted recognition with a retained photo releases Android Back despite an old pending request (22.040459ms)
+✔ iOS keeps the navigator leave guard without installing an Android hardware listener (16.898209ms)
+(node:63977) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/zhenshuai/Desktop/%E8%BD%A6%E7%81%AF/github%E4%BA%A4%E6%8E%A5-20261102/education-agent-handoff/xiaohe-mobile/src/local/engine.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/zhenshuai/Desktop/车灯/github交接-20261102/education-agent-handoff/xiaohe-mobile/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ fully deleted submitted report shows a deletion state, no score or performance categories, and retains teaching questions and placeholders (58.618708ms)
+✔ all-invalid retained report has no zero-denominator score and explains invalidation while keeping the original records (54.131167ms)
+✔ a retained report with valid wrong answers continues to show its real denominator and result categories (21.472958ms)
+(node:63978) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/zhenshuai/Desktop/%E8%BD%A6%E7%81%AF/github%E4%BA%A4%E6%8E%A5-20261102/education-agent-handoff/xiaohe-mobile/src/local/engine.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/zhenshuai/Desktop/车灯/github交接-20261102/education-agent-handoff/xiaohe-mobile/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+✔ report exposure preserves submitted evidence and persists help on overlapping active papers (138.346375ms)
+ℹ tests 229
+ℹ suites 0
+ℹ pass 229
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2062.41475

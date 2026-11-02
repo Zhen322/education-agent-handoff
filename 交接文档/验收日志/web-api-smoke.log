@@ -1,0 +1,24 @@
+PASS anonymous requests cannot read workspace or files
+PASS authenticated workspace loads through issued local sign-in cookie
+PASS cross-origin mutations are rejected without writes
+PASS concurrent draft save and help record both survive CAS retries
+PASS server grades answers and immutable submission replay cannot duplicate or alter evidence
+PASS correction and printing a submitted answer key preserve original results and stars
+PASS answer-key exposure downgrades unfinished attempts and exposed families are excluded from future papers
+NOTE no unprocessed independent review sample remains; this workflow is covered by domain tests, not repeated here
+PASS author/reviewer separation cannot be bypassed through request fields
+PASS R2 bytes round-trip and concurrent upload plus two workspace writes persist all three revisions
+PASS manual photo confirmation records original evidence once without trusting claimed independence
+{
+  "passed": 10,
+  "runId": "api-verification-1793599667443",
+  "initialRevision": 28,
+  "finalRevision": 43,
+  "paperId": "309aa3cb-a12f-4544-bae9-7c233f313cfc",
+  "photoPaperId": "6f1176b4-65ff-46fe-8933-9f180ba5c777",
+  "uploadId": "906491d9-20b7-441d-9ef9-a1cf859b92db",
+  "limits": [
+    "Local mock authentication has one account; cross-account isolation also requires source review and a two-account deployed test.",
+    "This script does not prove persistence across process restarts; rerun a read after restart using the printed record IDs."
+  ]
+}

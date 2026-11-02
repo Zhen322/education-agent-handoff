@@ -1,0 +1,25 @@
+✔ recognition is local-only, owner/student-only, and never accepts a client role/channel override (8.010625ms)
+✔ raw lines preserve order and real/null confidence; malformed provenance, boxes and extra copies reject (6.578167ms)
+✔ all native line and text limits reject rather than silently truncate; empty OCR can retain a manual draft (5.581ms)
+✔ candidate search is read-only safe metadata with strict version digest and no automatic answer/identity conclusion (9.038666ms)
+✔ first save and every body, line or candidate change resets all checks; incomplete rows never become wrong answers (9.998541ms)
+✔ entry CAS and request retry preserve a newer edit without overwriting it (3.558791ms)
+✔ candidate selected after bank change rejects old digest; an already frozen snapshot submits its actual older version (5.253ms)
+✔ partial one-image submission creates original evidence only for chosen checked rows; retries do not duplicate reports (6.738166ms)
+✔ one report preserves selected entry order and rejects duplicate question slots (6.894542ms)
+✔ projection hides raw snapshots, other actors OCR and all teacher/parent/editor OCR text (7.346917ms)
+✔ history deletion clears every same-image raw run and draft but preserves other submitted manual answers and their photo reference (11.463292ms)
+✔ redacted capture rejects late callback, old request replay, new entry, submit and copied-image re-open (6.396375ms)
+✔ open and run results cannot cross an unrelated committed history deletion (5.114291ms)
+✔ explicitly deleting an unassigned scanned photo clears raw text and discloses it even without a submitted OCR entry (2.876ms)
+✔ legacy homework and paper return cannot bind a photo already owned by recognition, including aliases (2.027ms)
+✔ raw validation rejects forged grading pointers, private snapshot extras and resurrection requests (3.9725ms)
+✔ unknown-result retry receipts must resolve to the correct result type within the same capture (6.069792ms)
+ℹ tests 17
+ℹ suites 0
+ℹ pass 17
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 191.182167

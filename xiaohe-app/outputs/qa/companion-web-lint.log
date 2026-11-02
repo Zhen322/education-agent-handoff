@@ -1,0 +1,14 @@
+
+> site-creator-vinext-starter@0.1.0 lint
+> eslint . --ignore-pattern dist --ignore-pattern .next
+
+
+/Users/zhenshuai/Desktop/小禾学伴/xiaohe-app/app/page.tsx
+   92:174  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+  117:734  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+/Users/zhenshuai/Desktop/小禾学伴/xiaohe-app/components/camera-workspace.tsx
+  26:1161  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+✖ 3 problems (0 errors, 3 warnings)
+

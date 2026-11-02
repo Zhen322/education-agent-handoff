@@ -1,0 +1,167 @@
+{
+  "date": "2026-10-29",
+  "scope": "案头调研版；12项手机实测、次日复查与真实用户验证待完成",
+  "slides": 12,
+  "worksheets": [
+    "功能对比",
+    "产品概况",
+    "体验证据",
+    "改进机会"
+  ],
+  "product_count": 8,
+  "review_count": 60,
+  "link_checks": [
+    {
+      "file": "来源与截图/来源索引.html",
+      "links": 86,
+      "status": "pass"
+    },
+    {
+      "file": "实测与访谈手册.html",
+      "links": 9,
+      "status": "pass"
+    }
+  ],
+  "files": [
+    {
+      "path": "交付/小学教育App与伴学设备功能调研.pptx",
+      "bytes": 512904,
+      "sha256": "7cfd3c26f964ff9ae659e01dfbf3037215956cfa4a1b448f45ed043fdd5e28a7"
+    },
+    {
+      "path": "交付/竞品对比表.xlsx",
+      "bytes": 34558,
+      "sha256": "f08c2f4a27c91aad82bbc46fc998f310cad88e21d7cf698ef62e89efe9becc11"
+    },
+    {
+      "path": "交付/汇报阅读说明.txt",
+      "bytes": 4767,
+      "sha256": "ff17b9c98329591433606087f180258b8eae3f70e1ec82d6f2dee588fcff8866"
+    },
+    {
+      "path": "来源与截图/官方展示-yangcong-2.jpg",
+      "bytes": 37254,
+      "sha256": "7871a9e3134871115e796161b2a08d3d77e22c7f8e85d50621f6e0942d5539f8"
+    },
+    {
+      "path": "来源与截图/官方展示-yangcong-1.jpg",
+      "bytes": 48849,
+      "sha256": "ae27d5350d3c8a8b73eafb30665f7f1651825711e2cf82e40e1e60f007742dc7"
+    },
+    {
+      "path": "来源与截图/08-作业帮AI学习桌-官网.jpg",
+      "bytes": 71209,
+      "sha256": "f9354ab609852c1c8615f34b4034836210116eec541abc789e3bd8987b581c77"
+    },
+    {
+      "path": "来源与截图/官方展示-xiaoyuan-2.jpg",
+      "bytes": 47476,
+      "sha256": "875982eb07e1210f3d6cdc83b60bb90fc50fdc01528b1789128ef76a0eb6400b"
+    },
+    {
+      "path": "来源与截图/官方展示-xiaoyuan-1.png",
+      "bytes": 111082,
+      "sha256": "a9144ab64f809eef4e9f29f1695c0e9ede40dae292ba604b9906fbb07725e64e"
+    },
+    {
+      "path": "来源与截图/source_assets.json",
+      "bytes": 5353,
+      "sha256": "306bf6cb4f4c8313aedbb11919496f9803fb854857736c3c9d84083d3fb469b8"
+    },
+    {
+      "path": "来源与截图/02-小猿AI-官网.jpg",
+      "bytes": 79472,
+      "sha256": "3090bd04ef8ea6b543cb5c6356ddb659c2701f0ee1634e3511db5d5f528be897"
+    },
+    {
+      "path": "来源与截图/来源索引.html",
+      "bytes": 59262,
+      "sha256": "cdf8c63a62511146f222e86144370034c98c439709db764961520ff8670390e8"
+    },
+    {
+      "path": "来源与截图/05-学而思T6Max-官网.jpg",
+      "bytes": 77489,
+      "sha256": "f8ec97d1174f880f1f85af573b1bc7e253c25e3aff11f0496d2834c1a39c2300"
+    },
+    {
+      "path": "来源与截图/01-作业帮-官网.jpg",
+      "bytes": 83389,
+      "sha256": "0962edb0371e445de4494d3c09d9fa23c3bc5efcffb3e97c762fc680637244da"
+    },
+    {
+      "path": "来源与截图/03-洋葱学园-官网.jpg",
+      "bytes": 97096,
+      "sha256": "1429b16e0c0e30e97c7f4765d7fe7104cc1b30a57048fb5ffd98b0d3ca2403f4"
+    },
+    {
+      "path": "来源与截图/官方展示-zuoyebang-2.jpg",
+      "bytes": 58990,
+      "sha256": "477a9f14b2e1d9cb2d3687f91ac9daa0624914173d7c28692752356823b7d1ad"
+    },
+    {
+      "path": "来源与截图/官方展示-zuoyebang-1.png",
+      "bytes": 214804,
+      "sha256": "0e32cbc9ccc2e901030e9580951a72f002d2eb836e10dd5ff0dc3bf412e58a55"
+    },
+    {
+      "path": "实测与访谈手册.html",
+      "bytes": 38742,
+      "sha256": "8f90ae8be88599ef926ea3db27dfce943c6e9b0d79447ad02227ddf29476d790"
+    },
+    {
+      "path": "research/apps.json",
+      "bytes": 18899,
+      "sha256": "087e1ebcf47ad7e5ecf4e5ce6d013e9af7a9671c4e836f8b77f125dca30545d2"
+    },
+    {
+      "path": "research/hardware.json",
+      "bytes": 24359,
+      "sha256": "45d318a9fca86bb6cc107465d331b3adeb44e9c38071b49979e3cdd3a2c3d510"
+    },
+    {
+      "path": "research/reviews.json",
+      "bytes": 55350,
+      "sha256": "8bfb615348fd71cbaa92b01d89c3ad32f838ed033062ccf0890e686b19321136"
+    },
+    {
+      "path": "research/source_assets.json",
+      "bytes": 5353,
+      "sha256": "306bf6cb4f4c8313aedbb11919496f9803fb854857736c3c9d84083d3fb469b8"
+    },
+    {
+      "path": "research/local_and_protocol.json",
+      "bytes": 45445,
+      "sha256": "08844cf2d518e7cf91a7f2f9d437b5110c69022e180afbd89f0a10dc244609aa"
+    },
+    {
+      "path": "research/hardware-source-images/作业帮学习桌-官方参数12.png",
+      "bytes": 78002,
+      "sha256": "af7395abf1b16dcfa8711ad197276a30e0ece971971c8fb9d5a5a36d53098b74"
+    },
+    {
+      "path": "research/hardware-source-images/作业帮学习桌-官方功能06.png",
+      "bytes": 68526,
+      "sha256": "ab97d68ce65523c00acda1949233c6cb100579ac7428311c41ac04f1fea9bc48"
+    },
+    {
+      "path": "research/hardware-source-images/作业帮学习桌-官方功能04.png",
+      "bytes": 45836,
+      "sha256": "ffabd6928e871e2f018fda1764058be32ec4c2c0f8eb33e2f7f05f52424f260f"
+    },
+    {
+      "path": "research/hardware-source-images/作业帮学习桌-官方功能05.png",
+      "bytes": 73271,
+      "sha256": "e2173f28a39ed32354450adc1a8caf1a5acfe8895374403ead127785def346dd"
+    },
+    {
+      "path": "research/hardware-source-images/作业帮学习桌-官方功能03.png",
+      "bytes": 1096319,
+      "sha256": "4cc21ed49bd700b296c96be8d0c6332a63a43ac05f708bea5b0c2bf0142df436"
+    }
+  ],
+  "public_redaction": {
+    "date": "2026-11-02",
+    "metadata": "Office作者属性已清空",
+    "hash_scope": "files 摘要已按公开交接副本重算；历史版式验证结果仍代表原验证时间"
+  }
+}

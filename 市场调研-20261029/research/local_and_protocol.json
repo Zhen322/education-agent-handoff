@@ -1,0 +1,860 @@
+{
+  "schema_version": "1.0",
+  "created_date": "2026-10-29",
+  "timezone": "Asia/Shanghai",
+  "purpose": "小禾学伴市场调研执行包：本地现状、统一体验题与协议、改进假设、工作表和讲稿。",
+  "scope_assumption": {
+    "audience": "老板/产品负责人",
+    "product_positioning_hypothesis": "小学家庭四年级数学的掌握与巩固助手",
+    "must_validate": "目标家庭是否有高频需求、现有替代方式、孩子/家长使用分工及付费动机；定位尚未由用户研究证实。",
+    "research_time": "5—7 个工作日",
+    "not_in_this_file": [
+      "竞品排名或效果评测结论",
+      "正式市场规模与营收预测",
+      "App 源码修改",
+      "真实儿童成绩或访谈数据"
+    ]
+  },
+  "local_verification": {
+    "checked_on": "2026-10-29",
+    "method": "只读检查核心文档修改时间、关键内容、两个仓库 git status --short 与 git log -1；未运行 App、未重跑测试、未复验 APK。",
+    "document_status": "核心计划、交接、Web README、领域计划与 mobile README 的最近修改日期仍为 2026-10-27，与上一轮读取一致。",
+    "repositories": [
+      {
+        "path": "/Users/zhenshuai/Desktop/小禾学伴/xiaohe-app",
+        "head": "d0cdfe5",
+        "subject": "Add local OCR review records with pinned questions and history cleanup",
+        "working_tree": "clean at inspection"
+      },
+      {
+        "path": "/Users/zhenshuai/Desktop/小禾学伴/xiaohe-mobile",
+        "head": "5b1cfc3",
+        "subject": "Add offline native OCR with persistent per-question review",
+        "working_tree": "clean at inspection"
+      }
+    ],
+    "reported_historical_checks": "文档记载 mobile 229/229、Web/共享领域 237/237 属于此前里程碑，不是本次运行结果。",
+    "sources": {
+      "app_readme": {
+        "path": "/Users/zhenshuai/Desktop/小禾学伴/xiaohe-app/README.md",
+        "line": 3,
+        "note": "小学定位、四年级数学演示；第 30 行起为已实现与当前边界"
+      },
+      "implementation": {
+        "path": "/Users/zhenshuai/Desktop/小禾学伴/APP-实施计划.md",
+        "line": 22,
+        "note": "2026-10-27 当前进度与后续范围"
+      },
+      "mobile_readme": {
+        "path": "/Users/zhenshuai/Desktop/小禾学伴/xiaohe-mobile/README.md",
+        "line": 15,
+        "note": "本机流程、证据规则及设备验收边界"
+      },
+      "domain_plan": {
+        "path": "/Users/zhenshuai/Desktop/小禾学伴/xiaohe-app/docs/implementation-plan.md",
+        "line": 9,
+        "note": "产品流程、待完成范围与关键不变量"
+      },
+      "handover": {
+        "path": "/Users/zhenshuai/Desktop/小禾学伴/给下一位AI的接手提示词.md",
+        "line": 78,
+        "note": "多页作业流程为建议下一阶段，明确尚未实现"
+      },
+      "trial_content": {
+        "path": "/Users/zhenshuai/Desktop/小禾学伴/xiaohe-app/content-trial-notes.md",
+        "line": 3,
+        "note": "9 道扩充样题，8 个新结构候选及 1 个旧族子任务，未经人工教研确认"
+      }
+    },
+    "capabilities": [
+      {
+        "id": "C01",
+        "name": "小学数学练习与错题闭环",
+        "status": "文档记载已实现，有限本机试用",
+        "existing": "知识点选题、组卷换题、在线作答、草稿、提示/讲解记录、报告、错题订正和冷启动恢复。",
+        "boundary": "现有核心题库 30 道原创样题，非充分教材覆盖；本机判分不能替代正式可信测评。",
+        "source_ids": [
+          "app_readme",
+          "implementation",
+          "mobile_readme"
+        ]
+      },
+      {
+        "id": "C02",
+        "name": "纸面输入、OCR 与输出",
+        "status": "部分已实现，部分规划",
+        "existing": "相机相册、本机照片保存、Android 离线中文文字识别、人工逐题核对、固定题库候选、部分入档；A4 学生卷和独立解析卷、纸面回传。",
+        "boundary": "基于模拟器与合成打印样图的设备记录；多页排序/裁切/旋转、复杂公式/竖式/手写结构、自动题块切分、广泛真机识别仍待完成或验证。",
+        "source_ids": [
+          "implementation",
+          "mobile_readme",
+          "handover"
+        ]
+      },
+      {
+        "id": "C03",
+        "name": "题目上下文学伴",
+        "status": "局部已实现，完整能力规划中",
+        "existing": "固定题目版本的会话、本人选择提示/讲解/其他方法、草稿与呈现偏好。",
+        "boundary": "回复引用已有题库内容；普通消息仅记录。没有接通生成式 AI、连续语义理解和语音，不能汇报成 AI 家教已完成。",
+        "source_ids": [
+          "implementation",
+          "mobile_readme",
+          "domain_plan"
+        ]
+      },
+      {
+        "id": "C04",
+        "name": "掌握证据、五星与间隔复查",
+        "status": "规则机制已实现，教学有效性待验证",
+        "existing": "区别独立/提示/讲解；保留原答与订正；按已见题族和到期条件安排复查；评定版本与依据可追溯。",
+        "boundary": "默认阈值、间隔和题目标签未经教学验证；当前默认复查间隔为 3 天。题族不足可能造成无法继续升星；本调研次日回访不等于产品到期复查。",
+        "source_ids": [
+          "mobile_readme",
+          "app_readme",
+          "trial_content"
+        ]
+      },
+      {
+        "id": "C05",
+        "name": "教研与内容版本",
+        "status": "部分已实现，内容供给与验证未完成",
+        "existing": "Web 题库标注、独立审核与发布、版本归档、手机显式导入本地内容包。",
+        "boundary": "现有扩充 9 题为 8 个新结构候选及 1 个旧族子任务，未经人工教研确认；真实教材映射、充分授权题库、语义去重、完整原文件导入校对、自动内容规则同步待完成。",
+        "source_ids": [
+          "app_readme",
+          "domain_plan",
+          "trial_content"
+        ]
+      },
+      {
+        "id": "C06",
+        "name": "家长、教师与求助协作",
+        "status": "Web 权限基础已实现，原生真实闭环规划中",
+        "existing": "Web 学生/家长/教师/编辑/审核角色权限与邀请撤权基础；手写求助摘要预览。",
+        "boundary": "App 摘要仅本机保存，真实教师绑定、送达、回复与原生家长授权/撤权、共享周报未完成。",
+        "source_ids": [
+          "implementation",
+          "domain_plan",
+          "mobile_readme"
+        ]
+      },
+      {
+        "id": "C07",
+        "name": "学习记录与隐私管理",
+        "status": "部分已实现，有明确边界",
+        "existing": "本人偏好、私聊删除预览、已提交记录删除与报告重算、照片引用检查、证据更正。",
+        "boundary": "本机更正不是教师核实；草稿、独立照片和账号整体管理未完整覆盖。不得把当前删除描述成系统备份或数据库历史页安全擦除。",
+        "source_ids": [
+          "mobile_readme",
+          "domain_plan"
+        ]
+      },
+      {
+        "id": "C08",
+        "name": "安装、云端与正式交付",
+        "status": "Android 本机试用已记录；完整双端交付仍规划中",
+        "existing": "Android ARM64 开发签名独立 APK，API 36 模拟器已有验收文档。",
+        "boundary": "没有本次重跑；真实安卓手机、iOS 原生安装运行、正式身份服务、云同步、双端商店发布未完成。Web 和手机本地数据不自动同步。",
+        "source_ids": [
+          "implementation",
+          "mobile_readme"
+        ]
+      }
+    ]
+  },
+  "test_question_pack": {
+    "status": "draft_for_human_teaching_review",
+    "count": 6,
+    "authorship": "6 道均为 AI 为本轮调研起草；答案已独立分解/逆运算与 Python 断言验算，仍待人工教研确认。",
+    "student_material_rules": [
+      "学生题面只含 display_text，不放答案、常见错误或验算。",
+      "Q04 的错误推导是题干的一部分，排版须注明“小林的解答”，不能与标准答案混淆。",
+      "Q06 独立成页，次日之前不向受试者展示；研究员答案册单独保存。",
+      "用同一字体与清晰度制作纸面样张；清晰打印为基本条件，倾斜/阴影等另设压力条件，不混合计分。",
+      "给真实学生使用前先由小学数学教师确认教材进度、题意、难度和前置。",
+      "不用这 6 道题外推全学科识别率或教学效果；未把题目自动导入小禾正式内容包。"
+    ],
+    "questions": [
+      {
+        "id": "Q01",
+        "category": "基础计算：除数是两位数",
+        "display_text": "计算：624 ÷ 24 = ______。请写出主要计算过程。",
+        "prerequisites": [
+          "整数乘除法",
+          "除数是两位数的除法"
+        ],
+        "answer": "26",
+        "answer_units": "",
+        "reasoning": [
+          "24 × 20 = 480。",
+          "624 − 480 = 144。",
+          "24 × 6 = 144，所以商为 20 + 6 = 26。"
+        ],
+        "independent_check": "26 × 24 = 26 × (20 + 4) = 520 + 104 = 624。",
+        "common_error_watch": [
+          "商的位值错误",
+          "余数未处理",
+          "只识别数字而漏掉除号"
+        ],
+        "trial_family": "division_exact_two_digit",
+        "exposure": "D1 可用",
+        "provenance": {
+          "author": "AI 起草的本次调研题，不取自竞品题库",
+          "arithmetic_verification": "AI 逐步推导、逆运算/独立分解验算，并用 Python 整数算术断言检查",
+          "arithmetic_assertion_passed": true,
+          "human_teaching_review": "pending：仍待人工教研确认",
+          "curriculum_caveat": "暂按已学相关前置知识的四年级学生使用；教材版本、学期进度和文字难度需教师确认。"
+        }
+      },
+      {
+        "id": "Q02",
+        "category": "基础计算：三位数乘两位数",
+        "display_text": "计算：307 × 24 = ______。请写出主要计算过程。",
+        "prerequisites": [
+          "三位数乘两位数",
+          "位值与零占位"
+        ],
+        "answer": "7368",
+        "answer_units": "",
+        "reasoning": [
+          "307 × 4 = 1228。",
+          "307 × 20 = 6140。",
+          "1228 + 6140 = 7368。"
+        ],
+        "independent_check": "(300 + 7) × 24 = 7200 + 168 = 7368；7368 ÷ 24 = 307。",
+        "common_error_watch": [
+          "把 307 当成 37",
+          "十位部分积不移位",
+          "误把 307 × 20 写成 614"
+        ],
+        "trial_family": "multiplication_three_by_two",
+        "exposure": "D1 可用",
+        "provenance": {
+          "author": "AI 起草的本次调研题，不取自竞品题库",
+          "arithmetic_verification": "AI 逐步推导、逆运算/独立分解验算，并用 Python 整数算术断言检查",
+          "arithmetic_assertion_passed": true,
+          "human_teaching_review": "pending：仍待人工教研确认",
+          "curriculum_caveat": "暂按已学相关前置知识的四年级学生使用；教材版本、学期进度和文字难度需教师确认。"
+        }
+      },
+      {
+        "id": "Q03",
+        "category": "应用：有余数除法与装箱决策",
+        "display_text": "图书角有 368 本书，每箱最多装 24 本。可以装满几箱，还剩几本？如果要把这些书全部装箱，至少需要几个箱子？",
+        "prerequisites": [
+          "有余数除法",
+          "余数小于除数",
+          "结合情境解释余数"
+        ],
+        "answer": "装满 15 箱，剩 8 本；全部装箱至少需要 16 个箱子。",
+        "answer_units": "箱、本",
+        "reasoning": [
+          "24 × 15 = 360。",
+          "368 − 360 = 8，所以可以装满 15 箱，剩 8 本。",
+          "余下 8 本还需要一个箱子，所以共需 15 + 1 = 16 箱。"
+        ],
+        "independent_check": "15 × 24 = 360 < 368，16 × 24 = 384 ≥ 368，且 0 ≤ 8 < 24。",
+        "common_error_watch": [
+          "把 15 箱直接当作全部装完的箱数",
+          "四舍五入为 15",
+          "只回答一个子问题"
+        ],
+        "trial_family": "division_remainder_capacity",
+        "exposure": "D1 可用",
+        "provenance": {
+          "author": "AI 起草的本次调研题，不取自竞品题库",
+          "arithmetic_verification": "AI 逐步推导、逆运算/独立分解验算，并用 Python 整数算术断言检查",
+          "arithmetic_assertion_passed": true,
+          "human_teaching_review": "pending：仍待人工教研确认",
+          "curriculum_caveat": "暂按已学相关前置知识的四年级学生使用；教材版本、学期进度和文字难度需教师确认。"
+        }
+      },
+      {
+        "id": "Q04",
+        "category": "典型错解：末尾零与位值",
+        "display_text": "小林计算 248 × 30，写道：“先算 248 × 3 = 744，30 末尾的 0 可以忽略，所以 248 × 30 = 744。”他的结果对吗？请指出错误并写出正确结果。",
+        "prerequisites": [
+          "乘整十数",
+          "位值",
+          "乘法意义"
+        ],
+        "answer": "不对。30 是 3 个十，248 × 30 = 248 × 3 × 10 = 7440，不能把 30 当成 3。",
+        "answer_units": "",
+        "reasoning": [
+          "248 × 3 = 744 这一步正确。",
+          "30 = 3 × 10，第二步还需乘 10。",
+          "744 × 10 = 7440。"
+        ],
+        "independent_check": "248 × (20 + 10) = 4960 + 2480 = 7440；7440 ÷ 248 = 30。",
+        "common_error_watch": [
+          "只改答案没有定位错误步骤",
+          "把补零当成无条件口诀而不说明位值",
+          "赞同给定错解"
+        ],
+        "trial_family": "multiplication_tens_place_value",
+        "exposure": "D1 可用；故意错误的学生陈述与标准答案必须分栏",
+        "provenance": {
+          "author": "AI 起草的本次调研题，不取自竞品题库",
+          "arithmetic_verification": "AI 逐步推导、逆运算/独立分解验算，并用 Python 整数算术断言检查",
+          "arithmetic_assertion_passed": true,
+          "human_teaching_review": "pending：仍待人工教研确认",
+          "curriculum_caveat": "暂按已学相关前置知识的四年级学生使用；教材版本、学期进度和文字难度需教师确认。"
+        }
+      },
+      {
+        "id": "Q05",
+        "category": "即时迁移：总量不变的重新分组",
+        "display_text": "学校礼堂原来摆了 18 排椅子，每排 24 把。现在把所有椅子重新摆放，每排摆 27 把，可以摆多少排？",
+        "prerequisites": [
+          "两位数乘两位数",
+          "除数是两位数的除法",
+          "总量不变"
+        ],
+        "answer": "16 排",
+        "answer_units": "排",
+        "reasoning": [
+          "椅子总数为 18 × 24 = 432 把。",
+          "重新摆放后每排 27 把，所以排数为 432 ÷ 27 = 16。"
+        ],
+        "independent_check": "18 × 24 = 18 × (20 + 4) = 360 + 72 = 432；27 × 16 = 270 + 162 = 432。",
+        "common_error_watch": [
+          "直接用 27 − 24 求排数",
+          "只求总数而漏第二步",
+          "单位写成把"
+        ],
+        "trial_family": "quantity_conservation_regrouping",
+        "exposure": "D1 的讲解与基础练习之后可用",
+        "provenance": {
+          "author": "AI 起草的本次调研题，不取自竞品题库",
+          "arithmetic_verification": "AI 逐步推导、逆运算/独立分解验算，并用 Python 整数算术断言检查",
+          "arithmetic_assertion_passed": true,
+          "human_teaching_review": "pending：仍待人工教研确认",
+          "curriculum_caveat": "暂按已学相关前置知识的四年级学生使用；教材版本、学期进度和文字难度需教师确认。"
+        }
+      },
+      {
+        "id": "Q06",
+        "category": "次日未见近迁移题",
+        "display_text": "图书馆收到 12 捆新书，每捆 28 本。现在把这些书全部装箱，每箱装 24 本，可以装满多少箱？",
+        "prerequisites": [
+          "两位数乘两位数",
+          "除数是两位数的除法",
+          "总量不变"
+        ],
+        "answer": "14 箱",
+        "answer_units": "箱",
+        "reasoning": [
+          "新书总数为 12 × 28 = 336 本。",
+          "按每箱 24 本装箱，336 ÷ 24 = 14 箱。"
+        ],
+        "independent_check": "12 × (30 − 2) = 360 − 24 = 336；14 × 24 = 336，余数为 0。",
+        "common_error_watch": [
+          "混淆捆数与箱数",
+          "求出 336 后停止",
+          "不说明两步数量关系"
+        ],
+        "trial_family": "quantity_conservation_regrouping",
+        "exposure": "D1 对受试者隐藏题目与答案，D2 复查才展示；与 Q05 同结构，不标成独立新题族或远迁移证据",
+        "provenance": {
+          "author": "AI 起草的本次调研题，不取自竞品题库",
+          "arithmetic_verification": "AI 逐步推导、逆运算/独立分解验算，并用 Python 整数算术断言检查",
+          "arithmetic_assertion_passed": true,
+          "human_teaching_review": "pending：仍待人工教研确认",
+          "curriculum_caveat": "暂按已学相关前置知识的四年级学生使用；教材版本、学期进度和文字难度需教师确认。"
+        }
+      }
+    ],
+    "verification_summary": {
+      "python_assertions": 6,
+      "passed": 6,
+      "human_review": false,
+      "semantic_limit": "Q05 与 Q06 同为总量不变重新分组；Q06 是未见近迁移变式，不是独立新题族。"
+    }
+  },
+  "experience_protocol": {
+    "status": "ready_to_execute_after_human_question_review_and_access",
+    "common_conditions": [
+      "每个产品记录确切 App 版本/硬件型号、账号角色、教材、套餐和日期。",
+      "同题比较采用同一输入，题库内替代题只作补充，不混用为准确率结果。",
+      "一位研究员每个产品约 30—35 分钟；真实亲子观察另行安排，并区分研究员与儿童结果。",
+      "每次结论须有截图、原文、用时或观察记录；纯宣传只标 official_claim。",
+      "不购买设备、开会员或向老师/他人发送材料来伪装已获授权；需要资源时先列具体缺口交主任务处理。",
+      "官方没有查到某功能不等于没有该功能；体验找不到则写搜索路径和“本次未观察到”。"
+    ],
+    "tasks": [
+      {
+        "id": "T1",
+        "title": "第一次进入并完成纸面题输入与核对",
+        "duration_minutes": 8,
+        "role": "研究员以新用户视角操作；儿童参与时由监护人安排，不用真实姓名",
+        "materials": [
+          "Q01",
+          "Q02"
+        ],
+        "starting_state": "记录产品版本、账号角色、套餐、设备、网络与是否首次使用；不清除用户日常档案。用研究测试档案或明确标记的测试会话。",
+        "steps": [
+          "从首页出发，按小学四年级数学设置可用课程；记录能否选择教材/学期。",
+          "展示含 Q01、Q02 的同一张清晰纸面样张。各产品用其正常入口拍摄、导入或输入；逐题入口和整页入口分别记录。",
+          "在展示答案之前核对题干、数字、运算符、单位和题目分割，记录机器初始结果及人工修改。",
+          "若产品不能接收自编题，记录入口或内容限制，并改用题库内等价任务作补充体验；补充结果单列，不合并为同题比较。",
+          "退出到首页再回到本次材料，检查是否能继续核对、保留草稿及区分原图和改字。"
+        ],
+        "success_criteria": [
+          "能在任务时限内把两道题正确送入相应学习流程，并明确显示人工核对后的题干。",
+          "题干、学生作答与系统讲解可以区分；恢复后已保存状态不丢失。"
+        ],
+        "record": [
+          "入口路径",
+          "完成/部分完成/失败/受限/未观察",
+          "用时",
+          "点击数",
+          "需人工修正字段",
+          "是否必须家长代操作",
+          "重入后状态",
+          "截图编号"
+        ],
+        "failure_rules": [
+          "网络、账号或付费限制记为受限，不能算算法不支持。",
+          "未找到入口在记录搜索路径后写“本次未观察到”，不写“产品没有”。"
+        ],
+        "stop_rule": "8 分钟未完成则记录停点；网络失败可重试 1 次并单独记时。"
+      },
+      {
+        "id": "T2",
+        "title": "遇到错解后获得适龄的引导与解释",
+        "duration_minutes": 10,
+        "role": "研究员按统一话术模拟提问，不能据此判断真实儿童理解",
+        "materials": [
+          "Q04",
+          "Q03"
+        ],
+        "starting_state": "使用与 T1 相同版本和套餐；系统生成内容逐条保存原文或截图。",
+        "steps": [
+          "向可接收自编题的入口提交 Q04 的完整错解，先说：“先不要直接告诉我结果，请帮我找到哪一步出了问题。”",
+          "若支持追问，再说：“为什么 30 不能当成 3？能用我学过的办法解释吗？”若只支持固定按钮，则记录实际可用的提示层级。",
+          "记录系统是否识别出位值错误、是否指出正确的第一步、是否说明乘 10，而不是只给最终数。",
+          "提交 Q03，并按“先自己做—请求一个提示—必要时看讲解”的顺序记录答案和帮助。研究员模拟答案不能称学生真实成绩。",
+          "对照标准答案核验全部子问题，记录是否把装满 15 箱和全部装完 16 箱混为一谈。"
+        ],
+        "success_criteria": [
+          "Q04 数学判断正确，指出错误位置和原因；Q03 同时得到 15 箱、8 本、16 箱。",
+          "记录请求提示时是否立即泄露全部答案、是否允许分步展开、是否能保留原答和帮助状态。"
+        ],
+        "record": [
+          "数学正确性",
+          "错因定位",
+          "使用前置知识",
+          "是否直接给答案",
+          "追问是否承接上下文",
+          "帮助层级",
+          "内容引用/来源说明",
+          "提示次数",
+          "异常原文"
+        ],
+        "failure_rules": [
+          "对产品未开放的对话入口记录能力边界；不能因无法自由对话推定其他学习方式无效。",
+          "出现实质数学错误必须保留具体输入与输出，不用单个样例外推总体准确率。"
+        ],
+        "stop_rule": "10 分钟，或出现无法恢复的错误；不替产品润色答案再评分。"
+      },
+      {
+        "id": "T3",
+        "title": "完成巩固并观察错题与练习衔接",
+        "duration_minutes": 8,
+        "role": "先研究员路径体验；另安排同意参与的亲子观察才评价理解困难",
+        "materials": [
+          "Q05"
+        ],
+        "starting_state": "Q05 此前不向该受试者展示；记录其已见 Q01—Q04 的范围和实际帮助。",
+        "steps": [
+          "优先通过产品原有的“再练/举一反三/错题巩固”等入口寻找后续练习，保存它实际推荐的题；推荐题与本次统一题分列。",
+          "将 Q05 作为统一即时迁移题呈现，先在纸面独立作答，再按产品支持的方式输入或回传。没有导入入口则保留纸面观察，不强行改造产品。",
+          "记录列式、答案、用时和自述思路；先独立再给提示，提示后答对单独标记。",
+          "回到报告或错题，检查能否找到原题、原答、讲解/提示及下一步练习。",
+          "如产品推荐变式，记录任务结构和未知量变化，不能仅依据数字不同就称为新题族。"
+        ],
+        "success_criteria": [
+          "从错误或帮助能进入具体巩固任务，学习者能找到继续行动入口。",
+          "Q05 的数量关系及答案正确；独立与提示后完成分开记。",
+          "本次记录可从报告或错题中找回。"
+        ],
+        "record": [
+          "推荐内容是否相关",
+          "是否同题复现/换数/结构变化",
+          "Q05 原始列式与答案",
+          "帮助前后答案",
+          "保存与找回路径",
+          "产品是否记录帮助情况"
+        ],
+        "failure_rules": [
+          "人工统一题的答对不归因于产品；研究员做题不计入儿童表现。",
+          "没有匹配输入路径时不评价该产品的 Q05 判分能力。"
+        ],
+        "stop_rule": "8 分钟；无法找到下一步时记录所试入口。"
+      },
+      {
+        "id": "T4",
+        "title": "家长读懂结果，并进行次日复查",
+        "duration_minutes": 8,
+        "role": "家长观察优先；研究员代读须标明模拟",
+        "materials": [
+          "D1 报告与错题记录",
+          "Q06（D2 才展示）"
+        ],
+        "starting_state": "D1 前半段记录报告；D2 在首次体验结束后 24±4 小时回访，记录实际间隔。",
+        "steps": [
+          "D1 给家长看产品生成的报告，不先解释，让其回答：“孩子具体哪里不会？哪些是独立做对？下一次应做什么？”",
+          "只记录产品真实展示的依据、付费提示、分享/授权步骤；没有真实教师/接收方时不模拟已送达。",
+          "D2 先检查昨天的材料、作答、帮助及待练任务能否找回，再在不看昨天解析的条件下展示 Q06。",
+          "先独立作答并说明数量关系，5 分钟后若未完成再允许提示；保留提示前原答。",
+          "记录产品当天有无安排复习、受试者能否找到；这只是当天观察。小禾文档默认间隔为 3 天，不因次日未到期就判定缺少复查。",
+          "对照 Q05/Q06 记录步骤与帮助变化，说明只有单题近迁移观察，不能证明提分、长期掌握或产品因果效果。"
+        ],
+        "success_criteria": [
+          "家长能用报告找到一个可执行的下一步，并说清证据来源。",
+          "昨天的记录可继续访问；Q06 独立/提示后/未完成清楚分开。"
+        ],
+        "record": [
+          "家长复述原话",
+          "是否误解正确率为独立掌握",
+          "下一步能否执行",
+          "实际间隔小时",
+          "Q06 是否提前见过",
+          "原始作答",
+          "帮助情况",
+          "产品复习计划与到期时间"
+        ],
+        "failure_rules": [
+          "提前看过 Q06 或接受题目讲解则标为已曝光，不能再算未见独立复查。",
+          "次日题与 Q05 同结构，只能称未见近迁移变式。",
+          "硬件暂无设备或账号不可得时保留待实测，不用官方文案填实际结果。"
+        ],
+        "stop_rule": "D1 报告访谈 3 分钟；D2 独立题最多 5 分钟，提示阶段单列。"
+      }
+    ],
+    "record_fields": {
+      "identity": [
+        "run_id",
+        "product_name",
+        "model_or_app_version",
+        "test_date_time",
+        "tester_id_anonymous",
+        "tester_type_researcher_parent_child",
+        "device_os",
+        "account_role",
+        "subscription_tier",
+        "network",
+        "source_type"
+      ],
+      "input": [
+        "task_id",
+        "question_id",
+        "input_channel",
+        "input_text_or_image_id",
+        "question_previously_seen",
+        "hint_or_solution_previously_seen",
+        "curriculum_prerequisites_confirmed"
+      ],
+      "execution": [
+        "entry_path",
+        "start_time",
+        "end_time",
+        "elapsed_seconds",
+        "tap_count",
+        "adult_intervention_count",
+        "retry_count",
+        "paywall_or_login_gate",
+        "original_recognition",
+        "manual_corrections",
+        "system_original_output",
+        "evidence_screenshot_ids"
+      ],
+      "result": [
+        "status",
+        "completion_description",
+        "math_accuracy",
+        "error_step_identified",
+        "explanation_prerequisite_fit",
+        "answer_revealed_before_request",
+        "help_level",
+        "original_student_answer",
+        "post_help_answer",
+        "record_saved",
+        "record_restored",
+        "next_action_available",
+        "parent_understanding_quote",
+        "observed_issue",
+        "suspected_cause",
+        "evidence_grade",
+        "followup_needed"
+      ],
+      "status_values": [
+        "completed",
+        "partially_completed",
+        "failed_observed",
+        "blocked_account_device_network_paywall",
+        "not_observed",
+        "not_applicable"
+      ],
+      "evidence_values": {
+        "official_claim": "官方页面的宣称，未验证效果",
+        "observed_once": "研究员单次实测，有输入输出证据",
+        "observed_repeated": "同条件复测，有重复记录",
+        "user_quote": "匿名访谈原话，样本有限",
+        "local_document_only": "本地资料写明，未本次重跑",
+        "inference": "基于证据提出的解释或假设"
+      },
+      "scoring_rule": "先保留事实和原始记录。需要矩阵时逐维用“完成/部分/失败/受限/未观察/不适用”，不将未观察当 0，不把不同套餐和设备结果平均成总体排名。数学准确性按明确子问题核验，不从 6 道样题报告总体准确率。",
+      "success_failure_template": {
+        "run_id": "待填",
+        "product_name": "待填",
+        "task_id": "待填",
+        "status": "not_observed",
+        "input": "待填",
+        "expected_behavior": "待填",
+        "actual_behavior": "待填",
+        "time_seconds": null,
+        "evidence_reference": "待填",
+        "conditions_and_limits": "待填",
+        "next_action": "待填"
+      }
+    },
+    "next_day_followup": {
+      "interval": "24±4 小时，并记录真实间隔；超出则标为偏离",
+      "purpose": "观察记录能否找回、家长是否知道下一步，以及未见近迁移题的作答方式",
+      "not_a_claim": "不是长期学习效果、独立新题族测试或产品提分证明。小禾正式间隔默认 3 天，次日检查不要求提前到期。",
+      "if_no_child_available": "只做研究员流程复查，将学习表现全部记为未评估。",
+      "if_question_exposed": "作答保留，取消“未见”标签。"
+    }
+  },
+  "recommended_changes": {
+    "status": "基于真实文档缺口与待验证可用性提出的候选优先级，尚非用户研究结论",
+    "items": [
+      {
+        "id": "P1",
+        "type": "优先改进假设",
+        "title": "先补足一个已学单元的可靠内容与掌握依据",
+        "documented_gap": "30 道数学样题、题族不足；真实教材映射、人工教研和默认五星阈值有效性尚未确认。",
+        "proposed_next": "选定一个教材版本与已学单元，由教师核对知识点、前置、解法、典型错误和题族；制定足够覆盖基础、应用及未见复查的内容清单，再试用掌握规则。",
+        "acceptance": "每题有来源/创作记录与人工审核人；同族变式不重复算独立证据；能走完预定练习和到期复查，不靠重置档案升星。具体题量由知识点与规则需求计算，不拍脑袋宣布全科覆盖。",
+        "research_gate": "若目标家庭主要需求不是巩固掌握，则重审单元和定位；不能用本轮 AI 题直接替代教研入库。",
+        "source_ids": [
+          "trial_content",
+          "app_readme",
+          "mobile_readme"
+        ]
+      },
+      {
+        "id": "P2",
+        "type": "优先改进假设",
+        "title": "把真实纸面作业输入做到可纠错、可续做",
+        "documented_gap": "当前文字 OCR 需逐题人工匹配；多页/裁切/旋转与复杂题型尚未完成，真机和真实作业体验待验证。",
+        "proposed_next": "围绕小学数学常见纸面材料验证“添加多页—修正方向/裁切—识别核对—部分提交—保留未完成”最短流程，优先解决阻断家庭首次使用的问题。",
+        "acceptance": "真实目标手机上的清晰打印、轻微倾斜、两页材料分别测试；识别错误可纠正，未知题保留而不算学生错误，退出能续做；成功率和耗时只按实际样本报告。",
+        "research_gate": "先用体验验证纸面输入是否高频；如家庭主要用题库练习，则降低此项优先级。",
+        "source_ids": [
+          "handover",
+          "mobile_readme",
+          "implementation"
+        ]
+      },
+      {
+        "id": "P3",
+        "type": "优先改进假设",
+        "title": "把已有报告与复查组织成家长看得懂、孩子能继续的流程",
+        "documented_gap": "独立/帮助证据机制已有，但真实家庭理解、操作负担与持续使用尚未验证；不能把机制实现等同用户价值。",
+        "proposed_next": "在现有报告上验证三件事：今天具体卡在哪里、哪些是借助帮助完成、下次做哪项练习；保留原答与订正，明确复查到期和不足证据。",
+        "acceptance": "在亲子观察中记录家长能否正确复述上述三点，孩子能否找到下一项练习；误解时回到文案与入口修改。次日访谈和正式三天到期复查分开。",
+        "research_gate": "根据 5 位家长与 2 位教师的方向性反馈排序，不宣称代表市场；不预设所有家长想看复杂星级。",
+        "source_ids": [
+          "app_readme",
+          "mobile_readme",
+          "domain_plan"
+        ]
+      },
+      {
+        "id": "E1",
+        "type": "探索验证",
+        "title": "真实语义追问与分步提示是否值得接入",
+        "documented_gap": "当前学伴只是题库帮助，生成式 AI、真实连续追问与语音未接入。",
+        "proposed_next": "先在一个单元用离线原型或受控演示比较固定提示与语义追问，检查数学正确性、提示泄答案、儿童理解与调用成本；得到证据后再定模型和语音范围。",
+        "decision_gate": "只有在相对固定提示出现可复核的使用价值且主要错误可控时，进入接入验证；不能以“竞品有 AI”作为唯一理由。",
+        "source_ids": [
+          "mobile_readme",
+          "domain_plan"
+        ]
+      },
+      {
+        "id": "E2",
+        "type": "探索验证",
+        "title": "家长/教师真实协作到底解决哪一次求助",
+        "documented_gap": "目前摘要本机保存，真实绑定、送达、回复、原生授权及云同步尚未完成。",
+        "proposed_next": "用访谈与可点击原型验证“何时需要找家长/老师、接收方愿意看什么、是否愿意回复”；先验证题目加简短摘要的需求，再决定正式协作和云同步范围。",
+        "decision_gate": "若缺少真实接收方或低频，则不在首轮投入完整协作系统；若需求成立，下一阶段验证送达、回复和撤权闭环。",
+        "source_ids": [
+          "implementation",
+          "domain_plan",
+          "mobile_readme"
+        ]
+      }
+    ],
+    "ranking_method": "优先处理首轮核心学习流程的阻断、内容可信度和用户能否理解；结合实际任务受阻频次与用户原话修订，不编造量化评分。"
+  },
+  "remaining_work_schedule": {
+    "start_assumption": "如 2026-10-29 为 D1，按周一至周五列工作日；不假定用户已预约任何测试或完成任何访谈。",
+    "five_day_version": "D1—D5 形成可汇报版本；D6—D7 用于补证、教师复核和彩排。若资源不足，保留证据缺口而非补写实测结论。",
+    "days": [
+      {
+        "day": "D1",
+        "date_if_start_2026_10_29": "2026-10-29",
+        "work": "锁定小学家庭学习定位问题、样本型号/版本、证据表；与老板对齐汇报要作出的决定；教师预审统一题。",
+        "output": "调研范围与样本表、题目人工审核待办、访谈预约",
+        "completion": "有明确纳入/不纳入标准；不使用排名替代样本依据。"
+      },
+      {
+        "day": "D2",
+        "date_if_start_2026_10_29": "2026-10-30",
+        "work": "核对 3 个 App 和选定学习机官方资料，记录价格/套餐日期；执行研究员 App 体验，预约或借用硬件。",
+        "output": "官方证据与 App 任务记录、待实测设备清单",
+        "completion": "每个功能判断带来源类型；未拿到设备明确标待实测。"
+      },
+      {
+        "day": "D3",
+        "date_if_start_2026_10_29": "2026-11-02",
+        "work": "同场景体验 2 台主要学习设备，桌面伴学设备做形态参照；开展 2—3 组亲子观察，并访谈家长/教师。",
+        "output": "任务录像或截图、匿名观察记录、首日作答及帮助记录",
+        "completion": "共争取 5 位家长、2 位小学教师；亲子观察家庭可包含在 5 位家长内，不把样本凑数成代表性调查。"
+      },
+      {
+        "day": "D4",
+        "date_if_start_2026_10_29": "2026-11-03",
+        "work": "完成同一参与者 24±4 小时回访与 Q06；补齐阻断路径，完成访谈；整理共性/差异与证据强弱。",
+        "output": "次日记录、问题清单、产品定位选项与 3+2 候选改进",
+        "completion": "保留无效/提前曝光样本；次日观察不称长期效果。"
+      },
+      {
+        "day": "D5",
+        "date_if_start_2026_10_29": "2026-11-04",
+        "work": "完成比较矩阵、定位判断、优先级和 PPT 初稿；把待实测/假设单独标注。",
+        "output": "约 12 页老板汇报、附录证据与可执行下一步",
+        "completion": "每页一个结论；功能缺口与用户需求分开；建议可追溯到本地缺口、官方宣称或真实观察。"
+      },
+      {
+        "day": "D6（可选）",
+        "date_if_start_2026_10_29": "2026-11-05",
+        "work": "请教师核对数学内容与学习逻辑，补测最影响决策的 1—2 个问题；压缩讲稿。",
+        "output": "复核后的结论、修订 PPT、10 分钟讲稿",
+        "completion": "明确哪些结论改变、哪些仍不确定。"
+      },
+      {
+        "day": "D7（可选）",
+        "date_if_start_2026_10_29": "2026-11-06",
+        "work": "彩排并准备老板追问，形成第一阶段验证范围、资源与验收建议。",
+        "output": "汇报定稿、待老板决定的事项、后续验证清单",
+        "completion": "请老板决定优先目标用户/场景和下一阶段资源，不承诺未经估算的开发日期或收入。"
+      }
+    ]
+  },
+  "presentation_support": {
+    "target_duration_minutes": 10,
+    "talk_status": "讲稿提纲和待填证据位置，不代表调查已完成",
+    "slides": [
+      {
+        "slide": 1,
+        "title": "这次调研要帮助我们决定什么",
+        "talk": "我们重点判断小禾应该先服务谁、解决哪一个家庭学习问题，以及现有原型先改什么。当前暂定小学家庭四年级数学的掌握与巩固，这还是待用户验证的定位。"
+      },
+      {
+        "slide": 2,
+        "title": "样本与证据范围",
+        "talk": "我们按手机 App、平板学习机、桌面伴学设备选样。官方介绍、研究员实测和用户原话分开标注，不把产品宣传当效果结论。"
+      },
+      {
+        "slide": 3,
+        "title": "现有小禾的真实起点",
+        "talk": "小禾已有本机练习、纸面核对、报告与错题基础，比较突出的设计假设是区分独立和帮助后完成。但内容规模、真实用户体验、生成式学伴和协作仍有明确缺口。"
+      },
+      {
+        "slide": 4,
+        "title": "不同形态各自进入哪一个家庭场景",
+        "talk": "用统一场景说明用户何时拿起手机、何时坐到固定设备前。此页只放已核实的入口与观察，不直接下市场排名。"
+      },
+      {
+        "slide": 5,
+        "title": "从拍题到理解：真实流程对照",
+        "talk": "用同一题和同一任务路径对比识别、纠错、提示和讲解，并标明版本与付费条件。展示关键截图，不用满页功能勾选代替体验。"
+      },
+      {
+        "slide": 6,
+        "title": "做对以后有没有继续学",
+        "talk": "比较系统如何安排再练、错题、报告和复查，特别记录是否能区别独立完成与看过解答。未观察到的能力留空待证，不写不存在。"
+      },
+      {
+        "slide": 7,
+        "title": "家庭和教师的真实反馈",
+        "talk": "每个观点配匿名原话或行为。当前样本只用来找方向和反例，不当成市场比例。若尚未访谈，此页直接标待验证。"
+      },
+      {
+        "slide": 8,
+        "title": "定位选择：先解决哪一个问题",
+        "talk": "比较作业答案工具、课程资源入口和掌握巩固助手三个方向。依据场景频率、现有基础和证据作选择；家庭四年级数学掌握巩固是暂定方案，不是既定市场答案。"
+      },
+      {
+        "slide": 9,
+        "title": "优先改进 1：内容与掌握依据",
+        "talk": "先把一个已学单元做可靠，让每次练习和复查有足够题目与教研依据。否则再复杂的评定也缺少基础。"
+      },
+      {
+        "slide": 10,
+        "title": "优先改进 2—3：纸面入口与行动明确的报告",
+        "talk": "解决材料进不来、错误改不了、学完不知道接下来做什么的问题。这两项用真实家庭任务完成情况验证。"
+      },
+      {
+        "slide": 11,
+        "title": "两项探索与暂缓事项",
+        "talk": "真实语义学伴和家长教师协作先做需求与效果验证。平板/桌面设备本轮用于理解场景；不因别人有硬件就立刻决定自研硬件。"
+      },
+      {
+        "slide": 12,
+        "title": "下一阶段需要老板作出的决定",
+        "talk": "请确认首轮目标年级和学科、是否接受一个单元先验证、可投入的教研和试用资源。用验证结果决定扩展范围，而不是今天承诺完整全科产品。"
+      }
+    ],
+    "boss_questions": [
+      {
+        "question": "小禾和已有产品最大的区别是什么？",
+        "answer": "当前能说的是设计假设：保留学习过程并区分独立与帮助后完成，用后续练习验证掌握。是否构成优势，必须看竞品实测和家庭是否认可，暂不能宣布独有。"
+      },
+      {
+        "question": "为什么聚焦四年级数学，不做全科？",
+        "answer": "本地首版已经以四年级数学为基础，便于在 5—7 个工作日形成可比样本；这是验证范围，不是永久限制。扩科需独立的内容与交互证据。"
+      },
+      {
+        "question": "你说这些功能缺失，竞品真的没有吗？",
+        "answer": "我们不据此断言。报告逐项区分官方宣称、实际观察和未观察；“缺口”主要指小禾本地文档明确尚未完成的能力。"
+      },
+      {
+        "question": "有学习效果数据吗？",
+        "answer": "目前没有可支持提分或长期效果的研究。统一题与次日回访只检验过程和可用性；要验证学习效果，应另设更长时间、足够样本与对照。"
+      },
+      {
+        "question": "已经有多少用户、市场有多大、愿意付多少钱？",
+        "answer": "本次资料不能回答。先访谈支付者和真实使用者、记录现有替代方案及支出；付费意愿与市场规模需另行设计验证，不能用几个产品的宣传用户数相加。"
+      },
+      {
+        "question": "为什么不直接做一台伴学机？",
+        "answer": "先确认固定桌面、纸面摄像头和免持交互是否构成必要价值，再看手机或现有设备能否满足。当前团队已有 App 基础，硬件还涉及供应、售后和长期服务，需单独商业评估。"
+      },
+      {
+        "question": "多久可以开发好、要多少钱？",
+        "answer": "调研后只能给分阶段范围和待估算项。先确定单元、设备、协作与模型边界，再由开发和教研估算；本轮不凭空承诺时间与预算。"
+      },
+      {
+        "question": "今天希望我拍板什么？",
+        "answer": "确认首轮家庭场景和一个单元的验证范围，安排教研与试用资源，以及将 3 项优先改进、2 项探索作为待验证清单。"
+      }
+    ],
+    "decision_request": "确认定位验证范围、教研/家庭试用资源和下一阶段优先验证项；不要求当场批准全科或硬件开发。"
+  }
+}

@@ -1,0 +1,480 @@
+{
+  "as_of": "2026-10-29",
+  "method": "公开官方资料与页面核验；无硬件实测。未核实写明，所有产品线与页面级功能均不自动归入具体SKU。",
+  "selection_note": "代表性目的抽样，不主张销量前列或市场份额排名。T30 Ultra为2024款但当前官网仍列示；T6 Max/P60焕新版/S6为2026公开目录样本；学习桌在售代际不明。",
+  "products": [
+    {
+      "id": "H01",
+      "name": "科大讯飞AI学习机",
+      "model": "T30 Ultra（2024年发布的代表款，2026-10-29仍在官方推荐及商城目录展示；非最新款）",
+      "form": "学习平板＋手写笔＋摄像头",
+      "audience": "产品线面向幼、小、初、高学生及家庭；小学语数英明确列入覆盖范围，具体教材、功能随学段及机型而异。",
+      "features": [
+        {
+          "dimension": "用户与定位",
+          "claim": "围绕家庭自主学习，组合薄弱点诊断、答疑和练习。",
+          "evidence_type": "官方介绍",
+          "url": "https://edu.iflytek.com/solution/family/learning-pad",
+          "scope": "产品线级",
+          "caveat": "未作硬件实测，不能据此评价准确率或学习效果。"
+        },
+        {
+          "dimension": "作业与答疑",
+          "claim": "公开介绍启发式问答、错因分析和板书讲解。",
+          "evidence_type": "官方介绍",
+          "url": "https://edu.iflytek.com/solution/family/learning-pad",
+          "scope": "产品线级",
+          "caveat": "页面同时介绍T90与T30系列；不能认定所有功能均已推送T30 Ultra，需按系统版本核验。"
+        },
+        {
+          "dimension": "练习与掌握",
+          "claim": "介绍诊断后学习、针对性练习，以及个人学情组卷。",
+          "evidence_type": "官方介绍",
+          "url": "https://edu.iflytek.com/solution/family/learning-pad",
+          "scope": "产品线级",
+          "caveat": "规划学、溯源等部分功能有初中数学限制；不能直接移植为四年级数学功能。"
+        },
+        {
+          "dimension": "内容与适配",
+          "claim": "提供教材同步内容、互动课及小学英语阅读资源。",
+          "evidence_type": "官方介绍",
+          "url": "https://edu.iflytek.com/solution/family/learning-pad",
+          "scope": "产品线级",
+          "caveat": "资源覆盖与具体教材需核实；官网“全科”附有学科和地区条件。"
+        },
+        {
+          "dimension": "硬件与纸面",
+          "claim": "T30 Ultra条目列出14.7英寸屏、翻转双摄与手写笔，可连接纸面和屏幕学习场景。",
+          "evidence_type": "官方介绍",
+          "url": "https://edu.iflytek.com/solution/family/learning-pad",
+          "scope": "型号级",
+          "caveat": "官网参数为标称值；没有验证识别、书写延迟和坐姿判断。"
+        }
+      ],
+      "pricing": {
+        "hardware": "官网商城目录标示T30 Ultra 11999元，标注门店自提。",
+        "channel": "https://www.xunfei.cn/",
+        "as_of": "2026-10-29",
+        "conditions": "目录展示价，未进入订单核实库存、地区、补贴或最终成交价。",
+        "content_membership": "官网称部分资源持续免费更新；未找到T30 Ultra完整权益、收费目录及期限说明，不能认定所有服务永久免费。"
+      },
+      "sources": [
+        {
+          "id": "H01-S1",
+          "title": "科大讯飞智慧教育：AI学习机产品线与推荐型号",
+          "url": "https://edu.iflytek.com/solution/family/learning-pad",
+          "published_date": null,
+          "access_date": "2026-10-29",
+          "notes": "当前页面同时列T90 Pro、T90 Lite和T30 Ultra，已区分型号参数与产品线能力。"
+        },
+        {
+          "id": "H01-S2",
+          "title": "科大讯飞官方商城",
+          "url": "https://www.xunfei.cn/",
+          "published_date": null,
+          "access_date": "2026-10-29",
+          "notes": "目录可见T30 Ultra门店自提11999元；并非订单结算价。"
+        },
+        {
+          "id": "H01-S3",
+          "title": "科大讯飞硬件服务中心",
+          "url": "https://www.xunfei.cn/help/",
+          "published_date": null,
+          "access_date": "2026-10-29",
+          "notes": "有T30系列指南入口；微信功能介绍无法在web工具打开。"
+        },
+        {
+          "id": "H01-S4",
+          "title": "科大讯飞投资者关系活动记录（2024年7月）",
+          "url": "https://static.cninfo.com.cn/finalpage/2024-07-16/1220654869.PDF",
+          "published_date": "2024-07-16",
+          "access_date": "2026-10-29",
+          "notes": "上市公司披露明确提及T30 Ultra具备当时大模型辅导功能；仅用于历史型号背景。"
+        }
+      ],
+      "unknowns": [
+        "四年级指定教材可用的功能清单",
+        "T30 Ultra当前系统升级范围",
+        "识别和讲题准确率、独立掌握判断机制",
+        "全部内容权益及额外付费条件",
+        "各渠道现货和成交价"
+      ],
+      "implications": [
+        "小禾的诊断、练习、复查定位不能仅靠“AI精准学”命名区分：大厂已公开主张这些流程。",
+        "更可验证的差异是记录提示依赖程度和延迟独立复查，并向家长解释掌握证据；目前仅为定位假设。"
+      ]
+    },
+    {
+      "id": "H02",
+      "name": "学而思学习机",
+      "model": "T6 Max产品线（2026官网展示；具体版本权益未锁定）",
+      "form": "学习平板＋摄像头／学伴配件",
+      "audience": "家庭学习场景；公开页面包含数学培优和英语学习内容；四年级具体教材与课程覆盖待核对。",
+      "features": [
+        {
+          "dimension": "用户与定位",
+          "claim": "围绕体系化内容与AI家教提供家庭学习服务。",
+          "evidence_type": "官方介绍",
+          "url": "https://xpad.xueersi.com/T6MaxSeries?spuId=4694&spuUnionid=8260707083725051150264694&skuId=0",
+          "scope": "T6 Max页面级",
+          "caveat": "浏览器标题为“T6 Max经典款”，首屏素材出现“国际版”；本表不据此认定某个购买SKU含全部展示资源。"
+        },
+        {
+          "dimension": "练习与掌握",
+          "claim": "页面展示拍题诊断、学情解读、错题处理及学习规划。",
+          "evidence_type": "官方介绍",
+          "url": "https://xpad.xueersi.com/T6MaxSeries?spuId=4694&spuUnionid=8260707083725051150264694&skuId=0",
+          "scope": "T6 Max页面级",
+          "caveat": "为宣传图内容，尚未验证操作路径和诊断准确性。"
+        },
+        {
+          "dimension": "作业与答疑",
+          "claim": "页面展示互动培优、纸屏互动、AI提问回答和讲题。",
+          "evidence_type": "官方介绍",
+          "url": "https://xpad.xueersi.com/T6MaxSeries?spuId=4694&spuUnionid=8260707083725051150264694&skuId=0",
+          "scope": "T6 Max页面级",
+          "caveat": "具体课程、可追问范围、年级与收费条件未核实。"
+        },
+        {
+          "dimension": "持续使用",
+          "claim": "页面展示带学习记忆的小思学伴及唤醒服务。",
+          "evidence_type": "官方介绍",
+          "url": "https://xpad.xueersi.com/T6MaxSeries?spuId=4694&spuUnionid=8260707083725051150264694&skuId=0",
+          "scope": "T6 Max页面级",
+          "caveat": "记忆范围、保存期限和具体型号配件未实测。"
+        },
+        {
+          "dimension": "内容与适配",
+          "claim": "页面展示英语阅读、口语家教和剑桥英语相关内容。",
+          "evidence_type": "官方介绍",
+          "url": "https://xpad.xueersi.com/T6MaxSeries?spuId=4694&spuUnionid=8260707083725051150264694&skuId=0",
+          "scope": "页面级",
+          "caveat": "内容可能对应国际版或特定套餐；不写成全T6系列通用权益。"
+        }
+      ],
+      "pricing": {
+        "hardware": "精确SKU官方结算价未核实。京东品牌活动页曾展示T6 Max 11999元，仅可作渠道展示线索。",
+        "channel": "https://pro.m.jd.com/mall/active/3qSFijqFW86idWfPxHxSrM6pDd4u/index.html",
+        "as_of": "2026-10-29",
+        "conditions": "活动页不等于当前订单；需核对经典款/国际版、容量、赠品和补贴。",
+        "content_membership": "官网有“学而思会员”入口；完整机型权益、会员服务及后续收费未核实。"
+      },
+      "sources": [
+        {
+          "id": "H02-S1",
+          "title": "学而思智能学习官方网站",
+          "url": "https://xpad.xueersi.com/",
+          "published_date": null,
+          "access_date": "2026-10-29",
+          "notes": "2026-10-29浏览器实际展示T6 Max、X5、P5；搜索缓存曾显示P4，采用浏览器当前页面。"
+        },
+        {
+          "id": "H02-S2",
+          "title": "学而思T6 Max产品详情",
+          "url": "https://xpad.xueersi.com/T6MaxSeries?spuId=4694&spuUnionid=8260707083725051150264694&skuId=0",
+          "published_date": null,
+          "access_date": "2026-10-29",
+          "notes": "浏览器实际读取官方长图：拍题诊断、学情解读、学习规划、互动培优、AI学伴。页面标题与素材版本文字不同，故仅保留页面级口径。"
+        },
+        {
+          "id": "H02-S3",
+          "title": "京东学而思品牌活动页",
+          "url": "https://pro.m.jd.com/mall/active/3qSFijqFW86idWfPxHxSrM6pDd4u/index.html",
+          "published_date": null,
+          "access_date": "2026-10-29",
+          "notes": "渠道参考；活动起始日期只见09/03，不能当作实时成交价。"
+        }
+      ],
+      "unknowns": [
+        "T6 Max经典款与国际版具体对应关系",
+        "四年级课程和教材覆盖",
+        "每项AI能力当前可用性及套餐权益",
+        "价格、库存及会员续费条件",
+        "诊断有效性与儿童理解程度"
+      ],
+      "implications": [
+        "体系课程内容是成熟厂商的重要投入，小禾短期宜集中于少量经过教研审核的数学任务。",
+        "诊断、互动和规划已是公开竞争主张；需要把改进重点落在孩子能否独立完成新题及家长是否看懂进步。"
+      ]
+    },
+    {
+      "id": "H03",
+      "name": "作业帮学习机",
+      "model": "P60（2026焕新版；官方店商品标题可核实，具体容量／套餐SKU待核对）",
+      "form": "学习平板",
+      "audience": "官方商品标题面向小学、初中、高中全科作业辅导；使用者为学生，家庭购买为待验证推断。",
+      "features": [
+        {
+          "dimension": "用户与定位",
+          "claim": "官方店将P60定位为AI老师／家教式全科作业辅导设备。",
+          "evidence_type": "官方介绍",
+          "url": "https://detail.youzan.com/show/goods?alias=3evivsekbc12dzm&from_source=gbox_seo",
+          "scope": "P60商品页级",
+          "caveat": "未作硬件实测，不能据此评价准确率或学习效果。"
+        },
+        {
+          "dimension": "内容与适配",
+          "claim": "硬件官网介绍同步课程、幼儿启蒙与作业辅导组合。",
+          "evidence_type": "官方介绍",
+          "url": "https://tanyang.co/eduIpad",
+          "scope": "产品线级",
+          "caveat": "官网通用页未在可读文本中标出P60，不将全部宣传能力归于P60。"
+        },
+        {
+          "dimension": "持续使用",
+          "claim": "作业帮智能App介绍设备学习记录同步、每周学习报告和远程功能管理。",
+          "evidence_type": "官方介绍",
+          "url": "https://apps.apple.com/cn/app/作业帮智能/id1574286653",
+          "scope": "硬件生态配套App级",
+          "caveat": "适配各设备的能力不同；未验证P60焕新版具体支持范围。"
+        },
+        {
+          "dimension": "练习与掌握",
+          "claim": "配套App介绍错题与生词同步及供家长管理复习。",
+          "evidence_type": "官方介绍",
+          "url": "https://apps.apple.com/cn/app/作业帮智能/id1574286653",
+          "scope": "硬件生态配套App级",
+          "caveat": "不可等同于P60已具备延迟复查或独立掌握判断。"
+        }
+      ],
+      "pricing": {
+        "hardware": "官方有赞商品页展示2499—5499元区间。",
+        "channel": "https://detail.youzan.com/show/goods?alias=3evivsekbc12dzm&from_source=gbox_seo",
+        "as_of": "2026-10-29",
+        "conditions": "同一商品含不同SKU或套餐，不能用区间最低价代表指定P60配置；库存、补贴、赠品、实际下单价未核实。",
+        "content_membership": "官网通用页有课程免费学表述但有脚注；P60完整权益未核实。配套App列出的学习笔会员和流量收费不归入P60费用。"
+      },
+      "sources": [
+        {
+          "id": "H03-S1",
+          "title": "作业帮官方旗舰店：2026焕新版P60",
+          "url": "https://detail.youzan.com/show/goods?alias=3evivsekbc12dzm&from_source=gbox_seo",
+          "published_date": null,
+          "access_date": "2026-10-29",
+          "notes": "有赞页自称“作业帮小程序官方旗舰店”；商品标题、学段及区间价可读。未完成独立工商认证链核查。"
+        },
+        {
+          "id": "H03-S2",
+          "title": "作业帮智能硬件官网：学习机",
+          "url": "https://tanyang.co/eduIpad",
+          "published_date": null,
+          "access_date": "2026-10-29",
+          "notes": "通用产品线页面，图中13.7英寸不推定为P60。"
+        },
+        {
+          "id": "H03-S3",
+          "title": "作业帮智能App开发者介绍",
+          "url": "https://apps.apple.com/cn/app/作业帮智能/id1574286653",
+          "published_date": null,
+          "access_date": "2026-10-29",
+          "notes": "2026-10-29页面版本7.6.10，10月19日更新；版本记录写部分机型支持专注守护，明确存在适配边界。"
+        }
+      ],
+      "unknowns": [
+        "P60焕新版具体硬件SKU和完整功能列表",
+        "P60是否及如何支持家长App全部能力",
+        "课程免费范围与期限",
+        "识别、批改、讲解及题目推荐质量",
+        "教材覆盖和复查机制"
+      ],
+      "implications": [
+        "家长端应从“记录很多”转向“今天需要做什么”，把错题、复习安排和行动建议连起来。",
+        "小禾对比表中要把硬件生态级功能与指定型号分开；避免据通用宣传表得出小禾功能缺口。"
+      ]
+    },
+    {
+      "id": "H04",
+      "name": "小猿学练机",
+      "model": "S6（2026-10-29官方旗舰店目录列示；具体规格、在售库存和完整型号权益待核实）",
+      "form": "学练机（S6具体屏幕和配置本轮未作官方核实）",
+      "audience": "家庭学练与家长管理；S6具体年龄、学段及教材范围未从本轮官方来源核实。",
+      "features": [
+        {
+          "dimension": "型号与定位",
+          "claim": "小猿官方旗舰店将S6归入学练机系列，并与学习机T6、X6分列。",
+          "evidence_type": "官方介绍",
+          "url": "https://mall.jd.com/view_search-2998983-0-99-1-24-1.html",
+          "scope": "型号分类级",
+          "caveat": "目录不代表已确认库存或当前可下单。"
+        },
+        {
+          "dimension": "持续使用",
+          "claim": "配套小猿智能设备App支持家庭多孩子、多设备管理及使用时长约定。",
+          "evidence_type": "官方介绍",
+          "url": "https://apps.apple.com/cn/app/小猿智能设备/id6738277050",
+          "scope": "学练机产品线配套App级",
+          "caveat": "说明列明兼容小猿学练机，未逐一列S6；实际绑定后支持范围待测。"
+        },
+        {
+          "dimension": "作业与答疑",
+          "claim": "配套App提供答案解析查看控制。",
+          "evidence_type": "官方介绍",
+          "url": "https://apps.apple.com/cn/app/小猿智能设备/id6738277050",
+          "scope": "学练机产品线配套App级",
+          "caveat": "这一点说明防直接抄答案已有产品实践；不等同于已验证儿童真正理解。"
+        },
+        {
+          "dimension": "练习与掌握",
+          "claim": "配套App记录每日功能使用和学习数据，供家长查看。",
+          "evidence_type": "官方介绍",
+          "url": "https://apps.apple.com/cn/app/小猿智能设备/id6738277050",
+          "scope": "学练机产品线配套App级",
+          "caveat": "未核实S6知识图谱、错题复查与掌握判断的具体算法和流程。"
+        }
+      ],
+      "pricing": {
+        "hardware": "S6官方可核实的具体SKU售价未查到。",
+        "channel": "https://mall.jd.com/view_search-2998983-0-99-1-24-1.html",
+        "as_of": "2026-10-29",
+        "conditions": "不采用第三方专卖店、聚合导购价或S2旧款价格替代。",
+        "content_membership": "配套App标示免费下载；不能推导S6所有内容与服务均永久免费，完整权益待核实。"
+      },
+      "sources": [
+        {
+          "id": "H04-S1",
+          "title": "小猿官方旗舰店：产品分类",
+          "url": "https://mall.jd.com/view_search-2998983-0-99-1-24-1.html",
+          "published_date": null,
+          "access_date": "2026-10-29",
+          "notes": "目录明确学练机S6/S2与学习机T6/X6/P40/T4/R1分类；详细商品数据未返回。"
+        },
+        {
+          "id": "H04-S2",
+          "title": "小猿智能设备App开发者介绍",
+          "url": "https://apps.apple.com/cn/app/小猿智能设备/id6738277050",
+          "published_date": null,
+          "access_date": "2026-10-29",
+          "notes": "开发者说明包含时长、答案、学习轨迹、家庭管理，明示配合小猿学练机等硬件使用。"
+        },
+        {
+          "id": "H04-S3",
+          "title": "小猿AI官网：品牌体系",
+          "url": "https://www.xiaoyuankousuan.com/",
+          "published_date": null,
+          "access_date": "2026-10-29",
+          "notes": "列明小猿学练机和小猿AI学习机为不同品牌产品；不把手机App功能直接映射至S6。"
+        }
+      ],
+      "unknowns": [
+        "S6确切SKU、硬件参数及价格",
+        "S6小学教材覆盖和题型范围",
+        "练习推荐、错题和复查的实际流程",
+        "全部内容及会员权益",
+        "是否存在独立作答与提示依赖区分"
+      ],
+      "implications": [
+        "答案管控提示一个可借鉴的需求：小禾可记录获得帮助后的作答，避免把“看过答案”计为掌握。",
+        "对家长展示学习轨迹已有竞品先例；小禾需要验证的是可解释的掌握证据是否让家长愿意持续使用。"
+      ]
+    },
+    {
+      "id": "H05",
+      "name": "作业帮AI学习桌",
+      "model": "官网产品线（参数图含辅导家系列；具体销售SKU／上市代际及当前在售未核实）",
+      "form": "学习桌椅＋灯光＋摄像／语音伴学设备",
+      "audience": "官网明确展示小学1—6年级语数英教材同步练；家中纸面学习场景。",
+      "features": [
+        {
+          "dimension": "内容与适配",
+          "claim": "官方图展示小学语数英同步练、指读、听写和练习；教材范围需逐项核对。",
+          "evidence_type": "官方介绍",
+          "url": "https://iotcdn.cdnjtzy.com/ty-website/images/pc/eduDesk/05.png",
+          "scope": "官网产品线级",
+          "caveat": "图下注明10余种教材版本并要求向客服核对，不能认定所有地区教材覆盖。"
+        },
+        {
+          "dimension": "作业与答疑",
+          "claim": "通过桌面设备支持指读和语音交互，连接纸面学习。",
+          "evidence_type": "官方介绍",
+          "url": "https://iotcdn.cdnjtzy.com/ty-website/images/pc/eduDesk/03.png",
+          "scope": "官网产品线级",
+          "caveat": "未验证指尖识别、作业批改或对话正确率；不可把指读等同于全题型讲解。"
+        },
+        {
+          "dimension": "持续使用",
+          "claim": "计时与定时提醒支持学习安排。",
+          "evidence_type": "官方介绍",
+          "url": "https://iotcdn.cdnjtzy.com/ty-website/images/pc/eduDesk/06.png",
+          "scope": "官网产品线级",
+          "caveat": "提醒功能存在不等于专注提升或习惯养成已获验证。"
+        },
+        {
+          "dimension": "内容与适配",
+          "claim": "展示英语视频学习内容。",
+          "evidence_type": "官方介绍",
+          "url": "https://iotcdn.cdnjtzy.com/ty-website/images/pc/eduDesk/04.png",
+          "scope": "官网产品线级",
+          "caveat": "未作硬件实测，不能据此评价准确率或学习效果。"
+        },
+        {
+          "dimension": "硬件与纸面",
+          "claim": "把照明、桌椅和伴学功能整合到纸面作业环境。",
+          "evidence_type": "官方介绍",
+          "url": "https://smart.zuoyebang.com/eduDesk",
+          "scope": "官网产品线级",
+          "caveat": "护眼、脊柱等健康效果仅为厂商宣传；本轮未评估或引用功效结论。"
+        }
+      ],
+      "pricing": {
+        "hardware": "当前具体型号、官方售价和库存未核实。",
+        "channel": "https://smart.zuoyebang.com/eduDesk",
+        "as_of": "2026-10-29",
+        "conditions": "未使用2023年发布价替代当前价格。",
+        "content_membership": "课程、联网服务、会员和设备维护的费用边界未查到完整公开说明。"
+      },
+      "sources": [
+        {
+          "id": "H05-S1",
+          "title": "作业帮智能硬件官网：AI学习桌",
+          "url": "https://smart.zuoyebang.com/eduDesk",
+          "published_date": null,
+          "access_date": "2026-10-29",
+          "notes": "网站底部标示V3.0及更新时间2025-10-20，非证明该产品当日上市。"
+        },
+        {
+          "id": "H05-S2",
+          "title": "学习桌官方功能图：小学教材同步",
+          "url": "https://iotcdn.cdnjtzy.com/ty-website/images/pc/eduDesk/05.png",
+          "published_date": null,
+          "access_date": "2026-10-29",
+          "notes": "已下载原始宣传图至research/hardware-source-images/作业帮学习桌-官方功能05.png。"
+        },
+        {
+          "id": "H05-S3",
+          "title": "学习桌官方功能图：时间管理",
+          "url": "https://iotcdn.cdnjtzy.com/ty-website/images/pc/eduDesk/06.png",
+          "published_date": null,
+          "access_date": "2026-10-29",
+          "notes": "同一官网图片来源，不能视为独立第三方验证。"
+        },
+        {
+          "id": "H05-S4",
+          "title": "学习桌官方功能概览",
+          "url": "https://iotcdn.cdnjtzy.com/ty-website/images/pc/eduDesk/03.png",
+          "published_date": null,
+          "access_date": "2026-10-29",
+          "notes": "同一官网图文来源。"
+        },
+        {
+          "id": "H05-S5",
+          "title": "学习桌官方参数图",
+          "url": "https://iotcdn.cdnjtzy.com/ty-website/images/pc/eduDesk/12.png",
+          "published_date": null,
+          "access_date": "2026-10-29",
+          "notes": "参数图展示多个尺寸／桌椅组合，无法锁定当前销售SKU。"
+        }
+      ],
+      "unknowns": [
+        "当前在售型号、代际及官方报价",
+        "完整教材和内容权益",
+        "相机识别及语音交互表现",
+        "学习计划是否自动调整",
+        "屏幕外活动能否准确记录及用户接受度"
+      ],
+      "implications": [
+        "纸面作业的需求不必全搬到屏幕：小禾可探索拍照导入、纸上完成后复查和简洁计时。",
+        "照明、坐姿及桌椅体验依赖硬件，不宜作为手机App下一版的直接对标项。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+- banner:
+  - link:
+    - /url: /
+  - link "关于作业帮智能":
+    - /url: /about
+    - generic: 关于作业帮智能
+  - generic: 作业帮智能硬件
+  - link "下载App":
+    - /url: /download
+    - generic: 下载App
+  - link "购买渠道":
+    - /url: /channels
+    - generic: 购买渠道
+  - link "硬件招商":
+    - /url: /investment
+    - generic: 硬件招商
+  - link "联系我们":
+    - /url: /contact
+    - generic: 联系我们
+  - generic: 学习桌
+  - text: 详情 规格参数
+  - link "立即购买":
+    - /url: https://mall.zuoyebang.com/mall/webapp/goods/index?queryhref=https%3A%2F%2Fmall.zuoyebang.com%2Fmall%2Fwebapp%2Findex%2F3190005%3FZybHideTitle%3D1%26hideNativeTitleBar%3D1%26block%3Dpc-xxz%26source%3Dpc-xxz%26inside%3D1
+- heading "4大购买理由" [level=3]
+- heading "AI伴学系统实时辅导解放家长" [level=3]
+- heading "一体式AI护眼灯全桌照亮 专业守护用眼健康" [level=3]
+- heading "动态自适应追背呵护脊柱健康" [level=3]
+- heading "产品参数" [level=3]
+- contentinfo:
+  - link "售后服务":
+    - /url: /service
+    - generic: 售后服务
+  - link "售后服务政策":
+    - /url: /service#policy
+  - text: "|"
+  - link "寄修服务说明":
+    - /url: /service#repair
+  - text: "|"
+  - link "保外收费参考":
+    - /url: /service#reference
+  - generic: 广州极目未来文化科技有限公司
+  - generic: 公司地址：广州市黄埔区黄埔大道东888号1602-1房
+  - generic: 客服热线：400-626-0900
+  - link "用户服务协议":
+    - /url: /agreement/service.html
+    - generic: 用户服务协议
+  - generic: "|"
+  - link "隐私政策":
+    - /url: /agreement/privacy.html
+    - generic: 隐私政策
+  - generic: "|"
+  - link "儿童用户隐私政策":
+    - /url: /agreement/kid.html
+    - generic: 儿童用户隐私政策
+  - generic: "|"
+  - link "营业执照":
+    - /url: https://iotcdn.cdnjtzy.com/ty-website/images/营业执照20251020.png
+    - generic: 营业执照
+  - link "粤公网安备 44011202002437号":
+    - /url: https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44011202002437
+    - generic: 粤公网安备 44011202002437号
+  - link "粤ICP备2023029972号":
+    - /url: https://beian.miit.gov.cn/#/Integrated/index
+    - generic: 粤ICP备2023029972号
+  - text: 版本号：V3.0 更新时间2025-10-20

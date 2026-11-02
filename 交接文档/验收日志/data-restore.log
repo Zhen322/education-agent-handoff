@@ -1,0 +1,7 @@
+SQLite backup and portable SQL restore: passed
+D1 integrity_check and foreign_key_check: passed
+Business table counts: 13/4/12/6
+Invitation token hashes replaced; synthetic actor/member display names applied
+R2 four object sizes and SHA-256: passed
+Fresh-directory restore: passed
+Existing-directory overwrite refusal: passed

@@ -1,0 +1,14 @@
+- img "学而思智能学习-官方网站"
+- button:
+- paragraph
+- paragraph: 学而思学习机T6 Max
+- button "购买":
+  - generic: 购买
+- list:
+  - listitem: 用户个人信息保护政策|
+  - listitem: 用户协议|
+  - listitem: 服务政策|
+  - listitem: 粤ICP备2021146510号-4
+- paragraph:
+  - text: 点击
+  - text: 联系客服

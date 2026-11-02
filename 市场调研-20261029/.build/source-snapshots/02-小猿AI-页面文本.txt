@@ -1,0 +1,189 @@
+- link "小猿AI百科":
+  - /url: /baike
+- banner:
+  - link "小猿AI 原小猿口算 全新升级":
+    - /url: "#home"
+    - img "小猿AI"
+    - generic: 原小猿口算 全新升级
+  - navigation "主导航":
+    - link "首页":
+      - /url: "#home"
+    - link "核心功能":
+      - /url: "#features"
+    - link "使用场景":
+      - /url: "#scene"
+    - link "权威背书":
+      - /url: "#authority"
+    - link "集团介绍":
+      - /url: "#group"
+    - link "常见问题":
+      - /url: /faq
+- main:
+  - heading "小猿AI" [level=1]
+  - paragraph: 中小学专属教育 AI 产品
+  - paragraph:
+    - text: 整合小猿口算+小猿搜题核心能力，一站式学习平台
+    - text: 作业检查、拍照搜题、AI答疑、同步学练......
+  - img "扫码下载小猿AI APP"
+  - img "小猿AI作业检查、拍照搜题、答疑讲解、真题试卷和校内同步练功能展示"
+  - heading "九大核心功能" [level=2]
+  - paragraph: 覆盖学习全场景，让每个孩子都能高效学习
+  - generic "九大核心功能轮播":
+    - button "上一组功能" [disabled]
+    - article:
+      - heading "拍照搜题" [level=3]
+      - paragraph: 难题卡壳？1秒拍出答案
+      - generic: 30亿题库
+      - generic: 98%命中率
+      - paragraph: 30亿题库，拍照答疑，秒出答案，提供免费分步解析，命中率98%以上，更有拍图书、拍照讲解等丰富功能。
+    - article:
+      - heading "检查作业" [level=3]
+      - paragraph: 语数英秒批改 错题视频精讲
+      - generic: 拍照秒批
+      - generic: 全学科
+      - generic: 全学段
+      - paragraph: 拍照秒批全学科作业，100+题型，自动标注错误点，支持错因分析与错题讲解，小学到高中一键搞定。
+    - article:
+      - heading "答疑讲解" [level=3]
+      - paragraph: 真人老师 错题讲透为止
+      - generic: 视频讲解
+      - generic: AI 1对1讲解
+      - paragraph: 全程免费解析错题难题，视频讲解+AI老师1对1讲解，视频覆盖率90%以上，让每个孩子得到精准辅导。
+    - article:
+      - heading "专项练习" [level=3]
+      - paragraph: 语数英多种题型 同步校内教材
+      - generic: 趣味练习
+      - generic: 多科学覆盖
+      - paragraph: 口算练习/PK、字词听写、诗词背诵、背单词、口语对话，趣味练习告别枯燥刷题，语数英多维提升。
+    - article:
+      - heading "作文批改" [level=3]
+      - paragraph: 中英作文批改 对标新课标评分
+      - generic: 新课标对标
+      - generic: 逐句批注
+      - paragraph: 中英文AI写作批改，对标新课标分级评分，纠正语法拼写错误，逐句批注点评佳句与待润色句，启发思路。
+    - article:
+      - heading "同步学练" [level=3]
+      - paragraph: 人教官方授权 匹配新课标
+      - generic: 校内同步课
+      - generic: 精准同步练
+      - paragraph: 500万+课时同步视频课程，100%匹配校内教材，搭配365天同步练，学完一课练一课，形成完整闭环。
+    - article:
+      - heading "错题本" [level=3]
+      - paragraph: 错题分科整理 薄弱反复重练
+      - generic: 自动归类
+      - generic: 举一反三
+      - paragraph: 错题自动归类整理，支持知识性/习惯性错误等五维错因分析，生成改进方案，支持错题举一反三练习。
+    - article:
+      - heading "备考工具" [level=3]
+      - paragraph: 历年真题 支持试卷擦除重练
+      - generic: 真题试卷
+      - generic: 试卷下载
+      - paragraph: 海量试卷资源，覆盖中高考真题/模拟卷、期中期末卷，支持试卷擦除还原、AI考点总结，考前精准冲刺。
+    - article:
+      - heading "班级功能" [level=3]
+      - paragraph: 全班作业高效智能管理
+      - generic: 作业管理
+      - generic: 课堂提效
+      - paragraph: 全班智能作业管理，一键批改，统计高频错题，打印分发学习资料，让老师从重复劳动到精准教学。
+    - button "下一组功能"
+  - heading "智能学・轻松陪・精准教" [level=2]
+  - paragraph: 全角色学习解决方案 一站式智能提效
+  - generic "使用场景交互卡片":
+    - button "学生场景" [expanded]:
+      - heading "从「被动学习」到「主动攻克」" [level=3]
+      - list:
+        - listitem: ✓ 作业卡壳？拍照搜题秒出解析
+        - listitem: ✓ 听不懂？AI老师1对1追问讲解
+        - listitem: ✓ 口算枯燥？PK对战越练越上瘾
+        - listitem: ✓ 备考冲刺？真题试卷一键下载
+      - generic: 学生
+    - button "家长场景":
+      - heading "从「焦虑陪读」到「科学监督」" [level=3]
+      - list:
+        - listitem: ✓ 没时间？拍照1秒批改全科作业
+        - listitem: ✓ 不会教？视频讲解代替自己辅导
+        - listitem: ✓ 怕漏检？错题自动归类不遗漏
+        - listitem: ✓ 老人也能用，操作简单一键完成
+      - generic: 家长
+    - button "老师场景":
+      - heading "从「重复劳动」到「精准教学」" [level=3]
+      - list:
+        - listitem: ✓ 一键批改全班作业
+        - listitem: ✓ 高频错题自动统计
+        - listitem: ✓ 试卷/练习一键打印分发
+        - listitem: ✓ 精准掌握学情辅助教学
+      - generic: 老师
+  - heading "硬核实力 权威认证" [level=2]
+  - paragraph: 猿辅导集团十余年教育技术沉淀
+  - generic "实力数据":
+    - strong:
+      - text: 5亿
+      - superscript: +
+    - generic: 全球用户
+    - strong: 30亿
+    - generic: 权威题库
+    - strong:
+      - text: 830万
+      - superscript: +
+    - generic: 试卷资源
+    - strong:
+      - text: 500万
+      - superscript: +
+    - generic: 小时教学视频
+  - img "小猿AI及猿辅导集团五项权威认证证书"
+  - paragraph:
+    - generic: 信通院智能批改
+    - generic: 最高等级5级认证
+  - paragraph:
+    - generic: 信通院学习智能体
+    - generic: 最高等级5级认证
+  - paragraph:
+    - generic: 自研大模型
+    - generic: 信通院5级认证
+  - paragraph:
+    - generic: 牵头制定
+    - generic: 教育智能体标准
+  - paragraph:
+    - generic: 信通院练习智能体
+    - generic: 最高等级5级认证
+  - heading "猿辅导集团 科技助力教育" [level=2]
+  - generic "集团品牌":
+    - img "飞象星球"
+    - img "海豚AI学"
+    - img "猿编程"
+    - img "斑马AI学"
+    - img "猿辅导"
+    - img "小猿AI"
+    - img "小猿搜题"
+    - img "猿题库"
+    - img "小猿学练机"
+    - img "小猿AI学习机"
+    - img "Uknow.AI"
+  - paragraph: 小猿AI（原小猿口算，全新升级）
+  - paragraph: 是猿辅导集团旗下专为中小学生（及其家长和教师）打造的教育AI和全场景学习应用
+  - paragraph: 为中小学生搭建起全学科、全学段“作业辅导+全科学习+AI智能陪伴”一站式智能学习平台
+  - paragraph: 猿辅导秉承“科技帮助每个人获得更好的教育”的初心使命
+  - paragraph: 提供数字资源、数字工具、数字出版、数字解决方案等面向学习者的人工智能产品服务
+  - paragraph: 运营和服务品牌包括
+  - paragraph: 飞象星球、海豚AI学、猿编程、斑马AI学、猿辅导、小猿AI、小猿搜题、猿题库、小猿学练机、小猿AI学习机、UknowAI等
+- generic "扫码下载小猿AI APP":
+  - img "扫码下载小猿AI APP"
+- paragraph:
+  - link "用户注册协议":
+    - /url: https://xyst.yuanfudao.com/user-profile/api/privacy-policy/leo-user-agreement-xyks.html
+  - text: "|"
+  - link "隐私政策":
+    - /url: https://xyst.yuanfudao.com/user-profile/api/privacy-policy/leo-user-privacy-xyks.html
+  - text: "|"
+  - link "儿童隐私政策":
+    - /url: https://xyst.yuanfudao.com/user-profile/api/privacy-policy/leo-child-privacy-xyks.html
+  - text: "| 公司地址：广州市越秀区东⻛东路733号"
+- paragraph:
+  - link "粤ICP备2023003336号-8":
+    - /url: https://beian.miit.gov.cn/
+  - generic: "| 教APP备4402463号"
+- paragraph:
+  - link "营业执照":
+    - /url: https://xyks.yuanfudao.com/h5/leo-web-page/business-licenese.html#/0
+  - generic: "| 广州九举科技有限公司 ©版权所有"
+- paragraph: "违法和不良信息举报电话: 010-5934 4505 | 网上有害信息举报 | 服务投诉邮箱: jubao365@kanyun.com | 廉政举报邮箱：jubao@kanyun.com"

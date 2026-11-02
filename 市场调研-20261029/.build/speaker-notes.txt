@@ -1,0 +1,382 @@
+第1页
+开场约45秒。此次汇报希望确定目标用户、首个场景和下一轮验证投入。本版已经完成公开资料核验和评论整理，手机实测和真实用户验证尚未完成。
+
+资料截至2026-10-29。官方主张、用户反馈、项目文档核验与推断分别标识。
+
+第2页
+约90秒。推荐的是第一轮试点方向，不是已经证明的市场定位。先面向小学四年级，围绕一个数学单元把独立练习、逐级提示与后续复查做完整。支持依据是现有能力匹配、相对可控的内容范围和教师协作仍待补齐。竞品已有核验和精准学习概念，不能把概念本身作为独家优势。
+
+资料截至2026-10-29。官方主张、用户反馈、项目文档核验与推断分别标识。
+
+作业帮-中小学家长作业检查和AI伴学辅导工具｜中国区 App Store：https://apps.apple.com/cn/app/id803781859
+
+Apple 中国区公开 lookup 元数据：https://itunes.apple.com/lookup?id=803781859&country=cn
+
+作业帮官网：https://www.zybang.com/
+
+小猿AI - 原「小猿口算」检查作业神器｜中国区 App Store：https://apps.apple.com/cn/app/id1325419855
+
+Apple 中国区公开 lookup 元数据：https://itunes.apple.com/lookup?id=1325419855&country=cn
+
+小猿AI 官方网站：https://www.xiaoyuankousuan.com/
+
+洋葱学园-AI超级进化｜中国区 App Store：https://apps.apple.com/cn/app/id990959871
+
+Apple 中国区公开 lookup 元数据：https://itunes.apple.com/lookup?id=990959871&country=cn
+
+洋葱学园｜AI智能学伴：https://yangcongxueyuan.com/study-platform/
+
+洋葱学园｜数字资源：https://yangcongxueyuan.com/digital-resource/
+
+洋葱学园｜客户端下载：https://yangcongxueyuan.com/applications/
+
+/Users/zhenshuai/Desktop/小禾学伴/APP-实施计划.md
+
+第3页
+约60秒。本次8个样本覆盖3个App、4类学习平板及1个纸面伴学设备。评论来自中国区App Store公开RSS，各选20条，样本期和人群不可比。硬件没有实体操作。本版中没有声称已完成竞品App实测。
+
+资料截至2026-10-29。官方主张、用户反馈、项目文档核验与推断分别标识。
+
+作业帮-中小学家长作业检查和AI伴学辅导工具｜中国区 App Store：https://apps.apple.com/cn/app/id803781859
+
+Apple 中国区公开 lookup 元数据：https://itunes.apple.com/lookup?id=803781859&country=cn
+
+作业帮官网：https://www.zybang.com/
+
+小猿AI - 原「小猿口算」检查作业神器｜中国区 App Store：https://apps.apple.com/cn/app/id1325419855
+
+Apple 中国区公开 lookup 元数据：https://itunes.apple.com/lookup?id=1325419855&country=cn
+
+小猿AI 官方网站：https://www.xiaoyuankousuan.com/
+
+洋葱学园-AI超级进化｜中国区 App Store：https://apps.apple.com/cn/app/id990959871
+
+Apple 中国区公开 lookup 元数据：https://itunes.apple.com/lookup?id=990959871&country=cn
+
+洋葱学园｜AI智能学伴：https://yangcongxueyuan.com/study-platform/
+
+洋葱学园｜数字资源：https://yangcongxueyuan.com/digital-resource/
+
+洋葱学园｜客户端下载：https://yangcongxueyuan.com/applications/
+
+科大讯飞智慧教育：AI学习机产品线与推荐型号：https://edu.iflytek.com/solution/family/learning-pad
+
+科大讯飞官方商城：https://www.xunfei.cn/
+
+科大讯飞硬件服务中心：https://www.xunfei.cn/help/
+
+科大讯飞投资者关系活动记录（2024年7月）：https://static.cninfo.com.cn/finalpage/2024-07-16/1220654869.PDF
+
+学而思智能学习官方网站：https://xpad.xueersi.com/
+
+学而思T6 Max产品详情：https://xpad.xueersi.com/T6MaxSeries?spuId=4694&spuUnionid=8260707083725051150264694&skuId=0
+
+京东学而思品牌活动页：https://pro.m.jd.com/mall/active/3qSFijqFW86idWfPxHxSrM6pDd4u/index.html
+
+作业帮官方旗舰店：2026焕新版P60：https://detail.youzan.com/show/goods?alias=3evivsekbc12dzm&from_source=gbox_seo
+
+作业帮智能硬件官网：学习机：https://tanyang.co/eduIpad
+
+作业帮智能App开发者介绍：https://apps.apple.com/cn/app/作业帮智能/id1574286653
+
+小猿官方旗舰店：产品分类：https://mall.jd.com/view_search-2998983-0-99-1-24-1.html
+
+小猿智能设备App开发者介绍：https://apps.apple.com/cn/app/小猿智能设备/id6738277050
+
+小猿AI官网：品牌体系：https://www.xiaoyuankousuan.com/
+
+作业帮智能硬件官网：AI学习桌：https://smart.zuoyebang.com/eduDesk
+
+学习桌官方功能图：小学教材同步：https://iotcdn.cdnjtzy.com/ty-website/images/pc/eduDesk/05.png
+
+学习桌官方功能图：时间管理：https://iotcdn.cdnjtzy.com/ty-website/images/pc/eduDesk/06.png
+
+学习桌官方功能概览：https://iotcdn.cdnjtzy.com/ty-website/images/pc/eduDesk/03.png
+
+学习桌官方参数图：https://iotcdn.cdnjtzy.com/ty-website/images/pc/eduDesk/12.png
+
+第4页
+约75秒。这里是依据产品场景和公开评论整理的需求假设，没有把访谈尚未发生的结论写成用户事实。正面评论肯定解析与课程，负面评论提示收费、准确性、功能使用等问题。年龄和年级不明，应在后续小学家庭样本中验证。
+个案索引：作业帮14717577839认可解题思路，14718060879反馈解析与收费；小猿14717720398对同题多个答案有疑问；洋葱14677388550肯定课程并反馈横竖屏与AI符号问题。均未复现。
+
+资料截至2026-10-29。官方主张、用户反馈、项目文档核验与推断分别标识。
+
+作业帮-中小学家长作业检查和AI伴学辅导工具｜中国区 App Store：https://apps.apple.com/cn/app/id803781859
+
+Apple 中国区公开 lookup 元数据：https://itunes.apple.com/lookup?id=803781859&country=cn
+
+作业帮官网：https://www.zybang.com/
+
+小猿AI - 原「小猿口算」检查作业神器｜中国区 App Store：https://apps.apple.com/cn/app/id1325419855
+
+Apple 中国区公开 lookup 元数据：https://itunes.apple.com/lookup?id=1325419855&country=cn
+
+小猿AI 官方网站：https://www.xiaoyuankousuan.com/
+
+洋葱学园-AI超级进化｜中国区 App Store：https://apps.apple.com/cn/app/id990959871
+
+Apple 中国区公开 lookup 元数据：https://itunes.apple.com/lookup?id=990959871&country=cn
+
+洋葱学园｜AI智能学伴：https://yangcongxueyuan.com/study-platform/
+
+洋葱学园｜数字资源：https://yangcongxueyuan.com/digital-resource/
+
+洋葱学园｜客户端下载：https://yangcongxueyuan.com/applications/
+
+评论样本：作业帮；为覆盖三星评论，取最新19条，再取返回50条中最新一条三星评论；该条在RSS第28位。；https://itunes.apple.com/cn/rss/customerreviews/id=803781859/sortBy=mostRecent/json
+
+评论样本：小猿AI（原小猿口算）；按 mostRecent 返回顺序取最新20条。；https://itunes.apple.com/cn/rss/customerreviews/id=1325419855/sortBy=mostRecent/json
+
+评论样本：洋葱学园；按 mostRecent 返回顺序取最新20条。；https://itunes.apple.com/cn/rss/customerreviews/id=990959871/sortBy=mostRecent/json
+
+第5页
+约90秒。按产品形态和用户任务比较。学习机的资源与设备条件无法直接等价为App能力。各硬件的具体型号和取证限制在Excel产品概况中，品牌级能力不外推为全型号权益。
+
+资料截至2026-10-29。官方主张、用户反馈、项目文档核验与推断分别标识。
+
+作业帮-中小学家长作业检查和AI伴学辅导工具｜中国区 App Store：https://apps.apple.com/cn/app/id803781859
+
+Apple 中国区公开 lookup 元数据：https://itunes.apple.com/lookup?id=803781859&country=cn
+
+作业帮官网：https://www.zybang.com/
+
+小猿AI - 原「小猿口算」检查作业神器｜中国区 App Store：https://apps.apple.com/cn/app/id1325419855
+
+Apple 中国区公开 lookup 元数据：https://itunes.apple.com/lookup?id=1325419855&country=cn
+
+小猿AI 官方网站：https://www.xiaoyuankousuan.com/
+
+洋葱学园-AI超级进化｜中国区 App Store：https://apps.apple.com/cn/app/id990959871
+
+Apple 中国区公开 lookup 元数据：https://itunes.apple.com/lookup?id=990959871&country=cn
+
+洋葱学园｜AI智能学伴：https://yangcongxueyuan.com/study-platform/
+
+洋葱学园｜数字资源：https://yangcongxueyuan.com/digital-resource/
+
+洋葱学园｜客户端下载：https://yangcongxueyuan.com/applications/
+
+科大讯飞智慧教育：AI学习机产品线与推荐型号：https://edu.iflytek.com/solution/family/learning-pad
+
+科大讯飞官方商城：https://www.xunfei.cn/
+
+科大讯飞硬件服务中心：https://www.xunfei.cn/help/
+
+科大讯飞投资者关系活动记录（2024年7月）：https://static.cninfo.com.cn/finalpage/2024-07-16/1220654869.PDF
+
+学而思智能学习官方网站：https://xpad.xueersi.com/
+
+学而思T6 Max产品详情：https://xpad.xueersi.com/T6MaxSeries?spuId=4694&spuUnionid=8260707083725051150264694&skuId=0
+
+京东学而思品牌活动页：https://pro.m.jd.com/mall/active/3qSFijqFW86idWfPxHxSrM6pDd4u/index.html
+
+作业帮官方旗舰店：2026焕新版P60：https://detail.youzan.com/show/goods?alias=3evivsekbc12dzm&from_source=gbox_seo
+
+作业帮智能硬件官网：学习机：https://tanyang.co/eduIpad
+
+作业帮智能App开发者介绍：https://apps.apple.com/cn/app/作业帮智能/id1574286653
+
+小猿官方旗舰店：产品分类：https://mall.jd.com/view_search-2998983-0-99-1-24-1.html
+
+小猿智能设备App开发者介绍：https://apps.apple.com/cn/app/小猿智能设备/id6738277050
+
+小猿AI官网：品牌体系：https://www.xiaoyuankousuan.com/
+
+作业帮智能硬件官网：AI学习桌：https://smart.zuoyebang.com/eduDesk
+
+学习桌官方功能图：小学教材同步：https://iotcdn.cdnjtzy.com/ty-website/images/pc/eduDesk/05.png
+
+学习桌官方功能图：时间管理：https://iotcdn.cdnjtzy.com/ty-website/images/pc/eduDesk/06.png
+
+学习桌官方功能概览：https://iotcdn.cdnjtzy.com/ty-website/images/pc/eduDesk/03.png
+
+学习桌官方参数图：https://iotcdn.cdnjtzy.com/ty-website/images/pc/eduDesk/12.png
+
+第6页
+约90秒。这张表压缩展示核心能力。全部是官方资料或待核实项，不是性能打分。不把未查到解释为没有，也不把产品线宣传解释为所选机型的全部权益。
+
+资料截至2026-10-29。官方主张、用户反馈、项目文档核验与推断分别标识。
+
+作业帮-中小学家长作业检查和AI伴学辅导工具｜中国区 App Store：https://apps.apple.com/cn/app/id803781859
+
+Apple 中国区公开 lookup 元数据：https://itunes.apple.com/lookup?id=803781859&country=cn
+
+作业帮官网：https://www.zybang.com/
+
+小猿AI - 原「小猿口算」检查作业神器｜中国区 App Store：https://apps.apple.com/cn/app/id1325419855
+
+Apple 中国区公开 lookup 元数据：https://itunes.apple.com/lookup?id=1325419855&country=cn
+
+小猿AI 官方网站：https://www.xiaoyuankousuan.com/
+
+洋葱学园-AI超级进化｜中国区 App Store：https://apps.apple.com/cn/app/id990959871
+
+Apple 中国区公开 lookup 元数据：https://itunes.apple.com/lookup?id=990959871&country=cn
+
+洋葱学园｜AI智能学伴：https://yangcongxueyuan.com/study-platform/
+
+洋葱学园｜数字资源：https://yangcongxueyuan.com/digital-resource/
+
+洋葱学园｜客户端下载：https://yangcongxueyuan.com/applications/
+
+科大讯飞智慧教育：AI学习机产品线与推荐型号：https://edu.iflytek.com/solution/family/learning-pad
+
+科大讯飞官方商城：https://www.xunfei.cn/
+
+科大讯飞硬件服务中心：https://www.xunfei.cn/help/
+
+科大讯飞投资者关系活动记录（2024年7月）：https://static.cninfo.com.cn/finalpage/2024-07-16/1220654869.PDF
+
+学而思智能学习官方网站：https://xpad.xueersi.com/
+
+学而思T6 Max产品详情：https://xpad.xueersi.com/T6MaxSeries?spuId=4694&spuUnionid=8260707083725051150264694&skuId=0
+
+京东学而思品牌活动页：https://pro.m.jd.com/mall/active/3qSFijqFW86idWfPxHxSrM6pDd4u/index.html
+
+作业帮官方旗舰店：2026焕新版P60：https://detail.youzan.com/show/goods?alias=3evivsekbc12dzm&from_source=gbox_seo
+
+作业帮智能硬件官网：学习机：https://tanyang.co/eduIpad
+
+作业帮智能App开发者介绍：https://apps.apple.com/cn/app/作业帮智能/id1574286653
+
+小猿官方旗舰店：产品分类：https://mall.jd.com/view_search-2998983-0-99-1-24-1.html
+
+小猿智能设备App开发者介绍：https://apps.apple.com/cn/app/小猿智能设备/id6738277050
+
+小猿AI官网：品牌体系：https://www.xiaoyuankousuan.com/
+
+作业帮智能硬件官网：AI学习桌：https://smart.zuoyebang.com/eduDesk
+
+学习桌官方功能图：小学教材同步：https://iotcdn.cdnjtzy.com/ty-website/images/pc/eduDesk/05.png
+
+学习桌官方功能图：时间管理：https://iotcdn.cdnjtzy.com/ty-website/images/pc/eduDesk/06.png
+
+学习桌官方功能概览：https://iotcdn.cdnjtzy.com/ty-website/images/pc/eduDesk/03.png
+
+学习桌官方参数图：https://iotcdn.cdnjtzy.com/ty-website/images/pc/eduDesk/12.png
+
+第7页
+约90秒。图片为开发者商店展示，不能当作我们操作过App的截图。把公开反馈转成明确操作问题：收费边界、独立作答判据和课程后的核验方式。本轮手机实测仍待补齐。
+
+资料截至2026-10-29。官方主张、用户反馈、项目文档核验与推断分别标识。
+
+作业帮-中小学家长作业检查和AI伴学辅导工具｜中国区 App Store：https://apps.apple.com/cn/app/id803781859
+
+Apple 中国区公开 lookup 元数据：https://itunes.apple.com/lookup?id=803781859&country=cn
+
+作业帮官网：https://www.zybang.com/
+
+小猿AI - 原「小猿口算」检查作业神器｜中国区 App Store：https://apps.apple.com/cn/app/id1325419855
+
+Apple 中国区公开 lookup 元数据：https://itunes.apple.com/lookup?id=1325419855&country=cn
+
+小猿AI 官方网站：https://www.xiaoyuankousuan.com/
+
+洋葱学园-AI超级进化｜中国区 App Store：https://apps.apple.com/cn/app/id990959871
+
+Apple 中国区公开 lookup 元数据：https://itunes.apple.com/lookup?id=990959871&country=cn
+
+洋葱学园｜AI智能学伴：https://yangcongxueyuan.com/study-platform/
+
+洋葱学园｜数字资源：https://yangcongxueyuan.com/digital-resource/
+
+洋葱学园｜客户端下载：https://yangcongxueyuan.com/applications/
+
+第8页
+约75秒。这里讨论硬件形态带来的能力和使用条件，不判断护眼、准确率或提分效果。App可以承接拍照核对、打印练习和摘要反馈，固定摄像头、专用屏幕、桌椅等条件则属于设备。
+
+资料截至2026-10-29。官方主张、用户反馈、项目文档核验与推断分别标识。
+
+科大讯飞智慧教育：AI学习机产品线与推荐型号：https://edu.iflytek.com/solution/family/learning-pad
+
+科大讯飞官方商城：https://www.xunfei.cn/
+
+科大讯飞硬件服务中心：https://www.xunfei.cn/help/
+
+科大讯飞投资者关系活动记录（2024年7月）：https://static.cninfo.com.cn/finalpage/2024-07-16/1220654869.PDF
+
+学而思智能学习官方网站：https://xpad.xueersi.com/
+
+学而思T6 Max产品详情：https://xpad.xueersi.com/T6MaxSeries?spuId=4694&spuUnionid=8260707083725051150264694&skuId=0
+
+京东学而思品牌活动页：https://pro.m.jd.com/mall/active/3qSFijqFW86idWfPxHxSrM6pDd4u/index.html
+
+作业帮官方旗舰店：2026焕新版P60：https://detail.youzan.com/show/goods?alias=3evivsekbc12dzm&from_source=gbox_seo
+
+作业帮智能硬件官网：学习机：https://tanyang.co/eduIpad
+
+作业帮智能App开发者介绍：https://apps.apple.com/cn/app/作业帮智能/id1574286653
+
+小猿官方旗舰店：产品分类：https://mall.jd.com/view_search-2998983-0-99-1-24-1.html
+
+小猿智能设备App开发者介绍：https://apps.apple.com/cn/app/小猿智能设备/id6738277050
+
+小猿AI官网：品牌体系：https://www.xiaoyuankousuan.com/
+
+作业帮智能硬件官网：AI学习桌：https://smart.zuoyebang.com/eduDesk
+
+学习桌官方功能图：小学教材同步：https://iotcdn.cdnjtzy.com/ty-website/images/pc/eduDesk/05.png
+
+学习桌官方功能图：时间管理：https://iotcdn.cdnjtzy.com/ty-website/images/pc/eduDesk/06.png
+
+学习桌官方功能概览：https://iotcdn.cdnjtzy.com/ty-website/images/pc/eduDesk/03.png
+
+学习桌官方参数图：https://iotcdn.cdnjtzy.com/ty-website/images/pc/eduDesk/12.png
+
+第9页
+约90秒。仅依据当前项目文件。Android已做模拟器独立包验收，但没有多机型真机验证；iOS也未完成原生运行验收。不能把本地固定题库学伴宣传成生成式AI。现有五星和复查是试用规则，不能承诺测量出真实掌握度。
+
+资料截至2026-10-29。官方主张、用户反馈、项目文档核验与推断分别标识。
+
+/Users/zhenshuai/Desktop/小禾学伴/APP-实施计划.md
+
+/Users/zhenshuai/Desktop/小禾学伴/xiaohe-app/content-trial-notes.md
+
+第10页
+约90秒。排序依据是项目现状与投入匹配，不是对市场规模或付费率的测算。家庭作业助手覆盖面广，需要较强识别和AI能力。掌握巩固方向与现有流程最接近，但同样有竞争。教师助手需要更多身份、授权和协作能力。先做一个单元试点，以真实使用决定是否继续。
+
+资料截至2026-10-29。官方主张、用户反馈、项目文档核验与推断分别标识。
+
+作业帮-中小学家长作业检查和AI伴学辅导工具｜中国区 App Store：https://apps.apple.com/cn/app/id803781859
+
+Apple 中国区公开 lookup 元数据：https://itunes.apple.com/lookup?id=803781859&country=cn
+
+作业帮官网：https://www.zybang.com/
+
+小猿AI - 原「小猿口算」检查作业神器｜中国区 App Store：https://apps.apple.com/cn/app/id1325419855
+
+Apple 中国区公开 lookup 元数据：https://itunes.apple.com/lookup?id=1325419855&country=cn
+
+小猿AI 官方网站：https://www.xiaoyuankousuan.com/
+
+洋葱学园-AI超级进化｜中国区 App Store：https://apps.apple.com/cn/app/id990959871
+
+Apple 中国区公开 lookup 元数据：https://itunes.apple.com/lookup?id=990959871&country=cn
+
+洋葱学园｜AI智能学伴：https://yangcongxueyuan.com/study-platform/
+
+洋葱学园｜数字资源：https://yangcongxueyuan.com/digital-resource/
+
+洋葱学园｜客户端下载：https://yangcongxueyuan.com/applications/
+
+/Users/zhenshuai/Desktop/小禾学伴/APP-实施计划.md
+
+第11页
+约100秒。首先补内容，因为没有足够未见题就无法持续复查。其次做清楚提示与独立作答的流程，保留原答和帮助状态。第三把报告变成家长可以理解和行动的摘要。AI追问与教师协作作为探索，不在首轮同时铺开。
+
+资料截至2026-10-29。官方主张、用户反馈、项目文档核验与推断分别标识。
+
+补足可信内容与知识点映射：APP-实施计划.md；content-trial-notes.md
+
+做好提示、独立练习与延迟复查：APP-实施计划.md；竞品官方已有学练测与核验主张
+
+给家长可解释的下一步：APP-实施计划.md；小猿官方角色分工；公开评论
+
+受题库约束的 AI 追问：APP-实施计划.md；3 个 App 官方介绍
+
+小规模教师协作试点：APP-实施计划.md；小猿班级功能；洋葱教师端
+
+第12页
+约75秒。今天交付的是可追溯的案头版。建议接下来用相同题目完成三个App的四个任务，次日复查；邀请少量家长和教师访谈，在取得相应同意后观察儿童使用。最后更新定位结论和PPT，老板确认试点用户、内容范围和资源即可。
+
+资料截至2026-10-29。官方主张、用户反馈、项目文档核验与推断分别标识。

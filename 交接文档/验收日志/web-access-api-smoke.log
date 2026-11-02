@@ -1,0 +1,25 @@
+PASS anonymous and cross-origin membership requests are blocked; malformed actions return 400
+PASS owner invitation is email-bound, stored only as a hash, absent from lists, and revocable
+PASS accepting one invitation grants the assigned space once and cannot grant owner powers
+PASS workspace query and body target consistently; conflicts or malformed selectors cannot silently write elsewhere
+PASS student responses hide answers until allowed; hints and explanations retain distinct evidence
+PASS student upload belongs to the shared learner space and upload responses keep answer filtering
+PASS parent sees submitted reports only and cannot read photos, drafts, chats, help, or write answers
+PASS teacher can reply only to explicitly shared help and cannot access private learning material
+PASS editor and reviewer have separate powers; changing role cannot bypass author/reviewer separation
+PASS revocation blocks subsequent reads, writes, and file reads without changing the learner revision
+{
+  "runId": "access-api-21484111-ef46-42b2-8469-1f899d68d511",
+  "passed": 10,
+  "previews": {
+    "student": "access-api-21484111-ef46-42b2-8469-1f899d68d511-learner",
+    "parent": "access-api-21484111-ef46-42b2-8469-1f899d68d511-parent",
+    "teacher": "access-api-21484111-ef46-42b2-8469-1f899d68d511-teacher",
+    "reviewer": "access-api-21484111-ef46-42b2-8469-1f899d68d511-reviewer"
+  },
+  "fileId": "e9d1bb94-dea1-4a25-b5ba-b9009290a9f2",
+  "limits": [
+    "Uses the actual local login cookie plus isolated database role fixtures; does not simulate different production browser identities.",
+    "Hosted two-account acceptance requires the user to authorize Site audience and each account to sign in."
+  ]
+}

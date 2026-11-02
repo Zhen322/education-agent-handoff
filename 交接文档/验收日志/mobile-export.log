@@ -1,0 +1,47 @@
+Using src/app as the root directory for Expo Router.
+Starting Metro Bundler
+
+| (node:63995) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+| (Use `node --trace-warnings ...` to show where the warning was created)
+| (node:63995) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+| (Use `node --trace-warnings ...` to show where the warning was created)
+| (node:63995) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+| (Use `node --trace-warnings ...` to show where the warning was created)
+| (node:63995) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+| (Use `node --trace-warnings ...` to show where the warning was created)
+| (node:63995) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+| (Use `node --trace-warnings ...` to show where the warning was created)
+| (node:63995) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+| (Use `node --trace-warnings ...` to show where the warning was created)
+| (node:63995) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+| (Use `node --trace-warnings ...` to show where the warning was created)
+Android Bundled 11296ms node_modules/expo-router/entry.js (1306 modules)
+iOS Bundled 14398ms node_modules/expo-router/entry.js (1255 modules)
+
+› Assets (34):
+assets/xiaohe-companion.png (1.4MB)
+node_modules/expo-router/assets/arrow_down.png (9.5KB)
+node_modules/expo-router/assets/arrow_right.xml (307B)
+node_modules/expo-router/assets/checkmark.xml (312B)
+node_modules/expo-router/assets/error.png (469B)
+node_modules/expo-router/assets/file.png (138B)
+node_modules/expo-router/assets/forward.png (188B)
+node_modules/expo-router/assets/pkg.png (364B)
+node_modules/expo-router/assets/react-navigation/elements/back-icon-mask.png (653B)
+node_modules/expo-router/assets/react-navigation/elements/back-icon.png (8 variations | 359B)
+node_modules/expo-router/assets/react-navigation/elements/clear-icon.png (4 variations | 425B)
+node_modules/expo-router/assets/react-navigation/elements/close-icon.png (4 variations | 235B)
+node_modules/expo-router/assets/react-navigation/elements/search-icon.png (7 variations | 592B)
+node_modules/expo-router/assets/sitemap.png (465B)
+node_modules/expo-router/assets/unmatched.png (4.8KB)
+
+› android bundles (1):
+_expo/static/js/android/entry-3c8e14a085cfa5612077c60025db47ec.hbc (3.5MB)
+
+› ios bundles (1):
+_expo/static/js/ios/entry-6d365ee60e05c24961a2fdafcb5f1766.hbc (3.5MB)
+
+› Files (1):
+metadata.json (3.5KB)
+
+Exported: outputs/handoff-export

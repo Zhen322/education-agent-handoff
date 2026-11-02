@@ -1,0 +1,36 @@
+Running 20 checks on your project...
+19/20 checks passed. 1 checks failed. Possible issues detected:
+Use the --verbose flag to see more details about passed checks.
+
+✖ Check that packages match versions required by installed Expo SDK
+
+🔧 Patch version mismatches
+package               expected  found    
+expo                  ~58.0.22  58.0.19  
+expo-constants        ~58.0.14  58.0.13  
+expo-file-system      ~58.0.13  58.0.11  
+expo-linking          ~58.0.15  58.0.14  
+expo-print            ~58.0.8   58.0.7   
+expo-router           ~58.0.29  58.0.26  
+expo-sharing          ~58.0.21  58.0.20  
+expo-sqlite           ~58.0.15  58.0.14  
+expo-system-ui        ~58.0.7   58.0.6   
+react-native          0.88.1    0.88.0   
+react-native-screens  ~4.30.1   4.30.0   
+
+Changelogs:
+- expo-constants → https://github.com/expo/expo/blob/sdk-58/packages/expo-constants/CHANGELOG.md
+- expo-file-system → https://github.com/expo/expo/blob/sdk-58/packages/expo-file-system/CHANGELOG.md
+- expo-linking → https://github.com/expo/expo/blob/sdk-58/packages/expo-linking/CHANGELOG.md
+- expo-print → https://github.com/expo/expo/blob/sdk-58/packages/expo-print/CHANGELOG.md
+- expo-router → https://github.com/expo/expo/blob/sdk-58/packages/expo-router/CHANGELOG.md
+- expo-sharing → https://github.com/expo/expo/blob/sdk-58/packages/expo-sharing/CHANGELOG.md
+- expo-sqlite → https://github.com/expo/expo/blob/sdk-58/packages/expo-sqlite/CHANGELOG.md
+- expo-system-ui → https://github.com/expo/expo/blob/sdk-58/packages/expo-system-ui/CHANGELOG.md
+
+11 packages out of date.
+Advice:
+Use 'npx expo install --check' to review and upgrade your dependencies.
+To ignore specific packages, add them to "expo.install.exclude" in package.json. Learn more: https://expo.fyi/dependency-validation
+
+1 check failed, indicating possible issues with the project.

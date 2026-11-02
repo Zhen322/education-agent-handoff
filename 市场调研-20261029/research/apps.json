@@ -1,0 +1,393 @@
+{
+  "as_of": "2026-10-29",
+  "scope": "3个 App 案头研究；非市场份额排序；未完成 App 内实测",
+  "products": [
+    {
+      "id": "zuoyebang",
+      "name": "作业帮",
+      "store_name": "作业帮-中小学家长作业检查和AI伴学辅导工具",
+      "form": "App",
+      "audience": "中小学生及家长",
+      "version": "14.55.0",
+      "version_date": "2026-10-27",
+      "version_platform": "中国区 iOS App Store",
+      "minimum_os": "iOS 13.0",
+      "features": [
+        {
+          "dimension": "内容适配",
+          "claim": "覆盖多学段多学科；按教材章节推荐同步练习和单元测试。",
+          "evidence_type": "官方介绍",
+          "url": "https://apps.apple.com/cn/app/id803781859",
+          "caveat": "官方功能说明；未做登录后操作实测。"
+        },
+        {
+          "dimension": "拍照答疑",
+          "claim": "支持单题、整页、作文检索；AI解析并追问薄弱点。",
+          "evidence_type": "官方介绍",
+          "url": "https://apps.apple.com/cn/app/id803781859",
+          "caveat": "官方功能说明；未做登录后操作实测。"
+        },
+        {
+          "dimension": "作业批改",
+          "claim": "提供作业、口算、作文批改和错题讲解。",
+          "evidence_type": "官方介绍",
+          "url": "https://apps.apple.com/cn/app/id803781859",
+          "caveat": "官方功能说明；未做登录后操作实测。"
+        },
+        {
+          "dimension": "理解与迁移",
+          "claim": "介绍关联知识点推荐及相似题视频；独立作答核验规则未查到。",
+          "evidence_type": "官方介绍",
+          "url": "https://apps.apple.com/cn/app/id803781859",
+          "caveat": "官方功能说明；未做登录后操作实测。"
+        },
+        {
+          "dimension": "错题管理",
+          "claim": "当前主 App 介绍有错题解析；错题自动归档、跨日复查规则未查到。",
+          "evidence_type": "官方介绍",
+          "url": "https://apps.apple.com/cn/app/id803781859",
+          "caveat": "未查到不代表没有；需登录后复核。"
+        },
+        {
+          "dimension": "持续使用",
+          "claim": "提供口算、词汇和诗词竞赛；有在线及打印练习。",
+          "evidence_type": "官方介绍",
+          "url": "https://apps.apple.com/cn/app/id803781859",
+          "caveat": "官方功能说明；未做登录后操作实测。"
+        },
+        {
+          "dimension": "家长教师",
+          "claim": "官网面向家庭作业辅导；主 App 的班级管理或家长独立报告未查到。",
+          "evidence_type": "官方介绍",
+          "url": "https://www.zybang.com/",
+          "caveat": "不得把同品牌其他 App 的家长能力直接归入主 App。"
+        }
+      ],
+      "pricing": {
+        "download": "免费下载，含 App 内购买",
+        "examples": [
+          {
+            "item": "作业帮连续包月VIP",
+            "price_cny": 19
+          },
+          {
+            "item": "作业帮1个月VIP",
+            "price_cny": 25
+          }
+        ],
+        "paid_rights": "视频答疑、专属问答、核心知识点讲解、试卷打印等。",
+        "source_url": "https://apps.apple.com/cn/app/id803781859",
+        "caveat": "仅为中国区 iOS 商店展示 SKU；首购优惠、账号权益与安卓价格需现场核验。"
+      },
+      "sources": [
+        {
+          "id": "zuoyebang-store",
+          "title": "作业帮-中小学家长作业检查和AI伴学辅导工具｜中国区 App Store",
+          "url": "https://apps.apple.com/cn/app/id803781859",
+          "published_date": null,
+          "access_date": "2026-10-29",
+          "notes": "开发者提交的介绍及 IAP 展示；价格不是所有渠道通用报价。"
+        },
+        {
+          "id": "zuoyebang-lookup",
+          "title": "Apple 中国区公开 lookup 元数据",
+          "url": "https://itunes.apple.com/lookup?id=803781859&country=cn",
+          "published_date": "2026-10-27T03:19:11Z",
+          "access_date": "2026-10-29",
+          "notes": "版本和日期以此实时响应为准；仅代表 iOS。"
+        },
+        {
+          "id": "zyb-web",
+          "title": "作业帮官网",
+          "url": "https://www.zybang.com/",
+          "published_date": null,
+          "access_date": "2026-10-29",
+          "notes": "官网为多产品入口；本研究主 App 的能力取主 App 商店页，不与作业帮口算/家长版混用。"
+        }
+      ],
+      "unknowns": [
+        "同一道题免费答案、解析与视频的实际开放边界",
+        "小学四年级具体教材匹配及推荐题质量",
+        "看过提示后与独立答对是否区分记录",
+        "主 App 错题归档、延迟复测与家长报告入口"
+      ],
+      "hands_on_status": "未完成 App 内登录操作；本档为案头调研",
+      "access_date": "2026-10-29",
+      "official_screenshot_urls": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/58/a9/bf/58a9bf67-4e7a-91ea-3c86-9f9f7e596498/af9689f2-47cf-44a3-84da-09445d40ceb6_1.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/4e/d2/39/4ed23993-5f1f-1b4b-4679-474554655f75/11ae8ceb-cd59-4ea3-b2d4-d1ac13ac7105_1.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/82/45/92/824592b0-27e6-9ef5-0207-82fbd42fc5de/a31e4a1d-5df7-4feb-8672-033fdf59d6d4_2.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/15/56/d3/1556d343-99ca-f647-0390-50ca403a3eb9/39dd4df8-d579-46ca-b565-cf432874afb4_3.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/34/69/75/34697550-7ab6-1323-4061-d2c238fb7c6a/86fcf70a-209d-408a-8720-0f3c41cbe29a_4.jpg/392x696bb.jpg"
+      ],
+      "positioning": "以拍题答疑、作业批改和校内同步练习覆盖家庭作业辅导。"
+    },
+    {
+      "id": "xiaoyuan",
+      "name": "小猿AI（原小猿口算）",
+      "store_name": "小猿AI - 原「小猿口算」检查作业神器",
+      "form": "App",
+      "audience": "中小学生及其家长、教师；官网同时描述家庭与班级场景",
+      "version": "3.145.0",
+      "version_date": "2026-10-26",
+      "version_platform": "中国区 iOS App Store",
+      "minimum_os": "iOS 15.0",
+      "features": [
+        {
+          "dimension": "内容适配",
+          "claim": "提供教材同步课和同步练，覆盖小学到高中。",
+          "evidence_type": "官方介绍",
+          "url": "https://www.xiaoyuankousuan.com/",
+          "caveat": "官方功能说明；未做登录后操作实测。"
+        },
+        {
+          "dimension": "拍照答疑",
+          "claim": "拍照搜题、分步解析，提供视频与 AI 一对一讲解。",
+          "evidence_type": "官方介绍",
+          "url": "https://www.xiaoyuankousuan.com/",
+          "caveat": "官方功能说明；未做登录后操作实测。"
+        },
+        {
+          "dimension": "作业批改",
+          "claim": "拍照批改多学科，标注错误并分析原因。",
+          "evidence_type": "官方介绍",
+          "url": "https://www.xiaoyuankousuan.com/",
+          "caveat": "官方功能说明；未做登录后操作实测。"
+        },
+        {
+          "dimension": "错题管理",
+          "claim": "错题分类、错因分析和举一反三练习。",
+          "evidence_type": "官方介绍",
+          "url": "https://www.xiaoyuankousuan.com/",
+          "caveat": "官方功能说明；未做登录后操作实测。"
+        },
+        {
+          "dimension": "理解与迁移",
+          "claim": "宣称诊学练测评闭环和薄弱点匹配；独立掌握判据未披露。",
+          "evidence_type": "官方介绍",
+          "url": "https://apps.apple.com/cn/app/id1325419855",
+          "caveat": "官方功能说明；未做登录后操作实测。"
+        },
+        {
+          "dimension": "持续使用",
+          "claim": "口算PK、诗词背诵、听写、词汇及口语练习；会员包含学习计划。",
+          "evidence_type": "官方介绍",
+          "url": "https://apps.apple.com/cn/app/id1325419855",
+          "caveat": "官方功能说明；未做登录后操作实测。"
+        },
+        {
+          "dimension": "家长教师",
+          "claim": "官网列出班级批改、高频错题统计、资料打印分发。",
+          "evidence_type": "官方介绍",
+          "url": "https://www.xiaoyuankousuan.com/",
+          "caveat": "官方功能说明；未做登录后操作实测。"
+        },
+        {
+          "dimension": "使用门槛",
+          "claim": "介绍强调免费解析，同时把视频/AI讲解列入VIP权益。",
+          "evidence_type": "官方介绍",
+          "url": "https://apps.apple.com/cn/app/id1325419855",
+          "caveat": "免费范围与 VIP 文案有重叠，应分别实测基础解析、视频、追问和次数。"
+        }
+      ],
+      "pricing": {
+        "download": "免费下载，含 App 内购买",
+        "examples": [
+          {
+            "item": "VIP连续包月（展示及续费）",
+            "price_cny": 25
+          },
+          {
+            "item": "VIP连续包年（展示及续费）",
+            "price_cny": 228
+          }
+        ],
+        "paid_rights": "视频/AI讲解、点读、个性学习计划、试卷下载与更多课时资源等。",
+        "source_url": "https://apps.apple.com/cn/app/id1325419855",
+        "caveat": "当前页同时有免费解析宣传和会员讲解权益；不能推断全部答疑均免费或均收费。不同 SKU 与优惠另行核验。"
+      },
+      "sources": [
+        {
+          "id": "xiaoyuan-store",
+          "title": "小猿AI - 原「小猿口算」检查作业神器｜中国区 App Store",
+          "url": "https://apps.apple.com/cn/app/id1325419855",
+          "published_date": null,
+          "access_date": "2026-10-29",
+          "notes": "开发者提交的介绍及 IAP 展示；价格不是所有渠道通用报价。"
+        },
+        {
+          "id": "xiaoyuan-lookup",
+          "title": "Apple 中国区公开 lookup 元数据",
+          "url": "https://itunes.apple.com/lookup?id=1325419855&country=cn",
+          "published_date": "2026-10-26T03:33:08Z",
+          "access_date": "2026-10-29",
+          "notes": "版本和日期以此实时响应为准；仅代表 iOS。"
+        },
+        {
+          "id": "xy-web",
+          "title": "小猿AI 官方网站",
+          "url": "https://www.xiaoyuankousuan.com/",
+          "published_date": null,
+          "access_date": "2026-10-29",
+          "notes": "官网显示名称升级及九类功能；覆盖率、准确率等宣传数字未独立验证。"
+        }
+      ],
+      "unknowns": [
+        "免费解析、AI追问、视频及超级VIP的具体权限边界",
+        "班级功能实际入口、规模限制与教师配置成本",
+        "学生关闭提示后的独立作答是否有单独状态",
+        "复习间隔、掌握判定与家长反馈的实际逻辑"
+      ],
+      "hands_on_status": "未完成 App 内登录操作；本档为案头调研",
+      "access_date": "2026-10-29",
+      "official_screenshot_urls": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/f6/8f/d8/f68fd83d-39a4-3059-2611-762ff99c38b1/72212f63-7e1c-4a59-988f-0b1ca52c164d_1242-2208-2.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/0b/27/65/0b276524-d061-f8a5-ba44-ecf2cfd725c1/bfd368af-5ea2-4224-90b9-1e298d484e53_1242-2208-3.jpg/392x696bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/86/1c/63/861c63c9-462d-7baf-5637-eb82a5135fe8/0daf5966-b2a1-4363-97b4-9bb945f8f8a4_1242-2208-4.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/12/30/6b/12306b92-c7e4-6bfb-7e31-fa466fe52016/f8578d4d-5fff-435a-8b8e-086c1ee3baf3_1242-2208-5.png/392x696bb.png",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/af/60/95/af609545-82a7-4b74-4255-db67a2f987d3/0e17c5cc-d386-476e-8a4d-b9d2268cbd77_1242-2208-6.png/392x696bb.png"
+      ],
+      "positioning": "从口算工具扩展为作业辅导、全科学练和 AI 陪伴平台。"
+    },
+    {
+      "id": "yangcong",
+      "name": "洋葱学园",
+      "store_name": "洋葱学园-AI超级进化",
+      "form": "App",
+      "audience": "学生自主学习；官网资源覆盖小学、初中、高中及中职，另有教师产品",
+      "version": "7.118.0",
+      "version_date": "2026-10-26",
+      "version_platform": "中国区 iOS App Store",
+      "minimum_os": "iOS 13.0",
+      "features": [
+        {
+          "dimension": "内容适配",
+          "claim": "数字资源列小学至中职学段，含教材同步动画课、习题和试卷。",
+          "evidence_type": "官方介绍",
+          "url": "https://yangcongxueyuan.com/digital-resource/",
+          "caveat": "官方功能说明；未做登录后操作实测。"
+        },
+        {
+          "dimension": "拍照答疑",
+          "claim": "拍题先定位知识点，以动画讲解再引导解题。",
+          "evidence_type": "官方介绍",
+          "url": "https://apps.apple.com/cn/app/id990959871",
+          "caveat": "官方功能说明；未做登录后操作实测。"
+        },
+        {
+          "dimension": "讲解追问",
+          "claim": "动画课中可暂停并向AI私教提问。",
+          "evidence_type": "官方介绍",
+          "url": "https://apps.apple.com/cn/app/id990959871",
+          "caveat": "官方功能说明；未做登录后操作实测。"
+        },
+        {
+          "dimension": "练习与掌握",
+          "claim": "有互动题库；官网列“思考训练与核验”能力。",
+          "evidence_type": "官方介绍",
+          "url": "https://yangcongxueyuan.com/study-platform/",
+          "caveat": "独立作答、延迟迁移的具体判定方式未披露。"
+        },
+        {
+          "dimension": "持续使用",
+          "claim": "AI定制学习计划、每日任务及游戏化激励。",
+          "evidence_type": "官方介绍",
+          "url": "https://yangcongxueyuan.com/study-platform/",
+          "caveat": "官方功能说明；未做登录后操作实测。"
+        },
+        {
+          "dimension": "家长教师",
+          "claim": "有单独教师端；不应把学校解决方案直接算成学生 App 功能。",
+          "evidence_type": "官方介绍",
+          "url": "https://yangcongxueyuan.com/applications/",
+          "caveat": "官方功能说明；未做登录后操作实测。"
+        },
+        {
+          "dimension": "错题管理",
+          "claim": "已查到拍题精学和练习资源；学生 App 错题自动归档与跨日复查细节未查到。",
+          "evidence_type": "官方介绍",
+          "url": "https://apps.apple.com/cn/app/id990959871",
+          "caveat": "需要实际账号核验。"
+        }
+      ],
+      "pricing": {
+        "download": "免费下载，含 App 内购买",
+        "examples": [
+          {
+            "item": "3个月初中数学洋葱课程",
+            "price_cny": 198
+          },
+          {
+            "item": "6个月初中数学洋葱课程",
+            "price_cny": 298
+          },
+          {
+            "item": "12个月初中数学洋葱课程",
+            "price_cny": 488
+          }
+        ],
+        "paid_rights": "展示按科目、学段与时长购买课程。",
+        "source_url": "https://apps.apple.com/cn/app/id990959871",
+        "caveat": "上述为初中 SKU 价格例，不能作为四年级数学报价；小学当前套餐与AI权限尚未确认。"
+      },
+      "sources": [
+        {
+          "id": "yangcong-store",
+          "title": "洋葱学园-AI超级进化｜中国区 App Store",
+          "url": "https://apps.apple.com/cn/app/id990959871",
+          "published_date": null,
+          "access_date": "2026-10-29",
+          "notes": "开发者提交的介绍及 IAP 展示；价格不是所有渠道通用报价。"
+        },
+        {
+          "id": "yangcong-lookup",
+          "title": "Apple 中国区公开 lookup 元数据",
+          "url": "https://itunes.apple.com/lookup?id=990959871&country=cn",
+          "published_date": "2026-10-26T02:41:47Z",
+          "access_date": "2026-10-29",
+          "notes": "版本和日期以此实时响应为准；仅代表 iOS。"
+        },
+        {
+          "id": "yc-web",
+          "title": "洋葱学园｜AI智能学伴",
+          "url": "https://yangcongxueyuan.com/study-platform/",
+          "published_date": null,
+          "access_date": "2026-10-29",
+          "notes": "品牌当前产品体系介绍；部分能力需在具体学段账号复核。"
+        },
+        {
+          "id": "yc-resource",
+          "title": "洋葱学园｜数字资源",
+          "url": "https://yangcongxueyuan.com/digital-resource/",
+          "published_date": null,
+          "access_date": "2026-10-29",
+          "notes": "资源页列学段、教材同步动画课、互动题库和试卷库；不等同每个学段各科全覆盖。"
+        },
+        {
+          "id": "yc-download",
+          "title": "洋葱学园｜客户端下载",
+          "url": "https://yangcongxueyuan.com/applications/",
+          "published_date": null,
+          "access_date": "2026-10-29",
+          "notes": "学生端、教师端及电脑端分别提供。"
+        }
+      ],
+      "unknowns": [
+        "四年级当前教材目录和完整内容覆盖",
+        "小学课程售价、免费试看和AI问答额度",
+        "学生端家长报告与错题本实际入口",
+        "思考核验是否要求无提示作答及延迟复测"
+      ],
+      "hands_on_status": "未完成 App 内登录操作；本档为案头调研",
+      "access_date": "2026-10-29",
+      "official_screenshot_urls": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/2b/68/8b/2b688b7c-dd4b-f3ca-da21-c45449174152/22223.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/04/54/5b/04545b65-b7bf-87a3-bcc5-0a23cebfe127/2.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/55/f4/f9/55f4f9a9-0397-3f19-0ece-d5f25dadd038/3.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/96/01/03/960103b7-6f09-e1ef-2c08-7a3efc83bf2e/1260_2736.png/320x480bb.jpg",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/a3/7f/2a/a37f2a88-3512-fbe7-c2d8-25b9de82a11c/5.png/320x480bb.jpg"
+      ],
+      "positioning": "用动画知识讲解、AI答疑与规划支持预习复习和自主学习。"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+
+> site-creator-vinext-starter@0.1.0 dev
+> node scripts/run-framework.mjs dev --port 5199 --hostname 127.0.0.1
+
+
+  vinext dev  (Vite 8.0.13)
+
+Sites local sign-in: seedy@sites.test
+  ➜  Local:   http://127.0.0.1:5199/
+ GET /api/workspace 401 in 386ms
+ GET /api/files/not-owned 401 in 12ms
+ GET /api/workspace 200 in 20ms
+[vinext] Blocked dev request: origin "https://different-origin.invalid" is not allowed (/api/workspace)
+ POST /api/workspace 403 in 8ms
+ GET /api/workspace 200 in 7ms
+ POST /api/workspace 200 in 30ms
+ POST /api/workspace 200 in 22ms
+ POST /api/workspace 200 in 22ms
+ GET /api/workspace 200 in 11ms
+ POST /api/workspace 200 in 12ms
+ POST /api/workspace 200 in 8ms
+ POST /api/workspace 409 in 8ms
+ POST /api/workspace 200 in 32ms
+ POST /api/workspace 200 in 12ms
+ POST /api/workspace 200 in 13ms
+ POST /api/workspace 200 in 16ms
+ POST /api/workspace 200 in 10ms
+ POST /api/workspace 200 in 11ms
+ POST /api/workspace 200 in 11ms
+ POST /api/workspace 403 in 7ms
+ POST /api/workspace 403 in 9ms
+ GET /api/workspace 200 in 7ms
+ GET /api/workspace 200 in 7ms
+ POST /api/workspace 200 in 15ms
+ POST /api/workspace 200 in 23ms
+ POST /api/upload 201 in 58ms
+ GET /api/workspace 200 in 7ms
+ GET /api/files/906491d9-20b7-441d-9ef9-a1cf859b92db 200 in 10ms
+ GET /api/files/906491d9-20b7-441d-9ef9-a1cf859b92db 401 in 4ms
+ GET /api/files/9a5888ec-5685-4e1c-8a48-647b4f6ba62a 404 in 3ms
+ POST /api/workspace 200 in 9ms
+ POST /api/workspace 409 in 6ms
+ GET /api/workspace 200 in 9ms
+ GET /api/access 401 in 9ms
+ GET /api/workspace 200 in 10ms
+[vinext] Blocked dev request: origin "https://untrusted.invalid" is not allowed (/api/access)
+ POST /api/workspace 400 in 5ms
+ POST /api/access 200 in 9ms
+ GET /api/access 200 in 6ms
+ POST /api/access 409 in 4ms
+ POST /api/access 200 in 7ms
+ POST /api/access 200 in 6ms
+ POST /api/access 409 in 4ms
+ GET /api/workspace?workspaceId=access-api-21484111-ef46-42b2-8469-1f899d68d511-unknown 403 in 5ms
+ POST /api/access 403 in 4ms
+ GET /api/workspace 200 in 8ms
+ POST /api/workspace?workspaceId=access-api-21484111-ef46-42b2-8469-1f899d68d511-learner 200 in 16ms
+ POST /api/workspace?workspaceId=access-api-21484111-ef46-42b2-8469-1f899d68d511-learner 400 in 4ms
+ GET /api/workspace?workspaceId=access-api-21484111-ef46-42b2-8469-1f899d68d511-learner&workspaceId=local_seedy 400 in 3ms
+ POST /api/workspace 400 in 4ms
+ GET /api/workspace 200 in 8ms
+ GET /api/workspace?workspaceId=access-api-21484111-ef46-42b2-8469-1f899d68d511-learner 200 in 7ms
+ POST /api/workspace 200 in 12ms
+ POST /api/workspace 403 in 7ms
+ POST /api/workspace 200 in 10ms
+ POST /api/workspace 200 in 13ms
+ POST /api/workspace 200 in 11ms
+ POST /api/upload?workspaceId=access-api-21484111-ef46-42b2-8469-1f899d68d511-learner 201 in 14ms
+ GET /api/files/e9d1bb94-dea1-4a25-b5ba-b9009290a9f2 200 in 11ms
+ POST /api/workspace 200 in 11ms
+ POST /api/workspace 200 in 12ms
+ GET /api/workspace?workspaceId=access-api-21484111-ef46-42b2-8469-1f899d68d511-learner 200 in 8ms
+ POST /api/workspace 403 in 9ms
+ GET /api/files/e9d1bb94-dea1-4a25-b5ba-b9009290a9f2 404 in 4ms
+ POST /api/upload?workspaceId=access-api-21484111-ef46-42b2-8469-1f899d68d511-learner 403 in 4ms
+ GET /api/workspace?workspaceId=access-api-21484111-ef46-42b2-8469-1f899d68d511-learner 200 in 8ms
+ POST /api/workspace 200 in 11ms
+ POST /api/workspace 403 in 7ms
+ GET /api/files/e9d1bb94-dea1-4a25-b5ba-b9009290a9f2 404 in 6ms
+ GET /api/workspace?workspaceId=access-api-21484111-ef46-42b2-8469-1f899d68d511-learner 200 in 8ms
+ POST /api/workspace 200 in 12ms
+ POST /api/workspace 200 in 17ms
+ POST /api/workspace 403 in 8ms
+ POST /api/workspace 403 in 8ms
+ GET /api/workspace?workspaceId=access-api-21484111-ef46-42b2-8469-1f899d68d511-learner 200 in 9ms
+ POST /api/workspace 200 in 17ms
+ POST /api/workspace 200 in 27ms
+ POST /api/workspace 403 in 9ms
+ GET /api/workspace?workspaceId=access-api-21484111-ef46-42b2-8469-1f899d68d511-learner 403 in 6ms
+ POST /api/workspace 403 in 5ms
+ GET /api/files/e9d1bb94-dea1-4a25-b5ba-b9009290a9f2 404 in 4ms
+2:07:48 PM [vite] (rsc) hmr update /app/globals.css
+  ➜  Tunnel closed

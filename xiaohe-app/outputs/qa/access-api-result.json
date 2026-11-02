@@ -1,0 +1,15 @@
+{
+  "runId": "access-api-21484111-ef46-42b2-8469-1f899d68d511",
+  "passed": 10,
+  "previews": {
+    "student": "access-api-21484111-ef46-42b2-8469-1f899d68d511-learner",
+    "parent": "access-api-21484111-ef46-42b2-8469-1f899d68d511-parent",
+    "teacher": "access-api-21484111-ef46-42b2-8469-1f899d68d511-teacher",
+    "reviewer": "access-api-21484111-ef46-42b2-8469-1f899d68d511-reviewer"
+  },
+  "fileId": "e9d1bb94-dea1-4a25-b5ba-b9009290a9f2",
+  "limits": [
+    "Uses the actual local login cookie plus isolated database role fixtures; does not simulate different production browser identities.",
+    "Hosted two-account acceptance requires the user to authorize Site audience and each account to sign in."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "appgdep_6adf1a20edec8191ba56b9a2d0420838",
+  "project_id": "appgprj_6adeff66164c81919eadeadfb5306d8d",
+  "title": "小禾学伴",
+  "version_id": "appgprj_6adeff66164c81919eadeadfb5306d8d~appgver_701435f7994c8191a5fc09ff978cc359",
+  "type": "publish",
+  "status": "succeeded",
+  "url": "https://xiaohe-study-companion-zhenshuai.roundgull6.chatgpt.site",
+  "has_mcp": false,
+  "screenshot_asset_pointer": null,
+  "provider_deployment_id": "site---6adeff66164c81919eadeadfb5306d8d",
+  "failure_message": null,
+  "env_set_revision": 0,
+  "updated_at": "2026-10-26T09:15:29.966520+00:00",
+  "commit_sha": "31b8331bd5ad31b1bd8a87932ba61addd06ae074",
+  "verification": {
+    "domainPermissionMembershipTests": 60,
+    "accessApiGroups": 10
+  },
+  "appDelivered": false
+}
